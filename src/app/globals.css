@@ -325,19 +325,19 @@ div::-webkit-scrollbar-thumb:active{
     display:grid
 }
 .star5{
-    background-image:url(images/Background_Item_5_Star.webp)
+    background-image:url(/images/Background_Item_5_Star.webp)
 }
 .star4{
-    background-image:url(images/Background_Item_4_Star.webp)
+    background-image:url(/images/Background_Item_4_Star.webp)
 }
 .star3{
-    background-image:url(images/Background_Item_3_Star.webp)
+    background-image:url(/images/Background_Item_3_Star.webp)
 }
 .star2{
-    background-image:url(images/Background_Item_2_Star.webp)
+    background-image:url(/images/Background_Item_2_Star.webp)
 }
 .star1{
-    background-image:url(images/Background_Item_1_Star.webp)
+    background-image:url(/images/Background_Item_1_Star.webp)
 }
 #character-basic-stats-list li,#character-type p,.boxes2{
     background:var(--sub);
