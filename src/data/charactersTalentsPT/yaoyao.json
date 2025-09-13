@@ -1,0 +1,671 @@
+{
+  "id": 7701,
+  "name": "Yaoyao",
+  "combat1": {
+    "name": "Lança Vorpal",
+    "descriptionRaw": "<color=#FFD780FF>Ataque Normal</color>\nRealiza até 4 golpes com a lança.\n\n<color=#FFD780FF>Ataque Carregado</color>\nConsome uma certa quantidade de Stamina para se lançar para a frente, infligindo Dano em seu trajeto.\n\n<color=#FFD780FF>Ataque Imersivo</color>\nMergulha em pleno ar para golpear o chão, causando dano aos inimigos ao longo do caminho e infligindo Dano em uma AdE durante o impacto.",
+    "description": "Ataque Normal\nRealiza até 4 golpes com a lança.\n\nAtaque Carregado\nConsome uma certa quantidade de Stamina para se lançar para a frente, infligindo Dano em seu trajeto.\n\nAtaque Imersivo\nMergulha em pleno ar para golpear o chão, causando dano aos inimigos ao longo do caminho e infligindo Dano em uma AdE durante o impacto.",
+    "attributes": {
+      "labels": [
+        "Dano do 1° Golpe|{param1:F1P}",
+        "Dano do 2° Golpe|{param2:F1P}",
+        "Dano do 3° Golpe|{param3:F1P}+{param4:F1P}",
+        "Dano do 4° Golpe|{param5:F1P}",
+        "Dano de Ataque Carregado|{param6:F1P}",
+        "Consumo de Stamina de Ataque Carregado|{param7:F1}",
+        "Dano Durante a Queda|{param8:F1P}",
+        "Dano de Queda de Baixa/Alta Altitude|{param9:P}/{param10:P}"
+      ],
+      "parameters": {
+        "param1": [
+          0.510014,
+          0.551527,
+          0.59304,
+          0.652344,
+          0.693857,
+          0.7413,
+          0.806534,
+          0.871769,
+          0.937003,
+          1.008168,
+          1.079333,
+          1.150498,
+          1.221662,
+          1.292827,
+          1.363992
+        ],
+        "param2": [
+          0.474428,
+          0.513044,
+          0.55166,
+          0.606826,
+          0.645442,
+          0.689575,
+          0.750258,
+          0.81094,
+          0.871623,
+          0.937822,
+          1.004021,
+          1.07022,
+          1.13642,
+          1.202619,
+          1.268818
+        ],
+        "param3": [
+          0.313771,
+          0.339311,
+          0.36485,
+          0.401335,
+          0.426874,
+          0.456063,
+          0.496196,
+          0.53633,
+          0.576463,
+          0.620245,
+          0.664027,
+          0.707809,
+          0.751591,
+          0.795373,
+          0.839155
+        ],
+        "param4": [
+          0.329457,
+          0.356274,
+          0.38309,
+          0.421399,
+          0.448215,
+          0.478862,
+          0.521002,
+          0.563142,
+          0.605282,
+          0.651253,
+          0.697224,
+          0.743195,
+          0.789165,
+          0.835136,
+          0.881107
+        ],
+        "param5": [
+          0.779315,
+          0.842747,
+          0.90618,
+          0.996798,
+          1.060231,
+          1.132725,
+          1.232405,
+          1.332085,
+          1.431764,
+          1.540506,
+          1.649248,
+          1.757989,
+          1.866731,
+          1.975472,
+          2.084214
+        ],
+        "param6": [
+          1.1266,
+          1.2183,
+          1.31,
+          1.441,
+          1.5327,
+          1.6375,
+          1.7816,
+          1.9257,
+          2.0698,
+          2.227,
+          2.3842,
+          2.5414,
+          2.6986,
+          2.8558,
+          3.013
+        ],
+        "param7": [
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25
+        ],
+        "param8": [
+          0.639324,
+          0.691362,
+          0.7434,
+          0.81774,
+          0.869778,
+          0.92925,
+          1.011024,
+          1.092798,
+          1.174572,
+          1.26378,
+          1.352988,
+          1.442196,
+          1.531404,
+          1.620612,
+          1.70982
+        ],
+        "param9": [
+          1.278377,
+          1.382431,
+          1.486485,
+          1.635134,
+          1.739187,
+          1.858106,
+          2.02162,
+          2.185133,
+          2.348646,
+          2.527025,
+          2.705403,
+          2.883781,
+          3.062159,
+          3.240537,
+          3.418915
+        ],
+        "param10": [
+          1.596762,
+          1.726731,
+          1.8567,
+          2.04237,
+          2.172339,
+          2.320875,
+          2.525112,
+          2.729349,
+          2.933586,
+          3.15639,
+          3.379194,
+          3.601998,
+          3.824802,
+          4.047606,
+          4.27041
+        ]
+      }
+    }
+  },
+  "combat2": {
+    "name": "Rabanete das Nuvens",
+    "descriptionRaw": "Invoca o \"Yuegui: Modo de Arremesso\", um dispositivo especial criado por um certo Adeptus, para ajudar a resolver os problemas de Yaoyao.\nSerá lançado de forma diferente ao Manter Pressionado.\n\n<color=#FFD780FF>Manter Pressionado</color>\nEntra no modo de mira para ajustar a direção do arremesso.\n\n<color=#FFD780FF>Yuegui: Modo de Arremesso</color>\nJoga um Rabanete de Jade Branca. Quando o Rabanete de Jade Branca atinge um personagem ou inimigo, explodirá, causando <color=#99FF88FF>Dano Dendro</color> contra os inimigos dentro de uma certa AdE e regenerando Vida para os personagens dentro dela. A Cura é baseada na Vida Máxima de Yaoyao. Se não atingir inimigos ou personagens, o Rabanete de Jade Branca ficará na posição em que caiu, e quando for tocado por um personagem ou inimigo, ou quando sua duração acabar, explodirá.\nA escolha do alvo de arremesso do Rabanete de Jade Branca será definida de acordo com a situação das proximidades:\n· Se a Vida de todos os personagens próximos for maior que 70%, arremessará contra um inimigo próximo;\n· Se houver um personagem próximo com Vida igual ou inferior a 70%, jogará na direção próxima do personagem ativo com menor porcentagem de Vida. Se não houverem inimigos próximos, e caso que a Vida de todos os personagens seja superior a 70% e inferior a 100%, arremessará na direção de um personagem; caso contrário, arremessará em qualquer direção ao redor.\n\nÉ possível existir até 2 Yuegui: Modo de Arremesso simultaneamente.\n\n<i>\"Um Rabanete por dia, deixa a vida mais sadia! Ah, isso não é só sobre as propriedades medicinais de um Rabanete, mas ele também possui vários benefícios para a sua saúde!\"</i>",
+    "description": "Invoca o \"Yuegui: Modo de Arremesso\", um dispositivo especial criado por um certo Adeptus, para ajudar a resolver os problemas de Yaoyao.\nSerá lançado de forma diferente ao Manter Pressionado.\n\nManter Pressionado\nEntra no modo de mira para ajustar a direção do arremesso.\n\nYuegui: Modo de Arremesso\nJoga um Rabanete de Jade Branca. Quando o Rabanete de Jade Branca atinge um personagem ou inimigo, explodirá, causando Dano Dendro contra os inimigos dentro de uma certa AdE e regenerando Vida para os personagens dentro dela. A Cura é baseada na Vida Máxima de Yaoyao. Se não atingir inimigos ou personagens, o Rabanete de Jade Branca ficará na posição em que caiu, e quando for tocado por um personagem ou inimigo, ou quando sua duração acabar, explodirá.\nA escolha do alvo de arremesso do Rabanete de Jade Branca será definida de acordo com a situação das proximidades:\n· Se a Vida de todos os personagens próximos for maior que 70%, arremessará contra um inimigo próximo;\n· Se houver um personagem próximo com Vida igual ou inferior a 70%, jogará na direção próxima do personagem ativo com menor porcentagem de Vida. Se não houverem inimigos próximos, e caso que a Vida de todos os personagens seja superior a 70% e inferior a 100%, arremessará na direção de um personagem; caso contrário, arremessará em qualquer direção ao redor.\n\nÉ possível existir até 2 Yuegui: Modo de Arremesso simultaneamente.",
+    "flavorText": "\"Um Rabanete por dia, deixa a vida mais sadia! Ah, isso não é só sobre as propriedades medicinais de um Rabanete, mas ele também possui vários benefícios para a sua saúde!\"",
+    "attributes": {
+      "labels": [
+        "Dano do Rabanete de Jade Branca|{param1:F1P}",
+        "Cura do Rabanete de Jade Branca|{param2:F2P} da Vida Máxima + {param3:I}",
+        "Duração de Yuegui: Modo de Arremesso|{param4:F1}s",
+        "Duração do Rabanete de Jade Branca|{param5:F1}s",
+        "Tempo de Recarga|{param6:F1}s"
+      ],
+      "parameters": {
+        "param1": [
+          0.2992,
+          0.32164,
+          0.34408,
+          0.374,
+          0.39644,
+          0.41888,
+          0.4488,
+          0.47872,
+          0.50864,
+          0.53856,
+          0.56848,
+          0.5984,
+          0.6358,
+          0.6732,
+          0.7106
+        ],
+        "param2": [
+          0.017143,
+          0.018429,
+          0.019714,
+          0.021428,
+          0.022714,
+          0.024,
+          0.025714,
+          0.027428,
+          0.029143,
+          0.030857,
+          0.032571,
+          0.034286,
+          0.036428,
+          0.038571,
+          0.040714
+        ],
+        "param3": [
+          165.07991,
+          181.5902,
+          199.47635,
+          218.73834,
+          239.3762,
+          261.38992,
+          284.77948,
+          309.54492,
+          335.6862,
+          363.20334,
+          392.09634,
+          422.3652,
+          454.00992,
+          487.0305,
+          521.42694
+        ],
+        "param4": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ],
+        "param5": [
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
+        "param6": [
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15
+        ]
+      }
+    }
+  },
+  "combat3": {
+    "name": "Descida da Lua de Jade",
+    "descriptionRaw": "Sob comando de uma certa Adeptus, todo o potencial de Yuegui pode ser lançado em uma emergência, causando <color=#99FF88FF>Dano Dendro</color> contra os inimigos ao redor, e entra no invencível (de certa forma) estado \"Legado Adepti\".\n\n<color=#FFD780FF>Legado Adepti</color>\n· Rabanetes de Jade Branca gerados são convertidos para curar e causar Dano baseado nos atributos detalhados dessa Habilidade. Ao explodirem, regenerarão Vida para todos os personagens próximos da equipe e causarão <color=#99FF88FF>Dano Dendro</color>, e esse Dano é considerado Dano de Supremo.\n· Periodicamente invoca \"Yuegui: Modo de Salto\" até atingir o limite máximo. A forma de ação de Yuegui: Modo de Salto e Yuegui: Modo de Arremesso da Habilidade Elemental \"Rabanete das Nuvens\" é igual. É possível existir até 3 Yuegui: Modo de Salto simultaneamente;\n· Aumenta a Veloc. Mov. de Yaoyao em 15%; Yaoyao obtém aumento de <color=#99FF88FF>RES Dendro</color>.\n\nAo sair do campo de batalha, terminará o estado Legado Adepti. Quando o estado Legado Adepti acabar, removerá os Yuegui: Modo de Salto restantes.\n\n<i>\"Hã? Você quer saber qual é Yuegui? Todos são Yuegui!\"</i>",
+    "description": "Sob comando de uma certa Adeptus, todo o potencial de Yuegui pode ser lançado em uma emergência, causando Dano Dendro contra os inimigos ao redor, e entra no invencível (de certa forma) estado \"Legado Adepti\".\n\nLegado Adepti\n· Rabanetes de Jade Branca gerados são convertidos para curar e causar Dano baseado nos atributos detalhados dessa Habilidade. Ao explodirem, regenerarão Vida para todos os personagens próximos da equipe e causarão Dano Dendro, e esse Dano é considerado Dano de Supremo.\n· Periodicamente invoca \"Yuegui: Modo de Salto\" até atingir o limite máximo. A forma de ação de Yuegui: Modo de Salto e Yuegui: Modo de Arremesso da Habilidade Elemental \"Rabanete das Nuvens\" é igual. É possível existir até 3 Yuegui: Modo de Salto simultaneamente;\n· Aumenta a Veloc. Mov. de Yaoyao em 15%; Yaoyao obtém aumento de RES Dendro.\n\nAo sair do campo de batalha, terminará o estado Legado Adepti. Quando o estado Legado Adepti acabar, removerá os Yuegui: Modo de Salto restantes.",
+    "flavorText": "\"Hã? Você quer saber qual é Yuegui? Todos são Yuegui!\"",
+    "attributes": {
+      "labels": [
+        "Dano de Habilidade|{param4:F1P}",
+        "Dano do Rabanete de Jade Branca do Legado Adepti|{param1:F1P}",
+        "Cura do Rabanete de Jade Branca do Legado Adepti|{param2:F2P} da Vida Máxima + {param3:I}",
+        "Aumento de RES Dendro|{param5:P}",
+        "Duração do Legado Adepti|{param6:F1}s",
+        "Tempo de Recarga|{param7:F1}s",
+        "Energia Elemental|{param8:I}"
+      ],
+      "parameters": {
+        "param1": [
+          0.7216,
+          0.77572,
+          0.82984,
+          0.902,
+          0.95612,
+          1.01024,
+          1.0824,
+          1.15456,
+          1.22672,
+          1.29888,
+          1.37104,
+          1.4432,
+          1.5334,
+          1.6236,
+          1.7138
+        ],
+        "param2": [
+          0.020168,
+          0.021681,
+          0.023193,
+          0.02521,
+          0.026723,
+          0.028235,
+          0.030252,
+          0.032269,
+          0.034286,
+          0.036303,
+          0.038319,
+          0.040336,
+          0.042857,
+          0.045378,
+          0.047899
+        ],
+        "param3": [
+          194.21231,
+          213.63625,
+          234.67883,
+          257.3401,
+          281.62,
+          307.5186,
+          335.0358,
+          364.1717,
+          394.92627,
+          427.29947,
+          461.29135,
+          496.9019,
+          534.1311,
+          572.97894,
+          613.4455
+        ],
+        "param4": [
+          1.1456,
+          1.23152,
+          1.31744,
+          1.432,
+          1.51792,
+          1.60384,
+          1.7184,
+          1.83296,
+          1.94752,
+          2.06208,
+          2.17664,
+          2.2912,
+          2.4344,
+          2.5776,
+          2.7208
+        ],
+        "param5": [
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ],
+        "param6": [
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
+        "param7": [
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20
+        ],
+        "param8": [
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80
+        ]
+      }
+    }
+  },
+  "passive1": {
+    "name": "Chuva de Estrelas",
+    "descriptionRaw": "Quando estiver no estado Legado Adepti de <color=#FFD780FF>Descida da Lua de Jade</color> e Yaoyao correr, saltar ou estiver correndo, jogará Rabanetes de Jade Branca constantemente contra os inimigos próximos. É possível jogar 1 Rabanete de Jade Branca a cada 0.6s dessa forma.",
+    "description": "Quando estiver no estado Legado Adepti de Descida da Lua de Jade e Yaoyao correr, saltar ou estiver correndo, jogará Rabanetes de Jade Branca constantemente contra os inimigos próximos. É possível jogar 1 Rabanete de Jade Branca a cada 0.6s dessa forma."
+  },
+  "passive2": {
+    "name": "No Lugar de Outra Pessoa",
+    "descriptionRaw": "Quando o <color=#FFD780FF>Rabanete de Jade Branca</color> explode, os personagens ativos dentro de sua AdE regenerarão Vida uma vez a cada segundo. A quantidade regenerada é baseada em 0.8% da Vida Máxima de Yaoyao. Dura 5s.",
+    "description": "Quando o Rabanete de Jade Branca explode, os personagens ativos dentro de sua AdE regenerarão Vida uma vez a cada segundo. A quantidade regenerada é baseada em 0.8% da Vida Máxima de Yaoyao. Dura 5s."
+  },
+  "passive3": {
+    "name": "Perseguição na Ponta dos Pés",
+    "descriptionRaw": "Quando Yaoyao estiver na equipe, seus personagens não irão assustar as Borboletas de Cristais e alguns outros animais ao chegar perto deles.\nCheque a sub-categoria \"Outros\" da seção \"Seres Vivos/Animais Selvagens\" do Arquivo, para descobrir em quais criaturas esta habilidade funciona.",
+    "description": "Quando Yaoyao estiver na equipe, seus personagens não irão assustar as Borboletas de Cristais e alguns outros animais ao chegar perto deles.\nCheque a sub-categoria \"Outros\" da seção \"Seres Vivos/Animais Selvagens\" do Arquivo, para descobrir em quais criaturas esta habilidade funciona."
+  },
+  "costs": {
+    "lvl2": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 12500
+      },
+      {
+        "id": 104313,
+        "name": "Ensinamentos de Esforço",
+        "count": 3
+      },
+      {
+        "id": 112002,
+        "name": "Condensado de Slime",
+        "count": 6
+      }
+    ],
+    "lvl3": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 17500
+      },
+      {
+        "id": 104314,
+        "name": "Guia de Esforço",
+        "count": 2
+      },
+      {
+        "id": 112003,
+        "name": "Secreção de Slime",
+        "count": 3
+      }
+    ],
+    "lvl4": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 25000
+      },
+      {
+        "id": 104314,
+        "name": "Guia de Esforço",
+        "count": 4
+      },
+      {
+        "id": 112003,
+        "name": "Secreção de Slime",
+        "count": 4
+      }
+    ],
+    "lvl5": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 30000
+      },
+      {
+        "id": 104314,
+        "name": "Guia de Esforço",
+        "count": 6
+      },
+      {
+        "id": 112003,
+        "name": "Secreção de Slime",
+        "count": 6
+      }
+    ],
+    "lvl6": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 37500
+      },
+      {
+        "id": 104314,
+        "name": "Guia de Esforço",
+        "count": 9
+      },
+      {
+        "id": 112003,
+        "name": "Secreção de Slime",
+        "count": 9
+      }
+    ],
+    "lvl7": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 120000
+      },
+      {
+        "id": 104315,
+        "name": "Filosofia de Esforço",
+        "count": 4
+      },
+      {
+        "id": 112004,
+        "name": "Essência de Slime",
+        "count": 4
+      },
+      {
+        "id": 113043,
+        "name": "Sino do Vazio",
+        "count": 1
+      }
+    ],
+    "lvl8": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 260000
+      },
+      {
+        "id": 104315,
+        "name": "Filosofia de Esforço",
+        "count": 6
+      },
+      {
+        "id": 112004,
+        "name": "Essência de Slime",
+        "count": 6
+      },
+      {
+        "id": 113043,
+        "name": "Sino do Vazio",
+        "count": 1
+      }
+    ],
+    "lvl9": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 450000
+      },
+      {
+        "id": 104315,
+        "name": "Filosofia de Esforço",
+        "count": 12
+      },
+      {
+        "id": 112004,
+        "name": "Essência de Slime",
+        "count": 9
+      },
+      {
+        "id": 113043,
+        "name": "Sino do Vazio",
+        "count": 2
+      }
+    ],
+    "lvl10": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 700000
+      },
+      {
+        "id": 104315,
+        "name": "Filosofia de Esforço",
+        "count": 16
+      },
+      {
+        "id": 112004,
+        "name": "Essência de Slime",
+        "count": 12
+      },
+      {
+        "id": 113043,
+        "name": "Sino do Vazio",
+        "count": 2
+      },
+      {
+        "id": 104319,
+        "name": "Coroa da Sabedoria",
+        "count": 1
+      }
+    ]
+  },
+  "images": {
+    "filename_combat1": "Skill_A_03",
+    "filename_combat2": "Skill_S_Yaoyao_01",
+    "filename_combat3": "Skill_E_Yaoyao_01_HD",
+    "filename_passive1": "UI_Talent_S_Yaoyao_05",
+    "filename_passive2": "UI_Talent_S_Yaoyao_06",
+    "filename_passive3": "UI_Talent_S_Yaoyao_07"
+  },
+  "version": "3.4"
+}

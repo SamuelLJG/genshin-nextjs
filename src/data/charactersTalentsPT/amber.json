@@ -1,0 +1,583 @@
+{
+  "id": 2101,
+  "name": "Amber",
+  "combat1": {
+    "name": "Pontaria",
+    "descriptionRaw": "<color=#FFD780FF>Ataque Normal</color>\nRealiza até 5 tiros consecutivos com um arco.\n\n<color=#FFD780FF>Ataque Carregado</color>\nDispara um <color=#FFD780FF>Tiro com Mira</color> mais preciso e com Dano aumentado.\nAo mirar, chamas irão se acumular na ponta da flecha. Uma flecha em chamas completamente carregada inflige <color=#FF9999FF>Dano Pyro</color>.\n\n<color=#FFD780FF>Ataque Imersivo</color>\nDispara uma chuva de flechas em pleno ar antes de atingir o chão, infligindo Dano em uma AdE durante o impacto.",
+    "description": "Ataque Normal\nRealiza até 5 tiros consecutivos com um arco.\n\nAtaque Carregado\nDispara um Tiro com Mira mais preciso e com Dano aumentado.\nAo mirar, chamas irão se acumular na ponta da flecha. Uma flecha em chamas completamente carregada inflige Dano Pyro.\n\nAtaque Imersivo\nDispara uma chuva de flechas em pleno ar antes de atingir o chão, infligindo Dano em uma AdE durante o impacto.",
+    "attributes": {
+      "labels": [
+        "Dano do 1° Golpe|{param1:F1P}",
+        "Dano do 2° Golpe|{param2:F1P}",
+        "Dano do 3° Golpe|{param3:F1P}",
+        "Dano do 4° Golpe|{param4:F1P}",
+        "Dano do 5° Golpe|{param5:F1P}",
+        "Disparo com Mira|{param6:F1P}",
+        "Disparo com Mira com Energização Completa|{param7:P}",
+        "Dano Durante a Queda|{param8:F1P}",
+        "Dano de Queda de Baixa/Alta Altitude|{param9:P}/{param10:P}"
+      ],
+      "parameters": {
+        "param1": [
+          0.3612,
+          0.3906,
+          0.42,
+          0.462,
+          0.4914,
+          0.525,
+          0.5712,
+          0.6174,
+          0.6636,
+          0.714,
+          0.7644,
+          0.8148,
+          0.8652,
+          0.9156,
+          0.966
+        ],
+        "param2": [
+          0.3612,
+          0.3906,
+          0.42,
+          0.462,
+          0.4914,
+          0.525,
+          0.5712,
+          0.6174,
+          0.6636,
+          0.714,
+          0.7644,
+          0.8148,
+          0.8652,
+          0.9156,
+          0.966
+        ],
+        "param3": [
+          0.4644,
+          0.5022,
+          0.54,
+          0.594,
+          0.6318,
+          0.675,
+          0.7344,
+          0.7938,
+          0.8532,
+          0.918,
+          0.9828,
+          1.0476,
+          1.1124,
+          1.1772,
+          1.242
+        ],
+        "param4": [
+          0.473,
+          0.5115,
+          0.55,
+          0.605,
+          0.6435,
+          0.6875,
+          0.748,
+          0.8085,
+          0.869,
+          0.935,
+          1.001,
+          1.067,
+          1.133,
+          1.199,
+          1.265
+        ],
+        "param5": [
+          0.5934,
+          0.6417,
+          0.69,
+          0.759,
+          0.8073,
+          0.8625,
+          0.9384,
+          1.0143,
+          1.0902,
+          1.173,
+          1.2558,
+          1.3386,
+          1.4214,
+          1.5042,
+          1.587
+        ],
+        "param6": [
+          0.4386,
+          0.4743,
+          0.51,
+          0.561,
+          0.5967,
+          0.6375,
+          0.6936,
+          0.7497,
+          0.8058,
+          0.867,
+          0.9282,
+          0.9894,
+          1.0506,
+          1.1118,
+          1.173
+        ],
+        "param7": [
+          1.24,
+          1.333,
+          1.426,
+          1.55,
+          1.643,
+          1.736,
+          1.86,
+          1.984,
+          2.108,
+          2.232,
+          2.356,
+          2.48,
+          2.635,
+          2.79,
+          2.945
+        ],
+        "param8": [
+          0.568288,
+          0.614544,
+          0.6608,
+          0.72688,
+          0.773136,
+          0.826,
+          0.898688,
+          0.971376,
+          1.044064,
+          1.12336,
+          1.202656,
+          1.281952,
+          1.361248,
+          1.440544,
+          1.51984
+        ],
+        "param9": [
+          1.136335,
+          1.228828,
+          1.32132,
+          1.453452,
+          1.545944,
+          1.65165,
+          1.796995,
+          1.94234,
+          2.087686,
+          2.246244,
+          2.404802,
+          2.563361,
+          2.721919,
+          2.880478,
+          3.039036
+        ],
+        "param10": [
+          1.419344,
+          1.534872,
+          1.6504,
+          1.81544,
+          1.930968,
+          2.063,
+          2.244544,
+          2.426088,
+          2.607632,
+          2.80568,
+          3.003728,
+          3.201776,
+          3.399824,
+          3.597872,
+          3.79592
+        ]
+      }
+    }
+  },
+  "combat2": {
+    "name": "Marionete Explosiva",
+    "descriptionRaw": "O sempre tão confiável Barão Coelho sobe ao palco.\n\n<color=#FFD780FF>Barão Coelho</color>\nContinuamente provoca o inimigo, atraindo seus golpes.\nA vida do Barão Coelho aumenta com a Vida máxima de Amber.\nQuando destruído ou quando o tempo expirar, Barão Coelho explode, infligindo <color=#FF9999FF>Dano Pyro em uma AdE</color>.\n\n<color=#FFD780FF>Manter pressionado</color>\nAjusta a direção do lançamento do Barão Coelho.\nQuanto mais tempo o botão for pressionado, mais distante é o lançamento.\n\n<i>Barão Coelho provém de uma histórica linhagem, mas Amber decidiu parar de contar desde o Barão Coelho 893.</i>",
+    "description": "O sempre tão confiável Barão Coelho sobe ao palco.\n\nBarão Coelho\nContinuamente provoca o inimigo, atraindo seus golpes.\nA vida do Barão Coelho aumenta com a Vida máxima de Amber.\nQuando destruído ou quando o tempo expirar, Barão Coelho explode, infligindo Dano Pyro em uma AdE.\n\nManter pressionado\nAjusta a direção do lançamento do Barão Coelho.\nQuanto mais tempo o botão for pressionado, mais distante é o lançamento.",
+    "flavorText": "Barão Coelho provém de uma histórica linhagem, mas Amber decidiu parar de contar desde o Barão Coelho 893.",
+    "attributes": {
+      "labels": [
+        "Vida Recebida|{param1:F1P}",
+        "Dano de Explosão|{param2:P}",
+        "Tempo de Recarga|{param4:F1}s"
+      ],
+      "parameters": {
+        "param1": [
+          0.4136,
+          0.44462,
+          0.47564,
+          0.517,
+          0.54802,
+          0.57904,
+          0.6204,
+          0.66176,
+          0.70312,
+          0.74448,
+          0.78584,
+          0.8272,
+          0.8789,
+          0.9306,
+          0.9823
+        ],
+        "param2": [
+          1.232,
+          1.3244,
+          1.4168,
+          1.54,
+          1.6324,
+          1.7248,
+          1.848,
+          1.9712,
+          2.0944,
+          2.2176,
+          2.3408,
+          2.464,
+          2.618,
+          2.772,
+          2.926
+        ],
+        "param3": [
+          -0.5864,
+          -0.55538,
+          -0.52436,
+          -0.483,
+          -0.45198,
+          -0.42096,
+          -0.3796,
+          -0.33824,
+          -0.29688,
+          -0.25552,
+          -0.21416,
+          -0.1728,
+          -0.1211,
+          -0.0694,
+          -0.0177
+        ],
+        "param4": [
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15
+        ]
+      }
+    }
+  },
+  "combat3": {
+    "name": "Chuva Ardente",
+    "descriptionRaw": "Dispara uma chuva de flechas, causando <color=#FF9999FF>Dano em uma AdE Pyro</color> contínuo.\n\n<i>A paixão de Amber arde como o fogo.</i>",
+    "description": "Dispara uma chuva de flechas, causando Dano em uma AdE Pyro contínuo.",
+    "flavorText": "A paixão de Amber arde como o fogo.",
+    "attributes": {
+      "labels": [
+        "Dano Único da Chuva Ardente|{param1:F1P}",
+        "Dano Total da Chuva Ardente|{param4:P}",
+        "Duração|{param5:F1}s",
+        "Tempo de Recarga|{param2:F1}s",
+        "Energia Elemental|{param3:I}"
+      ],
+      "parameters": {
+        "param1": [
+          0.2808,
+          0.30186,
+          0.32292,
+          0.351,
+          0.37206,
+          0.39312,
+          0.4212,
+          0.44928,
+          0.47736,
+          0.50544,
+          0.53352,
+          0.5616,
+          0.5967,
+          0.6318,
+          0.6669
+        ],
+        "param2": [
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12
+        ],
+        "param3": [
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40
+        ],
+        "param4": [
+          5.0544,
+          5.43348,
+          5.81256,
+          6.318,
+          6.69708,
+          7.07616,
+          7.5816,
+          8.08704,
+          8.59248,
+          9.09792,
+          9.60336,
+          10.1088,
+          10.7406,
+          11.3724,
+          12.0042
+        ],
+        "param5": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ]
+      }
+    }
+  },
+  "passive1": {
+    "name": "Ninguém consegue fugir do meu campo de visão!",
+    "descriptionRaw": "Aumenta a Taxa Crítica da <color=#FFD780FF>Chuva Ardente</color> em 10% e expande a AdE em 30%.",
+    "description": "Aumenta a Taxa Crítica da Chuva Ardente em 10% e expande a AdE em 30%."
+  },
+  "passive2": {
+    "name": "Disparo Preciso",
+    "descriptionRaw": "Disparos com Mira em pontos fracos aumentam o ATQ em 15% por 10s.",
+    "description": "Disparos com Mira em pontos fracos aumentam o ATQ em 15% por 10s."
+  },
+  "passive3": {
+    "name": "Campeã Voadora",
+    "descriptionRaw": "Diminui o consumo de Stamina ao Planar de todos os seus personagens em 20%.\nNão acumulável com Talentos Passivos que concedem exatamente os mesmos efeitos.",
+    "description": "Diminui o consumo de Stamina ao Planar de todos os seus personagens em 20%.\nNão acumulável com Talentos Passivos que concedem exatamente os mesmos efeitos."
+  },
+  "costs": {
+    "lvl2": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 12500
+      },
+      {
+        "id": 104301,
+        "name": "Ensinamentos de \"Liberdade\"",
+        "count": 3
+      },
+      {
+        "id": 112011,
+        "name": "Ponta de Flecha Robusta",
+        "count": 6
+      }
+    ],
+    "lvl3": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 17500
+      },
+      {
+        "id": 104302,
+        "name": "Guia da Liberdade",
+        "count": 2
+      },
+      {
+        "id": 112012,
+        "name": "Ponta de Flecha Afiada",
+        "count": 3
+      }
+    ],
+    "lvl4": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 25000
+      },
+      {
+        "id": 104302,
+        "name": "Guia da Liberdade",
+        "count": 4
+      },
+      {
+        "id": 112012,
+        "name": "Ponta de Flecha Afiada",
+        "count": 4
+      }
+    ],
+    "lvl5": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 30000
+      },
+      {
+        "id": 104302,
+        "name": "Guia da Liberdade",
+        "count": 6
+      },
+      {
+        "id": 112012,
+        "name": "Ponta de Flecha Afiada",
+        "count": 6
+      }
+    ],
+    "lvl6": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 37500
+      },
+      {
+        "id": 104302,
+        "name": "Guia da Liberdade",
+        "count": 9
+      },
+      {
+        "id": 112012,
+        "name": "Ponta de Flecha Afiada",
+        "count": 9
+      }
+    ],
+    "lvl7": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 120000
+      },
+      {
+        "id": 104303,
+        "name": "Filosofia da Liberdade",
+        "count": 4
+      },
+      {
+        "id": 112013,
+        "name": "Ponta de Flecha Usada",
+        "count": 4
+      },
+      {
+        "id": 113005,
+        "name": "Suspiro do Vento Oriental",
+        "count": 1
+      }
+    ],
+    "lvl8": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 260000
+      },
+      {
+        "id": 104303,
+        "name": "Filosofia da Liberdade",
+        "count": 6
+      },
+      {
+        "id": 112013,
+        "name": "Ponta de Flecha Usada",
+        "count": 6
+      },
+      {
+        "id": 113005,
+        "name": "Suspiro do Vento Oriental",
+        "count": 1
+      }
+    ],
+    "lvl9": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 450000
+      },
+      {
+        "id": 104303,
+        "name": "Filosofia da Liberdade",
+        "count": 12
+      },
+      {
+        "id": 112013,
+        "name": "Ponta de Flecha Usada",
+        "count": 9
+      },
+      {
+        "id": 113005,
+        "name": "Suspiro do Vento Oriental",
+        "count": 2
+      }
+    ],
+    "lvl10": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 700000
+      },
+      {
+        "id": 104303,
+        "name": "Filosofia da Liberdade",
+        "count": 16
+      },
+      {
+        "id": 112013,
+        "name": "Ponta de Flecha Usada",
+        "count": 12
+      },
+      {
+        "id": 113005,
+        "name": "Suspiro do Vento Oriental",
+        "count": 2
+      },
+      {
+        "id": 104319,
+        "name": "Coroa da Sabedoria",
+        "count": 1
+      }
+    ]
+  },
+  "images": {
+    "filename_combat1": "Skill_A_02",
+    "filename_combat2": "Skill_S_Ambor_01",
+    "filename_combat3": "Skill_E_Ambor_HD",
+    "filename_passive1": "UI_Talent_S_Ambor_05",
+    "filename_passive2": "UI_Talent_S_Ambor_06",
+    "filename_passive3": "UI_Talent_Explosion_Glide"
+  },
+  "version": "1.0"
+}

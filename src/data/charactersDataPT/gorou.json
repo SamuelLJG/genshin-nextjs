@@ -1,0 +1,203 @@
+{
+  "id": 10000055,
+  "name": "Gorou",
+  "title": "Guerreiro Canino",
+  "description": "O grande general das tropas da Ilha Watatsumi. Seus subordinados acreditam profundamente nele.",
+  "weaponType": "WEAPON_BOW",
+  "weaponText": "Arco",
+  "bodyType": "BODY_BOY",
+  "gender": "Masculino",
+  "qualityType": "QUALITY_PURPLE",
+  "rarity": 4,
+  "birthdaymmdd": "5/18",
+  "birthday": "18 de maio",
+  "elementType": "ELEMENT_GEO",
+  "elementText": "Geo",
+  "affiliation": "Ilha Watatsumi",
+  "associationType": "ASSOC_INAZUMA",
+  "region": "Inazuma",
+  "substatType": "FIGHT_PROP_ROCK_ADD_HURT",
+  "substatText": "Bônus de Dano Geo",
+  "constellation": "Canis Bellatoris",
+  "cv": {
+    "english": "Cory Yee",
+    "chinese": "杨昕燃",
+    "japanese": "畠中祐",
+    "korean": "Lee Sae-byeok"
+  },
+  "costs": {
+    "ascend1": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 20000
+      },
+      {
+        "id": 104171,
+        "name": "Lasca de Topázio Prithiva",
+        "count": 1
+      },
+      {
+        "id": 101207,
+        "name": "Pérola Sango",
+        "count": 3
+      },
+      {
+        "id": 112053,
+        "name": "Casca Espectral",
+        "count": 3
+      }
+    ],
+    "ascend2": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 40000
+      },
+      {
+        "id": 104172,
+        "name": "Fragmento de Topázio Prithiva",
+        "count": 3
+      },
+      {
+        "id": 113023,
+        "name": "Coração do Mecanismo Contínuo",
+        "count": 2
+      },
+      {
+        "id": 101207,
+        "name": "Pérola Sango",
+        "count": 10
+      },
+      {
+        "id": 112053,
+        "name": "Casca Espectral",
+        "count": 15
+      }
+    ],
+    "ascend3": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 60000
+      },
+      {
+        "id": 104172,
+        "name": "Fragmento de Topázio Prithiva",
+        "count": 6
+      },
+      {
+        "id": 113023,
+        "name": "Coração do Mecanismo Contínuo",
+        "count": 4
+      },
+      {
+        "id": 101207,
+        "name": "Pérola Sango",
+        "count": 20
+      },
+      {
+        "id": 112054,
+        "name": "Coração Espectral",
+        "count": 12
+      }
+    ],
+    "ascend4": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 80000
+      },
+      {
+        "id": 104173,
+        "name": "Pedaço de Topázio Prithiva",
+        "count": 3
+      },
+      {
+        "id": 113023,
+        "name": "Coração do Mecanismo Contínuo",
+        "count": 8
+      },
+      {
+        "id": 101207,
+        "name": "Pérola Sango",
+        "count": 30
+      },
+      {
+        "id": 112054,
+        "name": "Coração Espectral",
+        "count": 18
+      }
+    ],
+    "ascend5": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 100000
+      },
+      {
+        "id": 104173,
+        "name": "Pedaço de Topázio Prithiva",
+        "count": 6
+      },
+      {
+        "id": 113023,
+        "name": "Coração do Mecanismo Contínuo",
+        "count": 12
+      },
+      {
+        "id": 101207,
+        "name": "Pérola Sango",
+        "count": 45
+      },
+      {
+        "id": 112055,
+        "name": "Núcleo Espectral",
+        "count": 12
+      }
+    ],
+    "ascend6": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 120000
+      },
+      {
+        "id": 104174,
+        "name": "Gema de Topázio Prithiva",
+        "count": 6
+      },
+      {
+        "id": 113023,
+        "name": "Coração do Mecanismo Contínuo",
+        "count": 20
+      },
+      {
+        "id": 101207,
+        "name": "Pérola Sango",
+        "count": 60
+      },
+      {
+        "id": 112055,
+        "name": "Núcleo Espectral",
+        "count": 24
+      }
+    ]
+  },
+  "images": {
+    "cover1": "https://act-webstatic.hoyoverse.com/upload/contentweb/2022/07/22/33b7b5d2536416116765a3f55e47f51a_54142758600124938.png",
+    "cover2": "https://act-webstatic.hoyoverse.com/upload/contentweb/2022/06/29/3484c4fab13b8c8fec8ccbeff63ec50a_5464889942943679721.png",
+    "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/781be06fd7f2106fbc28711aa9a46663.png",
+    "filename_icon": "UI_AvatarIcon_Gorou",
+    "filename_iconCard": "UI_AvatarIcon_Gorou_Card",
+    "filename_sideIcon": "UI_AvatarIcon_Side_Gorou",
+    "filename_gachaSplash": "UI_Gacha_AvatarImg_Gorou",
+    "filename_gachaSlice": "UI_Gacha_AvatarIcon_Gorou",
+    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Gorou.png",
+    "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Gorou.png"
+  },
+  "url": {
+    "fandom": "https://genshin-impact.fandom.com/wiki/Gorou"
+  },
+  "version": "2.3"
+}

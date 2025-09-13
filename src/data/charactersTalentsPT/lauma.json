@@ -1,0 +1,213 @@
+{
+  "id": 6501,
+  "name": "Lauma",
+  "combat1": {
+    "name": "Trilha Verdejante",
+    "descriptionRaw": "<color=#FFD780FF>Ataque Normal</color>\nRealiza até 3 golpes, causando Dano Dendro.\n\n<color=#FFD780FF>Ataque Carregado</color>\nLança Metamorfose da Emissária Espiritual. Lauma se transforma em uma Emissária Espiritual da floresta tranquila, consome uma certa quantidade de Stamina e avança em frente por até 10s. Nesse estado, aumenta a RES contra interrupção de Lauma, e pode consumir Stamina adicional para fazer até dois saltos consecutivos.\nQuando sair do estado Emissária Espiritual, entrará na recarga, e nesse período os Ataques Carregados de Lauma serão convertidos em Oração Invoca-Espírito, que após um curto tempo de canalização, causa Dano Dendro em AdE contra os inimigos em frente.\n\n<color=#FFD780FF>Ataque Imersivo</color>\nReunindo o poder do Dendro, mergulha em direção ao chão em pleno ar, infligindo dano a todos os inimigos em seu caminho. Inflige Dano Dendro em uma AdE durante o impacto com o chão."
+    
+  },
+  "combat2": {
+    "name": "Runo: Descanso da Noite Eterna",
+    "descriptionRaw": "Recita uma oração, revelando o Santuário da Floresta Congelada, e gera efeitos diferentes se pressionar ou manter pressionado.\n\n<color=#FFD780FF>Pressionar</color>\nRecita uma oração, causando Dano Dendro em AdE.\n\n<color=#FFD780FF>Manter pressionado</color>\nSe possuir pelo menos 1 Orvalho Verdejante, pode ser lançado. Lauma consome todos os Orvalhos Verdejantes e recita uma oração para causar uma instância de Dano Dendro em AdE, e uma instância de Dano Dendro em AdE considerado como Florescimento Lunar. De acordo com o número de Orvalhos Verdejantes consumido, cada um consumido ainda pode fornecer 1 acúmulo de Canção Lunar para Lauma. Consome até 3 Orvalhos por cada vez que mantém pressionado para lançar a Habilidade Elemental.\n\nAlém disso, quando a Habilidade Elemental ou Santuário da Floresta Congelada de Lauma atingem um inimigo, esse inimigo terá sua RES Dendro e RES Hydro reduzidas por 10s."
+  },
+  "combat3": {
+    "name": "Runo: Todos os Corações se Tornam a Lua",
+    "descriptionRaw": "Que os desejos de todos os seres vivos se torna o luar que banha a terra. Lauma canta uma canção sagrada do norte, ganhando 18 acúmulos de Canção Azul.\nAlém disso, quando Lauma está sob o estado Canção Lunar e lança seu Supremo, ou quando obtém Canção Lunar nos 15s após lançar o Supremo, Lauma consome todos os acúmulos de Canção Lunar, e obtém 6 acúmulos de Canção Azul para cada acúmulo consumido. Esse efeito pode ser ativado uma vez por Supremo lançado ou pelos 15s após lançar o Supremo.\n\n<color=#FFD780FF>Canção Azul</color>\nQuando um membro da equipe próximo causar Dano de Florescimento, Superflorescimento, Germinação e Florescimento Lunar, consome 1 acúmulo de Canção Azul para aumentar o Dano. O aumento é baseado na Proficiência Elemental de Lauma. Quando esse Dano atinge múltiplos inimigos de uma vez só, consumirá o número de acúmulos de Canção Azul correspondente ao número de inimigos atingidos.\nCada acúmulo de Canção Azul possui sua duração contada separadamente."
+  },
+  "passive1": {
+    "name": "Brilho da Noite Gelada",
+    "descriptionRaw": "Nos 20s depois de Lauma lançar sua Habilidade Elemental Runo: Descanso da Noite Eterna, gera efeitos de fortalecimento diferentes de acordo com o Presságio Lunarda equipe, níveis de Presságio Lunar diferentes fornecem bônus diferentes, e não acumulam.\n\n<color=#FFD780FF>Presságio Lunar: Reluzir Inicial</color>\nO Dano de Florescimento, Superflorescimento e Germinação causado por todos os personagens próximos pode causar um Acerto CRIT, com Taxa CRIT fixada em 15% e o Dano CRIT fixado em 100%. A Taxa CRIT fornecida por esse efeito pode acumular com a Taxa CRIT de efeitos similares que permitem essas reações elementais a causarem Acertos CRIT.\n\n<color=#FFD780FF>Presságio Lunar: Reluzir Cheio</color>\nAumenta a Taxa CRIT em 10% e o Dano CRIT em 20% de todos os personagens próximos que causarem Dano de Florescimento Lunar da equipe."
+  },
+  "passive2": {
+    "name": "Batismo da Nascente Doce",
+    "descriptionRaw": "Cada ponto de Proficiência Elemental de Lauma pode fazer ela obter os seguintes fortalecimentos:\n· Aumenta o Dano de sua Habilidade Elemental em 0.04%. É possível aumentar o Dano em até 32% dessa forma.\n· Diminui o tempo de recarga do Ataque Carregado Metamorfose da Emissária Espiritual em 0.02%. É possível reduzir a recarga de Metamorfose da Emissária Espiritual em até 20% dessa forma."
+  },
+  "passive3": {
+    "name": "Bênção do Presságio Lunar: Graça da Cacofonia",
+    "descriptionRaw": "Quando um membro da equipe desencadeia Florescimento, converte para desencadear Florescimento Lunar, e aumenta o Dano Básico causado por Florescimento Lunar para o personagem da equipe com base na Proficiência Elemental de Lauma: cada ponto de Proficiência Elemental aumenta o Dano Básico de Florescimento Lunar em 0.0175%. É possível aumentar o Dano em até 14% dessa forma.\nAlém disso, quando Lauma está na equipe, aumenta o Presságio Lunar da equipe em um nível."
+  },
+  "passive4": {
+    "name": "Orações para a Floresta",
+    "descriptionRaw": "Mostra a localização de Especialidades de Nod-Krai próximas no mapa.\nAlém disso, Lauma possui uma familiaridade e poder especial com alguns animais pequenos que podem ser afetados por Kuuvahki..."
+  },
+  "costs": {
+    "lvl2": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 12500
+      },
+      {
+        "id": 104356,
+        "name": "Ensinamentos do Luar",
+        "count": 3
+      },
+      {
+        "id": 112125,
+        "name": "Garantia Desgastada",
+        "count": 6
+      }
+    ],
+    "lvl3": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 17500
+      },
+      {
+        "id": 104357,
+        "name": "Guia do Luar",
+        "count": 2
+      },
+      {
+        "id": 112126,
+        "name": "Garantia Imaculada",
+        "count": 3
+      }
+    ],
+    "lvl4": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 25000
+      },
+      {
+        "id": 104357,
+        "name": "Guia do Luar",
+        "count": 4
+      },
+      {
+        "id": 112126,
+        "name": "Garantia Imaculada",
+        "count": 4
+      }
+    ],
+    "lvl5": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 30000
+      },
+      {
+        "id": 104357,
+        "name": "Guia do Luar",
+        "count": 6
+      },
+      {
+        "id": 112126,
+        "name": "Garantia Imaculada",
+        "count": 6
+      }
+    ],
+    "lvl6": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 37500
+      },
+      {
+        "id": 104357,
+        "name": "Guia do Luar",
+        "count": 9
+      },
+      {
+        "id": 112126,
+        "name": "Garantia Imaculada",
+        "count": 9
+      }
+    ],
+    "lvl7": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 120000
+      },
+      {
+        "id": 104358,
+        "name": "Filosofia do Luar",
+        "count": 4
+      },
+      {
+        "id": 112127,
+        "name": "Garantia Gélida",
+        "count": 4
+      },
+      {
+        "id": 113070,
+        "name": "Pluma-Escama Erodida",
+        "count": 1
+      }
+    ],
+    "lvl8": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 260000
+      },
+      {
+        "id": 104358,
+        "name": "Filosofia do Luar",
+        "count": 6
+      },
+      {
+        "id": 112127,
+        "name": "Garantia Gélida",
+        "count": 6
+      },
+      {
+        "id": 113070,
+        "name": "Pluma-Escama Erodida",
+        "count": 1
+      }
+    ],
+    "lvl9": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 450000
+      },
+      {
+        "id": 104358,
+        "name": "Filosofia do Luar",
+        "count": 12
+      },
+      {
+        "id": 112127,
+        "name": "Garantia Gélida",
+        "count": 9
+      },
+      {
+        "id": 113070,
+        "name": "Pluma-Escama Erodida",
+        "count": 2
+      }
+    ],
+    "lvl10": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 700000
+      },
+      {
+        "id": 104358,
+        "name": "Filosofia do Luar",
+        "count": 16
+      },
+      {
+        "id": 112127,
+        "name": "Garantia Gélida",
+        "count": 12
+      },
+      {
+        "id": 113070,
+        "name": "Pluma-Escama Erodida",
+        "count": 2
+      },
+      {
+        "id": 104319,
+        "name": "Coroa da Sabedoria",
+        "count": 1
+      }
+    ]
+  }
+}

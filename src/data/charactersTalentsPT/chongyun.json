@@ -1,0 +1,566 @@
+{
+  "id": 3601,
+  "name": "Chongyun",
+  "combat1": {
+    "name": "Desgraça dos Demônios",
+    "descriptionRaw": "<color=#FFD780FF>Ataque Normal</color>\nRealiza até 4 golpes consecutivos.\n\n<color=#FFD780FF>Ataque Carregado</color>\nDrena Stamina ao longo do tempo para realizar um ataque giratório contínuo contra todos os inimigos próximos.\nAo final da sequência, realiza um corte poderoso.\n\n<color=#FFD780FF>Ataque Imersivo</color>\nMergulha em pleno ar para golpear o chão, danificando inimigos em seu caminho e infligindo Dano em uma AdE durante o impacto.",
+    "description": "Ataque Normal\nRealiza até 4 golpes consecutivos.\n\nAtaque Carregado\nDrena Stamina ao longo do tempo para realizar um ataque giratório contínuo contra todos os inimigos próximos.\nAo final da sequência, realiza um corte poderoso.\n\nAtaque Imersivo\nMergulha em pleno ar para golpear o chão, danificando inimigos em seu caminho e infligindo Dano em uma AdE durante o impacto.",
+    "attributes": {
+      "labels": [
+        "Dano do 1° Golpe|{param1:F1P}",
+        "Dano do 2° Golpe|{param2:F1P}",
+        "Dano do 3° Golpe|{param3:F1P}",
+        "Dano do 4° golpe|{param4:P}",
+        "Dano de Loop de Ataque Carregado|{param5:F1P}",
+        "Dano Final de Ataque Carregado|{param6:P}",
+        "Consumo de Stamina de Ataque Carregado|{param7:F1}/s",
+        "Duração Máxima|{param8:F1}s",
+        "Dano Durante a Queda|{param9:F1P}",
+        "Dano de Queda de Baixa/Alta Altitude|{param10:P}/{param11:P}"
+      ],
+      "parameters": {
+        "param1": [
+          0.70004,
+          0.75702,
+          0.814,
+          0.8954,
+          0.95238,
+          1.0175,
+          1.10704,
+          1.19658,
+          1.28612,
+          1.3838,
+          1.48148,
+          1.57916,
+          1.67684,
+          1.77452,
+          1.8722
+        ],
+        "param2": [
+          0.63124,
+          0.68262,
+          0.734,
+          0.8074,
+          0.85878,
+          0.9175,
+          0.99824,
+          1.07898,
+          1.15972,
+          1.2478,
+          1.33588,
+          1.42396,
+          1.51204,
+          1.60012,
+          1.6882
+        ],
+        "param3": [
+          0.80324,
+          0.86862,
+          0.934,
+          1.0274,
+          1.09278,
+          1.1675,
+          1.27024,
+          1.37298,
+          1.47572,
+          1.5878,
+          1.69988,
+          1.81196,
+          1.92404,
+          2.03612,
+          2.1482
+        ],
+        "param4": [
+          1.01222,
+          1.09461,
+          1.177,
+          1.2947,
+          1.37709,
+          1.47125,
+          1.60072,
+          1.73019,
+          1.85966,
+          2.0009,
+          2.14214,
+          2.28338,
+          2.42462,
+          2.56586,
+          2.7071
+        ],
+        "param5": [
+          0.562853,
+          0.608666,
+          0.65448,
+          0.719928,
+          0.765742,
+          0.8181,
+          0.890093,
+          0.962086,
+          1.034078,
+          1.112616,
+          1.191154,
+          1.269691,
+          1.348229,
+          1.426766,
+          1.505304
+        ],
+        "param6": [
+          1.01781,
+          1.100655,
+          1.1835,
+          1.30185,
+          1.384695,
+          1.479375,
+          1.60956,
+          1.739745,
+          1.86993,
+          2.01195,
+          2.15397,
+          2.29599,
+          2.43801,
+          2.58003,
+          2.72205
+        ],
+        "param7": [
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40
+        ],
+        "param8": [
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
+        "param9": [
+          0.745878,
+          0.806589,
+          0.8673,
+          0.95403,
+          1.014741,
+          1.084125,
+          1.179528,
+          1.274931,
+          1.370334,
+          1.47441,
+          1.578486,
+          1.682562,
+          1.786638,
+          1.890714,
+          1.99479
+        ],
+        "param10": [
+          1.49144,
+          1.612836,
+          1.734233,
+          1.907656,
+          2.029052,
+          2.167791,
+          2.358556,
+          2.549322,
+          2.740087,
+          2.948195,
+          3.156303,
+          3.364411,
+          3.572519,
+          3.780627,
+          3.988735
+        ],
+        "param11": [
+          1.862889,
+          2.01452,
+          2.16615,
+          2.382765,
+          2.534396,
+          2.707688,
+          2.945964,
+          3.184241,
+          3.422517,
+          3.682455,
+          3.942393,
+          4.202331,
+          4.462269,
+          4.722207,
+          4.982145
+        ]
+      }
+    }
+  },
+  "combat2": {
+    "name": "Lâmina Espiritual - Geada de Chongyun",
+    "descriptionRaw": "Chongyun golpeia o chão com seu Espadão, causando uma explosão Cryo em uma AdE circular na sua frente que inflige <color=#99FFFFFF>Dano Cryo</color>.\nDepois de um curto intervalo, o ar frio criado pela explosão Cryo se coalescerá em um Campo Gelado Chonghua, em que todos os personagens que usem Espada, Espadão ou Lança receberão <color=#99FFFFFF>encantamento Cryo</color>.\n\n<i>\"Um anel de cristal e tudo que se segue é o silêncio. Os rios não se movem, e as nuvens estão pesadas com o gelo. Os portões do altar se abrem, e o mal é banido.\"</i>",
+    "description": "Chongyun golpeia o chão com seu Espadão, causando uma explosão Cryo em uma AdE circular na sua frente que inflige Dano Cryo.\nDepois de um curto intervalo, o ar frio criado pela explosão Cryo se coalescerá em um Campo Gelado Chonghua, em que todos os personagens que usem Espada, Espadão ou Lança receberão encantamento Cryo.",
+    "flavorText": "\"Um anel de cristal e tudo que se segue é o silêncio. Os rios não se movem, e as nuvens estão pesadas com o gelo. Os portões do altar se abrem, e o mal é banido.\"",
+    "attributes": {
+      "labels": [
+        "Dano de Habilidade|{param1:P}",
+        "Duração do Encantamento|{param2:F1}s",
+        "Duração da Área|{param4:F1}s",
+        "Tempo de Recarga|{param3:F1}s"
+      ],
+      "parameters": {
+        "param1": [
+          1.7204,
+          1.84943,
+          1.97846,
+          2.1505,
+          2.27953,
+          2.40856,
+          2.5806,
+          2.75264,
+          2.92468,
+          3.09672,
+          3.26876,
+          3.4408,
+          3.65585,
+          3.8709,
+          4.08595
+        ],
+        "param2": [
+          2,
+          2.1,
+          2.2,
+          2.3,
+          2.4,
+          2.5,
+          2.6,
+          2.7,
+          2.8,
+          2.9,
+          3,
+          3,
+          3,
+          3,
+          3
+        ],
+        "param3": [
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15
+        ],
+        "param4": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ]
+      }
+    }
+  },
+  "combat3": {
+    "name": "Lâmina Espiritual - Estrela Cadente",
+    "descriptionRaw": "Criando os secretos selos artesanais, Chongyun evoca 3 lâminas espirituais em pleno ar que caem à terra uma por uma depois de um curto período de tempo, explodindo assim que encostam ao chão.\nQuando as lâminas espirituais explodem, elas infligem <color=#99FFFFFF>Dano Cryo em uma AdE</color> e lançam inimigos.\n\n<i>\"Assim como o frio atroz gera a geada congelante, minha lâmina transcendente estremece o céu e a terra. Ouça meu chamado e atenda ao meu apelo!\"</i>",
+    "description": "Criando os secretos selos artesanais, Chongyun evoca 3 lâminas espirituais em pleno ar que caem à terra uma por uma depois de um curto período de tempo, explodindo assim que encostam ao chão.\nQuando as lâminas espirituais explodem, elas infligem Dano Cryo em uma AdE e lançam inimigos.",
+    "flavorText": "\"Assim como o frio atroz gera a geada congelante, minha lâmina transcendente estremece o céu e a terra. Ouça meu chamado e atenda ao meu apelo!\"",
+    "attributes": {
+      "labels": [
+        "Dano de Habilidade|{param1:P}",
+        "Tempo de Recarga|{param2:F1}s",
+        "Energia Elemental|{param3:I}"
+      ],
+      "parameters": {
+        "param1": [
+          1.424,
+          1.5308,
+          1.6376,
+          1.78,
+          1.8868,
+          1.9936,
+          2.136,
+          2.2784,
+          2.4208,
+          2.5632,
+          2.7056,
+          2.848,
+          3.026,
+          3.204,
+          3.382
+        ],
+        "param2": [
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12
+        ],
+        "param3": [
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40
+        ]
+      }
+    }
+  },
+  "passive1": {
+    "name": "Respiração Constante",
+    "descriptionRaw": "Os personagens que usam Espada, Espadão e Lança dentro do campo criado pela <color=#FFD780FF>Lâmina Espiritual - Geada de Chongyun</color> terão a Vel. de ATQ Normal aumentada em 8%.",
+    "description": "Os personagens que usam Espada, Espadão e Lança dentro do campo criado pela Lâmina Espiritual - Geada de Chongyun terão a Vel. de ATQ Normal aumentada em 8%."
+  },
+  "passive2": {
+    "name": "Lâmina do Caçador de Gelo",
+    "descriptionRaw": "Quando a área criada pela <color=#FFD780FF>Lâmina Espiritual - Geada de Chongyun</color> dissipa, outra lâmina do espírito será evocada para atacar inimigos próximos, infligindo 100% de Dano da habilidade Geada de Chongyun como <color=#99FFFFFF>Dano Cryo em uma AdE</color>. Inimigos golpeados por essa lâmina terá sua <color=#99FFFFFF>RES Cryo</color> diminuída em 10% por 8 segundos.",
+    "description": "Quando a área criada pela Lâmina Espiritual - Geada de Chongyun dissipa, outra lâmina do espírito será evocada para atacar inimigos próximos, infligindo 100% de Dano da habilidade Geada de Chongyun como Dano Cryo em uma AdE. Inimigos golpeados por essa lâmina terá sua RES Cryo diminuída em 10% por 8 segundos."
+  },
+  "passive3": {
+    "name": "Jornada Galante",
+    "descriptionRaw": "Quando despachado em uma expedição em Liyue, o tempo consumido é reduzido em 25%",
+    "description": "Quando despachado em uma expedição em Liyue, o tempo consumido é reduzido em 25%"
+  },
+  "costs": {
+    "lvl2": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 12500
+      },
+      {
+        "id": 104313,
+        "name": "Ensinamentos de Esforço",
+        "count": 3
+      },
+      {
+        "id": 112005,
+        "name": "Máscara Danificada",
+        "count": 6
+      }
+    ],
+    "lvl3": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 17500
+      },
+      {
+        "id": 104314,
+        "name": "Guia de Esforço",
+        "count": 2
+      },
+      {
+        "id": 112006,
+        "name": "Máscara Suja",
+        "count": 3
+      }
+    ],
+    "lvl4": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 25000
+      },
+      {
+        "id": 104314,
+        "name": "Guia de Esforço",
+        "count": 4
+      },
+      {
+        "id": 112006,
+        "name": "Máscara Suja",
+        "count": 4
+      }
+    ],
+    "lvl5": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 30000
+      },
+      {
+        "id": 104314,
+        "name": "Guia de Esforço",
+        "count": 6
+      },
+      {
+        "id": 112006,
+        "name": "Máscara Suja",
+        "count": 6
+      }
+    ],
+    "lvl6": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 37500
+      },
+      {
+        "id": 104314,
+        "name": "Guia de Esforço",
+        "count": 9
+      },
+      {
+        "id": 112006,
+        "name": "Máscara Suja",
+        "count": 9
+      }
+    ],
+    "lvl7": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 120000
+      },
+      {
+        "id": 104315,
+        "name": "Filosofia de Esforço",
+        "count": 4
+      },
+      {
+        "id": 112007,
+        "name": "Máscara Ominosa",
+        "count": 4
+      },
+      {
+        "id": 113005,
+        "name": "Suspiro do Vento Oriental",
+        "count": 1
+      }
+    ],
+    "lvl8": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 260000
+      },
+      {
+        "id": 104315,
+        "name": "Filosofia de Esforço",
+        "count": 6
+      },
+      {
+        "id": 112007,
+        "name": "Máscara Ominosa",
+        "count": 6
+      },
+      {
+        "id": 113005,
+        "name": "Suspiro do Vento Oriental",
+        "count": 1
+      }
+    ],
+    "lvl9": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 450000
+      },
+      {
+        "id": 104315,
+        "name": "Filosofia de Esforço",
+        "count": 12
+      },
+      {
+        "id": 112007,
+        "name": "Máscara Ominosa",
+        "count": 9
+      },
+      {
+        "id": 113005,
+        "name": "Suspiro do Vento Oriental",
+        "count": 2
+      }
+    ],
+    "lvl10": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 700000
+      },
+      {
+        "id": 104315,
+        "name": "Filosofia de Esforço",
+        "count": 16
+      },
+      {
+        "id": 112007,
+        "name": "Máscara Ominosa",
+        "count": 12
+      },
+      {
+        "id": 113005,
+        "name": "Suspiro do Vento Oriental",
+        "count": 2
+      },
+      {
+        "id": 104319,
+        "name": "Coroa da Sabedoria",
+        "count": 1
+      }
+    ]
+  },
+  "images": {
+    "filename_combat1": "Skill_A_04",
+    "filename_combat2": "Skill_S_Chongyun_01",
+    "filename_combat3": "Skill_E_Chongyun_01_HD",
+    "filename_passive1": "UI_Talent_S_Chongyun_05",
+    "filename_passive2": "UI_Talent_S_Chongyun_06",
+    "filename_passive3": "UI_Talent_Expedition_Liyue"
+  },
+  "version": "1.0"
+}

@@ -1,0 +1,571 @@
+{
+  "id": 10001,
+  "name": "Kachina",
+  "combat1": {
+    "name": "Mordida Perfuradora",
+    "descriptionRaw": "<color=#FFD780FF>Ataque Normal</color>\nRealiza até 4 golpes com a lança.\n\n<color=#FFD780FF>Ataque Carregado</color>\nConsome uma certa quantidade de Stamina para se lançar para a frente, infligindo Dano em seu trajeto.\n\n<color=#FFD780FF>Ataque Imersivo</color>\nMergulha em pleno ar para golpear o chão, causando dano aos inimigos ao longo do caminho e infligindo Dano em uma AdE durante o impacto.",
+    "description": "Ataque Normal\nRealiza até 4 golpes com a lança.\n\nAtaque Carregado\nConsome uma certa quantidade de Stamina para se lançar para a frente, infligindo Dano em seu trajeto.\n\nAtaque Imersivo\nMergulha em pleno ar para golpear o chão, causando dano aos inimigos ao longo do caminho e infligindo Dano em uma AdE durante o impacto.",
+    "attributes": {
+      "labels": [
+        "Dano do 1° Golpe|{param1:F1P}",
+        "Dano do 2° Golpe|{param2:F1P}+{param3:F1P}",
+        "Dano do 3° Golpe|{param4:F1P}",
+        "Dano do 4° Golpe|{param5:F1P}",
+        "Dano de Ataque Carregado|{param6:F1P}",
+        "Consumo de Stamina de Ataque Carregado|{param7:F1}",
+        "Dano Durante a Queda|{param8:F1P}",
+        "Dano de Queda de Baixa/Alta Altitude|{param9:P}/{param10:P}"
+      ],
+      "parameters": {
+        "param1": [
+          0.493984,
+          0.534192,
+          0.5744,
+          0.63184,
+          0.672048,
+          0.718,
+          0.781184,
+          0.844368,
+          0.907552,
+          0.97648,
+          1.045408,
+          1.114336,
+          1.183264,
+          1.252192,
+          1.32112
+        ],
+        "param2": [
+          0.27569,
+          0.29813,
+          0.32057,
+          0.352627,
+          0.375067,
+          0.400713,
+          0.435975,
+          0.471238,
+          0.506501,
+          0.544969,
+          0.583437,
+          0.621906,
+          0.660374,
+          0.698843,
+          0.737311
+        ],
+        "param3": [
+          0.306323,
+          0.331257,
+          0.35619,
+          0.391809,
+          0.416742,
+          0.445238,
+          0.484418,
+          0.523599,
+          0.56278,
+          0.605523,
+          0.648266,
+          0.691009,
+          0.733751,
+          0.776494,
+          0.819237
+        ],
+        "param4": [
+          0.704271,
+          0.761596,
+          0.81892,
+          0.900812,
+          0.958136,
+          1.02365,
+          1.113731,
+          1.203812,
+          1.293894,
+          1.392164,
+          1.490434,
+          1.588705,
+          1.686975,
+          1.785246,
+          1.883516
+        ],
+        "param5": [
+          0.774361,
+          0.837391,
+          0.90042,
+          0.990462,
+          1.053491,
+          1.125525,
+          1.224571,
+          1.323617,
+          1.422664,
+          1.530714,
+          1.638764,
+          1.746815,
+          1.854865,
+          1.962916,
+          2.070966
+        ],
+        "param6": [
+          1.1266,
+          1.2183,
+          1.31,
+          1.441,
+          1.5327,
+          1.6375,
+          1.7816,
+          1.9257,
+          2.0698,
+          2.227,
+          2.3842,
+          2.5414,
+          2.6986,
+          2.8558,
+          3.013
+        ],
+        "param7": [
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25
+        ],
+        "param8": [
+          0.639324,
+          0.691362,
+          0.7434,
+          0.81774,
+          0.869778,
+          0.92925,
+          1.011024,
+          1.092798,
+          1.174572,
+          1.26378,
+          1.352988,
+          1.442196,
+          1.531404,
+          1.620612,
+          1.70982
+        ],
+        "param9": [
+          1.278377,
+          1.382431,
+          1.486485,
+          1.635134,
+          1.739187,
+          1.858106,
+          2.02162,
+          2.185133,
+          2.348646,
+          2.527025,
+          2.705403,
+          2.883781,
+          3.062159,
+          3.240537,
+          3.418915
+        ],
+        "param10": [
+          1.596762,
+          1.726731,
+          1.8567,
+          2.04237,
+          2.172339,
+          2.320875,
+          2.525112,
+          2.729349,
+          2.933586,
+          3.15639,
+          3.379194,
+          3.601998,
+          3.824802,
+          4.047606,
+          4.27041
+        ]
+      }
+    }
+  },
+  "combat2": {
+    "name": "Ataque, Pirueta Turbo!",
+    "descriptionRaw": "Lute junto com Pirueta Turbo, o turbo confiável!\nInvoca Pirueta Turbo. Ao manter pressionado, Kachina invoca e monta em Pirueta Turbo.\nDepois de lançar, Kachina obtém 60 pontos de Espírito da Noite e entra no estado Bênção do Espírito da Noite.\n\n<color=#FFD780FF>Bênção do Espírito da Noite: Kachina</color>\nAs ações de Pirueta Turbo consomem pontos de Espírito da Noite.\nQuando os pontos de Espírito da Noite acabarem, o estado Bênção do Espírito da Noite de Kachina acabará.\n\n<color=#FFD780FF>Pirueta Turbo</color>\nÉ capaz de existir independentemente, ou pode ser montado por Kachina. Enquanto Pirueta Turbo existir, a Habilidade Elemental de Kachina \"Ataque, Pirueta Turbo!\" será substituída por montar ou desmontar de Pirueta Turbo.\n· Enquanto Pirueta Turbo existir independente, periodicamente golpeará o chão, causando <color=#FFE699FF>Dano Geo em AdE</color> baseado na DEF de Kachina que possui o alinhamento de Espírito da Noite.\n· Quando Kachina montar em Pirueta Turbo, poderá controlá-lo para se mover e escalar rapidamente, e ao fazer um Ataque Normal, golpeará o chão, causando <color=#FFE699FF>Dano Geo em AdE</color> baseado na sua DEF que possui o alinhamento de Espírito da Noite.\n\nPirueta Turbo desaparecerá quando a duração do estado Bênção do Espírito da Noite de Kachina acabar, e é considerado uma Construção Geo. Só é possível existir simultaneamente um Pirueta Turbo criado por Kachina.\n\n<i>Pirueta Turbo só parece uma tampa, mas é uma broca que pode perfurar até mesmo as mais profundas rochas!</i>",
+    "description": "Lute junto com Pirueta Turbo, o turbo confiável!\nInvoca Pirueta Turbo. Ao manter pressionado, Kachina invoca e monta em Pirueta Turbo.\nDepois de lançar, Kachina obtém 60 pontos de Espírito da Noite e entra no estado Bênção do Espírito da Noite.\n\nBênção do Espírito da Noite: Kachina\nAs ações de Pirueta Turbo consomem pontos de Espírito da Noite.\nQuando os pontos de Espírito da Noite acabarem, o estado Bênção do Espírito da Noite de Kachina acabará.\n\nPirueta Turbo\nÉ capaz de existir independentemente, ou pode ser montado por Kachina. Enquanto Pirueta Turbo existir, a Habilidade Elemental de Kachina \"Ataque, Pirueta Turbo!\" será substituída por montar ou desmontar de Pirueta Turbo.\n· Enquanto Pirueta Turbo existir independente, periodicamente golpeará o chão, causando Dano Geo em AdE baseado na DEF de Kachina que possui o alinhamento de Espírito da Noite.\n· Quando Kachina montar em Pirueta Turbo, poderá controlá-lo para se mover e escalar rapidamente, e ao fazer um Ataque Normal, golpeará o chão, causando Dano Geo em AdE baseado na sua DEF que possui o alinhamento de Espírito da Noite.\n\nPirueta Turbo desaparecerá quando a duração do estado Bênção do Espírito da Noite de Kachina acabar, e é considerado uma Construção Geo. Só é possível existir simultaneamente um Pirueta Turbo criado por Kachina.",
+    "flavorText": "Pirueta Turbo só parece uma tampa, mas é uma broca que pode perfurar até mesmo as mais profundas rochas!",
+    "attributes": {
+      "labels": [
+        "Dano Montada em Pirueta Turbo|{param1:F1P} da DEF",
+        "Dano de Pirueta Turbo Independente|{param2:F1P} da DEF",
+        "Limite de Pontos de Espírito da Noite|{param3:F1}",
+        "Tempo de Recarga|{param4:F1}s"
+      ],
+      "parameters": {
+        "param1": [
+          0.8776,
+          0.94342,
+          1.00924,
+          1.097,
+          1.16282,
+          1.22864,
+          1.3164,
+          1.40416,
+          1.49192,
+          1.57968,
+          1.66744,
+          1.7552,
+          1.8649,
+          1.9746,
+          2.0843
+        ],
+        "param2": [
+          0.6376,
+          0.68542,
+          0.73324,
+          0.797,
+          0.84482,
+          0.89264,
+          0.9564,
+          1.02016,
+          1.08392,
+          1.14768,
+          1.21144,
+          1.2752,
+          1.3549,
+          1.4346,
+          1.5143
+        ],
+        "param3": [
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60
+        ],
+        "param4": [
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20
+        ]
+      }
+    }
+  },
+  "combat3": {
+    "name": "Hora de Ficar Séria!",
+    "descriptionRaw": "Golpeando o chão, Kachina causa <color=#FFE699FF>Dano Geo em AdE</color> baseado em sua DEF e gera o Campo Super Turbo.\nO Campo Super Turbo aumenta a AdE de ataque de Pirueta Turbo, e a velocidade de movimento ao estar montado nele.\n\nAo ser lançado, se existir um Pirueta Turbo de Kachina ativo, Pirueta Turbo será invocado para o lado dela.\n\n<i>Assim como atores nervosos gostam de imaginar que a audiência são marionetes de madeira, Kachina imagina que seus oponentes são as gemas mais adoráveis, do tipo que você tem orgulho de levar para casa e acumular.</i>",
+    "description": "Golpeando o chão, Kachina causa Dano Geo em AdE baseado em sua DEF e gera o Campo Super Turbo.\nO Campo Super Turbo aumenta a AdE de ataque de Pirueta Turbo, e a velocidade de movimento ao estar montado nele.\n\nAo ser lançado, se existir um Pirueta Turbo de Kachina ativo, Pirueta Turbo será invocado para o lado dela.",
+    "flavorText": "Assim como atores nervosos gostam de imaginar que a audiência são marionetes de madeira, Kachina imagina que seus oponentes são as gemas mais adoráveis, do tipo que você tem orgulho de levar para casa e acumular.",
+    "attributes": {
+      "labels": [
+        "Dano de Habilidade|{param1:F1P} da DEF",
+        "Duração do Campo|{param2:F1}s",
+        "Tempo de Recarga|{param3:F1}s",
+        "Energia Elemental|{param4:I}"
+      ],
+      "parameters": {
+        "param1": [
+          3.805672,
+          4.1366,
+          4.4252,
+          4.81,
+          5.0986,
+          5.3872,
+          5.772,
+          6.1568,
+          6.5416,
+          6.9264,
+          7.3112,
+          7.696,
+          8.177,
+          8.658,
+          9.139
+        ],
+        "param2": [
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12
+        ],
+        "param3": [
+          18,
+          18,
+          18,
+          18,
+          18,
+          18,
+          18,
+          18,
+          18,
+          18,
+          18,
+          18,
+          18,
+          18,
+          18
+        ],
+        "param4": [
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70
+        ]
+      }
+    }
+  },
+  "passive1": {
+    "name": "Eco das Montanhas",
+    "descriptionRaw": "Depois que membros próximos da equipe desencadeiam uma Explosão do Espírito da Noite, o <color=#FFE699FF>Bônus de Dano Geo</color> de Kachina aumenta em 20% por 12s.",
+    "description": "Depois que membros próximos da equipe desencadeiam uma Explosão do Espírito da Noite, o Bônus de Dano Geo de Kachina aumenta em 20% por 12s."
+  },
+  "passive2": {
+    "name": "O Peso da Pedra",
+    "descriptionRaw": "Aumenta o Dano causado por <color=#FFD780FF>Pirueta Turbo</color> em 20% da DEF de Kachina.",
+    "description": "Aumenta o Dano causado por Pirueta Turbo em 20% da DEF de Kachina."
+  },
+  "passive3": {
+    "name": "Presente do Reino da Noite: Coração da Unidade",
+    "descriptionRaw": "Depois que os pontos de Espírito da Noite de Kachina acabarem, ela mudará para consumir Flogisto para manter a Bênção do Espírito da Noite.\nEnquanto estiver numa área de Natlan com Dispositivos de Flogisto, ela pode usar Transmissão do Espírito da Noite: Kachina. Quando o personagem ativo estiver correndo, escalando, sob um estado especial de movimento de um Talento ou em uma certa altura no ar, trocar para Kachina como personagem ativa desencadeará: Kachina entra no estado Bênção do Espírito da Noite e monta <color=#FFD780FF>Pirueta Turbo</color> ao virar a personagem ativa, ganhando 30 pontos de Espírito da Noite. Sua própria equipe pode entrar em Transmissão do Espírito da Noite uma vez a cada 10s.\n\nAlém disso, Kachina consumirá 90% a menos de Stamina enquanto estiver escalando e montada em <color=#FFD780FF>Pirueta Turbo</color> em Natlan.",
+    "description": "Depois que os pontos de Espírito da Noite de Kachina acabarem, ela mudará para consumir Flogisto para manter a Bênção do Espírito da Noite.\nEnquanto estiver numa área de Natlan com Dispositivos de Flogisto, ela pode usar Transmissão do Espírito da Noite: Kachina. Quando o personagem ativo estiver correndo, escalando, sob um estado especial de movimento de um Talento ou em uma certa altura no ar, trocar para Kachina como personagem ativa desencadeará: Kachina entra no estado Bênção do Espírito da Noite e monta Pirueta Turbo ao virar a personagem ativa, ganhando 30 pontos de Espírito da Noite. Sua própria equipe pode entrar em Transmissão do Espírito da Noite uma vez a cada 10s.\n\nAlém disso, Kachina consumirá 90% a menos de Stamina enquanto estiver escalando e montada em Pirueta Turbo em Natlan."
+  },
+  "passive4": {
+    "name": "Bênção da Chama de Cristal",
+    "descriptionRaw": "Quando estiver em uma área de Natlan com Dispositivos de Flogisto, interagir com alguns itens coletáveis regenerará 20 de Stamina. Além disso, exibe no mini-mapa o local das <color=#FFD780FF>especialidades de Natlan</color> próximas.",
+    "description": "Quando estiver em uma área de Natlan com Dispositivos de Flogisto, interagir com alguns itens coletáveis regenerará 20 de Stamina. Além disso, exibe no mini-mapa o local das especialidades de Natlan próximas."
+  },
+  "costs": {
+    "lvl2": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 12500
+      },
+      {
+        "id": 104353,
+        "name": "Ensinamentos do Conflito",
+        "count": 3
+      },
+      {
+        "id": 112104,
+        "name": "Apito de Madeira do Sentinela",
+        "count": 6
+      }
+    ],
+    "lvl3": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 17500
+      },
+      {
+        "id": 104354,
+        "name": "Guia do Conflito",
+        "count": 2
+      },
+      {
+        "id": 112105,
+        "name": "Apito de Metal do Guerreiro",
+        "count": 3
+      }
+    ],
+    "lvl4": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 25000
+      },
+      {
+        "id": 104354,
+        "name": "Guia do Conflito",
+        "count": 4
+      },
+      {
+        "id": 112105,
+        "name": "Apito de Metal do Guerreiro",
+        "count": 4
+      }
+    ],
+    "lvl5": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 30000
+      },
+      {
+        "id": 104354,
+        "name": "Guia do Conflito",
+        "count": 6
+      },
+      {
+        "id": 112105,
+        "name": "Apito de Metal do Guerreiro",
+        "count": 6
+      }
+    ],
+    "lvl6": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 37500
+      },
+      {
+        "id": 104354,
+        "name": "Guia do Conflito",
+        "count": 9
+      },
+      {
+        "id": 112105,
+        "name": "Apito de Metal do Guerreiro",
+        "count": 9
+      }
+    ],
+    "lvl7": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 120000
+      },
+      {
+        "id": 104355,
+        "name": "Filosofia do Conflito",
+        "count": 4
+      },
+      {
+        "id": 112106,
+        "name": "Apito Dourado do Guerreiro de Coroa Sauriana",
+        "count": 4
+      },
+      {
+        "id": 113060,
+        "name": "Vela Desvanecendo",
+        "count": 1
+      }
+    ],
+    "lvl8": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 260000
+      },
+      {
+        "id": 104355,
+        "name": "Filosofia do Conflito",
+        "count": 6
+      },
+      {
+        "id": 112106,
+        "name": "Apito Dourado do Guerreiro de Coroa Sauriana",
+        "count": 6
+      },
+      {
+        "id": 113060,
+        "name": "Vela Desvanecendo",
+        "count": 1
+      }
+    ],
+    "lvl9": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 450000
+      },
+      {
+        "id": 104355,
+        "name": "Filosofia do Conflito",
+        "count": 12
+      },
+      {
+        "id": 112106,
+        "name": "Apito Dourado do Guerreiro de Coroa Sauriana",
+        "count": 9
+      },
+      {
+        "id": 113060,
+        "name": "Vela Desvanecendo",
+        "count": 2
+      }
+    ],
+    "lvl10": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 700000
+      },
+      {
+        "id": 104355,
+        "name": "Filosofia do Conflito",
+        "count": 16
+      },
+      {
+        "id": 112106,
+        "name": "Apito Dourado do Guerreiro de Coroa Sauriana",
+        "count": 12
+      },
+      {
+        "id": 113060,
+        "name": "Vela Desvanecendo",
+        "count": 2
+      },
+      {
+        "id": 104319,
+        "name": "Coroa da Sabedoria",
+        "count": 1
+      }
+    ]
+  },
+  "images": {
+    "filename_combat1": "Skill_A_03",
+    "filename_combat2": "Skill_S_Kachina_01",
+    "filename_combat3": "Skill_E_Kachina_01_HD",
+    "filename_passive1": "UI_Talent_S_Kachina_05",
+    "filename_passive2": "UI_Talent_S_Kachina_06",
+    "filename_passive3": "UI_Talent_S_Kachina_07",
+    "filename_passive4": "UI_Talent_S_Kachina_08"
+  },
+  "version": "5.0"
+}

@@ -1,0 +1,551 @@
+{
+  "id": 11301,
+  "name": "Ifa",
+  "combat1": {
+    "name": "Ritual Dispersador dos Ventos",
+    "descriptionRaw": "<color=#FFD780FF>Ataque Normal</color>\nRealiza até 3 ataques, infligindo <color=#80FFD7FF>Dano Anemo</color>.\n\n<color=#FFD780FF>Ataque Carregado</color>\nConsome uma certa quantidade de Stamina para disparar em frente, causando <color=#80FFD7FF>Dano Anemo em uma AdE</color>.\n\n<color=#FFD780FF>Ataque Imersivo</color>\nMergulha ao chão em pleno ar, infligindo dano a todos os inimigos em seu caminho. Inflige <color=#80FFD7FF>Dano Anemo em uma AdE</color> durante o impacto com o chão.",
+    "description": "Ataque Normal\nRealiza até 3 ataques, infligindo Dano Anemo.\n\nAtaque Carregado\nConsome uma certa quantidade de Stamina para disparar em frente, causando Dano Anemo em uma AdE.\n\nAtaque Imersivo\nMergulha ao chão em pleno ar, infligindo dano a todos os inimigos em seu caminho. Inflige Dano Anemo em uma AdE durante o impacto com o chão.",
+    "attributes": {
+      "labels": [
+        "Dano do 1° Golpe|{param1:F1P}",
+        "Dano do 2° Golpe|{param2:F1P}",
+        "Dano do 3° Golpe|{param3:F1P}",
+        "Dano de Ataque Carregado|{param4:F1P}",
+        "Consumo de Stamina de Ataque Carregado|{param5:F1}",
+        "Dano Durante a Queda|{param6:F1P}",
+        "Dano de Queda de Baixa/Alta Altitude|{param7:P}/{param8:P}"
+      ],
+      "parameters": {
+        "param1": [
+          0.536072,
+          0.576277,
+          0.616483,
+          0.67009,
+          0.710295,
+          0.750501,
+          0.804108,
+          0.857715,
+          0.911322,
+          0.96493,
+          1.018537,
+          1.072144,
+          1.139153,
+          1.206162,
+          1.273171
+        ],
+        "param2": [
+          0.474672,
+          0.510272,
+          0.545873,
+          0.59334,
+          0.62894,
+          0.664541,
+          0.712008,
+          0.759475,
+          0.806942,
+          0.85441,
+          0.901877,
+          0.949344,
+          1.008678,
+          1.068012,
+          1.127346
+        ],
+        "param3": [
+          0.747584,
+          0.803653,
+          0.859722,
+          0.93448,
+          0.990549,
+          1.046618,
+          1.121376,
+          1.196134,
+          1.270893,
+          1.345651,
+          1.42041,
+          1.495168,
+          1.588616,
+          1.682064,
+          1.775512
+        ],
+        "param4": [
+          1.4704,
+          1.58068,
+          1.69096,
+          1.838,
+          1.94828,
+          2.05856,
+          2.2056,
+          2.35264,
+          2.49968,
+          2.64672,
+          2.79376,
+          2.9408,
+          3.1246,
+          3.3084,
+          3.4922
+        ],
+        "param5": [
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "param6": [
+          0.568288,
+          0.614544,
+          0.6608,
+          0.72688,
+          0.773136,
+          0.826,
+          0.898688,
+          0.971376,
+          1.044064,
+          1.12336,
+          1.202656,
+          1.281952,
+          1.361248,
+          1.440544,
+          1.51984
+        ],
+        "param7": [
+          1.136335,
+          1.228828,
+          1.32132,
+          1.453452,
+          1.545944,
+          1.65165,
+          1.796995,
+          1.94234,
+          2.087686,
+          2.246244,
+          2.404802,
+          2.563361,
+          2.721919,
+          2.880478,
+          3.039036
+        ],
+        "param8": [
+          1.419344,
+          1.534872,
+          1.6504,
+          1.81544,
+          1.930968,
+          2.063,
+          2.244544,
+          2.426088,
+          2.607632,
+          2.80568,
+          3.003728,
+          3.201776,
+          3.399824,
+          3.597872,
+          3.79592
+        ]
+      }
+    }
+  },
+  "combat2": {
+    "name": "Prevenção de Doenças Aéreas",
+    "descriptionRaw": "É hora dos manos! Ifa invoca Cacucu como seu suporte na batalha.\nDepois de lançar, Ifa obtém 80 pontos de Espírito da Noite, e entra no estado {LINK#N11130003}<color=#FFD780FF>Bênção do Espírito da Noite</color>{/LINK}. Enquanto estiver nesse estado, Ifa flutuará com a ajuda de Cacucu, e ao fazer um Ataque Normal, realizará um {LINK#N11130001}<color=#FFD780FF>Disparo de Suporte</color>{/LINK} de maneiras diferentes caso pressione ou mantenha pressionado, disparando um Projétil Medicinal que pode regenerar Vida para todos os membros da equipe.\n\nAlém disso, quando estiver no estado Bênção do Espírito da Noite, ao manter pressionado para lançar a Habilidade Elemental <color=#FFD780FF>Prevenção de Doenças Aéreas</color>, Ifa realizará um Ataque Imersivo com alinhamento Espírito da Noite. Soltar o botão da Habilidade Elemental interromperá o Ataque Imersivo, mantendo-se no ar flutuando. Quando o Ataque Imersivo atingir o chão, o estado Bênção do Espírito da Noite de Ifa acabará.",
+    "description": "É hora dos manos! Ifa invoca Cacucu como seu suporte na batalha.\nDepois de lançar, Ifa obtém 80 pontos de Espírito da Noite, e entra no estado **Bênção do Espírito da Noite**. Enquanto estiver nesse estado, Ifa flutuará com a ajuda de Cacucu, e ao fazer um Ataque Normal, realizará um **Disparo de Suporte** de maneiras diferentes caso pressione ou mantenha pressionado, disparando um Projétil Medicinal que pode regenerar Vida para todos os membros da equipe.\n\nAlém disso, quando estiver no estado Bênção do Espírito da Noite, ao manter pressionado para lançar a Habilidade Elemental Prevenção de Doenças Aéreas, Ifa realizará um Ataque Imersivo com alinhamento Espírito da Noite. Soltar o botão da Habilidade Elemental interromperá o Ataque Imersivo, mantendo-se no ar flutuando. Quando o Ataque Imersivo atingir o chão, o estado Bênção do Espírito da Noite de Ifa acabará.",
+    "attributes": {
+      "labels": [
+        "Dano do Projétil Medicinal|{param1:F1P}",
+        "Cura do Projétil Medicinal ao Acertar|{param2:F1P} da Proficiência Elemental + {param3:F1}",
+        "Limite de Pontos de Espírito da Noite|{param4:F1}",
+        "Tempo de Recarga|{param5:F1}s"
+      ],
+      "parameters": {
+        "param1": [
+          1.3336,
+          1.43362,
+          1.53364,
+          1.667,
+          1.76702,
+          1.86704,
+          2.0004,
+          2.13376,
+          2.26712,
+          2.40048,
+          2.53384,
+          2.6672,
+          2.8339,
+          3.0006,
+          3.1673
+        ],
+        "param2": [
+          0.2016,
+          0.21672,
+          0.23184,
+          0.252,
+          0.26712,
+          0.28224,
+          0.3024,
+          0.32256,
+          0.34272,
+          0.36288,
+          0.38304,
+          0.4032,
+          0.4284,
+          0.4536,
+          0.4788
+        ],
+        "param3": [
+          48.14847,
+          52.96399,
+          58.180798,
+          63.7989,
+          69.8183,
+          76.23898,
+          83.06097,
+          90.28424,
+          97.908806,
+          105.93467,
+          114.361824,
+          123.19027,
+          132.42001,
+          142.05104,
+          152.08337
+        ],
+        "param4": [
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80
+        ],
+        "param5": [
+          7.5,
+          7.5,
+          7.5,
+          7.5,
+          7.5,
+          7.5,
+          7.5,
+          7.5,
+          7.5,
+          7.5,
+          7.5,
+          7.5,
+          7.5,
+          7.5,
+          7.5
+        ]
+      }
+    }
+  },
+  "combat3": {
+    "name": "Campo de Composto Sedativo",
+    "descriptionRaw": "Dispara um Sedativo Terapêutico contra um (temporariamente agressivo) oponente. O sedativo explodirá ao atingir, gerando uma corrente de vento que atrai os objetos e inimigos próximos, causando <color=#80FFD7FF>Dano Anemo em AdE</color> com alinhamento Espírito da Noite.\nQuando o Sedativo Terapêutico atinge um oponente afetado por <color=#80C0FFFF>Hydro</color>/<color=#FF9999FF>Pyro</color>/<color=#99FFFFFF>Cryo</color>/<color=#FFACFFFF>Electro</color>, aplicará o efeito {LINK#N11130004}<color=#FFD780FF>Marca Tranquilizante</color>{/LINK} nele.",
+    "description": "Dispara um Sedativo Terapêutico contra um (temporariamente agressivo) oponente. O sedativo explodirá ao atingir, gerando uma corrente de vento que atrai os objetos e inimigos próximos, causando Dano Anemo em AdE com alinhamento Espírito da Noite.\nQuando o Sedativo Terapêutico atinge um oponente afetado por Hydro/Pyro/Cryo/Electro, aplicará o efeito **Marca Tranquilizante** nele.",
+    "attributes": {
+      "labels": [
+        "Dano de Habilidade|{param1:F1P}",
+        "Dano da Marca Tranquilizante|{param2:F1P}",
+        "Recarga|{param3:F1}s",
+        "Energia Elemental|{param4:I}"
+      ],
+      "parameters": {
+        "param1": [
+          5.0848,
+          5.46616,
+          5.84752,
+          6.356,
+          6.73736,
+          7.11872,
+          7.6272,
+          8.13568,
+          8.64416,
+          9.15264,
+          9.66112,
+          10.1696,
+          10.8052,
+          11.4408,
+          12.0764
+        ],
+        "param2": [
+          1.0896,
+          1.17132,
+          1.25304,
+          1.362,
+          1.44372,
+          1.52544,
+          1.6344,
+          1.74336,
+          1.85232,
+          1.96128,
+          2.07024,
+          2.1792,
+          2.3154,
+          2.4516,
+          2.5878
+        ],
+        "param3": [
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15
+        ],
+        "param4": [
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60
+        ]
+      }
+    }
+  },
+  "passive1": {
+    "name": "Campo de Visão Médica",
+    "descriptionRaw": "Quando Ifa está no estado Bênção do Espírito da Noite, obtém 1 ponto de {LINK#N11130002}<color=#FFD780FF>Essencial do Resgate</color>{/LINK} para cada ponto de Espírito da Noite da soma total de todos os membros atuais da equipe. Essencial do Resgate pode aumentar o Dano causado por Redemoinho, Eletricamente Carregado e Carga Lunar de personagens próximos.",
+    "description": "Quando Ifa está no estado Bênção do Espírito da Noite, obtém 1 ponto de **Essencial do Resgate** para cada ponto de Espírito da Noite da soma total de todos os membros atuais da equipe. Essencial do Resgate pode aumentar o Dano causado por Redemoinho, Eletricamente Carregado e Carga Lunar de personagens próximos."
+  },
+  "passive2": {
+    "name": "Acordo de Resgate Mútuo",
+    "descriptionRaw": "Quando o membro próximo da equipe desencadeia a Explosão do Espírito da Noite, aumenta a Proficiência Elemental de Ifa em 80 pontos por 10s.",
+    "description": "Quando o membro próximo da equipe desencadeia a Explosão do Espírito da Noite, aumenta a Proficiência Elemental de Ifa em 80 pontos por 10s."
+  },
+  "passive3": {
+    "name": "Presente do Reino da Noite: Resgate de Emergência Focado",
+    "descriptionRaw": "Depois que os pontos de Espírito da Noite de Ifa acabarem, ele mudará para consumir Flogisto para manter a Bênção do Espírito da Noite.\nEnquanto estiver numa área de Natlan com Dispositivos de Flogisto, ele pode usar Transmissão do Espírito da Noite: Ifa. Quando o personagem estiver em uma certa altura no ar, trocar para Ifa como personagem ativo desencadeará: Ifa entra no estado Bênção do Espírito da Noite e obtém 32 pontos de Espírito da Noite. Sua própria equipe pode entrar em Transmissão do Espírito da Noite uma vez a cada 10s.",
+    "description": "Depois que os pontos de Espírito da Noite de Ifa acabarem, ele mudará para consumir Flogisto para manter a Bênção do Espírito da Noite.\nEnquanto estiver numa área de Natlan com Dispositivos de Flogisto, ele pode usar Transmissão do Espírito da Noite: Ifa. Quando o personagem estiver em uma certa altura no ar, trocar para Ifa como personagem ativo desencadeará: Ifa entra no estado Bênção do Espírito da Noite e obtém 32 pontos de Espírito da Noite. Sua própria equipe pode entrar em Transmissão do Espírito da Noite uma vez a cada 10s."
+  },
+  "passive4": {
+    "name": "Compressa Quente Tática",
+    "descriptionRaw": "Quando está em uma área de Natlan com Dispositivo de Flogisto, quando o personagem ativo da equipe ou um Sauriano habitado possui menos de 40% de Vida, Ifa consome 10 de Flogisto para regenerar 40% Vida para ele. Esse efeito pode ser desencadeado uma vez a cada 10s, e não surte efeito em domínios, Domínios Dizimados e Abismo do Espiral.",
+    "description": "Quando está em uma área de Natlan com Dispositivo de Flogisto, quando o personagem ativo da equipe ou um Sauriano habitado possui menos de 40% de Vida, Ifa consome 10 de Flogisto para regenerar 40% Vida para ele. Esse efeito pode ser desencadeado uma vez a cada 10s, e não surte efeito em domínios, Domínios Dizimados e Abismo do Espiral."
+  },
+  "costs": {
+    "lvl2": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 12500
+      },
+      {
+        "id": 104353,
+        "name": "Ensinamentos do Conflito",
+        "count": 3
+      },
+      {
+        "id": 112101,
+        "name": "Presa Juvenil",
+        "count": 6
+      }
+    ],
+    "lvl3": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 17500
+      },
+      {
+        "id": 104354,
+        "name": "Guia do Conflito",
+        "count": 2
+      },
+      {
+        "id": 112102,
+        "name": "Presa Veterana",
+        "count": 3
+      }
+    ],
+    "lvl4": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 25000
+      },
+      {
+        "id": 104354,
+        "name": "Guia do Conflito",
+        "count": 4
+      },
+      {
+        "id": 112102,
+        "name": "Presa Veterana",
+        "count": 4
+      }
+    ],
+    "lvl5": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 30000
+      },
+      {
+        "id": 104354,
+        "name": "Guia do Conflito",
+        "count": 6
+      },
+      {
+        "id": 112102,
+        "name": "Presa Veterana",
+        "count": 6
+      }
+    ],
+    "lvl6": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 37500
+      },
+      {
+        "id": 104354,
+        "name": "Guia do Conflito",
+        "count": 9
+      },
+      {
+        "id": 112102,
+        "name": "Presa Veterana",
+        "count": 9
+      }
+    ],
+    "lvl7": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 120000
+      },
+      {
+        "id": 104355,
+        "name": "Filosofia do Conflito",
+        "count": 4
+      },
+      {
+        "id": 112103,
+        "name": "Presa Tirana",
+        "count": 4
+      },
+      {
+        "id": 113074,
+        "name": "Amostra Ascendida: Torre",
+        "count": 1
+      }
+    ],
+    "lvl8": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 260000
+      },
+      {
+        "id": 104355,
+        "name": "Filosofia do Conflito",
+        "count": 6
+      },
+      {
+        "id": 112103,
+        "name": "Presa Tirana",
+        "count": 6
+      },
+      {
+        "id": 113074,
+        "name": "Amostra Ascendida: Torre",
+        "count": 1
+      }
+    ],
+    "lvl9": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 450000
+      },
+      {
+        "id": 104355,
+        "name": "Filosofia do Conflito",
+        "count": 12
+      },
+      {
+        "id": 112103,
+        "name": "Presa Tirana",
+        "count": 9
+      },
+      {
+        "id": 113074,
+        "name": "Amostra Ascendida: Torre",
+        "count": 2
+      }
+    ],
+    "lvl10": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 700000
+      },
+      {
+        "id": 104355,
+        "name": "Filosofia do Conflito",
+        "count": 16
+      },
+      {
+        "id": 112103,
+        "name": "Presa Tirana",
+        "count": 12
+      },
+      {
+        "id": 113074,
+        "name": "Amostra Ascendida: Torre",
+        "count": 2
+      },
+      {
+        "id": 104319,
+        "name": "Coroa da Sabedoria",
+        "count": 1
+      }
+    ]
+  },
+  "images": {
+    "filename_combat1": "Skill_A_Catalyst_MD",
+    "filename_combat2": "Skill_S_Ifa_01",
+    "filename_combat3": "Skill_E_Ifa_01_HD",
+    "filename_passive1": "UI_Talent_S_Ifa_05",
+    "filename_passive2": "UI_Talent_S_Ifa_06",
+    "filename_passive3": "UI_Talent_S_Ifa_07",
+    "filename_passive4": "UI_Talent_S_Ifa_08"
+  },
+  "version": "5.6"
+}

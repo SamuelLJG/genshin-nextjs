@@ -1,0 +1,770 @@
+{
+  "1": {
+    "level": 1,
+    "ascension": 0,
+    "hp": 1011.47253,
+    "attack": 23.6474,
+    "defense": 64.6164,
+    "specialized": 0
+  },
+  "2": {
+    "level": 2,
+    "ascension": 0,
+    "hp": 1095.42474999,
+    "attack": 25.6101342,
+    "defense": 69.97956119999999,
+    "specialized": 0
+  },
+  "3": {
+    "level": 3,
+    "ascension": 0,
+    "hp": 1179.37696998,
+    "attack": 27.5728684,
+    "defense": 75.3427224,
+    "specialized": 0
+  },
+  "4": {
+    "level": 4,
+    "ascension": 0,
+    "hp": 1264.3406625,
+    "attack": 29.559250000000002,
+    "defense": 80.7705,
+    "specialized": 0
+  },
+  "5": {
+    "level": 5,
+    "ascension": 0,
+    "hp": 1348.29288249,
+    "attack": 31.521984200000002,
+    "defense": 86.13366119999999,
+    "specialized": 0
+  },
+  "6": {
+    "level": 6,
+    "ascension": 0,
+    "hp": 1433.25657501,
+    "attack": 33.5083658,
+    "defense": 91.5614388,
+    "specialized": 0
+  },
+  "7": {
+    "level": 7,
+    "ascension": 0,
+    "hp": 1517.208795,
+    "attack": 35.4711,
+    "defense": 96.9246,
+    "specialized": 0
+  },
+  "8": {
+    "level": 8,
+    "ascension": 0,
+    "hp": 1602.17248752,
+    "attack": 37.4574816,
+    "defense": 102.3523776,
+    "specialized": 0
+  },
+  "9": {
+    "level": 9,
+    "ascension": 0,
+    "hp": 1687.13618004,
+    "attack": 39.4438632,
+    "defense": 107.7801552,
+    "specialized": 0
+  },
+  "10": {
+    "level": 10,
+    "ascension": 0,
+    "hp": 1771.08840003,
+    "attack": 41.4065974,
+    "defense": 113.14331639999999,
+    "specialized": 0
+  },
+  "11": {
+    "level": 11,
+    "ascension": 0,
+    "hp": 1856.05209255,
+    "attack": 43.392979000000004,
+    "defense": 118.571094,
+    "specialized": 0
+  },
+  "12": {
+    "level": 12,
+    "ascension": 0,
+    "hp": 1941.01578507,
+    "attack": 45.379360600000005,
+    "defense": 123.9988716,
+    "specialized": 0
+  },
+  "13": {
+    "level": 13,
+    "ascension": 0,
+    "hp": 2025.9794775900002,
+    "attack": 47.36574220000001,
+    "defense": 129.4266492,
+    "specialized": 0
+  },
+  "14": {
+    "level": 14,
+    "ascension": 0,
+    "hp": 2111.95464264,
+    "attack": 49.3757712,
+    "defense": 134.9190432,
+    "specialized": 0
+  },
+  "15": {
+    "level": 15,
+    "ascension": 0,
+    "hp": 2196.91833516,
+    "attack": 51.362152800000004,
+    "defense": 140.34682080000002,
+    "specialized": 0
+  },
+  "16": {
+    "level": 16,
+    "ascension": 0,
+    "hp": 2281.8820276799997,
+    "attack": 53.3485344,
+    "defense": 145.77459839999997,
+    "specialized": 0
+  },
+  "17": {
+    "level": 17,
+    "ascension": 0,
+    "hp": 2367.8571927300004,
+    "attack": 55.35856340000001,
+    "defense": 151.26699240000002,
+    "specialized": 0
+  },
+  "18": {
+    "level": 18,
+    "ascension": 0,
+    "hp": 2452.8208852499997,
+    "attack": 57.344944999999996,
+    "defense": 156.69476999999998,
+    "specialized": 0
+  },
+  "19": {
+    "level": 19,
+    "ascension": 0,
+    "hp": 2538.7960503,
+    "attack": 59.354974,
+    "defense": 162.187164,
+    "specialized": 0
+  },
+  "20": {
+    "level": 20,
+    "ascension": 0,
+    "hp": 2623.7597428199997,
+    "attack": 61.3413556,
+    "defense": 167.61494159999998,
+    "specialized": 0
+  },
+  "21": {
+    "level": 21,
+    "ascension": 1,
+    "hp": 3576.98110787,
+    "attack": 83.62541159999999,
+    "defense": 228.5113356,
+    "specialized": 0
+  },
+  "22": {
+    "level": 22,
+    "ascension": 1,
+    "hp": 3662.9562729199997,
+    "attack": 85.6354406,
+    "defense": 234.00372959999999,
+    "specialized": 0
+  },
+  "23": {
+    "level": 23,
+    "ascension": 1,
+    "hp": 3748.9314379700004,
+    "attack": 87.64546960000001,
+    "defense": 239.4961236,
+    "specialized": 0
+  },
+  "24": {
+    "level": 24,
+    "ascension": 1,
+    "hp": 3834.90660302,
+    "attack": 89.65549860000002,
+    "defense": 244.9885176,
+    "specialized": 0
+  },
+  "25": {
+    "level": 25,
+    "ascension": 1,
+    "hp": 3920.8817680700004,
+    "attack": 91.6655276,
+    "defense": 250.4809116,
+    "specialized": 0
+  },
+  "26": {
+    "level": 26,
+    "ascension": 1,
+    "hp": 4007.86840565,
+    "attack": 93.69920400000001,
+    "defense": 256.037922,
+    "specialized": 0
+  },
+  "27": {
+    "level": 27,
+    "ascension": 1,
+    "hp": 4093.8435707,
+    "attack": 95.70923300000001,
+    "defense": 261.530316,
+    "specialized": 0
+  },
+  "28": {
+    "level": 28,
+    "ascension": 1,
+    "hp": 4179.81873575,
+    "attack": 97.719262,
+    "defense": 267.02271,
+    "specialized": 0
+  },
+  "29": {
+    "level": 29,
+    "ascension": 1,
+    "hp": 4266.80537333,
+    "attack": 99.75293840000002,
+    "defense": 272.57972040000004,
+    "specialized": 0
+  },
+  "30": {
+    "level": 30,
+    "ascension": 1,
+    "hp": 4352.7805383800005,
+    "attack": 101.76296740000001,
+    "defense": 278.07211440000003,
+    "specialized": 0
+  },
+  "31": {
+    "level": 31,
+    "ascension": 1,
+    "hp": 4439.76717596,
+    "attack": 103.79664380000001,
+    "defense": 283.6291248,
+    "specialized": 0
+  },
+  "32": {
+    "level": 32,
+    "ascension": 1,
+    "hp": 4526.75381354,
+    "attack": 105.8303202,
+    "defense": 289.1861352,
+    "specialized": 0
+  },
+  "33": {
+    "level": 33,
+    "ascension": 1,
+    "hp": 4613.74045112,
+    "attack": 107.86399660000001,
+    "defense": 294.7431456,
+    "specialized": 0
+  },
+  "34": {
+    "level": 34,
+    "ascension": 1,
+    "hp": 4699.71561617,
+    "attack": 109.87402560000001,
+    "defense": 300.23553960000004,
+    "specialized": 0
+  },
+  "35": {
+    "level": 35,
+    "ascension": 1,
+    "hp": 4786.70225375,
+    "attack": 111.90770200000001,
+    "defense": 305.79255,
+    "specialized": 0
+  },
+  "36": {
+    "level": 36,
+    "ascension": 1,
+    "hp": 4874.70036386,
+    "attack": 113.9650258,
+    "defense": 311.4141768,
+    "specialized": 0
+  },
+  "37": {
+    "level": 37,
+    "ascension": 1,
+    "hp": 4961.68700144,
+    "attack": 115.99870220000001,
+    "defense": 316.9711872,
+    "specialized": 0
+  },
+  "38": {
+    "level": 38,
+    "ascension": 1,
+    "hp": 5048.67363902,
+    "attack": 118.03237860000002,
+    "defense": 322.5281976,
+    "specialized": 0
+  },
+  "39": {
+    "level": 39,
+    "ascension": 1,
+    "hp": 5135.6602766,
+    "attack": 120.066055,
+    "defense": 328.08520799999997,
+    "specialized": 0
+  },
+  "40": {
+    "level": 40,
+    "ascension": 1,
+    "hp": 5223.65838671,
+    "attack": 122.12337880000001,
+    "defense": 333.7068348,
+    "specialized": 0
+  },
+  "41": {
+    "level": 41,
+    "ascension": 2,
+    "hp": 5926.84632429,
+    "attack": 138.5622842,
+    "defense": 378.6298452,
+    "specialized": 0.072
+  },
+  "42": {
+    "level": 42,
+    "ascension": 2,
+    "hp": 6014.844434400001,
+    "attack": 140.61960800000003,
+    "defense": 384.251472,
+    "specialized": 0.072
+  },
+  "43": {
+    "level": 43,
+    "ascension": 2,
+    "hp": 6102.84254451,
+    "attack": 142.6769318,
+    "defense": 389.8730988,
+    "specialized": 0.072
+  },
+  "44": {
+    "level": 44,
+    "ascension": 2,
+    "hp": 6189.829182089999,
+    "attack": 144.7106082,
+    "defense": 395.43010919999995,
+    "specialized": 0.072
+  },
+  "45": {
+    "level": 45,
+    "ascension": 2,
+    "hp": 6277.827292200001,
+    "attack": 146.767932,
+    "defense": 401.051736,
+    "specialized": 0.072
+  },
+  "46": {
+    "level": 46,
+    "ascension": 2,
+    "hp": 6365.82540231,
+    "attack": 148.8252558,
+    "defense": 406.67336279999995,
+    "specialized": 0.072
+  },
+  "47": {
+    "level": 47,
+    "ascension": 2,
+    "hp": 6453.82351242,
+    "attack": 150.8825796,
+    "defense": 412.29498959999995,
+    "specialized": 0.072
+  },
+  "48": {
+    "level": 48,
+    "ascension": 2,
+    "hp": 6541.82162253,
+    "attack": 152.93990340000002,
+    "defense": 417.9166164,
+    "specialized": 0.072
+  },
+  "49": {
+    "level": 49,
+    "ascension": 2,
+    "hp": 6630.83120517,
+    "attack": 155.0208746,
+    "defense": 423.6028596,
+    "specialized": 0.072
+  },
+  "50": {
+    "level": 50,
+    "ascension": 2,
+    "hp": 6718.829315280001,
+    "attack": 157.07819840000002,
+    "defense": 429.2244864,
+    "specialized": 0.072
+  },
+  "51": {
+    "level": 51,
+    "ascension": 3,
+    "hp": 7628.42892539,
+    "attack": 178.3424932,
+    "defense": 487.33411320000005,
+    "specialized": 0.144
+  },
+  "52": {
+    "level": 52,
+    "ascension": 3,
+    "hp": 7717.43850803,
+    "attack": 180.4234644,
+    "defense": 493.02035639999997,
+    "specialized": 0.144
+  },
+  "53": {
+    "level": 53,
+    "ascension": 3,
+    "hp": 7805.43661814,
+    "attack": 182.48078819999998,
+    "defense": 498.6419832,
+    "specialized": 0.144
+  },
+  "54": {
+    "level": 54,
+    "ascension": 3,
+    "hp": 7894.44620078,
+    "attack": 184.5617594,
+    "defense": 504.32822639999995,
+    "specialized": 0.144
+  },
+  "55": {
+    "level": 55,
+    "ascension": 3,
+    "hp": 7983.4557834199995,
+    "attack": 186.6427306,
+    "defense": 510.0144696,
+    "specialized": 0.144
+  },
+  "56": {
+    "level": 56,
+    "ascension": 3,
+    "hp": 8072.46536606,
+    "attack": 188.7237018,
+    "defense": 515.7007128,
+    "specialized": 0.144
+  },
+  "57": {
+    "level": 57,
+    "ascension": 3,
+    "hp": 8161.4749487,
+    "attack": 190.804673,
+    "defense": 521.386956,
+    "specialized": 0.144
+  },
+  "58": {
+    "level": 58,
+    "ascension": 3,
+    "hp": 8250.48453134,
+    "attack": 192.8856442,
+    "defense": 527.0731992,
+    "specialized": 0.144
+  },
+  "59": {
+    "level": 59,
+    "ascension": 3,
+    "hp": 8339.49411398,
+    "attack": 194.9666154,
+    "defense": 532.7594424,
+    "specialized": 0.144
+  },
+  "60": {
+    "level": 60,
+    "ascension": 3,
+    "hp": 8428.50369662,
+    "attack": 197.04758660000002,
+    "defense": 538.4456856,
+    "specialized": 0.144
+  },
+  "61": {
+    "level": 61,
+    "ascension": 4,
+    "hp": 9133.71477926,
+    "attack": 213.53379080000002,
+    "defense": 583.4979288,
+    "specialized": 0.144
+  },
+  "62": {
+    "level": 62,
+    "ascension": 4,
+    "hp": 9222.7243619,
+    "attack": 215.614762,
+    "defense": 589.184172,
+    "specialized": 0.144
+  },
+  "63": {
+    "level": 63,
+    "ascension": 4,
+    "hp": 9312.74541707,
+    "attack": 217.7193806,
+    "defense": 594.9350316,
+    "specialized": 0.144
+  },
+  "64": {
+    "level": 64,
+    "ascension": 4,
+    "hp": 9401.75499971,
+    "attack": 219.80035180000002,
+    "defense": 600.6212748,
+    "specialized": 0.144
+  },
+  "65": {
+    "level": 65,
+    "ascension": 4,
+    "hp": 9491.77605488,
+    "attack": 221.90497040000002,
+    "defense": 606.3721344,
+    "specialized": 0.144
+  },
+  "66": {
+    "level": 66,
+    "ascension": 4,
+    "hp": 9581.79711005,
+    "attack": 224.009589,
+    "defense": 612.122994,
+    "specialized": 0.144
+  },
+  "67": {
+    "level": 67,
+    "ascension": 4,
+    "hp": 9670.80669269,
+    "attack": 226.0905602,
+    "defense": 617.8092372,
+    "specialized": 0.144
+  },
+  "68": {
+    "level": 68,
+    "ascension": 4,
+    "hp": 9760.82774786,
+    "attack": 228.1951788,
+    "defense": 623.5600968,
+    "specialized": 0.144
+  },
+  "69": {
+    "level": 69,
+    "ascension": 4,
+    "hp": 9850.84880303,
+    "attack": 230.29979740000002,
+    "defense": 629.3109564,
+    "specialized": 0.144
+  },
+  "70": {
+    "level": 70,
+    "ascension": 4,
+    "hp": 9940.8698582,
+    "attack": 232.40441600000003,
+    "defense": 635.061816,
+    "specialized": 0.144
+  },
+  "71": {
+    "level": 71,
+    "ascension": 5,
+    "hp": 10647.09211337,
+    "attack": 248.9142606,
+    "defense": 680.1786756,
+    "specialized": 0.216
+  },
+  "72": {
+    "level": 72,
+    "ascension": 5,
+    "hp": 10738.12464107,
+    "attack": 251.0425266,
+    "defense": 685.9941516,
+    "specialized": 0.216
+  },
+  "73": {
+    "level": 73,
+    "ascension": 5,
+    "hp": 10828.14569624,
+    "attack": 253.1471452,
+    "defense": 691.7450112,
+    "specialized": 0.216
+  },
+  "74": {
+    "level": 74,
+    "ascension": 5,
+    "hp": 10918.166751409999,
+    "attack": 255.2517638,
+    "defense": 697.4958707999999,
+    "specialized": 0.216
+  },
+  "75": {
+    "level": 75,
+    "ascension": 5,
+    "hp": 11009.19927911,
+    "attack": 257.3800298,
+    "defense": 703.3113467999999,
+    "specialized": 0.216
+  },
+  "76": {
+    "level": 76,
+    "ascension": 5,
+    "hp": 11099.22033428,
+    "attack": 259.48464839999997,
+    "defense": 709.0622063999999,
+    "specialized": 0.216
+  },
+  "77": {
+    "level": 77,
+    "ascension": 5,
+    "hp": 11190.25286198,
+    "attack": 261.6129144,
+    "defense": 714.8776823999999,
+    "specialized": 0.216
+  },
+  "78": {
+    "level": 78,
+    "ascension": 5,
+    "hp": 11281.28538968,
+    "attack": 263.74118039999996,
+    "defense": 720.6931583999999,
+    "specialized": 0.216
+  },
+  "79": {
+    "level": 79,
+    "ascension": 5,
+    "hp": 11372.31791738,
+    "attack": 265.8694464,
+    "defense": 726.5086344,
+    "specialized": 0.216
+  },
+  "80": {
+    "level": 80,
+    "ascension": 5,
+    "hp": 11463.350445080001,
+    "attack": 267.9977124,
+    "defense": 732.3241104,
+    "specialized": 0.216
+  },
+  "81": {
+    "level": 81,
+    "ascension": 6,
+    "hp": 12170.58427278,
+    "attack": 284.5312024,
+    "defense": 777.5055864,
+    "specialized": 0.288
+  },
+  "82": {
+    "level": 82,
+    "ascension": 6,
+    "hp": 12261.61680048,
+    "attack": 286.65946840000004,
+    "defense": 783.3210624,
+    "specialized": 0.288
+  },
+  "83": {
+    "level": 83,
+    "ascension": 6,
+    "hp": 12352.64932818,
+    "attack": 288.7877344,
+    "defense": 789.1365384,
+    "specialized": 0.288
+  },
+  "84": {
+    "level": 84,
+    "ascension": 6,
+    "hp": 12443.68185588,
+    "attack": 290.91600040000003,
+    "defense": 794.9520143999999,
+    "specialized": 0.288
+  },
+  "85": {
+    "level": 85,
+    "ascension": 6,
+    "hp": 12534.71438358,
+    "attack": 293.04426639999997,
+    "defense": 800.7674903999999,
+    "specialized": 0.288
+  },
+  "86": {
+    "level": 86,
+    "ascension": 6,
+    "hp": 12626.758383810002,
+    "attack": 295.19617980000004,
+    "defense": 806.6475828,
+    "specialized": 0.288
+  },
+  "87": {
+    "level": 87,
+    "ascension": 6,
+    "hp": 12717.790911510001,
+    "attack": 297.32444580000003,
+    "defense": 812.4630588,
+    "specialized": 0.288
+  },
+  "88": {
+    "level": 88,
+    "ascension": 6,
+    "hp": 12809.83491174,
+    "attack": 299.47635920000005,
+    "defense": 818.3431512,
+    "specialized": 0.288
+  },
+  "89": {
+    "level": 89,
+    "ascension": 6,
+    "hp": 12901.87891197,
+    "attack": 301.6282726,
+    "defense": 824.2232435999999,
+    "specialized": 0.288
+  },
+  "90": {
+    "level": 90,
+    "ascension": 6,
+    "hp": 12992.91143967,
+    "attack": 303.7565386,
+    "defense": 830.0387196,
+    "specialized": 0.288
+  },
+  "20+": {
+    "level": 20,
+    "ascension": 1,
+    "hp": 3491.0059428199997,
+    "attack": 81.6153826,
+    "defense": 223.01894159999998,
+    "specialized": 0
+  },
+  "40+": {
+    "level": 40,
+    "ascension": 2,
+    "hp": 5839.8596867100005,
+    "attack": 136.5286078,
+    "defense": 373.0728348,
+    "specialized": 0.072
+  },
+  "50+": {
+    "level": 50,
+    "ascension": 3,
+    "hp": 7540.43081528,
+    "attack": 176.2851694,
+    "defense": 481.7124864,
+    "specialized": 0.144
+  },
+  "60+": {
+    "level": 60,
+    "ascension": 4,
+    "hp": 9044.705196620002,
+    "attack": 211.45281960000003,
+    "defense": 577.8116856,
+    "specialized": 0.144
+  },
+  "70+": {
+    "level": 70,
+    "ascension": 5,
+    "hp": 10557.071058200001,
+    "attack": 246.80964200000003,
+    "defense": 674.427816,
+    "specialized": 0.216
+  },
+  "80+": {
+    "level": 80,
+    "ascension": 6,
+    "hp": 12079.55174508,
+    "attack": 282.40293640000004,
+    "defense": 771.6901104,
+    "specialized": 0.288
+  }
+}

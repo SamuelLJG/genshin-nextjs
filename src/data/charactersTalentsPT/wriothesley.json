@@ -1,0 +1,618 @@
+{
+  "id": 8601,
+  "name": "Wriothesley",
+  "combat1": {
+    "name": "Punho Gelado Destruidor",
+    "descriptionRaw": "<color=#FFD780FF>Ataque Normal</color>\nConcentra gelo nos punhos, desferindo poderosos <color=#FFD780FF>Socos Repulsores</color>, dando até cinco golpes rápidos e causando <color=#99FFFFFF>Dano Cryo</color>.\nAlém disso, o Combo de Ataques Normais não será redefinido por um curto tempo após correr ou após lançar a Habilidade Elemental \"Corrida da Presa Gelada\".\n\n<color=#FFD780FF>Ataque Carregado</color>\nConsome uma certa quantidade de Stamina para saltar e desferir o <color=#FFD780FF>Soco do Salto Gelado</color>, causando <color=#99FFFFFF>Dano Cryo em AdE</color>.\n\n<color=#FFD780FF>Ataque Imersivo</color>\nMergulha em pleno ar para golpear o chão, causando dano aos inimigos ao longo do caminho e infligindo <color=#99FFFFFF>Dano Cryo em AdE</color> durante o impacto.",
+    "description": "Ataque Normal\nConcentra gelo nos punhos, desferindo poderosos Socos Repulsores, dando até cinco golpes rápidos e causando Dano Cryo.\nAlém disso, o Combo de Ataques Normais não será redefinido por um curto tempo após correr ou após lançar a Habilidade Elemental \"Corrida da Presa Gelada\".\n\nAtaque Carregado\nConsome uma certa quantidade de Stamina para saltar e desferir o Soco do Salto Gelado, causando Dano Cryo em AdE.\n\nAtaque Imersivo\nMergulha em pleno ar para golpear o chão, causando dano aos inimigos ao longo do caminho e infligindo Dano Cryo em AdE durante o impacto.",
+    "attributes": {
+      "labels": [
+        "Dano do 1° Golpe|{param1:F1P}",
+        "Dano do 2° Golpe|{param2:F1P}",
+        "Dano do 3° Golpe|{param3:F1P}",
+        "Dano do 4° Golpe|{param4:F1P}+{param5:F1P}",
+        "Dano do 5° Golpe|{param6:F1P}",
+        "Dano de Ataque Carregado|{param7:F1P}",
+        "Consumo de Stamina de Ataque Carregado|{param8:F1}",
+        "Dano Durante a Queda|{param9:F1P}",
+        "Dano de Queda de Baixa/Alta Altitude|{param10:P}/{param11:P}"
+      ],
+      "parameters": {
+        "param1": [
+          0.533596,
+          0.577028,
+          0.62046,
+          0.682506,
+          0.725938,
+          0.775575,
+          0.843826,
+          0.912076,
+          0.980327,
+          1.054782,
+          1.129237,
+          1.203692,
+          1.278148,
+          1.352603,
+          1.427058
+        ],
+        "param2": [
+          0.517987,
+          0.560148,
+          0.60231,
+          0.662541,
+          0.704703,
+          0.752888,
+          0.819142,
+          0.885396,
+          0.95165,
+          1.023927,
+          1.096204,
+          1.168481,
+          1.240759,
+          1.313036,
+          1.385313
+        ],
+        "param3": [
+          0.672228,
+          0.726944,
+          0.78166,
+          0.859826,
+          0.914542,
+          0.977075,
+          1.063058,
+          1.14904,
+          1.235023,
+          1.328822,
+          1.422621,
+          1.51642,
+          1.61022,
+          1.704019,
+          1.797818
+        ],
+        "param4": [
+          0.379041,
+          0.409893,
+          0.440745,
+          0.48482,
+          0.515672,
+          0.550931,
+          0.599413,
+          0.647895,
+          0.696377,
+          0.749266,
+          0.802156,
+          0.855045,
+          0.907935,
+          0.960824,
+          1.013713
+        ],
+        "param5": [
+          0.379041,
+          0.409893,
+          0.440745,
+          0.48482,
+          0.515672,
+          0.550931,
+          0.599413,
+          0.647895,
+          0.696377,
+          0.749266,
+          0.802156,
+          0.855045,
+          0.907935,
+          0.960824,
+          1.013713
+        ],
+        "param6": [
+          0.90742,
+          0.98128,
+          1.05514,
+          1.160654,
+          1.234514,
+          1.318925,
+          1.43499,
+          1.551056,
+          1.667121,
+          1.793738,
+          1.920355,
+          2.046972,
+          2.173588,
+          2.300205,
+          2.426822
+        ],
+        "param7": [
+          1.5296,
+          1.64432,
+          1.75904,
+          1.912,
+          2.02672,
+          2.14144,
+          2.2944,
+          2.44736,
+          2.60032,
+          2.75328,
+          2.90624,
+          3.0592,
+          3.2504,
+          3.4416,
+          3.6328
+        ],
+        "param8": [
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "param9": [
+          0.568288,
+          0.614544,
+          0.6608,
+          0.72688,
+          0.773136,
+          0.826,
+          0.898688,
+          0.971376,
+          1.044064,
+          1.12336,
+          1.202656,
+          1.281952,
+          1.361248,
+          1.440544,
+          1.51984
+        ],
+        "param10": [
+          1.136335,
+          1.228828,
+          1.32132,
+          1.453452,
+          1.545944,
+          1.65165,
+          1.796995,
+          1.94234,
+          2.087686,
+          2.246244,
+          2.404802,
+          2.563361,
+          2.721919,
+          2.880478,
+          3.039036
+        ],
+        "param11": [
+          1.419344,
+          1.534872,
+          1.6504,
+          1.81544,
+          1.930968,
+          2.063,
+          2.244544,
+          2.426088,
+          2.607632,
+          2.80568,
+          3.003728,
+          3.201776,
+          3.399824,
+          3.597872,
+          3.79592
+        ]
+      }
+    }
+  },
+  "combat2": {
+    "name": "Corrida da Presa Gelada",
+    "descriptionRaw": "Ajustando sua respiração e ritmo com agilidade, Wriothesley dá um passo à frente e entra no estado <color=#FFD780FF>Julgamento do Gelo Feroz</color> para executar ataques ainda mais poderosos.\n\n<color=#FFD780FF>Julgamento do Gelo Feroz</color>\n· Aumenta a Resistência contra Interrupção de Wriothesley.\n· Quando sua Vida é maior que 50%, o Soco Repulsor de <color=#FFD780FF>Ataque Normal: Punho Gelado Destruidor</color> tem seu Dano aumentado. Ao atingir seu alvo, Wriothesley perderá uma certa quantidade de Vida. É possível perder Vida dessa forma uma vez a cada 0.1s.\nEsse efeito será eliminado quando Wriosthesley sair do campo de batalha.\n\n<i>\"Os julgamentos do passado já foram resolvidos, mas as escolhas do futuro ainda estão em nossas mãos.\"\n\"Se você não quer que seus momentos de fraqueza determinem seu destino, aprenda a apreciar o presente.\"</i>",
+    "description": "Ajustando sua respiração e ritmo com agilidade, Wriothesley dá um passo à frente e entra no estado Julgamento do Gelo Feroz para executar ataques ainda mais poderosos.\n\nJulgamento do Gelo Feroz\n· Aumenta a Resistência contra Interrupção de Wriothesley.\n· Quando sua Vida é maior que 50%, o Soco Repulsor de Ataque Normal: Punho Gelado Destruidor tem seu Dano aumentado. Ao atingir seu alvo, Wriothesley perderá uma certa quantidade de Vida. É possível perder Vida dessa forma uma vez a cada 0.1s.\nEsse efeito será eliminado quando Wriosthesley sair do campo de batalha.",
+    "flavorText": "\"Os julgamentos do passado já foram resolvidos, mas as escolhas do futuro ainda estão em nossas mãos.\"\n\"Se você não quer que seus momentos de fraqueza determinem seu destino, aprenda a apreciar o presente.\"",
+    "attributes": {
+      "labels": [
+        "Dano de Soco Repulsor Fortalecido|{param1:F1P} do Dano de Ataque Normal",
+        "Consumo de Vida|{param2:F1P} da Vida Máxima",
+        "Duração|{param3:F1}s",
+        "Tempo de Recarga|{param4:F1}s"
+      ],
+      "parameters": {
+        "param1": [
+          1.431695,
+          1.457545,
+          1.483395,
+          1.517,
+          1.54285,
+          1.5687,
+          1.602305,
+          1.63591,
+          1.669515,
+          1.70312,
+          1.736725,
+          1.77033,
+          1.803935,
+          1.83754,
+          1.871145
+        ],
+        "param2": [
+          0.045,
+          0.045,
+          0.045,
+          0.045,
+          0.045,
+          0.045,
+          0.045,
+          0.045,
+          0.045,
+          0.045,
+          0.045,
+          0.045,
+          0.045,
+          0.045,
+          0.045
+        ],
+        "param3": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ],
+        "param4": [
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16
+        ],
+        "param8": [
+          0.431695,
+          0.457545,
+          0.483395,
+          0.517,
+          0.54285,
+          0.5687,
+          0.602305,
+          0.63591,
+          0.669515,
+          0.70312,
+          0.736725,
+          0.77033,
+          0.803935,
+          0.83754,
+          0.871145
+        ]
+      }
+    }
+  },
+  "combat3": {
+    "name": "Mordida do Lobo de Ouro Escuro",
+    "descriptionRaw": "Empunhando as luvas, desfere um soco concentrado de geada, fazendo com que Estalactites Cryo sejam disparadas numa área à frente e causando várias instâncias de <color=#99FFFFFF>Dano Cryo em AdE</color>.\n\n<color=#FFD780FF>Arkhe: Ousia</color>\nQuando o ataque de Estalactites Cryo terminar, fará uma Lâmina da Fluidez cair na posição do inimigo, causando <color=#99FFFFFF>Dano Cryo</color> carregado de energia Ousia.\n\n<i>Às vezes, até mesmo o Duque da Fortaleza Meropide pode se sentir impotente diante de certas situações — como a papelada interminável, a supervisão chata ou até... a insistência de certas criaturas de baixa estatura em colar vários adesivos fofos e difíceis de tirar em suas luvas.</i>",
+    "description": "Empunhando as luvas, desfere um soco concentrado de geada, fazendo com que Estalactites Cryo sejam disparadas numa área à frente e causando várias instâncias de Dano Cryo em AdE.\n\nArkhe: Ousia\nQuando o ataque de Estalactites Cryo terminar, fará uma Lâmina da Fluidez cair na posição do inimigo, causando Dano Cryo carregado de energia Ousia.",
+    "flavorText": "Às vezes, até mesmo o Duque da Fortaleza Meropide pode se sentir impotente diante de certas situações — como a papelada interminável, a supervisão chata ou até... a insistência de certas criaturas de baixa estatura em colar vários adesivos fofos e difíceis de tirar em suas luvas.",
+    "attributes": {
+      "labels": [
+        "Dano de Habilidade|{param1:F2P} ×5",
+        "Dano da Lâmina da Fluidez|{param2:F2P}",
+        "Tempo de Recarga|{param3:F1}s",
+        "Tempo de Recarga da Lâmina da Fluidez|{param5:F1}s",
+        "Energia Elemental|{param4:I}"
+      ],
+      "parameters": {
+        "param1": [
+          1.272,
+          1.3674,
+          1.4628,
+          1.59,
+          1.6854,
+          1.7808,
+          1.908,
+          2.0352,
+          2.1624,
+          2.2896,
+          2.4168,
+          2.544,
+          2.703,
+          2.862,
+          3.021
+        ],
+        "param2": [
+          0.424,
+          0.4558,
+          0.4876,
+          0.53,
+          0.5618,
+          0.5936,
+          0.636,
+          0.6784,
+          0.7208,
+          0.7632,
+          0.8056,
+          0.848,
+          0.901,
+          0.954,
+          1.007
+        ],
+        "param3": [
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15
+        ],
+        "param4": [
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60
+        ],
+        "param5": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ]
+      }
+    }
+  },
+  "passive1": {
+    "name": "Haverá Arguição Pela Justiça",
+    "descriptionRaw": "Quando a Vida de Wriothesley for inferior a 60%, ele obtém \"Ordem da Graça\", fazendo com que seu próximo Ataque Carregado de <color=#FFD780FF>Ataque Normal: Punho Gelado Destruidor</color> fique mais forte e se torne Disciplina: Soco do Salto Gelado. O ataque não consumirá Stamina, terá seu Dano aumentado em 50% e, ao atingir um inimigo, regenerará Vida para Wriothesley. A quantidade de Vida regenerada é equivalente a 30% da Vida Máxima de Wriothesley.\nÉ possível obter um acúmulo do efeito \"Ordem da Graça\" a cada 5s dessa forma.",
+    "description": "Quando a Vida de Wriothesley for inferior a 60%, ele obtém \"Ordem da Graça\", fazendo com que seu próximo Ataque Carregado de Ataque Normal: Punho Gelado Destruidor fique mais forte e se torne Disciplina: Soco do Salto Gelado. O ataque não consumirá Stamina, terá seu Dano aumentado em 50% e, ao atingir um inimigo, regenerará Vida para Wriothesley. A quantidade de Vida regenerada é equivalente a 30% da Vida Máxima de Wriothesley.\nÉ possível obter um acúmulo do efeito \"Ordem da Graça\" a cada 5s dessa forma."
+  },
+  "passive2": {
+    "name": "Retribuição do Pecado",
+    "descriptionRaw": "Quando a Vida de Wriothesley aumentar ou diminuir, se ele estiver no estado Julgamento do Gelo Feroz de <color=#FFD780FF>Corrida da Presa Gelada</color>, o estado Julgamento do Gelo Feroz ganhará um acúmulo do efeito \"Édito do Processo\", podendo ser acumulado até 5 vezes. Cada acúmulo aumenta o ATQ de Wriothesley em 6%.",
+    "description": "Quando a Vida de Wriothesley aumentar ou diminuir, se ele estiver no estado Julgamento do Gelo Feroz de Corrida da Presa Gelada, o estado Julgamento do Gelo Feroz ganhará um acúmulo do efeito \"Édito do Processo\", podendo ser acumulado até 5 vezes. Cada acúmulo aumenta o ATQ de Wriothesley em 6%."
+  },
+  "passive3": {
+    "name": "Graça do Duque",
+    "descriptionRaw": "Quando fabrica Materiais de Ascensão de Armas, tem 10% de chance de receber o dobro do produto.",
+    "description": "Quando fabrica Materiais de Ascensão de Armas, tem 10% de chance de receber o dobro do produto."
+  },
+  "costs": {
+    "lvl2": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 12500
+      },
+      {
+        "id": 104344,
+        "name": "Ensinamentos da Ordem",
+        "count": 3
+      },
+      {
+        "id": 112083,
+        "name": "Engrenagem Transmissora",
+        "count": 6
+      }
+    ],
+    "lvl3": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 17500
+      },
+      {
+        "id": 104345,
+        "name": "Guia da Ordem",
+        "count": 2
+      },
+      {
+        "id": 112084,
+        "name": "Engrenagem Reta",
+        "count": 3
+      }
+    ],
+    "lvl4": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 25000
+      },
+      {
+        "id": 104345,
+        "name": "Guia da Ordem",
+        "count": 4
+      },
+      {
+        "id": 112084,
+        "name": "Engrenagem Reta",
+        "count": 4
+      }
+    ],
+    "lvl5": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 30000
+      },
+      {
+        "id": 104345,
+        "name": "Guia da Ordem",
+        "count": 6
+      },
+      {
+        "id": 112084,
+        "name": "Engrenagem Reta",
+        "count": 6
+      }
+    ],
+    "lvl6": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 37500
+      },
+      {
+        "id": 104345,
+        "name": "Guia da Ordem",
+        "count": 9
+      },
+      {
+        "id": 112084,
+        "name": "Engrenagem Reta",
+        "count": 9
+      }
+    ],
+    "lvl7": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 120000
+      },
+      {
+        "id": 104346,
+        "name": "Filosofia da Ordem",
+        "count": 4
+      },
+      {
+        "id": 112085,
+        "name": "Engrenagem Dinâmica",
+        "count": 4
+      },
+      {
+        "id": 113047,
+        "name": "Florescência Primogênita do Oásis",
+        "count": 1
+      }
+    ],
+    "lvl8": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 260000
+      },
+      {
+        "id": 104346,
+        "name": "Filosofia da Ordem",
+        "count": 6
+      },
+      {
+        "id": 112085,
+        "name": "Engrenagem Dinâmica",
+        "count": 6
+      },
+      {
+        "id": 113047,
+        "name": "Florescência Primogênita do Oásis",
+        "count": 1
+      }
+    ],
+    "lvl9": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 450000
+      },
+      {
+        "id": 104346,
+        "name": "Filosofia da Ordem",
+        "count": 12
+      },
+      {
+        "id": 112085,
+        "name": "Engrenagem Dinâmica",
+        "count": 9
+      },
+      {
+        "id": 113047,
+        "name": "Florescência Primogênita do Oásis",
+        "count": 2
+      }
+    ],
+    "lvl10": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 700000
+      },
+      {
+        "id": 104346,
+        "name": "Filosofia da Ordem",
+        "count": 16
+      },
+      {
+        "id": 112085,
+        "name": "Engrenagem Dinâmica",
+        "count": 12
+      },
+      {
+        "id": 113047,
+        "name": "Florescência Primogênita do Oásis",
+        "count": 2
+      },
+      {
+        "id": 104319,
+        "name": "Coroa da Sabedoria",
+        "count": 1
+      }
+    ]
+  },
+  "images": {
+    "filename_combat1": "Skill_A_Catalyst_MD",
+    "filename_combat2": "Skill_S_Wriothesley_01",
+    "filename_combat3": "Skill_E_Wriothesley_01_HD",
+    "filename_passive1": "UI_Talent_S_Wriothesley_05",
+    "filename_passive2": "UI_Talent_S_Wriothesley_06",
+    "filename_passive3": "UI_Talent_Combine_Weapon_Double"
+  },
+  "version": "4.1"
+}

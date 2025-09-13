@@ -1,0 +1,593 @@
+{
+  "id": 708,
+  "name": "Viajante (Dendro)",
+  "combat1": {
+    "name": "Foice Exótica",
+    "descriptionRaw": "<color=#FFD780FF>Ataque Normal</color>\nRealiza até 5 golpes consecutivos.\n\n<color=#FFD780FF>Ataque Carregado</color>\nConsome uma certa quantidade de Stamina para desferir 2 golpes rápidos com a espada.\n\n<color=#FFD780FF>Ataque Imersivo</color>\nMergulha em pleno ar para golpear o chão, causando dano aos inimigos ao longo do caminho e infligindo Dano em uma AdE no impacto.",
+    "description": "Ataque Normal\nRealiza até 5 golpes consecutivos.\n\nAtaque Carregado\nConsome uma certa quantidade de Stamina para desferir 2 golpes rápidos com a espada.\n\nAtaque Imersivo\nMergulha em pleno ar para golpear o chão, causando dano aos inimigos ao longo do caminho e infligindo Dano em uma AdE no impacto.",
+    "attributes": {
+      "labels": [
+        "Dano do 1° Golpe|{param1:F1P}",
+        "Dano do 2° Golpe|{param2:F1P}",
+        "Dano do 3° Golpe|{param3:F1P}",
+        "Dano do 4° Golpe|{param4:F1P}",
+        "Dano do 5° Golpe|{param5:F1P}",
+        "Dano de Ataque Carregado|{param6:F1P}+{param7:F1P}",
+        "Consumo de Stamina de Ataque Carregado|{param8:F1} pontos",
+        "Dano Durante a Queda|{param9:F1P}",
+        "Dano de Queda de Baixa/Alta Altitude|{param10:P}/{param11:P}"
+      ],
+      "parameters": {
+        "param1": [
+          0.44462,
+          0.48081,
+          0.517,
+          0.5687,
+          0.60489,
+          0.64625,
+          0.70312,
+          0.75999,
+          0.81686,
+          0.8789,
+          0.94094,
+          1.00298,
+          1.06502,
+          1.12706,
+          1.1891
+        ],
+        "param2": [
+          0.4343,
+          0.46965,
+          0.505,
+          0.5555,
+          0.59085,
+          0.63125,
+          0.6868,
+          0.74235,
+          0.7979,
+          0.8585,
+          0.9191,
+          0.9797,
+          1.0403,
+          1.1009,
+          1.1615
+        ],
+        "param3": [
+          0.52976,
+          0.57288,
+          0.616,
+          0.6776,
+          0.72072,
+          0.77,
+          0.83776,
+          0.90552,
+          0.97328,
+          1.0472,
+          1.12112,
+          1.19504,
+          1.26896,
+          1.34288,
+          1.4168
+        ],
+        "param4": [
+          0.58308,
+          0.63054,
+          0.678,
+          0.7458,
+          0.79326,
+          0.8475,
+          0.92208,
+          0.99666,
+          1.07124,
+          1.1526,
+          1.23396,
+          1.31532,
+          1.39668,
+          1.47804,
+          1.5594
+        ],
+        "param5": [
+          0.70778,
+          0.76539,
+          0.823,
+          0.9053,
+          0.96291,
+          1.02875,
+          1.11928,
+          1.20981,
+          1.30034,
+          1.3991,
+          1.49786,
+          1.59662,
+          1.69538,
+          1.79414,
+          1.8929
+        ],
+        "param6": [
+          0.559,
+          0.6045,
+          0.65,
+          0.715,
+          0.7605,
+          0.8125,
+          0.884,
+          0.9555,
+          1.027,
+          1.105,
+          1.183,
+          1.261,
+          1.339,
+          1.417,
+          1.495
+        ],
+        "param7": [
+          0.7224,
+          0.7812,
+          0.84,
+          0.924,
+          0.9828,
+          1.05,
+          1.1424,
+          1.2348,
+          1.3272,
+          1.428,
+          1.5288,
+          1.6296,
+          1.7304,
+          1.8312,
+          1.932
+        ],
+        "param8": [
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20
+        ],
+        "param9": [
+          0.639324,
+          0.691362,
+          0.7434,
+          0.81774,
+          0.869778,
+          0.92925,
+          1.011024,
+          1.092798,
+          1.174572,
+          1.26378,
+          1.352988,
+          1.442196,
+          1.531404,
+          1.620612,
+          1.70982
+        ],
+        "param10": [
+          1.278377,
+          1.382431,
+          1.486485,
+          1.635134,
+          1.739187,
+          1.858106,
+          2.02162,
+          2.185133,
+          2.348646,
+          2.527025,
+          2.705403,
+          2.883781,
+          3.062159,
+          3.240537,
+          3.418915
+        ],
+        "param11": [
+          1.596762,
+          1.726731,
+          1.8567,
+          2.04237,
+          2.172339,
+          2.320875,
+          2.525112,
+          2.729349,
+          2.933586,
+          3.15639,
+          3.379194,
+          3.601998,
+          3.824802,
+          4.047606,
+          4.27041
+        ]
+      }
+    }
+  },
+  "combat2": {
+    "name": "Espada da Grama Afiada",
+    "descriptionRaw": "Brandindo sua espada, você desencadeia uma chuva de folhas afiadas que infligem <color=#99FF88FF>Dano Dendro</color> à frente.\n\n<i>Você e Paimon observaram as extremidades afiadas da grama e da folha.</i>",
+    "description": "Brandindo sua espada, você desencadeia uma chuva de folhas afiadas que infligem Dano Dendro à frente.",
+    "flavorText": "Você e Paimon observaram as extremidades afiadas da grama e da folha.",
+    "attributes": {
+      "labels": [
+        "Dano de Habilidade|{param1:P}",
+        "Tempo de Recarga|{param2:F1}s"
+      ],
+      "parameters": {
+        "param1": [
+          2.304,
+          2.4768,
+          2.6496,
+          2.88,
+          3.0528,
+          3.2256,
+          3.456,
+          3.6864,
+          3.9168,
+          4.1472,
+          4.3776,
+          4.608,
+          4.896,
+          5.184,
+          5.472
+        ],
+        "param2": [
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ]
+      }
+    }
+  },
+  "combat3": {
+    "name": "Mímico Dendro",
+    "descriptionRaw": "#Canalizando o poder da flora a sua volta, você cria uma Lótus Luminosa.\nEssa Lótus irá infligir <color=#99FF88FF>Dano Dendro</color> contínuo contra os oponentes dentro de uma AdE.\n\n<color=#FFD780FF>Transformação da Lótus Luminosa</color>\nA Lótus Luminosa irá passar pelas seguintes mudanças depois de entrar em contato com <color=#80C0FFFF>Hydro</color>/<color=#FFACFFFF>Electro</color>/<color=#FF9999FF>Pyro</color>:\n· <color=#80C0FFFF>Hydro</color>: A AdE da Lótus Luminosa e a AdE de seus ataques são aumentadas.\n· <color=#FFACFFFF>Electro</color>: A Vel. de ATQ da Lótus Luminosa é aumentada.\n· <color=#FF9999FF>Pyro</color>: A Lótus Luminosa irá explodir depois de um curto período e então desaparecer, infligindo <color=#99FF88FF>Dano Dendro em uma AdE</color>.\nA Lótus Luminosa apenas poderá passar por uma única Transformação durante sua duração.\n\nApenas uma Lótus Luminosa criada pel{M#o}{F#a} Viajante pode existir simultaneamente.\n\n<i>Você e Paimon estudaram os sons das plantas que florescem após a chuva.</i>",
+    "description": "Canalizando o poder da flora a sua volta, você cria uma Lótus Luminosa.\nEssa Lótus irá infligir Dano Dendro contínuo contra os oponentes dentro de uma AdE.\n\nTransformação da Lótus Luminosa\nA Lótus Luminosa irá passar pelas seguintes mudanças depois de entrar em contato com Hydro/Electro/Pyro:\n· Hydro: A AdE da Lótus Luminosa e a AdE de seus ataques são aumentadas.\n· Electro: A Vel. de ATQ da Lótus Luminosa é aumentada.\n· Pyro: A Lótus Luminosa irá explodir depois de um curto período e então desaparecer, infligindo Dano Dendro em uma AdE.\nA Lótus Luminosa apenas poderá passar por uma única Transformação durante sua duração.\n\nApenas uma Lótus Luminosa criada pelo Viajante pode existir simultaneamente.",
+    "flavorText": "Você e Paimon estudaram os sons das plantas que florescem após a chuva.",
+    "attributes": {
+      "labels": [
+        "Dano do Ataque da Lótus Luminosa|{param1:F1P}",
+        "Dano da Explosão|{param2:F1P}",
+        "Duração da Lótus Luminosa|{param5:F1}s",
+        "Tempo de Recarga|{param6:F1}s",
+        "Energia Elemental|{param7:I}"
+      ],
+      "parameters": {
+        "param1": [
+          0.8016,
+          0.86172,
+          0.92184,
+          1.002,
+          1.06212,
+          1.12224,
+          1.2024,
+          1.28256,
+          1.36272,
+          1.44288,
+          1.52304,
+          1.6032,
+          1.7034,
+          1.8036,
+          1.9038
+        ],
+        "param2": [
+          4.008,
+          4.3086,
+          4.6092,
+          5.01,
+          5.3106,
+          5.6112,
+          6.012,
+          6.4128,
+          6.8136,
+          7.2144,
+          7.6152,
+          8.016,
+          8.517,
+          9.018,
+          9.519
+        ],
+        "param3": [
+          1.5,
+          1.5,
+          1.5,
+          1.5,
+          1.5,
+          1.5,
+          1.5,
+          1.5,
+          1.5,
+          1.5,
+          1.5,
+          1.5,
+          1.5,
+          1.5,
+          1.5
+        ],
+        "param4": [
+          0.9,
+          0.9,
+          0.9,
+          0.9,
+          0.9,
+          0.9,
+          0.9,
+          0.9,
+          0.9,
+          0.9,
+          0.9,
+          0.9,
+          0.9,
+          0.9,
+          0.9
+        ],
+        "param5": [
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12
+        ],
+        "param6": [
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20
+        ],
+        "param7": [
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80
+        ]
+      }
+    }
+  },
+  "passive1": {
+    "name": "Proliferação Exuberante",
+    "descriptionRaw": "<color=#FFD780FF>Lótus Luminosa</color> irá obter um acúmulo do efeito Sobrecarga Luminosa a cada segundo em campo, aumentando a Proficiência Elemental dos personagens ativos dentro de sua AdE em 6. A Sobrecarga Luminosa pode acumular até 10 vezes.",
+    "description": "Lótus Luminosa irá obter um acúmulo do efeito Sobrecarga Luminosa a cada segundo em campo, aumentando a Proficiência Elemental dos personagens ativos dentro de sua AdE em 6. A Sobrecarga Luminosa pode acumular até 10 vezes."
+  },
+  "passive2": {
+    "name": "Verde Luxuoso",
+    "descriptionRaw": "#Cada ponto de Proficiência Elemental que {M#o}{F#a} Viajante possui aumenta o Dano infligido pela <color=#FFD780FF>Espada da Grama Afiada</color> em 0.15% e o Dano infligido pelo <color=#FFD780FF>Mímico Dendro</color> em 0.1%.",
+    "description": "Cada ponto de Proficiência Elemental que o Viajante possui aumenta o Dano infligido pela Espada da Grama Afiada em 0.15% e o Dano infligido pelo Mímico Dendro em 0.1%."
+  },
+  "costs": {
+    "lvl2": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 12500
+      },
+      {
+        "id": 104329,
+        "name": "Ensinamentos de Admoestações",
+        "count": 3
+      },
+      {
+        "id": 112059,
+        "name": "Esporo de Cogumelo Flutuante",
+        "count": 6
+      }
+    ],
+    "lvl3": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 17500
+      },
+      {
+        "id": 104333,
+        "name": "Guia da Engenhosidade",
+        "count": 2
+      },
+      {
+        "id": 112060,
+        "name": "Pólen fluorescente",
+        "count": 3
+      }
+    ],
+    "lvl4": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 25000
+      },
+      {
+        "id": 104336,
+        "name": "Guia da Práxis",
+        "count": 4
+      },
+      {
+        "id": 112060,
+        "name": "Pólen fluorescente",
+        "count": 4
+      }
+    ],
+    "lvl5": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 30000
+      },
+      {
+        "id": 104330,
+        "name": "Guia da Admoestação",
+        "count": 6
+      },
+      {
+        "id": 112060,
+        "name": "Pólen fluorescente",
+        "count": 6
+      }
+    ],
+    "lvl6": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 37500
+      },
+      {
+        "id": 104333,
+        "name": "Guia da Engenhosidade",
+        "count": 9
+      },
+      {
+        "id": 112060,
+        "name": "Pólen fluorescente",
+        "count": 9
+      }
+    ],
+    "lvl7": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 120000
+      },
+      {
+        "id": 104337,
+        "name": "Filosofia da Práxis",
+        "count": 4
+      },
+      {
+        "id": 112061,
+        "name": "Poeira Cristalina de Cisto",
+        "count": 4
+      },
+      {
+        "id": 113032,
+        "name": "Mudra da Shogun Maléfica",
+        "count": 1
+      }
+    ],
+    "lvl8": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 260000
+      },
+      {
+        "id": 104331,
+        "name": "Filosofia da Admoestação",
+        "count": 6
+      },
+      {
+        "id": 112061,
+        "name": "Poeira Cristalina de Cisto",
+        "count": 6
+      },
+      {
+        "id": 113032,
+        "name": "Mudra da Shogun Maléfica",
+        "count": 1
+      }
+    ],
+    "lvl9": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 450000
+      },
+      {
+        "id": 104334,
+        "name": "Filosofia da Engenhosidade",
+        "count": 12
+      },
+      {
+        "id": 112061,
+        "name": "Poeira Cristalina de Cisto",
+        "count": 9
+      },
+      {
+        "id": 113032,
+        "name": "Mudra da Shogun Maléfica",
+        "count": 2
+      }
+    ],
+    "lvl10": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 700000
+      },
+      {
+        "id": 104337,
+        "name": "Filosofia da Práxis",
+        "count": 16
+      },
+      {
+        "id": 112061,
+        "name": "Poeira Cristalina de Cisto",
+        "count": 12
+      },
+      {
+        "id": 113032,
+        "name": "Mudra da Shogun Maléfica",
+        "count": 2
+      },
+      {
+        "id": 104319,
+        "name": "Coroa da Sabedoria",
+        "count": 1
+      }
+    ]
+  },
+  "images": {
+    "filename_combat1": "Skill_A_01",
+    "filename_combat2": "Skill_E_PlayerGrass_01",
+    "filename_combat3": "Skill_S_PlayerGrass_01_HD",
+    "filename_passive1": "UI_Talent_U_PlayerGrass_01",
+    "filename_passive2": "UI_Talent_U_PlayerGrass_02"
+  },
+  "version": "3.0"
+}

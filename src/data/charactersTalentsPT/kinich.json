@@ -1,0 +1,572 @@
+{
+  "id": 10101,
+  "name": "Kinich",
+  "combat1": {
+    "name": "Estilo do Sol Noturno",
+    "descriptionRaw": "<color=#FFD780FF>Ataque Normal</color>\nRealiza até 3 ataques rápidos.\nDepois de usar sua Habilidade Elemental \"Caçador de Dossel: Montando nas Alturas\", pode fazer um Ataque Normal no ar antes de aterrissar.\n\n<color=#FFD780FF>Ataque Carregado</color>\nConsome uma certa quantidade Stamina para girar e jogar seu Espadão contra seus oponentes.\n\n<color=#FFD780FF>Ataque Imersivo</color>\nMergulha em pleno ar para golpear o chão, causando Dano aos inimigos ao longo do caminho e infligindo Dano em AdE durante o impacto.",
+    "description": "Ataque Normal\nRealiza até 3 ataques rápidos.\nDepois de usar sua Habilidade Elemental \"Caçador de Dossel: Montando nas Alturas\", pode fazer um Ataque Normal no ar antes de aterrissar.\n\nAtaque Carregado\nConsome uma certa quantidade Stamina para girar e jogar seu Espadão contra seus oponentes.\n\nAtaque Imersivo\nMergulha em pleno ar para golpear o chão, causando Dano aos inimigos ao longo do caminho e infligindo Dano em AdE durante o impacto.",
+    "attributes": {
+      "labels": [
+        "Dano do 1° Golpe|{param1:F1P}",
+        "Dano do 2° Golpe|{param2:F1P}",
+        "Dano do 3° Golpe|{param3:F1P}",
+        "Dano do Ataque Normal no Ar|{param9:F1P}",
+        "Dano de Ataque Carregado|{param4:F1P} x3",
+        "Consumo de Stamina de Ataque Carregado|{param5:F1}",
+        "Dano Durante a Queda|{param6:F1P}",
+        "Dano de Queda de Baixa/Alta Altitude|{param7:P}/{param8:P}"
+      ],
+      "parameters": {
+        "param1": [
+          0.98986,
+          1.07043,
+          1.151,
+          1.2661,
+          1.34667,
+          1.43875,
+          1.56536,
+          1.69197,
+          1.81858,
+          1.9567,
+          2.09482,
+          2.23294,
+          2.37106,
+          2.50918,
+          2.6473
+        ],
+        "param2": [
+          0.82904,
+          0.89652,
+          0.964,
+          1.0604,
+          1.12788,
+          1.205,
+          1.31104,
+          1.41708,
+          1.52312,
+          1.6388,
+          1.75448,
+          1.87016,
+          1.98584,
+          2.10152,
+          2.2172
+        ],
+        "param3": [
+          1.23496,
+          1.33548,
+          1.436,
+          1.5796,
+          1.68012,
+          1.795,
+          1.95296,
+          2.11092,
+          2.26888,
+          2.4412,
+          2.61352,
+          2.78584,
+          2.95816,
+          3.13048,
+          3.3028
+        ],
+        "param4": [
+          0.48418,
+          0.52359,
+          0.563,
+          0.6193,
+          0.65871,
+          0.70375,
+          0.76568,
+          0.82761,
+          0.88954,
+          0.9571,
+          1.02466,
+          1.09222,
+          1.15978,
+          1.22734,
+          1.2949
+        ],
+        "param5": [
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "param6": [
+          0.745878,
+          0.806589,
+          0.8673,
+          0.95403,
+          1.014741,
+          1.084125,
+          1.179528,
+          1.274931,
+          1.370334,
+          1.47441,
+          1.578486,
+          1.682562,
+          1.786638,
+          1.890714,
+          1.99479
+        ],
+        "param7": [
+          1.49144,
+          1.612836,
+          1.734233,
+          1.907656,
+          2.029052,
+          2.167791,
+          2.358556,
+          2.549322,
+          2.740087,
+          2.948195,
+          3.156303,
+          3.364411,
+          3.572519,
+          3.780627,
+          3.988735
+        ],
+        "param8": [
+          1.862889,
+          2.01452,
+          2.16615,
+          2.382765,
+          2.534396,
+          2.707688,
+          2.945964,
+          3.184241,
+          3.422517,
+          3.682455,
+          3.942393,
+          4.202331,
+          4.462269,
+          4.722207,
+          4.982145
+        ],
+        "param9": [
+          1.677,
+          1.8135,
+          1.95,
+          2.145,
+          2.2815,
+          2.4375,
+          2.652,
+          2.8665,
+          3.081,
+          3.315,
+          3.549,
+          3.783,
+          4.017,
+          4.251,
+          4.485
+        ]
+      }
+    }
+  },
+  "combat2": {
+    "name": "Caçador de Dossel: Montando nas Alturas",
+    "descriptionRaw": "Usando suas habilidades de caçador de grandes presas, Kinich se move rapidamente ou ataca seus inimigos.\nQuando um oponente, ou objeto que pode ser atacado está por perto, dispara o gancho contra o oponente, se prende a ele e entra no estado Bênção do Espírito da Noite com 0 pontos de Espírito da Noite. Se não houver oponentes por perto, ele dispara um gancho e balança no ar, e a Recarga de sua Habilidade diminui em 60%. \nPode manter pressionado. Ao manter pressionado, mira o gancho.\n\n<color=#FFD780FF>Bênção do Espírito da Noite: Kinich</color>\nA Bênção do Espírito da Noite de Kinich dura 10s e gera 2 pontos de Espírito da Noite por segundo.\nNesse estado, Kinich se prende a um oponente próximo e faz um ataque variável:\n· Usar um Ataque Normal fará um Disparo Circular contra o alvo preso de acordo com a direção atual de movimento, causando <color=#99FF88FF>Dano Dendro</color> com o alinhamento de Espírito da Noite e gerando 3 pontos de Espírito da Noite. O Dano do Disparo Circular é considerado Dano de Habilidade Elemental.\n· Quando os pontos de Espírito da Noite estão no máximo, ele pode usar a Habilidade Elemental \"Canhão Perfurador Giratório\": consome todos os pontos de Espírito da Noite para causar <color=#99FF88FF>Dano Dendro</color> com o alinhamento de Espírito da Noite. Quando mantém pressionado \"Canhão Perfurador Giratório\", é possível mirar no alvo. Após disparar, Kinich tentará se prender a seu alvo.\nEnquanto estiver no estado Bênção do Espírito da Noite, depois que se prender a um inimigo ou atirar o Canhão Perfurador Giratório, gera um Ponto Cego ao lado do inimigo, e se Kinich entrar nele, gerará 4 pontos de Espírito da Noite, removendo o Ponto Cego.\nSe a conexão do gancho quebrar devido à distância ou outro motivo, usar um Ataque Normal estabelecerá uma nova conexão com um oponente próximo e fará um Disparo Circular.\n\n<i>\"Tudo tem um custo. Sugiro você fazer uma oferta aceitável... O quê? Não, eu não aceito prestações.\"</i>",
+    "description": "Usando suas habilidades de caçador de grandes presas, Kinich se move rapidamente ou ataca seus inimigos.\nQuando um oponente, ou objeto que pode ser atacado está por perto, dispara o gancho contra o oponente, se prende a ele e entra no estado Bênção do Espírito da Noite com 0 pontos de Espírito da Noite. Se não houver oponentes por perto, ele dispara um gancho e balança no ar, e a Recarga de sua Habilidade diminui em 60%. \nPode manter pressionado. Ao manter pressionado, mira o gancho.\n\nBênção do Espírito da Noite: Kinich\nA Bênção do Espírito da Noite de Kinich dura 10s e gera 2 pontos de Espírito da Noite por segundo.\nNesse estado, Kinich se prende a um oponente próximo e faz um ataque variável:\n· Usar um Ataque Normal fará um Disparo Circular contra o alvo preso de acordo com a direção atual de movimento, causando Dano Dendro com o alinhamento de Espírito da Noite e gerando 3 pontos de Espírito da Noite. O Dano do Disparo Circular é considerado Dano de Habilidade Elemental.\n· Quando os pontos de Espírito da Noite estão no máximo, ele pode usar a Habilidade Elemental \"Canhão Perfurador Giratório\": consome todos os pontos de Espírito da Noite para causar Dano Dendro com o alinhamento de Espírito da Noite. Quando mantém pressionado \"Canhão Perfurador Giratório\", é possível mirar no alvo. Após disparar, Kinich tentará se prender a seu alvo.\nEnquanto estiver no estado Bênção do Espírito da Noite, depois que se prender a um inimigo ou atirar o Canhão Perfurador Giratório, gera um Ponto Cego ao lado do inimigo, e se Kinich entrar nele, gerará 4 pontos de Espírito da Noite, removendo o Ponto Cego.\nSe a conexão do gancho quebrar devido à distância ou outro motivo, usar um Ataque Normal estabelecerá uma nova conexão com um oponente próximo e fará um Disparo Circular.",
+    "flavorText": "\"Tudo tem um custo. Sugiro você fazer uma oferta aceitável... O quê? Não, eu não aceito prestações.\"",
+    "attributes": {
+      "labels": [
+        "Dano do Disparo Circular|{param1:F1P}×2",
+        "Dano do Canhão Perfurador Giratório|{param2:F1P}",
+        "Limite de Pontos de Espírito da Noite|{param4:F1}",
+        "Tempo de Recarga|{param3:F1}s"
+      ],
+      "parameters": {
+        "param1": [
+          0.5728,
+          0.61576,
+          0.65872,
+          0.716,
+          0.75896,
+          0.80192,
+          0.8592,
+          0.91648,
+          0.97376,
+          1.03104,
+          1.08832,
+          1.1456,
+          1.2172,
+          1.2888,
+          1.3604
+        ],
+        "param2": [
+          6.8744,
+          7.38998,
+          7.90556,
+          8.593,
+          9.10858,
+          9.62416,
+          10.3116,
+          10.99904,
+          11.68648,
+          12.37392,
+          13.06136,
+          13.7488,
+          14.6081,
+          15.4674,
+          16.3267
+        ],
+        "param3": [
+          18,
+          18,
+          18,
+          18,
+          18,
+          18,
+          18,
+          18,
+          18,
+          18,
+          18,
+          18,
+          18,
+          18,
+          18
+        ],
+        "param4": [
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20
+        ]
+      }
+    }
+  },
+  "combat3": {
+    "name": "Saúdem o Poderoso Dragão Soberano",
+    "descriptionRaw": "Lança o poder do Dragão Soberano Poderoso Ajaw (de forma limitada, condicional, restrita, contratual, parcial e temporária), causando <color=#99FF88FF>Dano Dendro em AdE</color> com alinhamento de Espírito da Noite. Ajaw periodicamente lançará sua Respiração Draconiana, causando <color=#99FF88FF>Dano Dendro em AdE</color> com alinhamento de Espírito da Noite.\nAo lançar, se Kinich estiver no estado Bênção do Espírito da Noite, a duração da Bênção do Espírito da Noite é prolongada em 1.7s.\n\n<i>\"Isso mesmo! Você está perante o Dragão Soberano K'uhul Ajaw! Se aproxime, se ajoelhe e beije meus pés!\"</i>",
+    "description": "Lança o poder do Dragão Soberano Poderoso Ajaw (de forma limitada, condicional, restrita, contratual, parcial e temporária), causando Dano Dendro em AdE com alinhamento de Espírito da Noite. Ajaw periodicamente lançará sua Respiração Draconiana, causando Dano Dendro em AdE com alinhamento de Espírito da Noite.\nAo lançar, se Kinich estiver no estado Bênção do Espírito da Noite, a duração da Bênção do Espírito da Noite é prolongada em 1.7s.",
+    "flavorText": "\"Isso mesmo! Você está perante o Dragão Soberano K'uhul Ajaw! Se aproxime, se ajoelhe e beije meus pés!\"",
+    "attributes": {
+      "labels": [
+        "Dano de Habilidade|{param1:F1P}",
+        "Dano da Respiração Draconiana|{param2:F1P}",
+        "Duração|{param3:F1}s",
+        "Tempo de Recarga|{param4:F1}s",
+        "Energia Elemental|{param5:I}"
+      ],
+      "parameters": {
+        "param1": [
+          1.34,
+          1.4405,
+          1.541,
+          1.675,
+          1.7755,
+          1.876,
+          2.01,
+          2.144,
+          2.278,
+          2.412,
+          2.546,
+          2.68,
+          2.8475,
+          3.015,
+          3.1825
+        ],
+        "param2": [
+          1.20736,
+          1.297912,
+          1.388464,
+          1.5092,
+          1.599752,
+          1.690304,
+          1.81104,
+          1.931776,
+          2.052512,
+          2.173248,
+          2.293984,
+          2.41472,
+          2.56564,
+          2.71656,
+          2.86748
+        ],
+        "param3": [
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15
+        ],
+        "param4": [
+          18,
+          18,
+          18,
+          18,
+          18,
+          18,
+          18,
+          18,
+          18,
+          18,
+          18,
+          18,
+          18,
+          18,
+          18
+        ],
+        "param5": [
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70
+        ]
+      }
+    }
+  },
+  "passive1": {
+    "name": "Preço da Desolação",
+    "descriptionRaw": "Quando está no estado Bênção do Espírito da Noite, os oponentes atingidos pela Habilidade Elemental de Kinich entrarão no estado Desolação, e quando sofrerem Dano de Queimaduras ou Germinação, regenerarão 7 pontos de Espírito da Noite para ele. Os pontos de Espírito da Noite podem ser ganhos dessa forma uma vez a cada 0.8s. O estado de Desolação persistirá até que essa instância do estado Bênção do Espírito da Noite de Kinich acabe.",
+    "description": "Quando está no estado Bênção do Espírito da Noite, os oponentes atingidos pela Habilidade Elemental de Kinich entrarão no estado Desolação, e quando sofrerem Dano de Queimaduras ou Germinação, regenerarão 7 pontos de Espírito da Noite para ele. Os pontos de Espírito da Noite podem ser ganhos dessa forma uma vez a cada 0.8s. O estado de Desolação persistirá até que essa instância do estado Bênção do Espírito da Noite de Kinich acabe."
+  },
+  "passive2": {
+    "name": "Contrato do Espírito Flamejante",
+    "descriptionRaw": "Depois que um membro próximo da equipe ativa a Explosão do Espírito da Noite, Kinich ganha 1 acúmulo de Experiência do Caçador que dura 15s. Máximo de 2 acúmulos. Quando Kinich usa o Canhão Perfurador Giratório de <color=#FFD780FF>Caçador de Dossel: Montando nas Alturas</color>, todos os acúmulos serão consumidos, com cada um aumentando o Dano causado pelo disparo do Canhão em 320% do ATQ de Kinich.",
+    "description": "Depois que um membro próximo da equipe ativa a Explosão do Espírito da Noite, Kinich ganha 1 acúmulo de Experiência do Caçador que dura 15s. Máximo de 2 acúmulos. Quando Kinich usa o Canhão Perfurador Giratório de Caçador de Dossel: Montando nas Alturas, todos os acúmulos serão consumidos, com cada um aumentando o Dano causado pelo disparo do Canhão em 320% do ATQ de Kinich."
+  },
+  "passive3": {
+    "name": "Presente do Reino da Noite: Pagamento Completo",
+    "descriptionRaw": "Quando Kinich está no ar logo após o golpe no ar de <color=#FFD780FF>Caçador de Dossel: Montando nas Alturas</color>, pode consumir 10 de Flogisto para fazer outro balanço no ar.\nQuando estiver em uma área com um Dispositivo de Flogisto em Natlan, ele pode usar Transmissão do Espírito da Noite: Kinich. Quando o personagem ativo estiver correndo, em estados de movimento causados por Talentos específicos, ou no ar, mudar para Kinich ativará uma das seguintes ações de acordo com as circunstâncias:\n· Quando puder interagir com Selo da Grama na sua direção: dispara uma Corda-gancho nele e se move.\n· Quando há um inimigo por perto e está no estado de combate: desencadeia Caçador de Dossel: Montando nas Alturas nesse inimigo.\nCaso contrário, Kinich dispara uma Corda-gancho e balançará no ar. Kinich priorizará Selos da Grama como alvos para se prender.\nSua equipe pode usar Transmissão do Espírito da Noite uma vez a cada 10s.\n\nQuando estiver interagindo com Selos da Grama e outros itens que podem interagir com Yumkassauros, \"Caçador de Dossel: Montando nas Alturas\" será convertido em \"Mimésis Yumkassauro\", que faz interações com tais itens seguir regras aplicáveis a Yumkassauros, e que não farão \"Caçador de Dossel: Montando nas Alturas\" entrar em Recarga.",
+    "description": "Quando Kinich está no ar logo após o golpe no ar de Caçador de Dossel: Montando nas Alturas, pode consumir 10 de Flogisto para fazer outro balanço no ar.\nQuando estiver em uma área com um Dispositivo de Flogisto em Natlan, ele pode usar Transmissão do Espírito da Noite: Kinich. Quando o personagem ativo estiver correndo, em estados de movimento causados por Talentos específicos, ou no ar, mudar para Kinich ativará uma das seguintes ações de acordo com as circunstâncias:\n· Quando puder interagir com Selo da Grama na sua direção: dispara uma Corda-gancho nele e se move.\n· Quando há um inimigo por perto e está no estado de combate: desencadeia Caçador de Dossel: Montando nas Alturas nesse inimigo.\nCaso contrário, Kinich dispara uma Corda-gancho e balançará no ar. Kinich priorizará Selos da Grama como alvos para se prender.\nSua equipe pode usar Transmissão do Espírito da Noite uma vez a cada 10s.\n\nQuando estiver interagindo com Selos da Grama e outros itens que podem interagir com Yumkassauros, \"Caçador de Dossel: Montando nas Alturas\" será convertido em \"Mimésis Yumkassauro\", que faz interações com tais itens seguir regras aplicáveis a Yumkassauros, e que não farão \"Caçador de Dossel: Montando nas Alturas\" entrar em Recarga."
+  },
+  "passive4": {
+    "name": "Emissário Veloz",
+    "descriptionRaw": "Quando estiver em uma área de Natlan com Dispositivos de Flogisto, interagir com alguns itens coletáveis aumentará a Veloc. Mov. dos membros da equipe em 15% por 10s. Além disso, exibe no mini-mapa o local das <color=#FFD780FF>especialidades de Natlan</color> próximas.",
+    "description": "Quando estiver em uma área de Natlan com Dispositivos de Flogisto, interagir com alguns itens coletáveis aumentará a Veloc. Mov. dos membros da equipe em 15% por 10s. Além disso, exibe no mini-mapa o local das especialidades de Natlan próximas."
+  },
+  "costs": {
+    "lvl2": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 12500
+      },
+      {
+        "id": 104350,
+        "name": "Ensinamentos da Ignição",
+        "count": 3
+      },
+      {
+        "id": 112101,
+        "name": "Presa Juvenil",
+        "count": 6
+      }
+    ],
+    "lvl3": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 17500
+      },
+      {
+        "id": 104351,
+        "name": "Guia da Ignição",
+        "count": 2
+      },
+      {
+        "id": 112102,
+        "name": "Presa Veterana",
+        "count": 3
+      }
+    ],
+    "lvl4": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 25000
+      },
+      {
+        "id": 104351,
+        "name": "Guia da Ignição",
+        "count": 4
+      },
+      {
+        "id": 112102,
+        "name": "Presa Veterana",
+        "count": 4
+      }
+    ],
+    "lvl5": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 30000
+      },
+      {
+        "id": 104351,
+        "name": "Guia da Ignição",
+        "count": 6
+      },
+      {
+        "id": 112102,
+        "name": "Presa Veterana",
+        "count": 6
+      }
+    ],
+    "lvl6": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 37500
+      },
+      {
+        "id": 104351,
+        "name": "Guia da Ignição",
+        "count": 9
+      },
+      {
+        "id": 112102,
+        "name": "Presa Veterana",
+        "count": 9
+      }
+    ],
+    "lvl7": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 120000
+      },
+      {
+        "id": 104352,
+        "name": "Filosofia da Ignição",
+        "count": 4
+      },
+      {
+        "id": 112103,
+        "name": "Presa Tirana",
+        "count": 4
+      },
+      {
+        "id": 113062,
+        "name": "Veredito Negado",
+        "count": 1
+      }
+    ],
+    "lvl8": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 260000
+      },
+      {
+        "id": 104352,
+        "name": "Filosofia da Ignição",
+        "count": 6
+      },
+      {
+        "id": 112103,
+        "name": "Presa Tirana",
+        "count": 6
+      },
+      {
+        "id": 113062,
+        "name": "Veredito Negado",
+        "count": 1
+      }
+    ],
+    "lvl9": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 450000
+      },
+      {
+        "id": 104352,
+        "name": "Filosofia da Ignição",
+        "count": 12
+      },
+      {
+        "id": 112103,
+        "name": "Presa Tirana",
+        "count": 9
+      },
+      {
+        "id": 113062,
+        "name": "Veredito Negado",
+        "count": 2
+      }
+    ],
+    "lvl10": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 700000
+      },
+      {
+        "id": 104352,
+        "name": "Filosofia da Ignição",
+        "count": 16
+      },
+      {
+        "id": 112103,
+        "name": "Presa Tirana",
+        "count": 12
+      },
+      {
+        "id": 113062,
+        "name": "Veredito Negado",
+        "count": 2
+      },
+      {
+        "id": 104319,
+        "name": "Coroa da Sabedoria",
+        "count": 1
+      }
+    ]
+  },
+  "images": {
+    "filename_combat1": "Skill_A_04",
+    "filename_combat2": "Skill_S_Kinich_01",
+    "filename_combat3": "Skill_E_Kinich_01_HD",
+    "filename_passive1": "UI_Talent_S_Kinich_05",
+    "filename_passive2": "UI_Talent_S_Kinich_06",
+    "filename_passive3": "UI_Talent_S_Kinich_08",
+    "filename_passive4": "UI_Talent_S_Kachina_08"
+  },
+  "version": "5.0"
+}

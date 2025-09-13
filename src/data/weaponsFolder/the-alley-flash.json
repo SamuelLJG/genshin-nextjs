@@ -1,0 +1,578 @@
+{
+  "1": {
+    "level": 1,
+    "ascension": 0,
+    "attack": 45.0687,
+    "specialized": 11.999988
+  },
+  "2": {
+    "level": 2,
+    "ascension": 0,
+    "attack": 49.2600891,
+    "specialized": 11.999988
+  },
+  "3": {
+    "level": 3,
+    "ascension": 0,
+    "attack": 53.4514782,
+    "specialized": 11.999988
+  },
+  "4": {
+    "level": 4,
+    "ascension": 0,
+    "attack": 57.687936,
+    "specialized": 11.999988
+  },
+  "5": {
+    "level": 5,
+    "ascension": 0,
+    "attack": 61.924393800000004,
+    "specialized": 13.943986056
+  },
+  "6": {
+    "level": 6,
+    "ascension": 0,
+    "attack": 66.2059203,
+    "specialized": 13.943986056
+  },
+  "7": {
+    "level": 7,
+    "ascension": 0,
+    "attack": 70.5325155,
+    "specialized": 13.943986056
+  },
+  "8": {
+    "level": 8,
+    "ascension": 0,
+    "attack": 74.8591107,
+    "specialized": 13.943986056
+  },
+  "9": {
+    "level": 9,
+    "ascension": 0,
+    "attack": 79.18570589999999,
+    "specialized": 13.943986056
+  },
+  "10": {
+    "level": 10,
+    "ascension": 0,
+    "attack": 83.5573698,
+    "specialized": 16.355983644
+  },
+  "11": {
+    "level": 11,
+    "ascension": 0,
+    "attack": 87.97410239999999,
+    "specialized": 16.355983644
+  },
+  "12": {
+    "level": 12,
+    "ascension": 0,
+    "attack": 92.3457663,
+    "specialized": 16.355983644
+  },
+  "13": {
+    "level": 13,
+    "ascension": 0,
+    "attack": 96.7624989,
+    "specialized": 16.355983644
+  },
+  "14": {
+    "level": 14,
+    "ascension": 0,
+    "attack": 101.2243002,
+    "specialized": 16.355983644
+  },
+  "15": {
+    "level": 15,
+    "ascension": 0,
+    "attack": 105.6861015,
+    "specialized": 18.77998122
+  },
+  "16": {
+    "level": 16,
+    "ascension": 0,
+    "attack": 110.1479028,
+    "specialized": 18.77998122
+  },
+  "17": {
+    "level": 17,
+    "ascension": 0,
+    "attack": 114.6547728,
+    "specialized": 18.77998122
+  },
+  "18": {
+    "level": 18,
+    "ascension": 0,
+    "attack": 119.16164280000001,
+    "specialized": 18.77998122
+  },
+  "19": {
+    "level": 19,
+    "ascension": 0,
+    "attack": 123.6685128,
+    "specialized": 18.77998122
+  },
+  "20": {
+    "level": 20,
+    "ascension": 0,
+    "attack": 128.2204515,
+    "specialized": 21.203978795999998
+  },
+  "21": {
+    "level": 21,
+    "ascension": 1,
+    "attack": 158.67239020000002,
+    "specialized": 21.203978795999998
+  },
+  "22": {
+    "level": 22,
+    "ascension": 1,
+    "attack": 163.22432890000002,
+    "specialized": 21.203978795999998
+  },
+  "23": {
+    "level": 23,
+    "ascension": 1,
+    "attack": 167.7762676,
+    "specialized": 21.203978795999998
+  },
+  "24": {
+    "level": 24,
+    "ascension": 1,
+    "attack": 172.373275,
+    "specialized": 21.203978795999998
+  },
+  "25": {
+    "level": 25,
+    "ascension": 1,
+    "attack": 176.9702824,
+    "specialized": 23.627976372000003
+  },
+  "26": {
+    "level": 26,
+    "ascension": 1,
+    "attack": 181.56728980000003,
+    "specialized": 23.627976372000003
+  },
+  "27": {
+    "level": 27,
+    "ascension": 1,
+    "attack": 186.2093659,
+    "specialized": 23.627976372000003
+  },
+  "28": {
+    "level": 28,
+    "ascension": 1,
+    "attack": 190.85144200000002,
+    "specialized": 23.627976372000003
+  },
+  "29": {
+    "level": 29,
+    "ascension": 1,
+    "attack": 195.44844940000002,
+    "specialized": 23.627976372000003
+  },
+  "30": {
+    "level": 30,
+    "ascension": 1,
+    "attack": 200.1355942,
+    "specialized": 26.051973947999997
+  },
+  "31": {
+    "level": 31,
+    "ascension": 1,
+    "attack": 204.7776703,
+    "specialized": 26.051973947999997
+  },
+  "32": {
+    "level": 32,
+    "ascension": 1,
+    "attack": 209.4648151,
+    "specialized": 26.051973947999997
+  },
+  "33": {
+    "level": 33,
+    "ascension": 1,
+    "attack": 214.15195989999998,
+    "specialized": 26.051973947999997
+  },
+  "34": {
+    "level": 34,
+    "ascension": 1,
+    "attack": 218.83910469999998,
+    "specialized": 26.051973947999997
+  },
+  "35": {
+    "level": 35,
+    "ascension": 1,
+    "attack": 223.5262495,
+    "specialized": 28.475971524000002
+  },
+  "36": {
+    "level": 36,
+    "ascension": 1,
+    "attack": 228.2133943,
+    "specialized": 28.475971524000002
+  },
+  "37": {
+    "level": 37,
+    "ascension": 1,
+    "attack": 232.9456078,
+    "specialized": 28.475971524000002
+  },
+  "38": {
+    "level": 38,
+    "ascension": 1,
+    "attack": 237.6778213,
+    "specialized": 28.475971524000002
+  },
+  "39": {
+    "level": 39,
+    "ascension": 1,
+    "attack": 242.3649661,
+    "specialized": 28.475971524000002
+  },
+  "40": {
+    "level": 40,
+    "ascension": 1,
+    "attack": 247.1422483,
+    "specialized": 30.899969100000003
+  },
+  "41": {
+    "level": 41,
+    "ascension": 2,
+    "attack": 277.8744618,
+    "specialized": 30.899969100000003
+  },
+  "42": {
+    "level": 42,
+    "ascension": 2,
+    "attack": 282.6066753,
+    "specialized": 30.899969100000003
+  },
+  "43": {
+    "level": 43,
+    "ascension": 2,
+    "attack": 287.38395749999995,
+    "specialized": 30.899969100000003
+  },
+  "44": {
+    "level": 44,
+    "ascension": 2,
+    "attack": 292.116171,
+    "specialized": 30.899969100000003
+  },
+  "45": {
+    "level": 45,
+    "ascension": 2,
+    "attack": 296.8934532,
+    "specialized": 33.323966676000005
+  },
+  "46": {
+    "level": 46,
+    "ascension": 2,
+    "attack": 301.67073539999996,
+    "specialized": 33.323966676000005
+  },
+  "47": {
+    "level": 47,
+    "ascension": 2,
+    "attack": 306.44801759999996,
+    "specialized": 33.323966676000005
+  },
+  "48": {
+    "level": 48,
+    "ascension": 2,
+    "attack": 311.27036849999996,
+    "specialized": 33.323966676000005
+  },
+  "49": {
+    "level": 49,
+    "ascension": 2,
+    "attack": 316.04765069999996,
+    "specialized": 33.323966676000005
+  },
+  "50": {
+    "level": 50,
+    "ascension": 2,
+    "attack": 320.87000159999997,
+    "specialized": 35.747964252
+  },
+  "51": {
+    "level": 51,
+    "ascension": 3,
+    "attack": 351.5472838,
+    "specialized": 35.747964252
+  },
+  "52": {
+    "level": 52,
+    "ascension": 3,
+    "attack": 356.3696347,
+    "specialized": 35.747964252
+  },
+  "53": {
+    "level": 53,
+    "ascension": 3,
+    "attack": 361.1919856,
+    "specialized": 35.747964252
+  },
+  "54": {
+    "level": 54,
+    "ascension": 3,
+    "attack": 366.0143365,
+    "specialized": 35.747964252
+  },
+  "55": {
+    "level": 55,
+    "ascension": 3,
+    "attack": 370.8366874,
+    "specialized": 38.171961828
+  },
+  "56": {
+    "level": 56,
+    "ascension": 3,
+    "attack": 375.6590383,
+    "specialized": 38.171961828
+  },
+  "57": {
+    "level": 57,
+    "ascension": 3,
+    "attack": 380.52645789999997,
+    "specialized": 38.171961828
+  },
+  "58": {
+    "level": 58,
+    "ascension": 3,
+    "attack": 385.34880880000003,
+    "specialized": 38.171961828
+  },
+  "59": {
+    "level": 59,
+    "ascension": 3,
+    "attack": 390.21622840000003,
+    "specialized": 38.171961828
+  },
+  "60": {
+    "level": 60,
+    "ascension": 3,
+    "attack": 395.0385793,
+    "specialized": 40.595959404
+  },
+  "61": {
+    "level": 61,
+    "ascension": 4,
+    "attack": 425.8059989,
+    "specialized": 40.595959404
+  },
+  "62": {
+    "level": 62,
+    "ascension": 4,
+    "attack": 430.67341849999997,
+    "specialized": 40.595959404
+  },
+  "63": {
+    "level": 63,
+    "ascension": 4,
+    "attack": 435.54083810000003,
+    "specialized": 40.595959404
+  },
+  "64": {
+    "level": 64,
+    "ascension": 4,
+    "attack": 440.4082577,
+    "specialized": 40.595959404
+  },
+  "65": {
+    "level": 65,
+    "ascension": 4,
+    "attack": 445.2756773,
+    "specialized": 43.01995698
+  },
+  "66": {
+    "level": 66,
+    "ascension": 4,
+    "attack": 450.1430969,
+    "specialized": 43.01995698
+  },
+  "67": {
+    "level": 67,
+    "ascension": 4,
+    "attack": 455.0105165,
+    "specialized": 43.01995698
+  },
+  "68": {
+    "level": 68,
+    "ascension": 4,
+    "attack": 459.9230048,
+    "specialized": 43.01995698
+  },
+  "69": {
+    "level": 69,
+    "ascension": 4,
+    "attack": 464.7904244,
+    "specialized": 43.01995698
+  },
+  "70": {
+    "level": 70,
+    "ascension": 4,
+    "attack": 469.65784399999995,
+    "specialized": 45.431954568
+  },
+  "71": {
+    "level": 71,
+    "ascension": 5,
+    "attack": 500.57033229999996,
+    "specialized": 45.431954568
+  },
+  "72": {
+    "level": 72,
+    "ascension": 5,
+    "attack": 505.48282059999997,
+    "specialized": 45.431954568
+  },
+  "73": {
+    "level": 73,
+    "ascension": 5,
+    "attack": 510.3502402,
+    "specialized": 45.431954568
+  },
+  "74": {
+    "level": 74,
+    "ascension": 5,
+    "attack": 515.2627285,
+    "specialized": 45.431954568
+  },
+  "75": {
+    "level": 75,
+    "ascension": 5,
+    "attack": 520.1752168,
+    "specialized": 47.855952144
+  },
+  "76": {
+    "level": 76,
+    "ascension": 5,
+    "attack": 525.0877051,
+    "specialized": 47.855952144
+  },
+  "77": {
+    "level": 77,
+    "ascension": 5,
+    "attack": 530.0001934,
+    "specialized": 47.855952144
+  },
+  "78": {
+    "level": 78,
+    "ascension": 5,
+    "attack": 534.9126816999999,
+    "specialized": 47.855952144
+  },
+  "79": {
+    "level": 79,
+    "ascension": 5,
+    "attack": 539.82517,
+    "specialized": 47.855952144
+  },
+  "80": {
+    "level": 80,
+    "ascension": 5,
+    "attack": 544.7376583,
+    "specialized": 50.279949720000005
+  },
+  "81": {
+    "level": 81,
+    "ascension": 6,
+    "attack": 575.5952153000001,
+    "specialized": 50.279949720000005
+  },
+  "82": {
+    "level": 82,
+    "ascension": 6,
+    "attack": 580.5077036,
+    "specialized": 50.279949720000005
+  },
+  "83": {
+    "level": 83,
+    "ascension": 6,
+    "attack": 585.4201919000001,
+    "specialized": 50.279949720000005
+  },
+  "84": {
+    "level": 84,
+    "ascension": 6,
+    "attack": 590.3777489,
+    "specialized": 50.279949720000005
+  },
+  "85": {
+    "level": 85,
+    "ascension": 6,
+    "attack": 595.2902372,
+    "specialized": 52.703947296
+  },
+  "86": {
+    "level": 86,
+    "ascension": 6,
+    "attack": 600.2477941999999,
+    "specialized": 52.703947296
+  },
+  "87": {
+    "level": 87,
+    "ascension": 6,
+    "attack": 605.1602825,
+    "specialized": 52.703947296
+  },
+  "88": {
+    "level": 88,
+    "ascension": 6,
+    "attack": 610.1178395000001,
+    "specialized": 52.703947296
+  },
+  "89": {
+    "level": 89,
+    "ascension": 6,
+    "attack": 615.0753965,
+    "specialized": 52.703947296
+  },
+  "90": {
+    "level": 90,
+    "ascension": 6,
+    "attack": 620.0329535,
+    "specialized": 55.12794487200001
+  },
+  "20+": {
+    "level": 20,
+    "ascension": 1,
+    "attack": 154.1204515,
+    "specialized": 21.203978795999998
+  },
+  "40+": {
+    "level": 40,
+    "ascension": 2,
+    "attack": 273.1422483,
+    "specialized": 30.899969100000003
+  },
+  "50+": {
+    "level": 50,
+    "ascension": 3,
+    "attack": 346.7700016,
+    "specialized": 35.747964252
+  },
+  "60+": {
+    "level": 60,
+    "ascension": 4,
+    "attack": 420.93857929999996,
+    "specialized": 40.595959404
+  },
+  "70+": {
+    "level": 70,
+    "ascension": 5,
+    "attack": 495.65784399999995,
+    "specialized": 45.431954568
+  },
+  "80+": {
+    "level": 80,
+    "ascension": 6,
+    "attack": 570.6376583,
+    "specialized": 50.279949720000005
+  }
+}

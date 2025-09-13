@@ -1,0 +1,547 @@
+{
+  "id": 1501,
+  "name": "Kaeya",
+  "combat1": {
+    "name": "Lâmina Cerimonial",
+    "descriptionRaw": "<color=#FFD780FF>Ataque Normal</color>\nRealiza até 5 golpes rápidos.\n\n<color=#FFD780FF>Ataque Carregado</color>\nConsome uma certa quantidade de Stamina para desferir 2 golpes rápidos com a espada.\n\n<color=#FFD780FF>Ataque Imersivo</color>\nMergulha em pleno ar para golpear o chão, causando dano aos inimigos ao longo do caminho e infligindo Dano em uma AdE durante o impacto.",
+    "description": "Ataque Normal\nRealiza até 5 golpes rápidos.\n\nAtaque Carregado\nConsome uma certa quantidade de Stamina para desferir 2 golpes rápidos com a espada.\n\nAtaque Imersivo\nMergulha em pleno ar para golpear o chão, causando dano aos inimigos ao longo do caminho e infligindo Dano em uma AdE durante o impacto.",
+    "attributes": {
+      "labels": [
+        "Dano do 1° Golpe|{param1:F1P}",
+        "Dano do 2° Golpe|{param2:F1P}",
+        "Dano do 3° Golpe|{param3:F1P}",
+        "Dano do 4° Golpe|{param4:F1P}",
+        "Dano do 5° Golpe|{param5:F1P}",
+        "Dano de Ataque Carregado|{param6:F1P}+{param7:F1P}",
+        "Consumo de Stamina de Ataque Carregado|{param8:F1}",
+        "Dano Durante a Queda|{param9:F1P}",
+        "Dano de Queda de Baixa/Alta Altitude|{param10:P}/{param11:P}"
+      ],
+      "parameters": {
+        "param1": [
+          0.5375,
+          0.58125,
+          0.625,
+          0.6875,
+          0.73125,
+          0.78125,
+          0.85,
+          0.91875,
+          0.9875,
+          1.0625,
+          1.148438,
+          1.2495,
+          1.350562,
+          1.451625,
+          1.561875
+        ],
+        "param2": [
+          0.51686,
+          0.55893,
+          0.601,
+          0.6611,
+          0.70317,
+          0.75125,
+          0.81736,
+          0.88347,
+          0.94958,
+          1.0217,
+          1.104337,
+          1.201519,
+          1.298701,
+          1.395883,
+          1.501899
+        ],
+        "param3": [
+          0.65274,
+          0.70587,
+          0.759,
+          0.8349,
+          0.88803,
+          0.94875,
+          1.03224,
+          1.11573,
+          1.19922,
+          1.2903,
+          1.394662,
+          1.517393,
+          1.640123,
+          1.762853,
+          1.896741
+        ],
+        "param4": [
+          0.70864,
+          0.76632,
+          0.824,
+          0.9064,
+          0.96408,
+          1.03,
+          1.12064,
+          1.21128,
+          1.30192,
+          1.4008,
+          1.5141,
+          1.647341,
+          1.780582,
+          1.913822,
+          2.059176
+        ],
+        "param5": [
+          0.88236,
+          0.95418,
+          1.026,
+          1.1286,
+          1.20042,
+          1.2825,
+          1.39536,
+          1.50822,
+          1.62108,
+          1.7442,
+          1.885275,
+          2.051179,
+          2.217083,
+          2.382988,
+          2.563974
+        ],
+        "param6": [
+          0.5504,
+          0.5952,
+          0.64,
+          0.704,
+          0.7488,
+          0.8,
+          0.8704,
+          0.9408,
+          1.0112,
+          1.088,
+          1.176,
+          1.279488,
+          1.382976,
+          1.486464,
+          1.59936
+        ],
+        "param7": [
+          0.731,
+          0.7905,
+          0.85,
+          0.935,
+          0.9945,
+          1.0625,
+          1.156,
+          1.2495,
+          1.343,
+          1.445,
+          1.561875,
+          1.69932,
+          1.836765,
+          1.97421,
+          2.12415
+        ],
+        "param8": [
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20
+        ],
+        "param9": [
+          0.639324,
+          0.691362,
+          0.7434,
+          0.81774,
+          0.869778,
+          0.92925,
+          1.011024,
+          1.092798,
+          1.174572,
+          1.26378,
+          1.352988,
+          1.442196,
+          1.531404,
+          1.620612,
+          1.70982
+        ],
+        "param10": [
+          1.278377,
+          1.382431,
+          1.486485,
+          1.635134,
+          1.739187,
+          1.858106,
+          2.02162,
+          2.185133,
+          2.348646,
+          2.527025,
+          2.705403,
+          2.883781,
+          3.062159,
+          3.240537,
+          3.418915
+        ],
+        "param11": [
+          1.596762,
+          1.726731,
+          1.8567,
+          2.04237,
+          2.172339,
+          2.320875,
+          2.525112,
+          2.729349,
+          2.933586,
+          3.15639,
+          3.379194,
+          3.601998,
+          3.824802,
+          4.047606,
+          4.27041
+        ]
+      }
+    }
+  },
+  "combat2": {
+    "name": "Mordida Congelante",
+    "descriptionRaw": "Lança uma explosão gélida, infligindo <color=#99FFFFFF>Dano Cryo</color> aos inimigos em frente ao Kaeya.\n\n<i>Kaeya parece afável, mas sua natureza é a do gelo inflexível.</i>",
+    "description": "Lança uma explosão gélida, infligindo Dano Cryo aos inimigos em frente ao Kaeya.",
+    "flavorText": "Kaeya parece afável, mas sua natureza é a do gelo inflexível.",
+    "attributes": {
+      "labels": [
+        "Dano de Habilidade|{param1:P}",
+        "Tempo de Recarga|{param2:F1}s"
+      ],
+      "parameters": {
+        "param1": [
+          1.912,
+          2.0554,
+          2.1988,
+          2.39,
+          2.5334,
+          2.6768,
+          2.868,
+          3.0592,
+          3.2504,
+          3.4416,
+          3.6328,
+          3.824,
+          4.063,
+          4.302,
+          4.541
+        ],
+        "param2": [
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6
+        ]
+      }
+    }
+  },
+  "combat3": {
+    "name": "Valsa Glacial",
+    "descriptionRaw": "Coalescendo a geada no ar, Kaeya invoca 3 pontas de gelo que giram em torno dele.\nEsses pingentes seguirão o personagem e causarão <color=#99FFFFFF>Dano Cryo</color> aos inimigos em seu caminho enquanto eles persistirem.\n\n<i>Um sorriso encantador, palavras gentis e a geada implacável que se esconde... Essas são todas as armas de Kaeya.</i>",
+    "description": "Coalescendo a geada no ar, Kaeya invoca 3 pontas de gelo que giram em torno dele.\nEsses pingentes seguirão o personagem e causarão Dano Cryo aos inimigos em seu caminho enquanto eles persistirem.",
+    "flavorText": "Um sorriso encantador, palavras gentis e a geada implacável que se esconde... Essas são todas as armas de Kaeya.",
+    "attributes": {
+      "labels": [
+        "Dano de Habilidade|{param1:F1P}",
+        "Tempo de Recarga|{param2:F1}s",
+        "Duração|{param3:F1}",
+        "Energia Elemental|{param4:I}"
+      ],
+      "parameters": {
+        "param1": [
+          0.776,
+          0.8342,
+          0.8924,
+          0.97,
+          1.0282,
+          1.0864,
+          1.164,
+          1.2416,
+          1.3192,
+          1.3968,
+          1.4744,
+          1.552,
+          1.649,
+          1.746,
+          1.843
+        ],
+        "param2": [
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15
+        ],
+        "param3": [
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ],
+        "param4": [
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60
+        ]
+      }
+    }
+  },
+  "passive1": {
+    "name": "Espada do Sangue Frio",
+    "descriptionRaw": "Cada golpe com <color=#FFD780FF>Mordida Congelante</color> regenera a Vida de Kaeya equivalente a 15% do seu ATQ.",
+    "description": "Cada golpe com Mordida Congelante regenera a Vida de Kaeya equivalente a 15% do seu ATQ."
+  },
+  "passive2": {
+    "name": "Coração Glacial",
+    "descriptionRaw": "Os inimigos <color=#FFD780FF>Congelados</color> pela <color=#99FFFFFF>Mordida Congelante</color> irão dropar Partículas Elementais adicionais.\nA Mordida Congelante pode produzir no máximo 2 Partículas Elementais por uso.",
+    "description": "Os inimigos Congelados pela Mordida Congelante irão dropar Partículas Elementais adicionais.\nA Mordida Congelante pode produzir no máximo 2 Partículas Elementais por uso."
+  },
+  "passive3": {
+    "name": "Força Oculta",
+    "descriptionRaw": "Diminui o consumo de Stamina ao Correr de todos os seus personagens em 20%.\nNão acumulável com Talentos Passivos que concedem exatamente os mesmos efeitos.",
+    "description": "Diminui o consumo de Stamina ao Correr de todos os seus personagens em 20%.\nNão acumulável com Talentos Passivos que concedem exatamente os mesmos efeitos."
+  },
+  "costs": {
+    "lvl2": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 12500
+      },
+      {
+        "id": 104307,
+        "name": "Ensinamentos de Poemas",
+        "count": 3
+      },
+      {
+        "id": 112035,
+        "name": "Insígnia dos Ladrões de Tesouro",
+        "count": 6
+      }
+    ],
+    "lvl3": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 17500
+      },
+      {
+        "id": 104308,
+        "name": "Guia de Poemas",
+        "count": 2
+      },
+      {
+        "id": 112036,
+        "name": "Insígnia do Corvo Prateado",
+        "count": 3
+      }
+    ],
+    "lvl4": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 25000
+      },
+      {
+        "id": 104308,
+        "name": "Guia de Poemas",
+        "count": 4
+      },
+      {
+        "id": 112036,
+        "name": "Insígnia do Corvo Prateado",
+        "count": 4
+      }
+    ],
+    "lvl5": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 30000
+      },
+      {
+        "id": 104308,
+        "name": "Guia de Poemas",
+        "count": 6
+      },
+      {
+        "id": 112036,
+        "name": "Insígnia do Corvo Prateado",
+        "count": 6
+      }
+    ],
+    "lvl6": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 37500
+      },
+      {
+        "id": 104308,
+        "name": "Guia de Poemas",
+        "count": 9
+      },
+      {
+        "id": 112036,
+        "name": "Insígnia do Corvo Prateado",
+        "count": 9
+      }
+    ],
+    "lvl7": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 120000
+      },
+      {
+        "id": 104309,
+        "name": "Filosofia de Poemas",
+        "count": 4
+      },
+      {
+        "id": 112037,
+        "name": "Insígnia de Corvo Dourado",
+        "count": 4
+      },
+      {
+        "id": 113008,
+        "name": "Alma do Vento do Norte",
+        "count": 1
+      }
+    ],
+    "lvl8": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 260000
+      },
+      {
+        "id": 104309,
+        "name": "Filosofia de Poemas",
+        "count": 6
+      },
+      {
+        "id": 112037,
+        "name": "Insígnia de Corvo Dourado",
+        "count": 6
+      },
+      {
+        "id": 113008,
+        "name": "Alma do Vento do Norte",
+        "count": 1
+      }
+    ],
+    "lvl9": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 450000
+      },
+      {
+        "id": 104309,
+        "name": "Filosofia de Poemas",
+        "count": 12
+      },
+      {
+        "id": 112037,
+        "name": "Insígnia de Corvo Dourado",
+        "count": 9
+      },
+      {
+        "id": 113008,
+        "name": "Alma do Vento do Norte",
+        "count": 2
+      }
+    ],
+    "lvl10": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 700000
+      },
+      {
+        "id": 104309,
+        "name": "Filosofia de Poemas",
+        "count": 16
+      },
+      {
+        "id": 112037,
+        "name": "Insígnia de Corvo Dourado",
+        "count": 12
+      },
+      {
+        "id": 113008,
+        "name": "Alma do Vento do Norte",
+        "count": 2
+      },
+      {
+        "id": 104319,
+        "name": "Coroa da Sabedoria",
+        "count": 1
+      }
+    ]
+  },
+  "images": {
+    "filename_combat1": "Skill_A_01",
+    "filename_combat2": "Skill_S_Kaeya_01",
+    "filename_combat3": "Skill_E_Kaeya_01_HD",
+    "filename_passive1": "UI_Talent_S_Kaeya_05",
+    "filename_passive2": "UI_Talent_S_Kaeya_06",
+    "filename_passive3": "UI_Talent_Explosion_Sprint"
+  },
+  "version": "1.0"
+}

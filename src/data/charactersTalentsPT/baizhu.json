@@ -1,0 +1,652 @@
+{
+  "id": 8201,
+  "name": "Baizhu",
+  "combat1": {
+    "name": "Acupuntura Dourada",
+    "descriptionRaw": "<color=#FFD780FF>Ataque Normal</color>\nRealiza até 4 ataques que infligem <color=#99FF88FF>Dano Dendro</color>.\n\n<color=#FFD780FF>Ataque Carregado</color>\nConsome uma certa quantidade de Stamina para infligir <color=#99FF88FF>Dano Dendro em uma AdE</color> após um curto período de canalização.\n\n<color=#FFD780FF>Ataque Imersivo</color>\nReunindo o poder do Dendro, mergulha em direção ao chão em pleno ar, infligindo dano a todos os inimigos em seu caminho. Inflige <color=#99FF88FF>Dano Dendro em uma AdE</color> durante o impacto com o chão.",
+    "description": "Ataque Normal\nRealiza até 4 ataques que infligem Dano Dendro.\n\nAtaque Carregado\nConsome uma certa quantidade de Stamina para infligir Dano Dendro em uma AdE após um curto período de canalização.\n\nAtaque Imersivo\nReunindo o poder do Dendro, mergulha em direção ao chão em pleno ar, infligindo dano a todos os inimigos em seu caminho. Inflige Dano Dendro em uma AdE durante o impacto com o chão.",
+    "attributes": {
+      "labels": [
+        "Dano do 1° Golpe|{param1:F1P}",
+        "Dano do 2° Golpe|{param2:F1P}",
+        "Dano do 3° Golpe|{param3:F1P}*2",
+        "Dano do 4° Golpe|{param4:F1P}",
+        "Dano de Ataque Carregado|{param5:F1P}",
+        "Consumo de Stamina de Ataque Carregado|{param6:F1}",
+        "Dano Durante a Queda|{param7:F1P}",
+        "Dano de Queda de Baixa/Alta Altitude|{param8:P}/{param9:P}"
+      ],
+      "parameters": {
+        "param1": [
+          0.373704,
+          0.401732,
+          0.42976,
+          0.46713,
+          0.495158,
+          0.523186,
+          0.560556,
+          0.597926,
+          0.635297,
+          0.672667,
+          0.710038,
+          0.747408,
+          0.794121,
+          0.840834,
+          0.887547
+        ],
+        "param2": [
+          0.364248,
+          0.391567,
+          0.418885,
+          0.45531,
+          0.482629,
+          0.509947,
+          0.546372,
+          0.582797,
+          0.619222,
+          0.655646,
+          0.692071,
+          0.728496,
+          0.774027,
+          0.819558,
+          0.865089
+        ],
+        "param3": [
+          0.225416,
+          0.242322,
+          0.259228,
+          0.28177,
+          0.298676,
+          0.315582,
+          0.338124,
+          0.360666,
+          0.383207,
+          0.405749,
+          0.42829,
+          0.450832,
+          0.479009,
+          0.507186,
+          0.535363
+        ],
+        "param4": [
+          0.541376,
+          0.581979,
+          0.622582,
+          0.67672,
+          0.717323,
+          0.757926,
+          0.812064,
+          0.866202,
+          0.920339,
+          0.974477,
+          1.028614,
+          1.082752,
+          1.150424,
+          1.218096,
+          1.285768
+        ],
+        "param5": [
+          1.2104,
+          1.30118,
+          1.39196,
+          1.513,
+          1.60378,
+          1.69456,
+          1.8156,
+          1.93664,
+          2.05768,
+          2.17872,
+          2.29976,
+          2.4208,
+          2.5721,
+          2.7234,
+          2.8747
+        ],
+        "param6": [
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "param7": [
+          0.568288,
+          0.614544,
+          0.6608,
+          0.72688,
+          0.773136,
+          0.826,
+          0.898688,
+          0.971376,
+          1.044064,
+          1.12336,
+          1.202656,
+          1.281952,
+          1.361248,
+          1.440544,
+          1.51984
+        ],
+        "param8": [
+          1.136335,
+          1.228828,
+          1.32132,
+          1.453452,
+          1.545944,
+          1.65165,
+          1.796995,
+          1.94234,
+          2.087686,
+          2.246244,
+          2.404802,
+          2.563361,
+          2.721919,
+          2.880478,
+          3.039036
+        ],
+        "param9": [
+          1.419344,
+          1.534872,
+          1.6504,
+          1.81544,
+          1.930968,
+          2.063,
+          2.244544,
+          2.426088,
+          2.607632,
+          2.80568,
+          3.003728,
+          3.201776,
+          3.399824,
+          3.597872,
+          3.79592
+        ]
+      }
+    }
+  },
+  "combat2": {
+    "name": "Diagnóstico Universal",
+    "descriptionRaw": "Controla um Espírito Sérico, fazendo-o atacar os inimigos próximos, causando <color=#99FF88FF>Dano Dendro</color>.\nDepois de realizar até 3 ataques, ou quando não houver inimigos próximos, o Espírito Sérico retornará, regenerando Vida de todos os personagens da equipe próximos; a quantidade de Vida regenerada é baseada na Vida Máxima de Baizhu.\n\n<i>As pessoas da área médica que podem distinguir os verdadeiros sinais de uma doença dos sinais falsos, conseguem curar uma pessoa antes mesmo dos sintomas aparecerem.</i>",
+    "description": "Controla um Espírito Sérico, fazendo-o atacar os inimigos próximos, causando Dano Dendro.\nDepois de realizar até 3 ataques, ou quando não houver inimigos próximos, o Espírito Sérico retornará, regenerando Vida de todos os personagens da equipe próximos; a quantidade de Vida regenerada é baseada na Vida Máxima de Baizhu.",
+    "flavorText": "As pessoas da área médica que podem distinguir os verdadeiros sinais de uma doença dos sinais falsos, conseguem curar uma pessoa antes mesmo dos sintomas aparecerem.",
+    "attributes": {
+      "labels": [
+        "Dano de Habilidade|{param1:F1P}",
+        "Cura|{param2:F2P} da Vida Máxima + {param3:I}",
+        "Tempo de Recarga|{param4:F1}s"
+      ],
+      "parameters": {
+        "param1": [
+          0.792,
+          0.8514,
+          0.9108,
+          0.99,
+          1.0494,
+          1.1088,
+          1.188,
+          1.2672,
+          1.3464,
+          1.4256,
+          1.5048,
+          1.584,
+          1.683,
+          1.782,
+          1.881
+        ],
+        "param2": [
+          0.08,
+          0.086,
+          0.092,
+          0.1,
+          0.106,
+          0.112,
+          0.12,
+          0.128,
+          0.136,
+          0.144,
+          0.152,
+          0.16,
+          0.17,
+          0.18,
+          0.19
+        ],
+        "param3": [
+          770.3755,
+          847.42377,
+          930.8927,
+          1020.78235,
+          1117.0927,
+          1219.8236,
+          1328.9753,
+          1444.5477,
+          1566.5408,
+          1694.9546,
+          1829.7891,
+          1971.0442,
+          2118.72,
+          2272.8164,
+          2433.3337
+        ],
+        "param4": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ]
+      }
+    }
+  },
+  "combat3": {
+    "name": "Cura Holística",
+    "descriptionRaw": "Entra no estado Édito Pulsante, criando um Escudo Impenetrável que possui um efeito de 250% de absorção de <color=#99FF88FF>Dano Dendro</color>.\nEnquanto estiver no estado Édito Pulsante, gerará um novo Escudo Impenetrável a cada 2.5s.\n\nSegundo as circunstâncias abaixo, regenerará Vida para os personagens ativos da sua equipe no campo de batalha, a quantidade regenerada é baseada na Vida Máxima de Baizhu, e atacará os inimigos lançando o Espiriveio, causando <color=#99FF88FF>Dano Dendro</color>:\n· Quando um personagem estiver protegido pelo Escudo Impenetrável e um novo Escudo Impenetrável é gerado;\n· Quando o efeito do Escudo Impenetrável acaba ou quando é destruído.\n\n<i>Se você conseguir olhar para o céu e para a terra, proteja o seu interior contra o que vem de fora e mantenha sua mente tranquila, assim nada vai poder te impedir.</i>",
+    "description": "Entra no estado Édito Pulsante, criando um Escudo Impenetrável que possui um efeito de 250% de absorção de Dano Dendro.\nEnquanto estiver no estado Édito Pulsante, gerará um novo Escudo Impenetrável a cada 2.5s.\n\nSegundo as circunstâncias abaixo, regenerará Vida para os personagens ativos da sua equipe no campo de batalha, a quantidade regenerada é baseada na Vida Máxima de Baizhu, e atacará os inimigos lançando o Espiriveio, causando Dano Dendro:\n· Quando um personagem estiver protegido pelo Escudo Impenetrável e um novo Escudo Impenetrável é gerado;\n· Quando o efeito do Escudo Impenetrável acaba ou quando é destruído.",
+    "flavorText": "Se você conseguir olhar para o céu e para a terra, proteja o seu interior contra o que vem de fora e mantenha sua mente tranquila, assim nada vai poder te impedir.",
+    "attributes": {
+      "labels": [
+        "Escudo Impenetrável|{param1:F2P} da Vida Máxima + {param2:I}",
+        "Duração do Escudo Impenetrável|{param3:F1}s",
+        "Cura do Escudo Impenetrável|{param5:F2P} Vida Máxima + {param6:I}",
+        "Dano de Habilidade do Espiriveio|{param7:F1P}",
+        "Duração do Édito Pulsante|{param8:F1}s",
+        "Recarga|{param9:F1}s",
+        "Energia Elemental|{param10:I}"
+      ],
+      "parameters": {
+        "param1": [
+          0.008,
+          0.0086,
+          0.0092,
+          0.01,
+          0.0106,
+          0.0112,
+          0.012,
+          0.0128,
+          0.0136,
+          0.0144,
+          0.0152,
+          0.016,
+          0.017,
+          0.018,
+          0.019
+        ],
+        "param2": [
+          77.03752,
+          84.74235,
+          93.08924,
+          102.0782,
+          111.70923,
+          121.98233,
+          132.89749,
+          144.45473,
+          156.65404,
+          169.4954,
+          182.97885,
+          197.10435,
+          211.87193,
+          227.28157,
+          243.3333
+        ],
+        "param3": [
+          2.5,
+          2.5,
+          2.5,
+          2.5,
+          2.5,
+          2.5,
+          2.5,
+          2.5,
+          2.5,
+          2.5,
+          2.5,
+          2.5,
+          2.5,
+          2.5,
+          2.5
+        ],
+        "param4": [
+          2.5,
+          2.5,
+          2.5,
+          2.5,
+          2.5,
+          2.5,
+          2.5,
+          2.5,
+          2.5,
+          2.5,
+          2.5,
+          2.5,
+          2.5,
+          2.5,
+          2.5
+        ],
+        "param5": [
+          0.052,
+          0.0559,
+          0.0598,
+          0.065,
+          0.0689,
+          0.0728,
+          0.078,
+          0.0832,
+          0.0884,
+          0.0936,
+          0.0988,
+          0.104,
+          0.1105,
+          0.117,
+          0.1235
+        ],
+        "param6": [
+          500.74408,
+          550.82544,
+          605.08026,
+          663.50854,
+          726.1102,
+          792.8854,
+          863.834,
+          938.95605,
+          1018.2515,
+          1101.7205,
+          1189.3629,
+          1281.1787,
+          1377.168,
+          1477.3307,
+          1581.6669
+        ],
+        "param7": [
+          0.97064,
+          1.043438,
+          1.116236,
+          1.2133,
+          1.286098,
+          1.358896,
+          1.45596,
+          1.553024,
+          1.650088,
+          1.747152,
+          1.844216,
+          1.94128,
+          2.06261,
+          2.18394,
+          2.30527
+        ],
+        "param8": [
+          14,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14
+        ],
+        "param9": [
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20
+        ],
+        "param10": [
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80
+        ]
+      }
+    }
+  },
+  "passive1": {
+    "name": "Cinco Fortunas Eternas",
+    "descriptionRaw": "Baizhu ganha diferentes efeitos conforme a Vida atual do personagem ativo:\n· Quando a Vida é menor do que 50%, Baizhu ganha 20% de Bônus de Cura.\n· Quando a Vida é igual ou maior do que 50%, Baizhu ganha 25% de <color=#99FF88FF>Bônus de Dano Dendro</color>.",
+    "description": "Baizhu ganha diferentes efeitos conforme a Vida atual do personagem ativo:\n· Quando a Vida é menor do que 50%, Baizhu ganha 20% de Bônus de Cura.\n· Quando a Vida é igual ou maior do que 50%, Baizhu ganha 25% de Bônus de Dano Dendro."
+  },
+  "passive2": {
+    "name": "Mãe Terra",
+    "descriptionRaw": "Personagens curados pelo <color=#FFD780FF>Escudo Impenetrável</color> ganharão o efeito \"Era da Proteção Verdejante\": Cada 1.000 pontos de Vida Máxima de Baizhu abaixo de 50.000 aumenta o Dano das reações de Queimaduras, Florescimento, Superflorescimento e Germinação em 2%. O Dano das reações Intensificação e Propagação aumenta em 0.8%. A duração é de 6s.",
+    "description": "Personagens curados pelo Escudo Impenetrável ganharão o efeito \"Era da Proteção Verdejante\": Cada 1.000 pontos de Vida Máxima de Baizhu abaixo de 50.000 aumenta o Dano das reações de Queimaduras, Florescimento, Superflorescimento e Germinação em 2%. O Dano das reações Intensificação e Propagação aumenta em 0.8%. A duração é de 6s."
+  },
+  "passive3": {
+    "name": "Nutrição Herbal",
+    "descriptionRaw": "Quando Baizhu está na equipe, interagir com certos itens coletáveis cura a equipe em 2.5% da Vida Máxima de Baizhu.",
+    "description": "Quando Baizhu está na equipe, interagir com certos itens coletáveis cura a equipe em 2.5% da Vida Máxima de Baizhu."
+  },
+  "costs": {
+    "lvl2": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 12500
+      },
+      {
+        "id": 104316,
+        "name": "Ensinamentos de Ouro",
+        "count": 3
+      },
+      {
+        "id": 112059,
+        "name": "Esporo de Cogumelo Flutuante",
+        "count": 6
+      }
+    ],
+    "lvl3": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 17500
+      },
+      {
+        "id": 104317,
+        "name": "Guia de Ouro",
+        "count": 2
+      },
+      {
+        "id": 112060,
+        "name": "Pólen fluorescente",
+        "count": 3
+      }
+    ],
+    "lvl4": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 25000
+      },
+      {
+        "id": 104317,
+        "name": "Guia de Ouro",
+        "count": 4
+      },
+      {
+        "id": 112060,
+        "name": "Pólen fluorescente",
+        "count": 4
+      }
+    ],
+    "lvl5": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 30000
+      },
+      {
+        "id": 104317,
+        "name": "Guia de Ouro",
+        "count": 6
+      },
+      {
+        "id": 112060,
+        "name": "Pólen fluorescente",
+        "count": 6
+      }
+    ],
+    "lvl6": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 37500
+      },
+      {
+        "id": 104317,
+        "name": "Guia de Ouro",
+        "count": 9
+      },
+      {
+        "id": 112060,
+        "name": "Pólen fluorescente",
+        "count": 9
+      }
+    ],
+    "lvl7": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 120000
+      },
+      {
+        "id": 104318,
+        "name": "Filosofia de Ouro",
+        "count": 4
+      },
+      {
+        "id": 112061,
+        "name": "Poeira Cristalina de Cisto",
+        "count": 4
+      },
+      {
+        "id": 113046,
+        "name": "Samambaia do Paraíso Exuberante",
+        "count": 1
+      }
+    ],
+    "lvl8": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 260000
+      },
+      {
+        "id": 104318,
+        "name": "Filosofia de Ouro",
+        "count": 6
+      },
+      {
+        "id": 112061,
+        "name": "Poeira Cristalina de Cisto",
+        "count": 6
+      },
+      {
+        "id": 113046,
+        "name": "Samambaia do Paraíso Exuberante",
+        "count": 1
+      }
+    ],
+    "lvl9": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 450000
+      },
+      {
+        "id": 104318,
+        "name": "Filosofia de Ouro",
+        "count": 12
+      },
+      {
+        "id": 112061,
+        "name": "Poeira Cristalina de Cisto",
+        "count": 9
+      },
+      {
+        "id": 113046,
+        "name": "Samambaia do Paraíso Exuberante",
+        "count": 2
+      }
+    ],
+    "lvl10": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 700000
+      },
+      {
+        "id": 104318,
+        "name": "Filosofia de Ouro",
+        "count": 16
+      },
+      {
+        "id": 112061,
+        "name": "Poeira Cristalina de Cisto",
+        "count": 12
+      },
+      {
+        "id": 113046,
+        "name": "Samambaia do Paraíso Exuberante",
+        "count": 2
+      },
+      {
+        "id": 104319,
+        "name": "Coroa da Sabedoria",
+        "count": 1
+      }
+    ]
+  },
+  "images": {
+    "filename_combat1": "Skill_A_Catalyst_MD",
+    "filename_combat2": "Skill_S_Baizhuer_01",
+    "filename_combat3": "Skill_E_Baizhuer_01_HD",
+    "filename_passive1": "UI_Talent_S_Baizhuer_05",
+    "filename_passive2": "UI_Talent_S_Baizhuer_06",
+    "filename_passive3": "UI_Talent_S_Baizhuer_07"
+  },
+  "version": "3.6"
+}

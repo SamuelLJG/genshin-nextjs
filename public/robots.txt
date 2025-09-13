@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://genshinbuild.com/sitemap.xml

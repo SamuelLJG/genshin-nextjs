@@ -1,0 +1,736 @@
+{
+  "id": 4801,
+  "name": "Yanfei",
+  "combat1": {
+    "name": "Selo Ardente",
+    "descriptionRaw": "<color=#FFD780FF>Ataque Normal</color>\nDispara bolas de fogo continuamente, causando no máximo três <color=#FF9999FF>Danos Pyro</color>.\nQuando o Ataque Normal atinge os inimigos, Yanfei obtém uma Insígnia de Chamas. Inicialmente, pode ter no máximo três Insígnias de Chamas. A cada vez que o efeito ocorre, a duração da Insígnia de Chamas atual será renovada.\nCada Insígnia de Chamas reduzirá o consumo de Stamina de Yanfei e desaparecerá quando Yanfei sair do combate.\n\n<color=#FFD780FF>Ataque Carregado</color>\nConsome Stamina e, depois de ativada por um curto tempo, consome todas as Insígnias de Chamas e causa <color=#FF9999FF>Dano Pyro na AdE</color> em sua frente.\nDe acordo com a quantidade de Insígnias de Chama consumidas, fortalece a Área e Dano do Ataque Carregado.\n\n<color=#FFD780FF>Ataque Imersivo</color>\nAcumula energia Pyro, mergulha em pleno ar para golpear o chão, atingindo os inimigos em seu caminho e infligindo <color=#FF9999FF>Dano Pyro na AdE</color> quando impacta no chão.",
+    "description": "Ataque Normal\nDispara bolas de fogo continuamente, causando no máximo três Danos Pyro.\nQuando o Ataque Normal atinge os inimigos, Yanfei obtém uma Insígnia de Chamas. Inicialmente, pode ter no máximo três Insígnias de Chamas. A cada vez que o efeito ocorre, a duração da Insígnia de Chamas atual será renovada.\nCada Insígnia de Chamas reduzirá o consumo de Stamina de Yanfei e desaparecerá quando Yanfei sair do combate.\n\nAtaque Carregado\nConsome Stamina e, depois de ativada por um curto tempo, consome todas as Insígnias de Chamas e causa Dano Pyro na AdE em sua frente.\nDe acordo com a quantidade de Insígnias de Chama consumidas, fortalece a Área e Dano do Ataque Carregado.\n\nAtaque Imersivo\nAcumula energia Pyro, mergulha em pleno ar para golpear o chão, atingindo os inimigos em seu caminho e infligindo Dano Pyro na AdE quando impacta no chão.",
+    "attributes": {
+      "labels": [
+        "Dano do 1° Golpe|{param1:F1P}",
+        "Dano do 2° Golpe|{param2:F1P}",
+        "Dano do 3° Golpe|{param3:F1P}",
+        "Dano de Ataque Carregado|{param4:P}/{param5:P}/{param6:P}/{param7:P}/{param8:P}",
+        "Consumo de Stamina de Ataque Carregado|{param14:F1}",
+        "Redução do Consumo de Stamina da Insígnia de Chamas|{param15:F1P}",
+        "Recarga de Insígnia de Chamas|{param19:F1}s",
+        "Dano Durante a Queda|{param16:F1P}",
+        "Dano de Queda de Baixa/Alta Altitude|{param17:P}/{param18:P}"
+      ],
+      "parameters": {
+        "param1": [
+          0.583416,
+          0.627172,
+          0.670928,
+          0.72927,
+          0.773026,
+          0.816782,
+          0.875124,
+          0.933466,
+          0.991807,
+          1.050149,
+          1.10849,
+          1.166832,
+          1.239759,
+          1.312686,
+          1.385613
+        ],
+        "param2": [
+          0.521256,
+          0.56035,
+          0.599444,
+          0.65157,
+          0.690664,
+          0.729758,
+          0.781884,
+          0.83401,
+          0.886135,
+          0.938261,
+          0.990386,
+          1.042512,
+          1.107669,
+          1.172826,
+          1.237983
+        ],
+        "param3": [
+          0.760128,
+          0.817138,
+          0.874147,
+          0.95016,
+          1.00717,
+          1.064179,
+          1.140192,
+          1.216205,
+          1.292218,
+          1.36823,
+          1.444243,
+          1.520256,
+          1.615272,
+          1.710288,
+          1.805304
+        ],
+        "param4": [
+          0.982294,
+          1.041114,
+          1.099934,
+          1.1764,
+          1.23522,
+          1.29404,
+          1.370506,
+          1.446972,
+          1.523438,
+          1.599904,
+          1.67637,
+          1.752836,
+          1.829302,
+          1.905768,
+          1.982234
+        ],
+        "param5": [
+          1.15564,
+          1.22484,
+          1.29404,
+          1.384,
+          1.4532,
+          1.5224,
+          1.61236,
+          1.70232,
+          1.79228,
+          1.88224,
+          1.9722,
+          2.06216,
+          2.15212,
+          2.24208,
+          2.33204
+        ],
+        "param6": [
+          1.328986,
+          1.408566,
+          1.488146,
+          1.5916,
+          1.67118,
+          1.75076,
+          1.854214,
+          1.957668,
+          2.061122,
+          2.164576,
+          2.26803,
+          2.371484,
+          2.474938,
+          2.578392,
+          2.681846
+        ],
+        "param7": [
+          1.502332,
+          1.592292,
+          1.682252,
+          1.7992,
+          1.88916,
+          1.97912,
+          2.096068,
+          2.213016,
+          2.329964,
+          2.446912,
+          2.56386,
+          2.680808,
+          2.797756,
+          2.914704,
+          3.031652
+        ],
+        "param8": [
+          1.675678,
+          1.776018,
+          1.876358,
+          2.0068,
+          2.10714,
+          2.20748,
+          2.337922,
+          2.468364,
+          2.598806,
+          2.729248,
+          2.85969,
+          2.990132,
+          3.120574,
+          3.251016,
+          3.381458
+        ],
+        "param9": [
+          2.5,
+          2.5,
+          2.5,
+          2.5,
+          2.5,
+          2.5,
+          2.5,
+          2.5,
+          2.5,
+          2.5,
+          2.5,
+          2.5,
+          2.5,
+          2.5,
+          2.5
+        ],
+        "param10": [
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ],
+        "param11": [
+          3.5,
+          3.5,
+          3.5,
+          3.5,
+          3.5,
+          3.5,
+          3.5,
+          3.5,
+          3.5,
+          3.5,
+          3.5,
+          3.5,
+          3.5,
+          3.5,
+          3.5
+        ],
+        "param12": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "param13": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "param14": [
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "param15": [
+          0.15,
+          0.15,
+          0.15,
+          0.15,
+          0.15,
+          0.15,
+          0.15,
+          0.15,
+          0.15,
+          0.15,
+          0.15,
+          0.15,
+          0.15,
+          0.15,
+          0.15
+        ],
+        "param16": [
+          0.568288,
+          0.614544,
+          0.6608,
+          0.72688,
+          0.773136,
+          0.826,
+          0.898688,
+          0.971376,
+          1.044064,
+          1.12336,
+          1.202656,
+          1.281952,
+          1.361248,
+          1.440544,
+          1.51984
+        ],
+        "param17": [
+          1.136335,
+          1.228828,
+          1.32132,
+          1.453452,
+          1.545944,
+          1.65165,
+          1.796995,
+          1.94234,
+          2.087686,
+          2.246244,
+          2.404802,
+          2.563361,
+          2.721919,
+          2.880478,
+          3.039036
+        ],
+        "param18": [
+          1.419344,
+          1.534872,
+          1.6504,
+          1.81544,
+          1.930968,
+          2.063,
+          2.244544,
+          2.426088,
+          2.607632,
+          2.80568,
+          3.003728,
+          3.201776,
+          3.399824,
+          3.597872,
+          3.79592
+        ],
+        "param19": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ],
+        "param20": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ]
+      }
+    }
+  },
+  "combat2": {
+    "name": "Édito Assinado",
+    "descriptionRaw": "Invoca as chamas, criando <color=#FF9999FF>Dano Pyro na AdE</color>.\nDepois de atingir o inimigo, Yanfei obtém a quantidade máxima de Insígnias de Chamas.\n\n<i>Apesar de possuírem vínculo legal, as Insígnias de Chamas de Yanfei também têm suas próprias cláusulas adicionais. No final das contas, o Ministério dos Assuntos Civis não pode modificar as leis naturais sozinho.</i>",
+    "description": "Invoca as chamas, criando Dano Pyro na AdE.\nDepois de atingir o inimigo, Yanfei obtém a quantidade máxima de Insígnias de Chamas.",
+    "flavorText": "Apesar de possuírem vínculo legal, as Insígnias de Chamas de Yanfei também têm suas próprias cláusulas adicionais. No final das contas, o Ministério dos Assuntos Civis não pode modificar as leis naturais sozinho.",
+    "attributes": {
+      "labels": [
+        "Dano de Habilidade|{param1:P}",
+        "Tempo de Recarga|{param2:F1}s"
+      ],
+      "parameters": {
+        "param1": [
+          1.696,
+          1.8232,
+          1.9504,
+          2.12,
+          2.2472,
+          2.3744,
+          2.544,
+          2.7136,
+          2.8832,
+          3.0528,
+          3.2224,
+          3.392,
+          3.604,
+          3.816,
+          4.028
+        ],
+        "param2": [
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ]
+      }
+    }
+  },
+  "combat3": {
+    "name": "Contrato Vinculativo",
+    "descriptionRaw": "Causa o lançamento de uma chama explosiva, atacando os inimigos ao redor e criando <color=#FF9999FF>Dano Pyro na AdE</color> e Yanfei obtém a quantidade máxima de Insígnias de Chamas e Efeito de Clarão.\n\n<color=#FFD780FF>Clarão</color>\nPossui os seguintes efeitos:\nYanfei obtém uma Insígnia de Chamas em cada intervalo de tempo;\n·Aumenta o Dano causado pelo Ataque Carregado.\nO efeito de Clarão será eliminado quando Yanfei sair do combate ou for derrotada em batalha.\n\n<i>\"As cláusulas já estão escritas. Assim, por esse meio, estabeleço esse contrato de vida ou morte. É claro, eu vivo e você morre!\"</i>",
+    "description": "Causa o lançamento de uma chama explosiva, atacando os inimigos ao redor e criando Dano Pyro na AdE e Yanfei obtém a quantidade máxima de Insígnias de Chamas e Efeito de Clarão.\n\nClarão\nPossui os seguintes efeitos:\nYanfei obtém uma Insígnia de Chamas em cada intervalo de tempo;\n·Aumenta o Dano causado pelo Ataque Carregado.\nO efeito de Clarão será eliminado quando Yanfei sair do combate ou for derrotada em batalha.",
+    "flavorText": "\"As cláusulas já estão escritas. Assim, por esse meio, estabeleço esse contrato de vida ou morte. É claro, eu vivo e você morre!\"",
+    "attributes": {
+      "labels": [
+        "Dano de Habilidade|{param1:P}",
+        "Intervalo de Obtenção de Insígnia de Chamas|{param4:F1}s",
+        "Aumenta Dano de Ataque Carregado|{param2:P}",
+        "Duração|{param3:F1}s",
+        "Tempo de Recarga|{param5:F1}s",
+        "Energia Elemental|{param6:I}"
+      ],
+      "parameters": {
+        "param1": [
+          1.824,
+          1.9608,
+          2.0976,
+          2.28,
+          2.4168,
+          2.5536,
+          2.736,
+          2.9184,
+          3.1008,
+          3.2832,
+          3.4656,
+          3.648,
+          3.876,
+          4.104,
+          4.332
+        ],
+        "param2": [
+          0.334,
+          0.354,
+          0.374,
+          0.4,
+          0.42,
+          0.44,
+          0.466,
+          0.492,
+          0.518,
+          0.544,
+          0.57,
+          0.596,
+          0.622,
+          0.648,
+          0.674
+        ],
+        "param3": [
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15
+        ],
+        "param4": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "param5": [
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20
+        ],
+        "param6": [
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80
+        ]
+      }
+    }
+  },
+  "passive1": {
+    "name": "Clausulas Relacionais",
+    "descriptionRaw": "Quando o Ataque Carregado de Yanfei consumir uma Insígnia de Chama, cada Insígnia de Chama irá aumentar o <color=#FF9999FF>Bônus de Dano Pyro</color> de Yanfei em 5% por 6s. Ao lançar novamente o Ataque Carregado durante o período deste efeito, o efeito anterior será dissipado.",
+    "description": "Quando o Ataque Carregado de Yanfei consumir uma Insígnia de Chama, cada Insígnia de Chama irá aumentar o Bônus de Dano Pyro de Yanfei em 5% por 6s. Ao lançar novamente o Ataque Carregado durante o período deste efeito, o efeito anterior será dissipado."
+  },
+  "passive2": {
+    "name": "Olho de Xiezhi",
+    "descriptionRaw": "Quando o Ataque Carregado de Yanfei causa um Dano CRIT, ela causará um <color=#FF9999FF>Dano Pyro AdE</color> correspondente a 80% do seu Ataque. Este Dano é considerado como Dano de um Ataque Carregado.",
+    "description": "Quando o Ataque Carregado de Yanfei causa um Dano CRIT, ela causará um Dano Pyro AdE correspondente a 80% do seu Ataque. Este Dano é considerado como Dano de um Ataque Carregado."
+  },
+  "passive3": {
+    "name": "Conhecimento Enciclopédico",
+    "descriptionRaw": "Mostra a localização de <color=#FFD780FF>Especialidades de Liyue</color> próximos no mapa.",
+    "description": "Mostra a localização de Especialidades de Liyue próximos no mapa."
+  },
+  "costs": {
+    "lvl2": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 12500
+      },
+      {
+        "id": 104316,
+        "name": "Ensinamentos de Ouro",
+        "count": 3
+      },
+      {
+        "id": 112035,
+        "name": "Insígnia dos Ladrões de Tesouro",
+        "count": 6
+      }
+    ],
+    "lvl3": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 17500
+      },
+      {
+        "id": 104317,
+        "name": "Guia de Ouro",
+        "count": 2
+      },
+      {
+        "id": 112036,
+        "name": "Insígnia do Corvo Prateado",
+        "count": 3
+      }
+    ],
+    "lvl4": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 25000
+      },
+      {
+        "id": 104317,
+        "name": "Guia de Ouro",
+        "count": 4
+      },
+      {
+        "id": 112036,
+        "name": "Insígnia do Corvo Prateado",
+        "count": 4
+      }
+    ],
+    "lvl5": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 30000
+      },
+      {
+        "id": 104317,
+        "name": "Guia de Ouro",
+        "count": 6
+      },
+      {
+        "id": 112036,
+        "name": "Insígnia do Corvo Prateado",
+        "count": 6
+      }
+    ],
+    "lvl6": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 37500
+      },
+      {
+        "id": 104317,
+        "name": "Guia de Ouro",
+        "count": 9
+      },
+      {
+        "id": 112036,
+        "name": "Insígnia do Corvo Prateado",
+        "count": 9
+      }
+    ],
+    "lvl7": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 120000
+      },
+      {
+        "id": 104318,
+        "name": "Filosofia de Ouro",
+        "count": 4
+      },
+      {
+        "id": 112037,
+        "name": "Insígnia de Corvo Dourado",
+        "count": 4
+      },
+      {
+        "id": 113018,
+        "name": "Galho de Jade de Sangue",
+        "count": 1
+      }
+    ],
+    "lvl8": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 260000
+      },
+      {
+        "id": 104318,
+        "name": "Filosofia de Ouro",
+        "count": 6
+      },
+      {
+        "id": 112037,
+        "name": "Insígnia de Corvo Dourado",
+        "count": 6
+      },
+      {
+        "id": 113018,
+        "name": "Galho de Jade de Sangue",
+        "count": 1
+      }
+    ],
+    "lvl9": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 450000
+      },
+      {
+        "id": 104318,
+        "name": "Filosofia de Ouro",
+        "count": 12
+      },
+      {
+        "id": 112037,
+        "name": "Insígnia de Corvo Dourado",
+        "count": 9
+      },
+      {
+        "id": 113018,
+        "name": "Galho de Jade de Sangue",
+        "count": 2
+      }
+    ],
+    "lvl10": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 700000
+      },
+      {
+        "id": 104318,
+        "name": "Filosofia de Ouro",
+        "count": 16
+      },
+      {
+        "id": 112037,
+        "name": "Insígnia de Corvo Dourado",
+        "count": 12
+      },
+      {
+        "id": 113018,
+        "name": "Galho de Jade de Sangue",
+        "count": 2
+      },
+      {
+        "id": 104319,
+        "name": "Coroa da Sabedoria",
+        "count": 1
+      }
+    ]
+  },
+  "images": {
+    "filename_combat1": "Skill_A_Catalyst_MD",
+    "filename_combat2": "Skill_S_Feiyan_01",
+    "filename_combat3": "Skill_E_Feiyan_01_HD",
+    "filename_passive1": "UI_Talent_S_Feiyan_05",
+    "filename_passive2": "UI_Talent_S_Feiyan_06",
+    "filename_passive3": "UI_Talent_Collect_Local_Liyue"
+  },
+  "version": "1.5"
+}

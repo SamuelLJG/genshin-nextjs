@@ -1,0 +1,581 @@
+{
+  "id": 7501,
+  "name": "Andarilho",
+  "combat1": {
+    "name": "Tocar da Bandeira Trêmula",
+    "descriptionRaw": "<color=#FFD780FF>Ataque Normal</color>\nRealiza até 3 ataques lançando Lâminas de Vento, infligindo <color=#80FFD7FF>Dano Anemo</color>.\n\n<color=#FFD780FF>Ataque Carregado</color>\nConsome uma certa quantidade de Stamina criando um campo de alta pressão, infligindo <color=#80FFD7FF>Dano Anemo em uma AdE</color> após um curto período de canalização.\n\n<color=#FFD780FF>Ataque Imersivo</color>\nConvocando os poderes do Anemo para si, mergulha em direção ao chão a partir do ar, causando dano a todos os inimigos em seu caminho. Inflige <color=#80FFD7FF>Dano Anemo em uma AdE</color> quando atinge o chão.",
+    "description": "Ataque Normal\nRealiza até 3 ataques lançando Lâminas de Vento, infligindo Dano Anemo.\n\nAtaque Carregado\nConsome uma certa quantidade de Stamina criando um campo de alta pressão, infligindo Dano Anemo em uma AdE após um curto período de canalização.\n\nAtaque Imersivo\nConvocando os poderes do Anemo para si, mergulha em direção ao chão a partir do ar, causando dano a todos os inimigos em seu caminho. Inflige Dano Anemo em uma AdE quando atinge o chão.",
+    "attributes": {
+      "labels": [
+        "Dano do 1° Golpe|{param1:F1P}",
+        "Dano do 2° Golpe|{param2:F1P}",
+        "Dano do 3° Golpe|{param3:F1P}+{param4:F1P}",
+        "Dano de Ataque Carregado|{param5:F1P}",
+        "Consumo de Stamina de Ataque Carregado|{param6:F1}",
+        "Dano Durante a Queda|{param7:F1P}",
+        "Dano de Queda de Baixa/Alta Altitude|{param8:P}/{param9:P}"
+      ],
+      "parameters": {
+        "param1": [
+          0.68714,
+          0.74307,
+          0.799,
+          0.8789,
+          0.93483,
+          0.99875,
+          1.08664,
+          1.17453,
+          1.26242,
+          1.3583,
+          1.45418,
+          1.55006,
+          1.64594,
+          1.74182,
+          1.8377
+        ],
+        "param2": [
+          0.65016,
+          0.70308,
+          0.756,
+          0.8316,
+          0.88452,
+          0.945,
+          1.02816,
+          1.11132,
+          1.19448,
+          1.2852,
+          1.37592,
+          1.46664,
+          1.55736,
+          1.64808,
+          1.7388
+        ],
+        "param3": [
+          0.47644,
+          0.51522,
+          0.554,
+          0.6094,
+          0.64818,
+          0.6925,
+          0.75344,
+          0.81438,
+          0.87532,
+          0.9418,
+          1.00828,
+          1.07476,
+          1.14124,
+          1.20772,
+          1.2742
+        ],
+        "param4": [
+          0.47644,
+          0.51522,
+          0.554,
+          0.6094,
+          0.64818,
+          0.6925,
+          0.75344,
+          0.81438,
+          0.87532,
+          0.9418,
+          1.00828,
+          1.07476,
+          1.14124,
+          1.20772,
+          1.2742
+        ],
+        "param5": [
+          1.3208,
+          1.41986,
+          1.51892,
+          1.651,
+          1.75006,
+          1.84912,
+          1.9812,
+          2.11328,
+          2.24536,
+          2.37744,
+          2.50952,
+          2.6416,
+          2.8067,
+          2.9718,
+          3.1369
+        ],
+        "param6": [
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "param7": [
+          0.568288,
+          0.614544,
+          0.6608,
+          0.72688,
+          0.773136,
+          0.826,
+          0.898688,
+          0.971376,
+          1.044064,
+          1.12336,
+          1.202656,
+          1.281952,
+          1.361248,
+          1.440544,
+          1.51984
+        ],
+        "param8": [
+          1.136335,
+          1.228828,
+          1.32132,
+          1.453452,
+          1.545944,
+          1.65165,
+          1.796995,
+          1.94234,
+          2.087686,
+          2.246244,
+          2.404802,
+          2.563361,
+          2.721919,
+          2.880478,
+          3.039036
+        ],
+        "param9": [
+          1.419344,
+          1.534872,
+          1.6504,
+          1.81544,
+          1.930968,
+          2.063,
+          2.244544,
+          2.426088,
+          2.607632,
+          2.80568,
+          3.003728,
+          3.201776,
+          3.399824,
+          3.597872,
+          3.79592
+        ]
+      }
+    }
+  },
+  "combat2": {
+    "name": "Pluma Ilustrada: Canção Graciosa",
+    "descriptionRaw": "Condensa uma atmosfera poderosa para quebrar as correntes da terra. Inflige <color=#80FFD7FF>Dano Anemo</color> contra os inimigos próximos e salta no ar, entrando no estado \"Postura do Vento\".\n\n<color=#FFD780FF>Postura do Vento</color>\nQuando o Andarilho está nesse estado, não consegue realizar Ataques Imersivos, e ao realizar Ataques Normais ou Carregados, eles serão convertidos em Vazio: Obliteração e Vazio: Lâmina de Vento respectivamente, aumentando o Dano causado e a AdE. Esses Danos são considerados Dano de Ataque Normal e Dano de Ataque Carregado respectivamente. Ao realizar Vazio: Lâmina de Vento, não consumirá Stamina.\nQuando o Andarilho estiver nesse estado, flutuará continuamente no ar, e seus movimentos possuirão as seguintes características:\n· Enquanto estiver flutuando, consumirá continuamente \"Poder Vazio\";\n· Ao correr, consumirá Poder Vazio adicional para acelerar no ar; ao Manter Pressionado para correr, consumirá continuamente Poder Vazio para se mover rapidamente. Esse efeito substituirá a corrida;\n· Ao saltar, consumirá Poder do Vazio adicional para flutuar mais alto; ao Manter Pressionado para saltar, consumirá continuamente Poder Vazio para aumentar sua altitude.\n\nQuando Poder Vazio for exaurido, esse estado terminará.\nLançar a habilidade novamente durante a duração da Postura do Vento também encerrará esse estado.\n\n<i>\"O mundo dança enquanto os segredos desabrocham como flores.\"</i>",
+    "description": "Condensa uma atmosfera poderosa para quebrar as correntes da terra. Inflige Dano Anemo contra os inimigos próximos e salta no ar, entrando no estado \"Postura do Vento\".\n\nPostura do Vento\nQuando o Andarilho está nesse estado, não consegue realizar Ataques Imersivos, e ao realizar Ataques Normais ou Carregados, eles serão convertidos em Vazio: Obliteração e Vazio: Lâmina de Vento respectivamente, aumentando o Dano causado e a AdE. Esses Danos são considerados Dano de Ataque Normal e Dano de Ataque Carregado respectivamente. Ao realizar Vazio: Lâmina de Vento, não consumirá Stamina.\nQuando o Andarilho estiver nesse estado, flutuará continuamente no ar, e seus movimentos possuirão as seguintes características:\n· Enquanto estiver flutuando, consumirá continuamente \"Poder Vazio\";\n· Ao correr, consumirá Poder Vazio adicional para acelerar no ar; ao Manter Pressionado para correr, consumirá continuamente Poder Vazio para se mover rapidamente. Esse efeito substituirá a corrida;\n· Ao saltar, consumirá Poder do Vazio adicional para flutuar mais alto; ao Manter Pressionado para saltar, consumirá continuamente Poder Vazio para aumentar sua altitude.\n\nQuando Poder Vazio for exaurido, esse estado terminará.\nLançar a habilidade novamente durante a duração da Postura do Vento também encerrará esse estado.",
+    "flavorText": "\"O mundo dança enquanto os segredos desabrocham como flores.\"",
+    "attributes": {
+      "labels": [
+        "Dano de Habilidade|{param1:F1P}",
+        "Dano de Vazio: Obliteração|{param2:F1P} do Dano de Ataque Normal",
+        "Dano de Vazio: Lâmina de Vento|{param3:F1P} do Dano de Ataque Carregado",
+        "Poder Vazio Inicial|{param4:I} pontos",
+        "Tempo de Recarga|{param5:F1}s"
+      ],
+      "parameters": {
+        "param1": [
+          0.952,
+          1.0234,
+          1.0948,
+          1.19,
+          1.2614,
+          1.3328,
+          1.428,
+          1.5232,
+          1.6184,
+          1.7136,
+          1.8088,
+          1.904,
+          2.023,
+          2.142,
+          2.261
+        ],
+        "param2": [
+          1.329825,
+          1.349575,
+          1.369325,
+          1.395,
+          1.41475,
+          1.4345,
+          1.460175,
+          1.48585,
+          1.511525,
+          1.5372,
+          1.562875,
+          1.58855,
+          1.614225,
+          1.6399,
+          1.665575
+        ],
+        "param3": [
+          1.26386,
+          1.27966,
+          1.29546,
+          1.316,
+          1.3318,
+          1.3476,
+          1.36814,
+          1.38868,
+          1.40922,
+          1.42976,
+          1.4503,
+          1.47084,
+          1.49138,
+          1.51192,
+          1.53246
+        ],
+        "param4": [
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100
+        ],
+        "param5": [
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6
+        ],
+        "param7": [
+          0.329825,
+          0.349575,
+          0.369325,
+          0.395,
+          0.41475,
+          0.4345,
+          0.460175,
+          0.48585,
+          0.511525,
+          0.5372,
+          0.562875,
+          0.58855,
+          0.614225,
+          0.6399,
+          0.665575
+        ],
+        "param8": [
+          0.26386,
+          0.27966,
+          0.29546,
+          0.316,
+          0.3318,
+          0.3476,
+          0.36814,
+          0.38868,
+          0.40922,
+          0.42976,
+          0.4503,
+          0.47084,
+          0.49138,
+          0.51192,
+          0.53246
+        ]
+      }
+    }
+  },
+  "combat3": {
+    "name": "Kyogen: Cinco Atos",
+    "descriptionRaw": "Comprime o ar, criando um vácuo para esmagar todas as suas preocupações, infligindo <color=#80FFD7FF>Dano Anemo em AdE</color> várias vezes.\nSe for lançado durante o estado Postura do Vento da Habilidade Elemental \"Pluma Ilustrada: Canção Graciosa\", encerrará esse estado.\n\n<i>\"O céu lentamente se iluminará, os sonhos do presente e do passado serão como o pó a flutuar no ar.\"</i>",
+    "description": "Comprime o ar, criando um vácuo para esmagar todas as suas preocupações, infligindo Dano Anemo em AdE várias vezes.\nSe for lançado durante o estado Postura do Vento da Habilidade Elemental \"Pluma Ilustrada: Canção Graciosa\", encerrará esse estado.",
+    "flavorText": "\"O céu lentamente se iluminará, os sonhos do presente e do passado serão como o pó a flutuar no ar.\"",
+    "attributes": {
+      "labels": [
+        "Dano de Habilidade|{param1:F1P} x5",
+        "Tempo de Recarga|{param2:F1}s",
+        "Energia Elemental|{param3:I}"
+      ],
+      "parameters": {
+        "param1": [
+          1.472,
+          1.5824,
+          1.6928,
+          1.84,
+          1.9504,
+          2.0608,
+          2.208,
+          2.3552,
+          2.5024,
+          2.6496,
+          2.7968,
+          2.944,
+          3.128,
+          3.312,
+          3.496
+        ],
+        "param2": [
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15
+        ],
+        "param3": [
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60
+        ]
+      }
+    }
+  },
+  "passive1": {
+    "name": "Flores de Jade",
+    "descriptionRaw": "Ao lançar <color=#FFD780FF>Pluma Ilustrada: Canção Graciosa</color> e entrar em contato com <color=#80C0FFFF>Hydro</color>, <color=#FF9999FF>Pyro</color>, <color=#99FFFFFF>Cryo</color> ou <color=#FFACFFFF>Electro</color>, o estado atual de Postura do Vento obterá os seguintes bônus, de acordo com o elemento interagido: \n· <color=#80C0FFFF>Hydro</color>: aumenta 20 de limite do Poder Vazio;\n· <color=#FF9999FF>Pyro</color>: aumenta o ATQ em 30%;\n· <color=#99FFFFFF>Cryo</color>: aumenta a Taxa CRIT em 20%;\n· <color=#FFACFFFF>Electro</color>: após atingir o inimigo com Ataque Normal e Carregado, recupera 0.8 de Energia Elemental. É possível restaurar Energia Elemental até 1 vez a cada 0.2s desta maneira.\n\nÉ possível obter até 2 tipos de bônus de diferentes elementos simultaneamente.",
+    "description": "Ao lançar Pluma Ilustrada: Canção Graciosa e entrar em contato com Hydro, Pyro, Cryo ou Electro, o estado atual de Postura do Vento obterá os seguintes bônus, de acordo com o elemento interagido: \n· Hydro: aumenta 20 de limite do Poder Vazio;\n· Pyro: aumenta o ATQ em 30%;\n· Cryo: aumenta a Taxa CRIT em 20%;\n· Electro: após atingir o inimigo com Ataque Normal e Carregado, recupera 0.8 de Energia Elemental. É possível restaurar Energia Elemental até 1 vez a cada 0.2s desta maneira.\n\nÉ possível obter até 2 tipos de bônus de diferentes elementos simultaneamente."
+  },
+  "passive2": {
+    "name": "Brisa dos Sonhos Remanescentes",
+    "descriptionRaw": "Quando o Andarilho atinge o inimigo com Vazio: Obliteração ou Vazio: Lâmina de Vento no estado <color=#FFD780FF>Postura do Vento</color>, há 16% de chance de se obter o efeito \"Descida\": ao acelerar no ar sob o estado Postura do Vento, o efeito \"Descida\" será eliminado, não consumindo Poder Vazio para essa aceleração no ar, disparando também 4 Flechas de Vento que causarão <color=#80FFD7FF>Dano Anemo</color> com base em 35% de seu ATQ.\nPara cada Vazio: Obliteração e Vazio: Lâmina de Vento que não gerarem \"Descida\", a probabilidade de produção do efeito durante o próximo ataque será aumentada em 12%. O cálculo da produção do efeito é feito 1 vez a cada 0.1s.",
+    "description": "Quando o Andarilho atinge o inimigo com Vazio: Obliteração ou Vazio: Lâmina de Vento no estado Postura do Vento, há 16% de chance de se obter o efeito \"Descida\": ao acelerar no ar sob o estado Postura do Vento, o efeito \"Descida\" será eliminado, não consumindo Poder Vazio para essa aceleração no ar, disparando também 4 Flechas de Vento que causarão Dano Anemo com base em 35% de seu ATQ.\nPara cada Vazio: Obliteração e Vazio: Lâmina de Vento que não gerarem \"Descida\", a probabilidade de produção do efeito durante o próximo ataque será aumentada em 12%. O cálculo da produção do efeito é feito 1 vez a cada 0.1s."
+  },
+  "passive3": {
+    "name": "Tocar dos Ventos Rodopiantes",
+    "descriptionRaw": "Reduz o consumo de Mora necessário para ascender Arcos e Catalisadores em 50%.",
+    "description": "Reduz o consumo de Mora necessário para ascender Arcos e Catalisadores em 50%."
+  },
+  "costs": {
+    "lvl2": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 12500
+      },
+      {
+        "id": 104335,
+        "name": "Ensinamentos de Práxis",
+        "count": 3
+      },
+      {
+        "id": 112044,
+        "name": "Protetor de Mão Velho",
+        "count": 6
+      }
+    ],
+    "lvl3": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 17500
+      },
+      {
+        "id": 104336,
+        "name": "Guia da Práxis",
+        "count": 2
+      },
+      {
+        "id": 112045,
+        "name": "Protetor de Mão Kageuchi",
+        "count": 3
+      }
+    ],
+    "lvl4": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 25000
+      },
+      {
+        "id": 104336,
+        "name": "Guia da Práxis",
+        "count": 4
+      },
+      {
+        "id": 112045,
+        "name": "Protetor de Mão Kageuchi",
+        "count": 4
+      }
+    ],
+    "lvl5": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 30000
+      },
+      {
+        "id": 104336,
+        "name": "Guia da Práxis",
+        "count": 6
+      },
+      {
+        "id": 112045,
+        "name": "Protetor de Mão Kageuchi",
+        "count": 6
+      }
+    ],
+    "lvl6": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 37500
+      },
+      {
+        "id": 104336,
+        "name": "Guia da Práxis",
+        "count": 9
+      },
+      {
+        "id": 112045,
+        "name": "Protetor de Mão Kageuchi",
+        "count": 9
+      }
+    ],
+    "lvl7": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 120000
+      },
+      {
+        "id": 104337,
+        "name": "Filosofia da Práxis",
+        "count": 4
+      },
+      {
+        "id": 112046,
+        "name": "Protetor de Mão Famoso",
+        "count": 4
+      },
+      {
+        "id": 113043,
+        "name": "Sino do Vazio",
+        "count": 1
+      }
+    ],
+    "lvl8": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 260000
+      },
+      {
+        "id": 104337,
+        "name": "Filosofia da Práxis",
+        "count": 6
+      },
+      {
+        "id": 112046,
+        "name": "Protetor de Mão Famoso",
+        "count": 6
+      },
+      {
+        "id": 113043,
+        "name": "Sino do Vazio",
+        "count": 1
+      }
+    ],
+    "lvl9": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 450000
+      },
+      {
+        "id": 104337,
+        "name": "Filosofia da Práxis",
+        "count": 12
+      },
+      {
+        "id": 112046,
+        "name": "Protetor de Mão Famoso",
+        "count": 9
+      },
+      {
+        "id": 113043,
+        "name": "Sino do Vazio",
+        "count": 2
+      }
+    ],
+    "lvl10": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 700000
+      },
+      {
+        "id": 104337,
+        "name": "Filosofia da Práxis",
+        "count": 16
+      },
+      {
+        "id": 112046,
+        "name": "Protetor de Mão Famoso",
+        "count": 12
+      },
+      {
+        "id": 113043,
+        "name": "Sino do Vazio",
+        "count": 2
+      },
+      {
+        "id": 104319,
+        "name": "Coroa da Sabedoria",
+        "count": 1
+      }
+    ]
+  },
+  "images": {
+    "filename_combat1": "Skill_A_Catalyst_MD",
+    "filename_combat2": "Skill_S_Wanderer_01",
+    "filename_combat3": "Skill_E_Wanderer_01_HD",
+    "filename_passive1": "UI_Talent_S_Wanderer_05",
+    "filename_passive2": "UI_Talent_S_Wanderer_06",
+    "filename_passive3": "UI_Talent_S_Wanderer_07"
+  },
+  "version": "3.3"
+}

@@ -1,0 +1,760 @@
+{
+  "id": 8401,
+  "name": "Lyney",
+  "combat1": {
+    "name": "Translocação de Carta Forçada",
+    "descriptionRaw": "<color=#FFD780FF>Ataque Normal</color>\nRealiza até 4 disparos consecutivos com seu arco.\n\n<color=#FFD780FF>Ataque Imersivo</color>\nDispara uma chuva de flechas no ar e cai rapidamente na direção do chão, causando Dano em AdE durante a queda.\n\n<color=#FFD780FF>Ataque Carregado</color>\nRealiza um <color=#FFD780FF>Disparo com Mira</color> mais preciso e que causa mais Dano.\nAo mirar, o poder das chamas se condensará na ponta da flecha, sendo liberado ao dispará-la. Gerará efeitos diferentes de acordo com o tempo de carregamento:\n· Carga Nv.1: dispara uma flecha imbuída de Pyro, causando <color=#FF9999FF>Dano Pyro</color>.\n· Carga Nv.2: dispara uma Flecha da Magia Secreta que causa <color=#FF9999FF>Dano Pyro</color> e, ao atingir um inimigo, invoca um Chapéu do Gato Brincalhão.\nAo disparar a Flecha da Magia Secreta, se a Vida de Lyney for maior que 60%, consumirá uma parte dela e obterá um acúmulo de Resquício Mágico, esse efeito pode ser acumulado até 5 vezes, e será cancelado após 30s fora da batalha.\nÉ possível reduzir a Vida de Lyney até 60% dessa forma.\n\n<color=#FFD780FF>Chapéu do Gato Brincalhão</color>\n· Ridiculariza os inimigos próximos, atraindo seus ataques. Cada inimigo só pode ser provocado pelo Chapéu do Gato Brincalhão uma vez a cada 5s.\n· Sua durabilidade é proporcional à Vida Máxima de Lyney.\n· Ao ser destruído ou quando sua duração acabar, disparará <color=#FFD780FF>Fogos de Artifício Mágicos</color> contra os inimigos ao redor, causando <color=#FF9999FF>Dano Pyro</color>.\nSó é possível existir 1 Chapéu do Gato Brincalhão ao mesmo tempo.\n\n<color=#FFD780FF>Arkhe: Pneuma</color>\nPeriodicamente, na posição que a Flecha da Magia Secreta atingir, fará cair um Espinho Espiritual que causará <color=#FF9999FF>Dano Pyro</color> com Pneuma.",
+    "description": "Ataque Normal\nRealiza até 4 disparos consecutivos com seu arco.\n\nAtaque Imersivo\nDispara uma chuva de flechas no ar e cai rapidamente na direção do chão, causando Dano em AdE durante a queda.\n\nAtaque Carregado\nRealiza um Disparo com Mira mais preciso e que causa mais Dano.\nAo mirar, o poder das chamas se condensará na ponta da flecha, sendo liberado ao dispará-la. Gerará efeitos diferentes de acordo com o tempo de carregamento:\n· Carga Nv.1: dispara uma flecha imbuída de Pyro, causando Dano Pyro.\n· Carga Nv.2: dispara uma Flecha da Magia Secreta que causa Dano Pyro e, ao atingir um inimigo, invoca um Chapéu do Gato Brincalhão.\nAo disparar a Flecha da Magia Secreta, se a Vida de Lyney for maior que 60%, consumirá uma parte dela e obterá um acúmulo de Resquício Mágico, esse efeito pode ser acumulado até 5 vezes, e será cancelado após 30s fora da batalha.\nÉ possível reduzir a Vida de Lyney até 60% dessa forma.\n\nChapéu do Gato Brincalhão\n· Ridiculariza os inimigos próximos, atraindo seus ataques. Cada inimigo só pode ser provocado pelo Chapéu do Gato Brincalhão uma vez a cada 5s.\n· Sua durabilidade é proporcional à Vida Máxima de Lyney.\n· Ao ser destruído ou quando sua duração acabar, disparará Fogos de Artifício Mágicos contra os inimigos ao redor, causando Dano Pyro.\nSó é possível existir 1 Chapéu do Gato Brincalhão ao mesmo tempo.\n\nArkhe: Pneuma\nPeriodicamente, na posição que a Flecha da Magia Secreta atingir, fará cair um Espinho Espiritual que causará Dano Pyro com Pneuma.",
+    "attributes": {
+      "labels": [
+        "Dano do 1° Golpe|{param1:F1P}",
+        "Dano do 2° Golpe|{param2:F1P}",
+        "Dano do 3° Golpe|{param3:F1P}+{param4:F1P}",
+        "Dano do 4° Golpe|{param5:F1P}",
+        "Dano Durante a Queda|{param6:F1P}",
+        "Dano de Queda de Baixa/Alta Altitude|{param7:F1P}/{param8:F1P}",
+        "Disparo com Mira|{param9:F1P}",
+        "Disparo Carregado com Mira Nv.1|{param10:F1P}",
+        "Dano da Flecha da Magia Secreta|{param11:F1P}",
+        "Consumo de Vida|{param12:P} da Vida Máxima",
+        "Vida do Chapéu do Gato Brincalhão|{param13:P}",
+        "Duração de Chapéu do Gato Brincalhão|{param14:F1}s",
+        "Dano dos Fogos de Artifício Mágicos|{param15:F1P}",
+        "Dano do Espinho Espiritual|{param16:F1P}",
+        "Intervalo do Espinho Espiritual|{param17:F1}s"
+      ],
+      "parameters": {
+        "param1": [
+          0.38786,
+          0.41943,
+          0.451,
+          0.4961,
+          0.52767,
+          0.56375,
+          0.61336,
+          0.66297,
+          0.71258,
+          0.7667,
+          0.82082,
+          0.87494,
+          0.92906,
+          0.98318,
+          1.0373
+        ],
+        "param2": [
+          0.38012,
+          0.41106,
+          0.442,
+          0.4862,
+          0.51714,
+          0.5525,
+          0.60112,
+          0.64974,
+          0.69836,
+          0.7514,
+          0.80444,
+          0.85748,
+          0.91052,
+          0.96356,
+          1.0166
+        ],
+        "param3": [
+          0.27262,
+          0.29481,
+          0.317,
+          0.3487,
+          0.37089,
+          0.39625,
+          0.43112,
+          0.46599,
+          0.50086,
+          0.5389,
+          0.57694,
+          0.61498,
+          0.65302,
+          0.69106,
+          0.7291
+        ],
+        "param4": [
+          0.27262,
+          0.29481,
+          0.317,
+          0.3487,
+          0.37089,
+          0.39625,
+          0.43112,
+          0.46599,
+          0.50086,
+          0.5389,
+          0.57694,
+          0.61498,
+          0.65302,
+          0.69106,
+          0.7291
+        ],
+        "param5": [
+          0.56932,
+          0.61566,
+          0.662,
+          0.7282,
+          0.77454,
+          0.8275,
+          0.90032,
+          0.97314,
+          1.04596,
+          1.1254,
+          1.20484,
+          1.28428,
+          1.36372,
+          1.44316,
+          1.5226
+        ],
+        "param6": [
+          0.568288,
+          0.614544,
+          0.6608,
+          0.72688,
+          0.773136,
+          0.826,
+          0.898688,
+          0.971376,
+          1.044064,
+          1.12336,
+          1.202656,
+          1.281952,
+          1.361248,
+          1.440544,
+          1.51984
+        ],
+        "param7": [
+          1.136335,
+          1.228828,
+          1.32132,
+          1.453452,
+          1.545944,
+          1.65165,
+          1.796995,
+          1.94234,
+          2.087686,
+          2.246244,
+          2.404802,
+          2.563361,
+          2.721919,
+          2.880478,
+          3.039036
+        ],
+        "param8": [
+          1.419344,
+          1.534872,
+          1.6504,
+          1.81544,
+          1.930968,
+          2.063,
+          2.244544,
+          2.426088,
+          2.607632,
+          2.80568,
+          3.003728,
+          3.201776,
+          3.399824,
+          3.597872,
+          3.79592
+        ],
+        "param9": [
+          0.4386,
+          0.4743,
+          0.51,
+          0.561,
+          0.5967,
+          0.6375,
+          0.6936,
+          0.7497,
+          0.8058,
+          0.867,
+          0.9282,
+          0.9894,
+          1.0506,
+          1.1118,
+          1.173
+        ],
+        "param10": [
+          1.24,
+          1.333,
+          1.426,
+          1.55,
+          1.643,
+          1.736,
+          1.86,
+          1.984,
+          2.108,
+          2.232,
+          2.356,
+          2.48,
+          2.635,
+          2.79,
+          2.945
+        ],
+        "param11": [
+          1.728,
+          1.8576,
+          1.9872,
+          2.16,
+          2.2896,
+          2.4192,
+          2.592,
+          2.7648,
+          2.9376,
+          3.1104,
+          3.2832,
+          3.456,
+          3.672,
+          3.888,
+          4.104
+        ],
+        "param12": [
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ],
+        "param13": [
+          0.64,
+          0.688,
+          0.736,
+          0.8,
+          0.848,
+          0.896,
+          0.96,
+          1.024,
+          1.088,
+          1.152,
+          1.216,
+          1.28,
+          1.36,
+          1.44,
+          1.52
+        ],
+        "param14": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "param15": [
+          2.12,
+          2.279,
+          2.438,
+          2.65,
+          2.809,
+          2.968,
+          3.18,
+          3.392,
+          3.604,
+          3.816,
+          4.028,
+          4.24,
+          4.505,
+          4.77,
+          5.035
+        ],
+        "param16": [
+          0.27552,
+          0.296184,
+          0.316848,
+          0.3444,
+          0.365064,
+          0.385728,
+          0.41328,
+          0.440832,
+          0.468384,
+          0.495936,
+          0.523488,
+          0.55104,
+          0.58548,
+          0.61992,
+          0.65436
+        ],
+        "param17": [
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6
+        ]
+      }
+    }
+  },
+  "combat2": {
+    "name": "Luzes Chocantes",
+    "descriptionRaw": "Lyney brande seu chapéu, explodindo fogos de artifício.\nQuando é lançado, eliminará os \"Resquícios Mágicos\" possuídos, causando <color=#FF9999FF>Dano Pyro em AdE</color> contra os inimigos em sua frente. Aumentará o Dano de acordo com o número de acúmulos consumidos, e regenerará Vida para Lyney baseado em sua própria Vida Máxima.\n\nQuando existir um Chapéu do Gato Brincalhão criado por Lyney ativo no campo de batalha, os fogos de artíficio o farão explodir, causando <color=#FF9999FF>Dano Pyro em AdE</color> equivalente ao Dano dos Fogos de Artifício Mágicos.\nO Dano causado pela explosão dos Chapéus do Gato Brincalhão dessa forma é considerado Dano de Ataque Carregado.\n\n<i>\"Todos sabem que os mágicos intencionalmente enganarão sua audiência... Ah, sim, enquanto você estava olhando na minha direção, o chapéu e o assistente desapareceram... Fascinante, não acha?\"</i>",
+    "description": "Lyney brande seu chapéu, explodindo fogos de artifício.\nQuando é lançado, eliminará os \"Resquícios Mágicos\" possuídos, causando Dano Pyro em AdE contra os inimigos em sua frente. Aumentará o Dano de acordo com o número de acúmulos consumidos, e regenerará Vida para Lyney baseado em sua própria Vida Máxima.\n\nQuando existir um Chapéu do Gato Brincalhão criado por Lyney ativo no campo de batalha, os fogos de artíficio o farão explodir, causando Dano Pyro em AdE equivalente ao Dano dos Fogos de Artifício Mágicos.\nO Dano causado pela explosão dos Chapéus do Gato Brincalhão dessa forma é considerado Dano de Ataque Carregado.",
+    "flavorText": "\"Todos sabem que os mágicos intencionalmente enganarão sua audiência... Ah, sim, enquanto você estava olhando na minha direção, o chapéu e o assistente desapareceram... Fascinante, não acha?\"",
+    "attributes": {
+      "labels": [
+        "Dano de Habilidade|{param1:F1P}",
+        "Bônus de Dano da Habilidade|{param2:F1P} do ATQ/Acúmulo",
+        "Regeneração de Vida|{param3:P}/Acúmulo",
+        "Tempo de Recarga|{param5:F1}s"
+      ],
+      "parameters": {
+        "param1": [
+          1.672,
+          1.7974,
+          1.9228,
+          2.09,
+          2.2154,
+          2.3408,
+          2.508,
+          2.6752,
+          2.8424,
+          3.0096,
+          3.1768,
+          3.344,
+          3.553,
+          3.762,
+          3.971
+        ],
+        "param2": [
+          0.532,
+          0.5719,
+          0.6118,
+          0.665,
+          0.7049,
+          0.7448,
+          0.798,
+          0.8512,
+          0.9044,
+          0.9576,
+          1.0108,
+          1.064,
+          1.1305,
+          1.197,
+          1.2635
+        ],
+        "param3": [
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ],
+        "param5": [
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15
+        ],
+        "param6": [
+          0.6,
+          0.6,
+          0.6,
+          0.6,
+          0.6,
+          0.6,
+          0.6,
+          0.6,
+          0.6,
+          0.6,
+          0.6,
+          0.6,
+          0.6,
+          0.6,
+          0.6
+        ],
+        "param7": [
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
+        "param8": [
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      }
+    }
+  },
+  "combat3": {
+    "name": "Truque Maravilhoso: Tour Fantástica",
+    "descriptionRaw": "Lyney lança sua magia, se transformando em um Gato Brincalhão de Chapéu (Não é o Chapéu do Gato Brincalhão, são itens de apresentação diferentes!).\nQuando o Gato Brincalhão de Chapéu toca um inimigo, fará chamas caírem nele, causando <color=#FF9999FF>Dano Pyro</color> uma vez por inimigo. Quando a duração acabar, Lyney removerá o Gato Brincalhão de Chapéu e lançará fogos de artifício que causarão <color=#FF9999FF>Dano Pyro em AdE</color>, invocará um Chapéu do Gato Brincalhão e obterá um acúmulo de \"Resquício Mágico\".\n\nÉ possível remover o Gato Brincalhão de Chapéu manualmente.\n\n<i>\"Veja bem, esse é um momento de milagres, e pertence só a nós dois!\"</i>",
+    "description": "Lyney lança sua magia, se transformando em um Gato Brincalhão de Chapéu (Não é o Chapéu do Gato Brincalhão, são itens de apresentação diferentes!).\nQuando o Gato Brincalhão de Chapéu toca um inimigo, fará chamas caírem nele, causando Dano Pyro uma vez por inimigo. Quando a duração acabar, Lyney removerá o Gato Brincalhão de Chapéu e lançará fogos de artifício que causarão Dano Pyro em AdE, invocará um Chapéu do Gato Brincalhão e obterá um acúmulo de \"Resquício Mágico\".\n\nÉ possível remover o Gato Brincalhão de Chapéu manualmente.",
+    "flavorText": "\"Veja bem, esse é um momento de milagres, e pertence só a nós dois!\"",
+    "attributes": {
+      "labels": [
+        "Dano de Habilidade|{param1:F1P}",
+        "Dano do Fogos de Artifício Explosivos|{param2:F1P}",
+        "Duração|{param3:F1}s",
+        "Tempo de Recarga|{param4:F1}s",
+        "Energia Elemental|{param5:I}"
+      ],
+      "parameters": {
+        "param1": [
+          1.54,
+          1.6555,
+          1.771,
+          1.925,
+          2.0405,
+          2.156,
+          2.31,
+          2.464,
+          2.618,
+          2.772,
+          2.926,
+          3.08,
+          3.2725,
+          3.465,
+          3.6575
+        ],
+        "param2": [
+          4.14,
+          4.4505,
+          4.761,
+          5.175,
+          5.4855,
+          5.796,
+          6.21,
+          6.624,
+          7.038,
+          7.452,
+          7.866,
+          8.28,
+          8.7975,
+          9.315,
+          9.8325
+        ],
+        "param3": [
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ],
+        "param4": [
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15
+        ],
+        "param5": [
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60
+        ]
+      }
+    }
+  },
+  "passive1": {
+    "name": "Apresentação Perigosa",
+    "descriptionRaw": "Se Lyney consumir Vida ao disparar a <color=#FFD780FF>Flecha da Magia Secreta</color>, quando o Chapéu do Gato Brincalhão invocado por essa Flecha da Magia Secreta atingir um inimigo, regenerará 3 de Energia Elemental para Lyney, e aumentará seu Dano causado em 80% do ATQ.",
+    "description": "Se Lyney consumir Vida ao disparar a Flecha da Magia Secreta, quando o Chapéu do Gato Brincalhão invocado por essa Flecha da Magia Secreta atingir um inimigo, regenerará 3 de Energia Elemental para Lyney, e aumentará seu Dano causado em 80% do ATQ."
+  },
+  "passive2": {
+    "name": "Aplausos Deslumbrados!",
+    "descriptionRaw": "Aumenta o Dano causado por Lyney contra inimigos afetados por <color=#FF9999FF>Pyro</color>. Aumentará da seguinte forma:\n· Dano base aumenta em 60%.\n· Aumenta o Dano em 20% para cada personagem na equipe além de Lyney de Tipo Elemental <color=#FF9999FF>Pyro</color>.\nLyney pode ganhar um total de 100% de Aumento de Dano contra inimigos afetados por <color=#FF9999FF>Pyro</color> dessa forma.",
+    "description": "Aumenta o Dano causado por Lyney contra inimigos afetados por Pyro. Aumentará da seguinte forma:\n· Dano base aumenta em 60%.\n· Aumenta o Dano em 20% para cada personagem na equipe além de Lyney de Tipo Elemental Pyro.\nLyney pode ganhar um total de 100% de Aumento de Dano contra inimigos afetados por Pyro dessa forma."
+  },
+  "passive3": {
+    "name": "Observação Trivial",
+    "descriptionRaw": "Mostra a localização de <color=#FFD780FF>Especialidades de Fontaine</color> próximas no mapa.",
+    "description": "Mostra a localização de Especialidades de Fontaine próximas no mapa."
+  },
+  "costs": {
+    "lvl2": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 12500
+      },
+      {
+        "id": 104338,
+        "name": "Ensinamentos da Igualdade",
+        "count": 3
+      },
+      {
+        "id": 112032,
+        "name": "Insígnia de Recruta",
+        "count": 6
+      }
+    ],
+    "lvl3": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 17500
+      },
+      {
+        "id": 104339,
+        "name": "Guia da Igualdade",
+        "count": 2
+      },
+      {
+        "id": 112033,
+        "name": "Insígnia de Sargento",
+        "count": 3
+      }
+    ],
+    "lvl4": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 25000
+      },
+      {
+        "id": 104339,
+        "name": "Guia da Igualdade",
+        "count": 4
+      },
+      {
+        "id": 112033,
+        "name": "Insígnia de Sargento",
+        "count": 4
+      }
+    ],
+    "lvl5": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 30000
+      },
+      {
+        "id": 104339,
+        "name": "Guia da Igualdade",
+        "count": 6
+      },
+      {
+        "id": 112033,
+        "name": "Insígnia de Sargento",
+        "count": 6
+      }
+    ],
+    "lvl6": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 37500
+      },
+      {
+        "id": 104339,
+        "name": "Guia da Igualdade",
+        "count": 9
+      },
+      {
+        "id": 112033,
+        "name": "Insígnia de Sargento",
+        "count": 9
+      }
+    ],
+    "lvl7": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 120000
+      },
+      {
+        "id": 104340,
+        "name": "Filosofia da Igualdade",
+        "count": 4
+      },
+      {
+        "id": 112034,
+        "name": "Insígnia de Oficial",
+        "count": 4
+      },
+      {
+        "id": 113047,
+        "name": "Florescência Primogênita do Oásis",
+        "count": 1
+      }
+    ],
+    "lvl8": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 260000
+      },
+      {
+        "id": 104340,
+        "name": "Filosofia da Igualdade",
+        "count": 6
+      },
+      {
+        "id": 112034,
+        "name": "Insígnia de Oficial",
+        "count": 6
+      },
+      {
+        "id": 113047,
+        "name": "Florescência Primogênita do Oásis",
+        "count": 1
+      }
+    ],
+    "lvl9": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 450000
+      },
+      {
+        "id": 104340,
+        "name": "Filosofia da Igualdade",
+        "count": 12
+      },
+      {
+        "id": 112034,
+        "name": "Insígnia de Oficial",
+        "count": 9
+      },
+      {
+        "id": 113047,
+        "name": "Florescência Primogênita do Oásis",
+        "count": 2
+      }
+    ],
+    "lvl10": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 700000
+      },
+      {
+        "id": 104340,
+        "name": "Filosofia da Igualdade",
+        "count": 16
+      },
+      {
+        "id": 112034,
+        "name": "Insígnia de Oficial",
+        "count": 12
+      },
+      {
+        "id": 113047,
+        "name": "Florescência Primogênita do Oásis",
+        "count": 2
+      },
+      {
+        "id": 104319,
+        "name": "Coroa da Sabedoria",
+        "count": 1
+      }
+    ]
+  },
+  "images": {
+    "filename_combat1": "Skill_A_02",
+    "filename_combat2": "Skill_S_Liney_01",
+    "filename_combat3": "Skill_E_Liney_01_HD",
+    "filename_passive1": "UI_Talent_S_Liney_05",
+    "filename_passive2": "UI_Talent_S_Liney_06",
+    "filename_passive3": "UI_Talent_S_Liney_07"
+  },
+  "version": "4.0"
+}

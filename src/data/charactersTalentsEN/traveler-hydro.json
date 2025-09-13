@@ -1,0 +1,666 @@
+{
+  "id": 703,
+  "name": "Traveler (Hydro)",
+  "combat1": {
+    "name": "Foreign Stream",
+    "descriptionRaw": "<color=#FFD780FF>Normal Attack</color>\nPerforms up to 5 rapid strikes.\n\n<color=#FFD780FF>Charged Attack</color>\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\n<color=#FFD780FF>Plunging Attack</color>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+    "description": "Normal Attack\nPerforms up to 5 rapid strikes.\n\nCharged Attack\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+    "attributes": {
+      "labels": [
+        "1-Hit DMG|{param1:F1P}",
+        "2-Hit DMG|{param2:F1P}",
+        "3-Hit DMG|{param3:F1P}",
+        "4-Hit DMG|{param4:F1P}",
+        "5-Hit DMG|{param5:F1P}",
+        "Charged Attack DMG|{param6:F1P}+{param7:F1P}",
+        "Charged Attack Stamina Cost|{param8:F1}",
+        "Plunge DMG|{param9:F1P}",
+        "Low/High Plunge DMG|{param10:P}/{param11:P}"
+      ],
+      "parameters": {
+        "param1": [
+          0.44462,
+          0.48081,
+          0.517,
+          0.5687,
+          0.60489,
+          0.64625,
+          0.70312,
+          0.75999,
+          0.81686,
+          0.8789,
+          0.94094,
+          1.00298,
+          1.06502,
+          1.12706,
+          1.1891
+        ],
+        "param2": [
+          0.4343,
+          0.46965,
+          0.505,
+          0.5555,
+          0.59085,
+          0.63125,
+          0.6868,
+          0.74235,
+          0.7979,
+          0.8585,
+          0.9191,
+          0.9797,
+          1.0403,
+          1.1009,
+          1.1615
+        ],
+        "param3": [
+          0.52976,
+          0.57288,
+          0.616,
+          0.6776,
+          0.72072,
+          0.77,
+          0.83776,
+          0.90552,
+          0.97328,
+          1.0472,
+          1.12112,
+          1.19504,
+          1.26896,
+          1.34288,
+          1.4168
+        ],
+        "param4": [
+          0.58308,
+          0.63054,
+          0.678,
+          0.7458,
+          0.79326,
+          0.8475,
+          0.92208,
+          0.99666,
+          1.07124,
+          1.1526,
+          1.23396,
+          1.31532,
+          1.39668,
+          1.47804,
+          1.5594
+        ],
+        "param5": [
+          0.70778,
+          0.76539,
+          0.823,
+          0.9053,
+          0.96291,
+          1.02875,
+          1.11928,
+          1.20981,
+          1.30034,
+          1.3991,
+          1.49786,
+          1.59662,
+          1.69538,
+          1.79414,
+          1.8929
+        ],
+        "param6": [
+          0.559,
+          0.6045,
+          0.65,
+          0.715,
+          0.7605,
+          0.8125,
+          0.884,
+          0.9555,
+          1.027,
+          1.105,
+          1.183,
+          1.261,
+          1.339,
+          1.417,
+          1.495
+        ],
+        "param7": [
+          0.7224,
+          0.7812,
+          0.84,
+          0.924,
+          0.9828,
+          1.05,
+          1.1424,
+          1.2348,
+          1.3272,
+          1.428,
+          1.5288,
+          1.6296,
+          1.7304,
+          1.8312,
+          1.932
+        ],
+        "param8": [
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20
+        ],
+        "param9": [
+          0.639324,
+          0.691362,
+          0.7434,
+          0.81774,
+          0.869778,
+          0.92925,
+          1.011024,
+          1.092798,
+          1.174572,
+          1.26378,
+          1.352988,
+          1.442196,
+          1.531404,
+          1.620612,
+          1.70982
+        ],
+        "param10": [
+          1.278377,
+          1.382431,
+          1.486485,
+          1.635134,
+          1.739187,
+          1.858106,
+          2.02162,
+          2.185133,
+          2.348646,
+          2.527025,
+          2.705403,
+          2.883781,
+          3.062159,
+          3.240537,
+          3.418915
+        ],
+        "param11": [
+          1.596762,
+          1.726731,
+          1.8567,
+          2.04237,
+          2.172339,
+          2.320875,
+          2.525112,
+          2.729349,
+          2.933586,
+          3.15639,
+          3.379194,
+          3.601998,
+          3.824802,
+          4.047606,
+          4.27041
+        ]
+      }
+    }
+  },
+  "combat2": {
+    "name": "Aquacrest Saber",
+    "descriptionRaw": "Unleashes a torrent that can cleanse the world.\n\n<color=#FFD780FF>Press</color>\nSends a Torrent Surge forward that will deal <color=#80C0FFFF>Hydro DMG</color> to opponents it comes into contact with.\n\n<color=#FFD780FF>Hold</color>\nEnter Aiming Mode and constantly fire off Dewdrops in the direction in which you are aiming, dealing <color=#80C0FFFF>Hydro DMG</color> to opponents they hit.\nWhen the skill ends, it will send a Torrent Surge forward that will deal <color=#80C0FFFF>Hydro DMG</color> to opponents it comes into contact with.\nSuffusion: When using the Hold configuration of this skill, if the Traveler's HP is higher than 50%, the DMG dealt by Dewdrops will increase based on the Traveler's Max HP, and the Traveler will lose a fixed amount of HP every second.\n\n<color=#FFD780FF>Arkhe: Pneuma</color>\nAt certain intervals, after using Torrent Surge, this skill will unleash a Spiritbreath Thorn that pierces opponents, dealing Pneuma-aligned <color=#80C0FFFF>Hydro DMG</color>.\n\n<i>You studied the ripples in the water with Paimon.</i>",
+    "description": "Unleashes a torrent that can cleanse the world.\n\nPress\nSends a Torrent Surge forward that will deal Hydro DMG to opponents it comes into contact with.\n\nHold\nEnter Aiming Mode and constantly fire off Dewdrops in the direction in which you are aiming, dealing Hydro DMG to opponents they hit.\nWhen the skill ends, it will send a Torrent Surge forward that will deal Hydro DMG to opponents it comes into contact with.\nSuffusion: When using the Hold configuration of this skill, if the Traveler's HP is higher than 50%, the DMG dealt by Dewdrops will increase based on the Traveler's Max HP, and the Traveler will lose a fixed amount of HP every second.\n\nArkhe: Pneuma\nAt certain intervals, after using Torrent Surge, this skill will unleash a Spiritbreath Thorn that pierces opponents, dealing Pneuma-aligned Hydro DMG.",
+    "flavorText": "You studied the ripples in the water with Paimon.",
+    "attributes": {
+      "labels": [
+        "Torrent Surge DMG|{param2:F1P}",
+        "Dewdrop DMG|{param1:F1P}",
+        "Spiritbreath Thorn DMG|{param3:F1P}",
+        "Spiritbreath Thorn Interval|{param4:F1}s",
+        "Suffusion HP Cost|{param5:F2P} Max HP",
+        "Suffusion DMG Bonus|{param6:F2P} Max HP",
+        "Hold Duration|Max {param9:F1}s",
+        "CD|{param8:F1}s"
+      ],
+      "parameters": {
+        "param1": [
+          0.328,
+          0.3526,
+          0.3772,
+          0.41,
+          0.4346,
+          0.4592,
+          0.492,
+          0.5248,
+          0.5576,
+          0.5904,
+          0.6232,
+          0.656,
+          0.697,
+          0.738,
+          0.779
+        ],
+        "param2": [
+          1.8928,
+          2.03476,
+          2.17672,
+          2.366,
+          2.50796,
+          2.64992,
+          2.8392,
+          3.02848,
+          3.21776,
+          3.40704,
+          3.59632,
+          3.7856,
+          4.0222,
+          4.2588,
+          4.4954
+        ],
+        "param3": [
+          0.328,
+          0.3526,
+          0.3772,
+          0.41,
+          0.4346,
+          0.4592,
+          0.492,
+          0.5248,
+          0.5576,
+          0.5904,
+          0.6232,
+          0.656,
+          0.697,
+          0.738,
+          0.779
+        ],
+        "param4": [
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
+        "param5": [
+          0.04,
+          0.04,
+          0.04,
+          0.04,
+          0.04,
+          0.04,
+          0.04,
+          0.04,
+          0.04,
+          0.04,
+          0.04,
+          0.04,
+          0.04,
+          0.04,
+          0.04
+        ],
+        "param6": [
+          0.0064,
+          0.00688,
+          0.00736,
+          0.008,
+          0.00848,
+          0.00896,
+          0.0096,
+          0.01024,
+          0.01088,
+          0.01152,
+          0.01216,
+          0.0128,
+          0.0136,
+          0.0144,
+          0.0152
+        ],
+        "param7": [
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ],
+        "param8": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ],
+        "param9": [
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6
+        ]
+      }
+    }
+  },
+  "combat3": {
+    "name": "Rising Waters",
+    "descriptionRaw": "Unleashes a slow-moving floating bubble that deals continuous <color=#80C0FFFF>Hydro DMG</color> to nearby opponents.\n\n<i>You studied the ebb and flow of the tides with Paimon.</i>",
+    "description": "Unleashes a slow-moving floating bubble that deals continuous Hydro DMG to nearby opponents.",
+    "flavorText": "You studied the ebb and flow of the tides with Paimon.",
+    "attributes": {
+      "labels": [
+        "Skill DMG|{param1:F1P}",
+        "Duration|{param2:F1}s",
+        "CD|{param3:F1}s",
+        "Energy Cost|{param4:I}"
+      ],
+      "parameters": {
+        "param1": [
+          1.018664,
+          1.095064,
+          1.171464,
+          1.27333,
+          1.34973,
+          1.42613,
+          1.527996,
+          1.629862,
+          1.731729,
+          1.833595,
+          1.935462,
+          2.037328,
+          2.164661,
+          2.291994,
+          2.419327
+        ],
+        "param2": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "param3": [
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20
+        ],
+        "param4": [
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80
+        ]
+      }
+    }
+  },
+  "passive1": {
+    "name": "Spotless Waters",
+    "descriptionRaw": "After the Dewdrop fired by the Hold Mode of the <color=#FFD780FF>Aquacrest Saber</color> hits an opponent, a Sourcewater Droplet will be generated near to the Traveler. If the Traveler picks it up, they will restore 7% HP.\n1 Droplet can be created this way every second, and each use of Aquacrest Saber can create 4 Droplets at most.",
+    "description": "After the Dewdrop fired by the Hold Mode of the Aquacrest Saber hits an opponent, a Sourcewater Droplet will be generated near to the Traveler. If the Traveler picks it up, they will restore 7% HP.\n1 Droplet can be created this way every second, and each use of Aquacrest Saber can create 4 Droplets at most."
+  },
+  "passive2": {
+    "name": "Clear Waters",
+    "descriptionRaw": "If HP has been consumed via Suffusion while using the Hold Mode <color=#FFD780FF>Aquacrest Saber</color>, the Torrent Surge at the skill's end will deal Bonus DMG equal to 45% of the total HP the Traveler has consumed in this skill use via Suffusion.\nThe maximum DMG Bonus that can be gained this way is 5,000.",
+    "description": "If HP has been consumed via Suffusion while using the Hold Mode Aquacrest Saber, the Torrent Surge at the skill's end will deal Bonus DMG equal to 45% of the total HP the Traveler has consumed in this skill use via Suffusion.\nThe maximum DMG Bonus that can be gained this way is 5,000."
+  },
+  "costs": {
+    "lvl2": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 12500
+      },
+      {
+        "id": 104338,
+        "name": "Teachings of Equity",
+        "count": 3
+      },
+      {
+        "id": 112080,
+        "name": "Transoceanic Pearl",
+        "count": 6
+      }
+    ],
+    "lvl3": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 17500
+      },
+      {
+        "id": 104342,
+        "name": "Guide to Justice",
+        "count": 2
+      },
+      {
+        "id": 112081,
+        "name": "Transoceanic Chunk",
+        "count": 3
+      }
+    ],
+    "lvl4": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 25000
+      },
+      {
+        "id": 104345,
+        "name": "Guide to Order",
+        "count": 4
+      },
+      {
+        "id": 112081,
+        "name": "Transoceanic Chunk",
+        "count": 4
+      }
+    ],
+    "lvl5": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 30000
+      },
+      {
+        "id": 104339,
+        "name": "Guide to Equity",
+        "count": 6
+      },
+      {
+        "id": 112081,
+        "name": "Transoceanic Chunk",
+        "count": 6
+      }
+    ],
+    "lvl6": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 37500
+      },
+      {
+        "id": 104342,
+        "name": "Guide to Justice",
+        "count": 9
+      },
+      {
+        "id": 112081,
+        "name": "Transoceanic Chunk",
+        "count": 9
+      }
+    ],
+    "lvl7": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 120000
+      },
+      {
+        "id": 104346,
+        "name": "Philosophies of Order",
+        "count": 4
+      },
+      {
+        "id": 112082,
+        "name": "Xenochromatic Crystal",
+        "count": 4
+      },
+      {
+        "id": 113046,
+        "name": "Worldspan Fern",
+        "count": 1
+      }
+    ],
+    "lvl8": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 260000
+      },
+      {
+        "id": 104340,
+        "name": "Philosophies of Equity",
+        "count": 6
+      },
+      {
+        "id": 112082,
+        "name": "Xenochromatic Crystal",
+        "count": 6
+      },
+      {
+        "id": 113046,
+        "name": "Worldspan Fern",
+        "count": 1
+      }
+    ],
+    "lvl9": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 450000
+      },
+      {
+        "id": 104343,
+        "name": "Philosophies of Justice",
+        "count": 12
+      },
+      {
+        "id": 112082,
+        "name": "Xenochromatic Crystal",
+        "count": 9
+      },
+      {
+        "id": 113046,
+        "name": "Worldspan Fern",
+        "count": 2
+      }
+    ],
+    "lvl10": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 700000
+      },
+      {
+        "id": 104346,
+        "name": "Philosophies of Order",
+        "count": 16
+      },
+      {
+        "id": 112082,
+        "name": "Xenochromatic Crystal",
+        "count": 12
+      },
+      {
+        "id": 113046,
+        "name": "Worldspan Fern",
+        "count": 2
+      },
+      {
+        "id": 104319,
+        "name": "Crown of Insight",
+        "count": 1
+      }
+    ]
+  },
+  "images": {
+    "filename_combat1": "Skill_A_01",
+    "filename_combat2": "Skill_S_PlayerWater_01",
+    "filename_combat3": "Skill_E_PlayerWater_01_HD",
+    "filename_passive1": "UI_Talent_S_PlayerWater_05",
+    "filename_passive2": "UI_Talent_S_PlayerWater_06"
+  },
+  "version": "4.0"
+}

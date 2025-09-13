@@ -1,0 +1,654 @@
+{
+  "id": 7201,
+  "name": "Candace",
+  "combat1": {
+    "name": "Lança Reluzente - Postura Guardiã",
+    "descriptionRaw": "<color=#FFD780FF>Ataque Normal</color>\nRealiza até 4 golpes com a lança.\n\n<color=#FFD780FF>Ataque Carregado</color>\nConsome uma certa quantidade de Stamina para se lançar para a frente, infligindo Dano em seu trajeto.\n\n<color=#FFD780FF>Ataque Imersivo</color>\nMergulha em pleno ar para golpear o chão, causando dano aos inimigos ao longo do caminho e infligindo Dano em uma AdE durante o impacto.",
+    "description": "Ataque Normal\nRealiza até 4 golpes com a lança.\n\nAtaque Carregado\nConsome uma certa quantidade de Stamina para se lançar para a frente, infligindo Dano em seu trajeto.\n\nAtaque Imersivo\nMergulha em pleno ar para golpear o chão, causando dano aos inimigos ao longo do caminho e infligindo Dano em uma AdE durante o impacto.",
+    "attributes": {
+      "labels": [
+        "Dano do 1° Golpe|{param1:F1P}",
+        "Dano do 2° Golpe|{param2:F1P}",
+        "Dano do 3° Golpe|{param3:F1P}+{param4:F1P}",
+        "Dano do 4° Golpe|{param5:F1P}",
+        "Dano de Ataque Carregado|{param6:F1P}",
+        "Consumo de Stamina do Ataque Carregado|{param7:F1}",
+        "Dano Durante a Queda|{param8:F1P}",
+        "Dano de Queda de Baixa/Alta Altitude|{param9:P}/{param10:P}"
+      ],
+      "parameters": {
+        "param1": [
+          0.60802,
+          0.65751,
+          0.707,
+          0.7777,
+          0.82719,
+          0.88375,
+          0.96152,
+          1.03929,
+          1.11706,
+          1.2019,
+          1.28674,
+          1.37158,
+          1.45642,
+          1.54126,
+          1.6261
+        ],
+        "param2": [
+          0.61146,
+          0.66123,
+          0.711,
+          0.7821,
+          0.83187,
+          0.88875,
+          0.96696,
+          1.04517,
+          1.12338,
+          1.2087,
+          1.29402,
+          1.37934,
+          1.46466,
+          1.54998,
+          1.6353
+        ],
+        "param3": [
+          0.354879,
+          0.383765,
+          0.41265,
+          0.453915,
+          0.4828,
+          0.515813,
+          0.561204,
+          0.606596,
+          0.651987,
+          0.701505,
+          0.751023,
+          0.800541,
+          0.850059,
+          0.899577,
+          0.949095
+        ],
+        "param4": [
+          0.433741,
+          0.469046,
+          0.50435,
+          0.554785,
+          0.59009,
+          0.630438,
+          0.685916,
+          0.741395,
+          0.796873,
+          0.857395,
+          0.917917,
+          0.978439,
+          1.038961,
+          1.099483,
+          1.160005
+        ],
+        "param5": [
+          0.94944,
+          1.02672,
+          1.104,
+          1.2144,
+          1.29168,
+          1.38,
+          1.50144,
+          1.62288,
+          1.74432,
+          1.8768,
+          2.00928,
+          2.14176,
+          2.27424,
+          2.40672,
+          2.5392
+        ],
+        "param6": [
+          1.24184,
+          1.34292,
+          1.444,
+          1.5884,
+          1.68948,
+          1.805,
+          1.96384,
+          2.12268,
+          2.28152,
+          2.4548,
+          2.62808,
+          2.80136,
+          2.97464,
+          3.14792,
+          3.3212
+        ],
+        "param7": [
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25
+        ],
+        "param8": [
+          0.639324,
+          0.691362,
+          0.7434,
+          0.81774,
+          0.869778,
+          0.92925,
+          1.011024,
+          1.092798,
+          1.174572,
+          1.26378,
+          1.352988,
+          1.442196,
+          1.531404,
+          1.620612,
+          1.70982
+        ],
+        "param9": [
+          1.278377,
+          1.382431,
+          1.486485,
+          1.635134,
+          1.739187,
+          1.858106,
+          2.02162,
+          2.185133,
+          2.348646,
+          2.527025,
+          2.705403,
+          2.883781,
+          3.062159,
+          3.240537,
+          3.418915
+        ],
+        "param10": [
+          1.596762,
+          1.726731,
+          1.8567,
+          2.04237,
+          2.172339,
+          2.320875,
+          2.525112,
+          2.729349,
+          2.933586,
+          3.15639,
+          3.379194,
+          3.601998,
+          3.824802,
+          4.047606,
+          4.27041
+        ]
+      }
+    }
+  },
+  "combat2": {
+    "name": "Ritual Sagrado: Garça Guardiã",
+    "descriptionRaw": "O estilo de luta de Candace é capaz de resistir a uma onda de inimigos.\n\n<color=#FFD780FF>Pressionar</color>\nAtaca avançando com seu escudo, infligindo <color=#80C0FFFF>Dano Hydro</color> contra os inimigos em sua frente.\n\n<color=#FFD780FF>Manter Pressionado</color>\nErgue seu escudo para bloquear o ataque dos inimigos, formando um Escudo que absorve Dano baseado na Vida Máxima de Candace e possui 250% de eficiência contra <color=#80C0FFFF>Dano Hydro</color>. O Escudo dura até o fim da Habilidade Elemental.\nAo Manter Pressionado por um certo tempo, Candace completará o carregamento, e quando lançar a habilidade, a duração acabar ou o escudo for destruído, realizará um ataque de salto que infligirá <color=#80C0FFFF>Dano Hydro</color> contra os inimigos em sua frente.\n\n<i>\"O juramento dos guardiões deve ser ainda mais firme que o escudo que herda de seus ancestrais.\"</i>",
+    "description": "O estilo de luta de Candace é capaz de resistir a uma onda de inimigos.\n\nPressionar\nAtaca avançando com seu escudo, infligindo Dano Hydro contra os inimigos em sua frente.\n\nManter Pressionado\nErgue seu escudo para bloquear o ataque dos inimigos, formando um Escudo que absorve Dano baseado na Vida Máxima de Candace e possui 250% de eficiência contra Dano Hydro. O Escudo dura até o fim da Habilidade Elemental.\nAo Manter Pressionado por um certo tempo, Candace completará o carregamento, e quando lançar a habilidade, a duração acabar ou o escudo for destruído, realizará um ataque de salto que infligirá Dano Hydro contra os inimigos em sua frente.",
+    "flavorText": "\"O juramento dos guardiões deve ser ainda mais firme que o escudo que herda de seus ancestrais.\"",
+    "attributes": {
+      "labels": [
+        "Absorção de Dano de Escudo|{param1:F1P} da Vida Máxima +{param2:I}",
+        "Dano Básico|{param3:F1P} da Vida Máxima",
+        "Dano de Carga Completa|{param4:F1P} da Vida Máxima",
+        "Recarga de Pressionar|{param5:F1}s",
+        "Recarga de Manter Pressionado|{param6:F1}s"
+      ],
+      "parameters": {
+        "param1": [
+          0.12,
+          0.129,
+          0.138,
+          0.15,
+          0.159,
+          0.168,
+          0.18,
+          0.192,
+          0.204,
+          0.216,
+          0.228,
+          0.24,
+          0.255,
+          0.27,
+          0.285
+        ],
+        "param2": [
+          1155.5629,
+          1271.1353,
+          1396.3386,
+          1531.173,
+          1675.6384,
+          1829.7349,
+          1993.4624,
+          2166.8208,
+          2349.8105,
+          2542.4312,
+          2744.6826,
+          2956.5652,
+          3178.0789,
+          3409.2236,
+          3649.9995
+        ],
+        "param3": [
+          0.12,
+          0.129,
+          0.138,
+          0.15,
+          0.159,
+          0.168,
+          0.18,
+          0.192,
+          0.204,
+          0.216,
+          0.228,
+          0.24,
+          0.255,
+          0.27,
+          0.285
+        ],
+        "param4": [
+          0.1904,
+          0.20468,
+          0.21896,
+          0.238,
+          0.25228,
+          0.26656,
+          0.2856,
+          0.30464,
+          0.32368,
+          0.34272,
+          0.36176,
+          0.3808,
+          0.4046,
+          0.4284,
+          0.4522
+        ],
+        "param5": [
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6
+        ],
+        "param6": [
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ]
+      }
+    }
+  },
+  "combat3": {
+    "name": "Ritual Sagrado: Maré dos Alvéolas",
+    "descriptionRaw": "Candace ergue sua arma e invoca uma bênção divina que inflige <color=#80C0FFFF>Dano Hydro em AdE</color> baseado em sua Vida Máxima, e aplica continuamente o estado \"Súplica da Coroa Escarlate\" no seu personagem ativo no campo de batalha.\n\n<color=#FFD780FF>Súplica da Coroa Escarlate</color>\nPossui as seguintes características:\n· Quando o Ataque Normal do personagem inflige Dano Elemental contra os inimigos, aumenta o Dano infligido;\n· Quando um personagem se torna o ativo no campo de batalha, lança uma Onda do Dilúvio que inflige <color=#80C0FFFF>Dano Hydro</color> contra os inimigos próximos. Esse efeito possui um limite de vezes que pode ser desencadeado dentro da duração dessa habilidade;\n· Personagens sob esse efeito que usem Espada, Espadão ou Lança obterão <color=#80C0FFFF>Encantamento Hydro</color>.\n\n<i>Esse ritual secreto foi passado de geração em geração pelo clã de Candace. Apesar da antiga fé ter se perdido com o passar do tempo, as areias ainda protegem os herdeiros do antigo reino.</i>",
+    "description": "Candace ergue sua arma e invoca uma bênção divina que inflige Dano Hydro em AdE baseado em sua Vida Máxima, e aplica continuamente o estado \"Súplica da Coroa Escarlate\" no seu personagem ativo no campo de batalha.\n\nSúplica da Coroa Escarlate\nPossui as seguintes características:\n· Quando o Ataque Normal do personagem inflige Dano Elemental contra os inimigos, aumenta o Dano infligido;\n· Quando um personagem se torna o ativo no campo de batalha, lança uma Onda do Dilúvio que inflige Dano Hydro contra os inimigos próximos. Esse efeito possui um limite de vezes que pode ser desencadeado dentro da duração dessa habilidade;\n· Personagens sob esse efeito que usem Espada, Espadão ou Lança obterão Encantamento Hydro.",
+    "flavorText": "Esse ritual secreto foi passado de geração em geração pelo clã de Candace. Apesar da antiga fé ter se perdido com o passar do tempo, as areias ainda protegem os herdeiros do antigo reino.",
+    "attributes": {
+      "labels": [
+        "Dano de Habilidade|{param1:F1P} da Vida Máxima",
+        "Duração|{param2:F1}s",
+        "Bônus de Dano|{param3:F1P}",
+        "Dano da Onda do Dilúvio|{param4:F1P} da Vida Máxima",
+        "Ativações da Onda do Dilúvio|{param5:I}",
+        "Tempo de Recarga|{param6:F1}s",
+        "Energia Elemental|{param7:I}"
+      ],
+      "parameters": {
+        "param1": [
+          0.066104,
+          0.071062,
+          0.07602,
+          0.08263,
+          0.087588,
+          0.092546,
+          0.099156,
+          0.105766,
+          0.112377,
+          0.118987,
+          0.125598,
+          0.132208,
+          0.140471,
+          0.148734,
+          0.156997
+        ],
+        "param2": [
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
+        "param3": [
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ],
+        "param4": [
+          0.066104,
+          0.071062,
+          0.07602,
+          0.08263,
+          0.087588,
+          0.092546,
+          0.099156,
+          0.105766,
+          0.112377,
+          0.118987,
+          0.125598,
+          0.132208,
+          0.140471,
+          0.148734,
+          0.156997
+        ],
+        "param5": [
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ],
+        "param6": [
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15
+        ],
+        "param7": [
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60
+        ]
+      }
+    }
+  },
+  "passive1": {
+    "name": "Proteção Plúmea",
+    "descriptionRaw": "Se Candace sofrer um ataque durante o Manter Pressionado de <color=#FFD780FF>Ritual Sagrado: Garça Guardiã</color>, carregará a habilidade completamente.",
+    "description": "Se Candace sofrer um ataque durante o Manter Pressionado de Ritual Sagrado: Garça Guardiã, carregará a habilidade completamente."
+  },
+  "passive2": {
+    "name": "Arco das Areias",
+    "descriptionRaw": "Personagens sob estado Súplica da Coroa Escarlate causado por <color=#FFD780FF>Ritual Sagrado: Maré dos Alvéolas</color> aumentam o Dano infligido contra os oponentes em 0,5% para cada 1.000 pontos de Vida Máxima de Candace quando causam Dano Elemental com seus Ataques Normais.",
+    "description": "Personagens sob estado Súplica da Coroa Escarlate causado por Ritual Sagrado: Maré dos Alvéolas aumentam o Dano infligido contra os oponentes em 0,5% para cada 1.000 pontos de Vida Máxima de Candace quando causam Dano Elemental com seus Ataques Normais."
+  },
+  "passive3": {
+    "name": "Aurora Primordial",
+    "descriptionRaw": "Diminui o consumo de Stamina ao Escalar de todos os seus próprios personagens da equipe em 20%.\nNão acumulável com Talentos Passivos que concedem exatamente os mesmos efeitos.",
+    "description": "Diminui o consumo de Stamina ao Escalar de todos os seus próprios personagens da equipe em 20%.\nNão acumulável com Talentos Passivos que concedem exatamente os mesmos efeitos."
+  },
+  "costs": {
+    "lvl2": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 12500
+      },
+      {
+        "id": 104329,
+        "name": "Ensinamentos de Admoestações",
+        "count": 3
+      },
+      {
+        "id": 112065,
+        "name": "Cetim Vermelho Desbotado",
+        "count": 6
+      }
+    ],
+    "lvl3": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 17500
+      },
+      {
+        "id": 104330,
+        "name": "Guia da Admoestação",
+        "count": 2
+      },
+      {
+        "id": 112066,
+        "name": "Seda Vermelha Bordada",
+        "count": 3
+      }
+    ],
+    "lvl4": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 25000
+      },
+      {
+        "id": 104330,
+        "name": "Guia da Admoestação",
+        "count": 4
+      },
+      {
+        "id": 112066,
+        "name": "Seda Vermelha Bordada",
+        "count": 4
+      }
+    ],
+    "lvl5": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 30000
+      },
+      {
+        "id": 104330,
+        "name": "Guia da Admoestação",
+        "count": 6
+      },
+      {
+        "id": 112066,
+        "name": "Seda Vermelha Bordada",
+        "count": 6
+      }
+    ],
+    "lvl6": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 37500
+      },
+      {
+        "id": 104330,
+        "name": "Guia da Admoestação",
+        "count": 9
+      },
+      {
+        "id": 112066,
+        "name": "Seda Vermelha Bordada",
+        "count": 9
+      }
+    ],
+    "lvl7": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 120000
+      },
+      {
+        "id": 104331,
+        "name": "Filosofia da Admoestação",
+        "count": 4
+      },
+      {
+        "id": 112067,
+        "name": "Cetim Vermelho",
+        "count": 4
+      },
+      {
+        "id": 113033,
+        "name": "Lágrima da Deusa do Desastre",
+        "count": 1
+      }
+    ],
+    "lvl8": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 260000
+      },
+      {
+        "id": 104331,
+        "name": "Filosofia da Admoestação",
+        "count": 6
+      },
+      {
+        "id": 112067,
+        "name": "Cetim Vermelho",
+        "count": 6
+      },
+      {
+        "id": 113033,
+        "name": "Lágrima da Deusa do Desastre",
+        "count": 1
+      }
+    ],
+    "lvl9": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 450000
+      },
+      {
+        "id": 104331,
+        "name": "Filosofia da Admoestação",
+        "count": 12
+      },
+      {
+        "id": 112067,
+        "name": "Cetim Vermelho",
+        "count": 9
+      },
+      {
+        "id": 113033,
+        "name": "Lágrima da Deusa do Desastre",
+        "count": 2
+      }
+    ],
+    "lvl10": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 700000
+      },
+      {
+        "id": 104331,
+        "name": "Filosofia da Admoestação",
+        "count": 16
+      },
+      {
+        "id": 112067,
+        "name": "Cetim Vermelho",
+        "count": 12
+      },
+      {
+        "id": 113033,
+        "name": "Lágrima da Deusa do Desastre",
+        "count": 2
+      },
+      {
+        "id": 104319,
+        "name": "Coroa da Sabedoria",
+        "count": 1
+      }
+    ]
+  },
+  "images": {
+    "filename_combat1": "Skill_A_03",
+    "filename_combat2": "Skill_S_Candace_01",
+    "filename_combat3": "Skill_E_Candace_01_HD",
+    "filename_passive1": "UI_Talent_S_Candace_05",
+    "filename_passive2": "UI_Talent_S_Candace_06",
+    "filename_passive3": "UI_Talent_Explosion_Climb"
+  },
+  "version": "3.1"
+}

@@ -1,0 +1,493 @@
+{
+  "id": 2701,
+  "name": "Ningguang",
+  "combat1": {
+    "name": "Dispersão Espumante",
+    "descriptionRaw": "<color=#FFD780FF>Ataque Normal</color>\nDispara gemas que causam <color=#FFE699FF>Dano Geo</color>.\nAo acertar, concede a Ningguang 1 Jade de Estrela.\n\n<color=#FFD780FF>Ataque Carregado</color>\nConsome uma certa quantidade de Stamina para disparar uma gema gigante que causa <color=#FFE699FF>Dano Geo</color>.\nSe Ningguang possui Jades Estelares, ao liberar um Ataque Carregado fará com que os Jades Estelares sejam disparados contra um inimigo também, causando Dano adicional.\n\n<color=#FFD780FF>Ataque Imersivo</color>\nReunindo o poder de Geo, Ningguang mergulha em direção ao solo no ar, causando Dano a todos os inimigos em seu caminho. Causa <color=#FFE699FF>Dano Geo AdE</color> com o impacto no solo.",
+    "description": "Ataque Normal\nDispara gemas que causam Dano Geo.\nAo acertar, concede a Ningguang 1 Jade de Estrela.\n\nAtaque Carregado\nConsome uma certa quantidade de Stamina para disparar uma gema gigante que causa Dano Geo.\nSe Ningguang possui Jades Estelares, ao liberar um Ataque Carregado fará com que os Jades Estelares sejam disparados contra um inimigo também, causando Dano adicional.\n\nAtaque Imersivo\nReunindo o poder de Geo, Ningguang mergulha em direção ao solo no ar, causando Dano a todos os inimigos em seu caminho. Causa Dano Geo AdE com o impacto no solo.",
+    "attributes": {
+      "labels": [
+        "Dano de Ataque Normal|{param1:F1P}",
+        "Dano de Ataque Carregado|{param2:P}",
+        "Dano por Jade Estelar|{param3:F1P}",
+        "Consumo de Stamina de Ataque Carregado|{param4:F1}",
+        "Dano Durante a Queda|{param5:F1P}",
+        "Dano de Queda de Baixa/Alta Altitude|{param6:P}/{param7:P}"
+      ],
+      "parameters": {
+        "param1": [
+          0.28,
+          0.301,
+          0.322,
+          0.35,
+          0.371,
+          0.392,
+          0.42,
+          0.448,
+          0.476,
+          0.504,
+          0.53312,
+          0.5712,
+          0.60928,
+          0.64736,
+          0.68544
+        ],
+        "param2": [
+          1.7408,
+          1.87136,
+          2.00192,
+          2.176,
+          2.30656,
+          2.43712,
+          2.6112,
+          2.78528,
+          2.95936,
+          3.13344,
+          3.314483,
+          3.551232,
+          3.787981,
+          4.02473,
+          4.261478
+        ],
+        "param3": [
+          0.496,
+          0.5332,
+          0.5704,
+          0.62,
+          0.6572,
+          0.6944,
+          0.744,
+          0.7936,
+          0.8432,
+          0.8928,
+          0.944384,
+          1.01184,
+          1.079296,
+          1.146752,
+          1.214208
+        ],
+        "param4": [
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "param5": [
+          0.568288,
+          0.614544,
+          0.6608,
+          0.72688,
+          0.773136,
+          0.826,
+          0.898688,
+          0.971376,
+          1.044064,
+          1.12336,
+          1.202656,
+          1.281952,
+          1.361248,
+          1.440544,
+          1.51984
+        ],
+        "param6": [
+          1.136335,
+          1.228828,
+          1.32132,
+          1.453452,
+          1.545944,
+          1.65165,
+          1.796995,
+          1.94234,
+          2.087686,
+          2.246244,
+          2.404802,
+          2.563361,
+          2.721919,
+          2.880478,
+          3.039036
+        ],
+        "param7": [
+          1.419344,
+          1.534872,
+          1.6504,
+          1.81544,
+          1.930968,
+          2.063,
+          2.244544,
+          2.426088,
+          2.607632,
+          2.80568,
+          3.003728,
+          3.201776,
+          3.399824,
+          3.597872,
+          3.79592
+        ]
+      }
+    }
+  },
+  "combat2": {
+    "name": "Tela de Jade",
+    "descriptionRaw": "Ningguang cria uma Tela de Jade a partir do ouro, obsidiana e sua grande opulência, infligindo <color=#FFE699FF>Dano Geo em uma AdE</color>.\n\n<color=#FFD780FF>Tela de Jade</color>\nBloqueia projéteis inimigos. \nResistência aumenta com base na Vida Máxima de Ningguang.\n\nTela de Jade é considerada uma <color=#FFE699FF>Construção Geo</color> e pode ser usada para bloquear alguns ataques, mas não pode ser escalada. Apenas uma Tela de Jade pode existir ao mesmo tempo.\n\n<i>A tela das estrelas está escrita sobre essa Tela de Jade.</i>",
+    "description": "Ningguang cria uma Tela de Jade a partir do ouro, obsidiana e sua grande opulência, infligindo Dano Geo em uma AdE.\n\nTela de Jade\nBloqueia projéteis inimigos. \nResistência aumenta com base na Vida Máxima de Ningguang.\n\nTela de Jade é considerada uma Construção Geo e pode ser usada para bloquear alguns ataques, mas não pode ser escalada. Apenas uma Tela de Jade pode existir ao mesmo tempo.",
+    "flavorText": "A tela das estrelas está escrita sobre essa Tela de Jade.",
+    "attributes": {
+      "labels": [
+        "Vida Recebida|{param3:F1P}",
+        "Dano de Habilidade|{param2:P}",
+        "Tempo de Recarga|{param4:F1}s"
+      ],
+      "parameters": {
+        "param1": [
+          -0.499,
+          -0.469,
+          -0.439,
+          -0.4,
+          -0.37,
+          -0.34,
+          -0.301,
+          -0.262,
+          -0.223,
+          -0.184,
+          -0.145,
+          -0.106,
+          -0.067,
+          -0.028,
+          0.011
+        ],
+        "param2": [
+          2.304,
+          2.4768,
+          2.6496,
+          2.88,
+          3.0528,
+          3.2256,
+          3.456,
+          3.6864,
+          3.9168,
+          4.1472,
+          4.3776,
+          4.608,
+          4.896,
+          5.184,
+          5.472
+        ],
+        "param3": [
+          0.501,
+          0.531,
+          0.561,
+          0.6,
+          0.63,
+          0.66,
+          0.699,
+          0.738,
+          0.777,
+          0.816,
+          0.855,
+          0.894,
+          0.933,
+          0.972,
+          1.011
+        ],
+        "param4": [
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12
+        ]
+      }
+    }
+  },
+  "combat3": {
+    "name": "Quebrador de Estrelas",
+    "descriptionRaw": "Recolhendo um grande número de gemas, Ningguang espalha todas de uma vez, enviando projéteis perseguidores em seus inimigos que causam <color=#FFE699FF>Dano Geo</color> massivo.\nSe o Quebrador de Estrelas é lançado enquanto a Tela de Jade está próxima, a Tela de Jade irá disparar projéteis de gemas perseguidoras adicionais ao mesmo tempo.\n\n<i>Estrelas quebram. O silêncio recai.</i>",
+    "description": "Recolhendo um grande número de gemas, Ningguang espalha todas de uma vez, enviando projéteis perseguidores em seus inimigos que causam Dano Geo massivo.\nSe o Quebrador de Estrelas é lançado enquanto a Tela de Jade está próxima, a Tela de Jade irá disparar projéteis de gemas perseguidoras adicionais ao mesmo tempo.",
+    "flavorText": "Estrelas quebram. O silêncio recai.",
+    "attributes": {
+      "labels": [
+        "Dano de Cada Gema|{param1:F1P}",
+        "Tempo de Recarga|{param2:F1}s",
+        "Energia Elemental|{param3:I}"
+      ],
+      "parameters": {
+        "param1": [
+          0.8696,
+          0.93482,
+          1.00004,
+          1.087,
+          1.15222,
+          1.21744,
+          1.3044,
+          1.39136,
+          1.47832,
+          1.56528,
+          1.65224,
+          1.7392,
+          1.8479,
+          1.9566,
+          2.0653
+        ],
+        "param2": [
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12
+        ],
+        "param3": [
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40
+        ]
+      }
+    }
+  },
+  "passive1": {
+    "name": "Plano B",
+    "descriptionRaw": "Quando Ningguang estiver em posse das Jades Estelares, seu Ataque Carregado não consome Stamina.",
+    "description": "Quando Ningguang estiver em posse das Jades Estelares, seu Ataque Carregado não consome Stamina."
+  },
+  "passive2": {
+    "name": "Reserva Estratégica",
+    "descriptionRaw": "Um personagem que passa pela <color=#FFD780FF>Tela de Jade</color> ganhará 12% de <color=#FFE699FF> Bônus de Dano GEO</color> por 10s.",
+    "description": "Um personagem que passa pela Tela de Jade ganhará 12% de  Bônus de Dano GEO por 10s."
+  },
+  "passive3": {
+    "name": "Registro dos Tesouros Maravilhosos",
+    "descriptionRaw": "Mostra a localização de <color=#FFD780FF>veias de minério utilizadas na forja</color> no mapa.",
+    "description": "Mostra a localização de veias de minério utilizadas na forja no mapa."
+  },
+  "costs": {
+    "lvl2": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 12500
+      },
+      {
+        "id": 104310,
+        "name": "Ensinamentos de Prosperidade",
+        "count": 3
+      },
+      {
+        "id": 112032,
+        "name": "Insígnia de Recruta",
+        "count": 6
+      }
+    ],
+    "lvl3": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 17500
+      },
+      {
+        "id": 104311,
+        "name": "Guia de Prosperidade",
+        "count": 2
+      },
+      {
+        "id": 112033,
+        "name": "Insígnia de Sargento",
+        "count": 3
+      }
+    ],
+    "lvl4": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 25000
+      },
+      {
+        "id": 104311,
+        "name": "Guia de Prosperidade",
+        "count": 4
+      },
+      {
+        "id": 112033,
+        "name": "Insígnia de Sargento",
+        "count": 4
+      }
+    ],
+    "lvl5": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 30000
+      },
+      {
+        "id": 104311,
+        "name": "Guia de Prosperidade",
+        "count": 6
+      },
+      {
+        "id": 112033,
+        "name": "Insígnia de Sargento",
+        "count": 6
+      }
+    ],
+    "lvl6": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 37500
+      },
+      {
+        "id": 104311,
+        "name": "Guia de Prosperidade",
+        "count": 9
+      },
+      {
+        "id": 112033,
+        "name": "Insígnia de Sargento",
+        "count": 9
+      }
+    ],
+    "lvl7": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 120000
+      },
+      {
+        "id": 104312,
+        "name": "Filosofia de Prosperidade",
+        "count": 4
+      },
+      {
+        "id": 112034,
+        "name": "Insígnia de Oficial",
+        "count": 4
+      },
+      {
+        "id": 113008,
+        "name": "Alma do Vento do Norte",
+        "count": 1
+      }
+    ],
+    "lvl8": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 260000
+      },
+      {
+        "id": 104312,
+        "name": "Filosofia de Prosperidade",
+        "count": 6
+      },
+      {
+        "id": 112034,
+        "name": "Insígnia de Oficial",
+        "count": 6
+      },
+      {
+        "id": 113008,
+        "name": "Alma do Vento do Norte",
+        "count": 1
+      }
+    ],
+    "lvl9": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 450000
+      },
+      {
+        "id": 104312,
+        "name": "Filosofia de Prosperidade",
+        "count": 12
+      },
+      {
+        "id": 112034,
+        "name": "Insígnia de Oficial",
+        "count": 9
+      },
+      {
+        "id": 113008,
+        "name": "Alma do Vento do Norte",
+        "count": 2
+      }
+    ],
+    "lvl10": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 700000
+      },
+      {
+        "id": 104312,
+        "name": "Filosofia de Prosperidade",
+        "count": 16
+      },
+      {
+        "id": 112034,
+        "name": "Insígnia de Oficial",
+        "count": 12
+      },
+      {
+        "id": 113008,
+        "name": "Alma do Vento do Norte",
+        "count": 2
+      },
+      {
+        "id": 104319,
+        "name": "Coroa da Sabedoria",
+        "count": 1
+      }
+    ]
+  },
+  "images": {
+    "filename_combat1": "Skill_A_Catalyst_MD",
+    "filename_combat2": "Skill_S_Ningguang_01",
+    "filename_combat3": "Skill_E_Ningguang_01_HD",
+    "filename_passive1": "UI_Talent_S_Ningguang_02",
+    "filename_passive2": "UI_Talent_S_Ningguang_06",
+    "filename_passive3": "UI_Talent_Collect_Ore"
+  },
+  "version": "1.0"
+}

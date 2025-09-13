@@ -1,0 +1,760 @@
+{
+  "id": 5301,
+  "name": "Sayu",
+  "combat1": {
+    "name": "Lâmina de Ninja Shiyuumatsu-Ban",
+    "descriptionRaw": "<color=#FFD780FF>Ataque Normal</color>\nRealiza até 4 golpes consecutivos.\n\n<color=#FFD780FF>Ataque Carregado</color>\nDrena Stamina ao longo do tempo para realizar um ataque giratório contínuo contra todos os inimigos próximos.\nAo final da sequência, realiza um corte poderoso.\n\n<color=#FFD780FF>Ataque Imersivo</color>\nMergulha em pleno ar para golpear o chão, causando dano aos inimigos em seu caminho e infligindo Dano em uma AdE durante o impacto.",
+    "description": "Ataque Normal\nRealiza até 4 golpes consecutivos.\n\nAtaque Carregado\nDrena Stamina ao longo do tempo para realizar um ataque giratório contínuo contra todos os inimigos próximos.\nAo final da sequência, realiza um corte poderoso.\n\nAtaque Imersivo\nMergulha em pleno ar para golpear o chão, causando dano aos inimigos em seu caminho e infligindo Dano em uma AdE durante o impacto.",
+    "attributes": {
+      "labels": [
+        "Dano do 1° Golpe|{param1:F1P}",
+        "Dano do 2° Golpe|{param2:F1P}",
+        "Dano do 3° Golpe|{param3:F1P}+{param4:F1P}",
+        "Dano do 4° Golpe|{param5:F1P}",
+        "Dano de Loop de Ataque Carregado|{param6:F1P}",
+        "Dano Final de Ataque Carregado|{param7:P}",
+        "Consumo de Stamina de Ataque Carregado|{param8:F1}/s",
+        "Duração Máxima|{param9:F1}s",
+        "Dano Durante a Queda|{param10:F1P}",
+        "Dano de Queda de Baixa/Alta Altitude|{param11:P}/{param12:P}"
+      ],
+      "parameters": {
+        "param1": [
+          0.7224,
+          0.7812,
+          0.84,
+          0.924,
+          0.9828,
+          1.05,
+          1.1424,
+          1.2348,
+          1.3272,
+          1.428,
+          1.5435,
+          1.679328,
+          1.815156,
+          1.950984,
+          2.09916
+        ],
+        "param2": [
+          0.7138,
+          0.7719,
+          0.83,
+          0.913,
+          0.9711,
+          1.0375,
+          1.1288,
+          1.2201,
+          1.3114,
+          1.411,
+          1.525125,
+          1.659336,
+          1.793547,
+          1.927758,
+          2.07417
+        ],
+        "param3": [
+          0.4343,
+          0.46965,
+          0.505,
+          0.5555,
+          0.59085,
+          0.63125,
+          0.6868,
+          0.74235,
+          0.7979,
+          0.8585,
+          0.927937,
+          1.009596,
+          1.091255,
+          1.172913,
+          1.261995
+        ],
+        "param4": [
+          0.4343,
+          0.46965,
+          0.505,
+          0.5555,
+          0.59085,
+          0.63125,
+          0.6868,
+          0.74235,
+          0.7979,
+          0.8585,
+          0.927937,
+          1.009596,
+          1.091255,
+          1.172913,
+          1.261995
+        ],
+        "param5": [
+          0.98126,
+          1.06113,
+          1.141,
+          1.2551,
+          1.33497,
+          1.42625,
+          1.55176,
+          1.67727,
+          1.80278,
+          1.9397,
+          2.096588,
+          2.281087,
+          2.465587,
+          2.650087,
+          2.851359
+        ],
+        "param6": [
+          0.625455,
+          0.676364,
+          0.727273,
+          0.8,
+          0.850909,
+          0.909091,
+          0.989091,
+          1.069091,
+          1.149091,
+          1.236364,
+          1.336364,
+          1.453964,
+          1.571564,
+          1.689164,
+          1.817455
+        ],
+        "param7": [
+          1.1309,
+          1.22295,
+          1.315,
+          1.4465,
+          1.53855,
+          1.64375,
+          1.7884,
+          1.93305,
+          2.0777,
+          2.2355,
+          2.416313,
+          2.628948,
+          2.841584,
+          3.054219,
+          3.286185
+        ],
+        "param8": [
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40
+        ],
+        "param9": [
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
+        "param10": [
+          0.745878,
+          0.806589,
+          0.8673,
+          0.95403,
+          1.014741,
+          1.084125,
+          1.179528,
+          1.274931,
+          1.370334,
+          1.47441,
+          1.578486,
+          1.682562,
+          1.786638,
+          1.890714,
+          1.99479
+        ],
+        "param11": [
+          1.49144,
+          1.612836,
+          1.734233,
+          1.907656,
+          2.029052,
+          2.167791,
+          2.358556,
+          2.549322,
+          2.740087,
+          2.948195,
+          3.156303,
+          3.364411,
+          3.572519,
+          3.780627,
+          3.988735
+        ],
+        "param12": [
+          1.862889,
+          2.01452,
+          2.16615,
+          2.382765,
+          2.534396,
+          2.707688,
+          2.945964,
+          3.184241,
+          3.422517,
+          3.682455,
+          3.942393,
+          4.202331,
+          4.462269,
+          4.722207,
+          4.982145
+        ]
+      }
+    }
+  },
+  "combat2": {
+    "name": "Arte Yoohoo: Ataque Fuuin",
+    "descriptionRaw": "A técnica especial das Artes Ninja Yoohoo! Uma técnica veloz como um raio que circula por todo o campo!\nForma uma Roda Fuufuu e colide nos inimigos em alta velocidade, causando <color=#80FFD7FF>Dano Anemo</color>. Quando a duração termina, lança um Chute da Roda Fuufuu, causando <color=#80FFD7FF>Dano Anemo em uma AdE</color>.\n\n<color=#FFD780FF>Pressionar</color>\nEntra no estado da Roda Fuufuu, rebola para a frente em uma distância curta antes de usar o Chute da Roda Fuufuu.\n\n<color=#FFD780FF>Manter pressionado</color>\nGira continuamente no estado da Roda Fuufuu, aumentando a resistência de Sayu à interrupção durante esse estado.\nDurante este tempo, Sayu pode controlar a direção da Roda e pode usar a habilidade novamente para terminar seu estado de Roda e liberar uma versão mais forte do Chute da Roda Fuufuu. A versão dessa habilidade com Manter Pressionado pode desencadear uma Absorção Elemental.\n\nDura até 10s, ao final do efeito, a habilidade entrará em Recarga. Quanto maior o tempo sob o estado da Roda Fuufuu, maior será a Recarga.\n\n<color=#FFD780FF>Absorção Elemental</color>\nSe Sayu entrar em contato com os elementos <color=#80C0FFFF>Hydro</color>/<color=#FF9999FF>Pyro</color>/<color=#99FFFFFF>Cryo</color>/<color=#FFACFFFF>Electro</color> durante seu estado de Roda, ela irá causar Dano elemental adicional baseado naquele tipo.\nAbsorção Elemental pode ocorrer apenas uma vez por uso.\n\n<i>Sayu pode usar essa habilidade com seus olhos fechados. Esta técnica foi originalmente criada para escapar, mas agora que ela tem uma Visão, pode também servir para dificultar a vida dos seus inimigos enquanto ela usa a habilidade.</i>",
+    "description": "A técnica especial das Artes Ninja Yoohoo! Uma técnica veloz como um raio que circula por todo o campo!\nForma uma Roda Fuufuu e colide nos inimigos em alta velocidade, causando Dano Anemo. Quando a duração termina, lança um Chute da Roda Fuufuu, causando Dano Anemo em uma AdE.\n\nPressionar\nEntra no estado da Roda Fuufuu, rebola para a frente em uma distância curta antes de usar o Chute da Roda Fuufuu.\n\nManter pressionado\nGira continuamente no estado da Roda Fuufuu, aumentando a resistência de Sayu à interrupção durante esse estado.\nDurante este tempo, Sayu pode controlar a direção da Roda e pode usar a habilidade novamente para terminar seu estado de Roda e liberar uma versão mais forte do Chute da Roda Fuufuu. A versão dessa habilidade com Manter Pressionado pode desencadear uma Absorção Elemental.\n\nDura até 10s, ao final do efeito, a habilidade entrará em Recarga. Quanto maior o tempo sob o estado da Roda Fuufuu, maior será a Recarga.\n\nAbsorção Elemental\nSe Sayu entrar em contato com os elementos Hydro/Pyro/Cryo/Electro durante seu estado de Roda, ela irá causar Dano elemental adicional baseado naquele tipo.\nAbsorção Elemental pode ocorrer apenas uma vez por uso.",
+    "flavorText": "Sayu pode usar essa habilidade com seus olhos fechados. Esta técnica foi originalmente criada para escapar, mas agora que ela tem uma Visão, pode também servir para dificultar a vida dos seus inimigos enquanto ela usa a habilidade.",
+    "attributes": {
+      "labels": [
+        "Dano de Roda Fuufuu|{param1:F1P}",
+        "Dano de Pressionar em Chute da Roda Fuufuu|{param3:F1P}",
+        "Dano ao Manter Pressionado Chute da Roda Fuufuu|{param4:F1P}",
+        "Dano Elemental Adicional da Roda Fuufuu|{param4:F1P}",
+        "Dano Elemental Adicional ao Manter Pressionado da Roda Fuufuu|{param5:F1P}",
+        "Duração Máxima por Manter Pressionado|{param6:F1}s",
+        "Tempo de Recarga|De {param7:F1} até {param8:F1}s"
+      ],
+      "parameters": {
+        "param1": [
+          0.36,
+          0.387,
+          0.414,
+          0.45,
+          0.477,
+          0.504,
+          0.54,
+          0.576,
+          0.612,
+          0.648,
+          0.684,
+          0.72,
+          0.765,
+          0.81,
+          0.855
+        ],
+        "param2": [
+          0.168,
+          0.1806,
+          0.1932,
+          0.21,
+          0.2226,
+          0.2352,
+          0.252,
+          0.2688,
+          0.2856,
+          0.3024,
+          0.3192,
+          0.336,
+          0.357,
+          0.378,
+          0.399
+        ],
+        "param3": [
+          1.584,
+          1.7028,
+          1.8216,
+          1.98,
+          2.0988,
+          2.2176,
+          2.376,
+          2.5344,
+          2.6928,
+          2.8512,
+          3.0096,
+          3.168,
+          3.366,
+          3.564,
+          3.762
+        ],
+        "param4": [
+          2.176,
+          2.3392,
+          2.5024,
+          2.72,
+          2.8832,
+          3.0464,
+          3.264,
+          3.4816,
+          3.6992,
+          3.9168,
+          4.1344,
+          4.352,
+          4.624,
+          4.896,
+          5.168
+        ],
+        "param5": [
+          0.7616,
+          0.81872,
+          0.87584,
+          0.952,
+          1.00912,
+          1.06624,
+          1.1424,
+          1.21856,
+          1.29472,
+          1.37088,
+          1.44704,
+          1.5232,
+          1.6184,
+          1.7136,
+          1.8088
+        ],
+        "param6": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ],
+        "param7": [
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6
+        ],
+        "param8": [
+          11,
+          11,
+          11,
+          11,
+          11,
+          11,
+          11,
+          11,
+          11,
+          11,
+          11,
+          11,
+          11,
+          11,
+          11
+        ]
+      }
+    }
+  },
+  "combat3": {
+    "name": "Arte Yoohoo: Agitação Mujina",
+    "descriptionRaw": "Outra técnica muito especial das Artes Ninja Yoohoo! Ela invoca um par de mãos ajudantes para Sayu.\nInflige <color=#80FFD7FF>Dano Anemo</color> aos inimigos ao redor e cura todos os personagens da equipe ao redor. A quantidade de Vida restaurada é baseada no ATQ de Sayu. A habilidade invoca então Daruma Muji-Muji.\n\n<color=#FFD780FF>Daruma Muji-Muji</color>\nEm intervalos específicos, Daruma irá tomar uma das muitas ações com base na situação ao seu redor:\n·Se houver personagens ativos ao redor com mais de 70% de Vida, Daruma irá atacar um inimigo por perto infligindo <color=#80FFD7FF>Dano Anemo</color>;\n·Se houver personagens ativos por perto com 70% ou menos de Vida, Daruma irá curar o personagem ativo com menos porcentagem de Vida. Se não houver oponentes ao redor e os personagens tiverem mais de 70% de Vida, ele irá curar os personagens.\n\n<i>As pessoas que não entendem nada sobre ninjutsu adoram ver Sayu mostrando sua habilidade, e alguns tentaram aprender com ela. Mas Sayu apenas quer dormir e não ser incomodada.</i>",
+    "description": "Outra técnica muito especial das Artes Ninja Yoohoo! Ela invoca um par de mãos ajudantes para Sayu.\nInflige Dano Anemo aos inimigos ao redor e cura todos os personagens da equipe ao redor. A quantidade de Vida restaurada é baseada no ATQ de Sayu. A habilidade invoca então Daruma Muji-Muji.\n\nDaruma Muji-Muji\nEm intervalos específicos, Daruma irá tomar uma das muitas ações com base na situação ao seu redor:\n·Se houver personagens ativos ao redor com mais de 70% de Vida, Daruma irá atacar um inimigo por perto infligindo Dano Anemo;\n·Se houver personagens ativos por perto com 70% ou menos de Vida, Daruma irá curar o personagem ativo com menos porcentagem de Vida. Se não houver oponentes ao redor e os personagens tiverem mais de 70% de Vida, ele irá curar os personagens.",
+    "flavorText": "As pessoas que não entendem nada sobre ninjutsu adoram ver Sayu mostrando sua habilidade, e alguns tentaram aprender com ela. Mas Sayu apenas quer dormir e não ser incomodada.",
+    "attributes": {
+      "labels": [
+        "Dano de Ativação da Habilidade|{param1:P}",
+        "Cura da Ativação da Habilidade|{param3:F1P} ATQ+{param2:I}",
+        "Dano de Daruma Muji-Muji|{param4:P}",
+        "Cura de Daruma Muji-Muji|{param6:F1P}ATQ+{param5:I}",
+        "Duração|{param7:F1}s",
+        "Tempo de Recarga|{param8:F1}s",
+        "Energia Elemental|{param9:I}"
+      ],
+      "parameters": {
+        "param1": [
+          1.168,
+          1.2556,
+          1.3432,
+          1.46,
+          1.5476,
+          1.6352,
+          1.752,
+          1.8688,
+          1.9856,
+          2.1024,
+          2.2192,
+          2.336,
+          2.482,
+          2.628,
+          2.774
+        ],
+        "param2": [
+          577.3388,
+          635.0807,
+          697.63446,
+          765,
+          837.17737,
+          914.16656,
+          995.96765,
+          1082.5804,
+          1174.0051,
+          1270.2417,
+          1371.29,
+          1477.1501,
+          1587.8221,
+          1703.3059,
+          1823.6016
+        ],
+        "param3": [
+          0.9216,
+          0.99072,
+          1.05984,
+          1.152,
+          1.22112,
+          1.29024,
+          1.3824,
+          1.47456,
+          1.56672,
+          1.65888,
+          1.75104,
+          1.8432,
+          1.9584,
+          2.0736,
+          2.1888
+        ],
+        "param4": [
+          0.52,
+          0.559,
+          0.598,
+          0.65,
+          0.689,
+          0.728,
+          0.78,
+          0.832,
+          0.884,
+          0.936,
+          0.988,
+          1.04,
+          1.105,
+          1.17,
+          1.235
+        ],
+        "param5": [
+          500.3603,
+          550.40326,
+          604.6165,
+          663,
+          725.5537,
+          792.2777,
+          863.17194,
+          938.2364,
+          1017.4711,
+          1100.8761,
+          1188.4513,
+          1280.1968,
+          1376.1125,
+          1476.1985,
+          1580.4547
+        ],
+        "param6": [
+          0.79872,
+          0.858624,
+          0.918528,
+          0.9984,
+          1.058304,
+          1.118208,
+          1.19808,
+          1.277952,
+          1.357824,
+          1.437696,
+          1.517568,
+          1.59744,
+          1.69728,
+          1.79712,
+          1.89696
+        ],
+        "param7": [
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12
+        ],
+        "param8": [
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20
+        ],
+        "param9": [
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80
+        ]
+      }
+    }
+  },
+  "passive1": {
+    "name": "Alguém Mais Adequado",
+    "descriptionRaw": "Quando Sayu desencadeia uma reação de Redemoinho enquanto ela estiver no campo de batalha, ela cura todos os seus personagens e aliados próximos em 300 de Vida. Ela também curará um adicional de 1.2 de Vida para cada ponto de Proficiência Elemental que ela possuir.\nEsse efeito pode ocorrer uma vez a cada 2s.",
+    "description": "Quando Sayu desencadeia uma reação de Redemoinho enquanto ela estiver no campo de batalha, ela cura todos os seus personagens e aliados próximos em 300 de Vida. Ela também curará um adicional de 1.2 de Vida para cada ponto de Proficiência Elemental que ela possuir.\nEsse efeito pode ocorrer uma vez a cada 2s."
+  },
+  "passive2": {
+    "name": "Não Tem Trabalho Hoje!",
+    "descriptionRaw": "O Daruma Muji-Muji invocado pela <color=#FFD780FF>Arte Yoohoo: Agitação Mujina</color> ganha os seguintes efeitos: \nQuando um personagem é curado, outros personagens próximos a ele e em combate recuperam uma quantidade de Vida de 20% do que foi recuperado pelo primeiro personagem. \nAumenta a área de Danos durante o ataque contra inimigos.",
+    "description": "O Daruma Muji-Muji invocado pela Arte Yoohoo: Agitação Mujina ganha os seguintes efeitos: \nQuando um personagem é curado, outros personagens próximos a ele e em combate recuperam uma quantidade de Vida de 20% do que foi recuperado pelo primeiro personagem. \nAumenta a área de Danos durante o ataque contra inimigos."
+  },
+  "passive3": {
+    "name": "Arte Yoohoo: Segredo da Dissimulação",
+    "descriptionRaw": "Quando Sayu estiver na equipe, seus personagens não irão assustar as Borboletas de Cristais e alguns outros animais ao chegar perto deles.\nCheque a sub-categoria \"Outros\" da seção \"Seres Vivos/Animais Selvagens\" do Arquivo, para descobrir com quais criaturas esta habilidade funciona.",
+    "description": "Quando Sayu estiver na equipe, seus personagens não irão assustar as Borboletas de Cristais e alguns outros animais ao chegar perto deles.\nCheque a sub-categoria \"Outros\" da seção \"Seres Vivos/Animais Selvagens\" do Arquivo, para descobrir com quais criaturas esta habilidade funciona."
+  },
+  "costs": {
+    "lvl2": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 12500
+      },
+      {
+        "id": 104326,
+        "name": "Ensinamentos da Luz Celeste",
+        "count": 3
+      },
+      {
+        "id": 112038,
+        "name": "Néctar da Flor Gigante",
+        "count": 6
+      }
+    ],
+    "lvl3": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 17500
+      },
+      {
+        "id": 104327,
+        "name": "Guia da Luz Celeste",
+        "count": 2
+      },
+      {
+        "id": 112039,
+        "name": "Néctar Brilhante",
+        "count": 3
+      }
+    ],
+    "lvl4": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 25000
+      },
+      {
+        "id": 104327,
+        "name": "Guia da Luz Celeste",
+        "count": 4
+      },
+      {
+        "id": 112039,
+        "name": "Néctar Brilhante",
+        "count": 4
+      }
+    ],
+    "lvl5": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 30000
+      },
+      {
+        "id": 104327,
+        "name": "Guia da Luz Celeste",
+        "count": 6
+      },
+      {
+        "id": 112039,
+        "name": "Néctar Brilhante",
+        "count": 6
+      }
+    ],
+    "lvl6": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 37500
+      },
+      {
+        "id": 104327,
+        "name": "Guia da Luz Celeste",
+        "count": 9
+      },
+      {
+        "id": 112039,
+        "name": "Néctar Brilhante",
+        "count": 9
+      }
+    ],
+    "lvl7": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 120000
+      },
+      {
+        "id": 104328,
+        "name": "Filosofia da Luz Celeste",
+        "count": 4
+      },
+      {
+        "id": 112040,
+        "name": "Néctar Elemental",
+        "count": 4
+      },
+      {
+        "id": 113019,
+        "name": "Escama Dourada",
+        "count": 1
+      }
+    ],
+    "lvl8": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 260000
+      },
+      {
+        "id": 104328,
+        "name": "Filosofia da Luz Celeste",
+        "count": 6
+      },
+      {
+        "id": 112040,
+        "name": "Néctar Elemental",
+        "count": 6
+      },
+      {
+        "id": 113019,
+        "name": "Escama Dourada",
+        "count": 1
+      }
+    ],
+    "lvl9": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 450000
+      },
+      {
+        "id": 104328,
+        "name": "Filosofia da Luz Celeste",
+        "count": 12
+      },
+      {
+        "id": 112040,
+        "name": "Néctar Elemental",
+        "count": 9
+      },
+      {
+        "id": 113019,
+        "name": "Escama Dourada",
+        "count": 2
+      }
+    ],
+    "lvl10": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 700000
+      },
+      {
+        "id": 104328,
+        "name": "Filosofia da Luz Celeste",
+        "count": 16
+      },
+      {
+        "id": 112040,
+        "name": "Néctar Elemental",
+        "count": 12
+      },
+      {
+        "id": 113019,
+        "name": "Escama Dourada",
+        "count": 2
+      },
+      {
+        "id": 104319,
+        "name": "Coroa da Sabedoria",
+        "count": 1
+      }
+    ]
+  },
+  "images": {
+    "filename_combat1": "Skill_A_04",
+    "filename_combat2": "Skill_S_Sayu_01",
+    "filename_combat3": "Skill_E_Sayu_01_HD",
+    "filename_passive1": "UI_Talent_S_Sayu_05",
+    "filename_passive2": "UI_Talent_S_Sayu_06",
+    "filename_passive3": "UI_Talent_S_Sayu_07"
+  },
+  "version": "2.0"
+}

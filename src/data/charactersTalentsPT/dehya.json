@@ -1,0 +1,707 @@
+{
+  "id": 7901,
+  "name": "Dehya",
+  "combat1": {
+    "name": "Técnica da Espada Dourada",
+    "descriptionRaw": "<color=#FFD780FF>Ataque Normal</color>\nRealiza até 4 golpes consecutivos com seu Espadão e artes marciais.\n\n<color=#FFD780FF>Ataque Carregado</color>\nDrena Stamina ao longo do tempo para realizar cortes contínuos.\nAo final da sequência, realiza um corte ainda mais poderoso.\n\n<color=#FFD780FF>Ataque Imersivo</color>\nMergulha em pleno ar para golpear o chão, causando danos aos inimigos em seu caminho e infligindo dano em uma AdE durante o impacto.",
+    "description": "Ataque Normal\nRealiza até 4 golpes consecutivos com seu Espadão e artes marciais.\n\nAtaque Carregado\nDrena Stamina ao longo do tempo para realizar cortes contínuos.\nAo final da sequência, realiza um corte ainda mais poderoso.\n\nAtaque Imersivo\nMergulha em pleno ar para golpear o chão, causando danos aos inimigos em seu caminho e infligindo dano em uma AdE durante o impacto.",
+    "attributes": {
+      "labels": [
+        "Dano do 1° Golpe|{param1:F1P}",
+        "Dano do 2° Golpe|{param2:F1P}",
+        "Dano do 3° Golpe|{param3:F1P}",
+        "Dano do 4° Golpe|{param4:F1P}",
+        "Dano de Loop de Ataque Carregado|{param5:F1P}",
+        "Dano Final de Ataque Carregado|{param6:P}",
+        "Consumo de Stamina de Ataque Carregado|{param7:F1}/s",
+        "Duração Máxima|{param8:F1}s",
+        "Dano Durante a Queda|{param9:F1P}",
+        "Dano de Queda de Baixa/Alta Altitude|{param10:P}/{param11:P}"
+      ],
+      "parameters": {
+        "param1": [
+          0.621178,
+          0.671739,
+          0.7223,
+          0.79453,
+          0.845091,
+          0.902875,
+          0.982328,
+          1.061781,
+          1.141234,
+          1.22791,
+          1.314586,
+          1.401262,
+          1.487938,
+          1.574614,
+          1.66129
+        ],
+        "param2": [
+          0.617102,
+          0.667331,
+          0.71756,
+          0.789316,
+          0.839545,
+          0.89695,
+          0.975882,
+          1.054813,
+          1.133745,
+          1.219852,
+          1.305959,
+          1.392066,
+          1.478174,
+          1.564281,
+          1.650388
+        ],
+        "param3": [
+          0.766312,
+          0.828686,
+          0.89106,
+          0.980166,
+          1.04254,
+          1.113825,
+          1.211842,
+          1.309858,
+          1.407875,
+          1.514802,
+          1.621729,
+          1.728656,
+          1.835584,
+          1.942511,
+          2.049438
+        ],
+        "param4": [
+          0.952914,
+          1.030477,
+          1.10804,
+          1.218844,
+          1.296407,
+          1.38505,
+          1.506934,
+          1.628819,
+          1.750703,
+          1.883668,
+          2.016633,
+          2.149598,
+          2.282562,
+          2.415527,
+          2.548492
+        ],
+        "param5": [
+          0.5633,
+          0.60915,
+          0.655,
+          0.7205,
+          0.76635,
+          0.81875,
+          0.8908,
+          0.96285,
+          1.0349,
+          1.1135,
+          1.1921,
+          1.2707,
+          1.3493,
+          1.4279,
+          1.5065
+        ],
+        "param6": [
+          1.01824,
+          1.10112,
+          1.184,
+          1.3024,
+          1.38528,
+          1.48,
+          1.61024,
+          1.74048,
+          1.87072,
+          2.0128,
+          2.15488,
+          2.29696,
+          2.43904,
+          2.58112,
+          2.7232
+        ],
+        "param7": [
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40
+        ],
+        "param8": [
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
+        "param9": [
+          0.745878,
+          0.806589,
+          0.8673,
+          0.95403,
+          1.014741,
+          1.084125,
+          1.179528,
+          1.274931,
+          1.370334,
+          1.47441,
+          1.578486,
+          1.682562,
+          1.786638,
+          1.890714,
+          1.99479
+        ],
+        "param10": [
+          1.49144,
+          1.612836,
+          1.734233,
+          1.907656,
+          2.029052,
+          2.167791,
+          2.358556,
+          2.549322,
+          2.740087,
+          2.948195,
+          3.156303,
+          3.364411,
+          3.572519,
+          3.780627,
+          3.988735
+        ],
+        "param11": [
+          1.862889,
+          2.01452,
+          2.16615,
+          2.382765,
+          2.534396,
+          2.707688,
+          2.945964,
+          3.184241,
+          3.422517,
+          3.682455,
+          3.942393,
+          4.202331,
+          4.462269,
+          4.722207,
+          4.982145
+        ]
+      }
+    }
+  },
+  "combat2": {
+    "name": "Inferno Derretido",
+    "descriptionRaw": "Dependendo da situação de combate, Dehya utiliza técnicas de combate diferentes.\n\n<color=#FFD780FF>Coragem Flamejante</color>\nLança quando não houver uma \"Prisão Flamejante\" criada por Dehya ativa no campo de batalha.\nCausa <color=#FF9999FF>Dano Pyro em AdE</color> e gera um campo da Prisão Flamejante.\n\n<color=#FFD780FF>Campo da Espada Incinerante</color>\nLança quando houver uma Prisão Flamejante criada por Dehya ativa no campo de batalha.\nRealiza um ataque de salto, causando <color=#FF9999FF>Dano Pyro em AdE</color> e novamente gerando um campo da Prisão Flamejante numa nova posição.\nO campo da Prisão Flamejante gerado novamente dessa forma herdará a duração do campo original.\n\nSó é possível lançar um Campo da Espada Incinerante na duração de um campo de Prisão Flamejante.\n\n<color=#FFD780FF>Prisão Flamejante</color>\nQuando os inimigos dentro desse campo sofrem Dano, a Prisão Flamejante realizará um Ataque Coordenado baseado no ATQ e Vida Máxima de Dehya, causando <color=#FF9999FF>Dano Pyro em AdE</color>. Esse efeito pode ser desencadeado uma vez a cada 2.5s.\nAumenta a Resistência contra Interrupção dos personagens ativos dentro do campo, e quando esses personagens sofrem Dano, mitiga parte desse Dano, convertendo-o em \"Sangue da Leoa Vermelha\", com Dehya sofrendo esse Dano por 10s. Quando o Dano armazenado alcançar ou ultrapassar uma certa proporção da Vida Máxima de Dehya, o dano deixará de ser mitigado.\n\nSó é possível existir uma Prisão Flamejante criada por Dehya simultaneamente.\n\n<i>Caminhe nesse julgamento de chamas comigo, expurgando todas as impurezas, como uma besta flamejante incinerando tudo com suas garras e presas.</i>",
+    "description": "Dependendo da situação de combate, Dehya utiliza técnicas de combate diferentes.\n\nCoragem Flamejante\nLança quando não houver uma \"Prisão Flamejante\" criada por Dehya ativa no campo de batalha.\nCausa Dano Pyro em AdE e gera um campo da Prisão Flamejante.\n\nCampo da Espada Incinerante\nLança quando houver uma Prisão Flamejante criada por Dehya ativa no campo de batalha.\nRealiza um ataque de salto, causando Dano Pyro em AdE e novamente gerando um campo da Prisão Flamejante numa nova posição.\nO campo da Prisão Flamejante gerado novamente dessa forma herdará a duração do campo original.\n\nSó é possível lançar um Campo da Espada Incinerante na duração de um campo de Prisão Flamejante.\n\nPrisão Flamejante\nQuando os inimigos dentro desse campo sofrem Dano, a Prisão Flamejante realizará um Ataque Coordenado baseado no ATQ e Vida Máxima de Dehya, causando Dano Pyro em AdE. Esse efeito pode ser desencadeado uma vez a cada 2.5s.\nAumenta a Resistência contra Interrupção dos personagens ativos dentro do campo, e quando esses personagens sofrem Dano, mitiga parte desse Dano, convertendo-o em \"Sangue da Leoa Vermelha\", com Dehya sofrendo esse Dano por 10s. Quando o Dano armazenado alcançar ou ultrapassar uma certa proporção da Vida Máxima de Dehya, o dano deixará de ser mitigado.\n\nSó é possível existir uma Prisão Flamejante criada por Dehya simultaneamente.",
+    "flavorText": "Caminhe nesse julgamento de chamas comigo, expurgando todas as impurezas, como uma besta flamejante incinerando tudo com suas garras e presas.",
+    "attributes": {
+      "labels": [
+        "Dano de Coragem Flamejante|{param1:F1P}",
+        "Dano do Campo da Espada Incinerante|{param2:F1P}",
+        "Dano do campo|{param3:F1P} do ATQ + {param4:F2P} da Vida Máxima",
+        "Mitigação de Dano|{param5:P}",
+        "Máximo de Sangue da Leoa Vermelha|{param6:P} da Vida Máxima",
+        "Duração do campo|{param7:F1}s",
+        "Tempo de Recarga|{param8:F1}s"
+      ],
+      "parameters": {
+        "param1": [
+          1.1288,
+          1.21346,
+          1.29812,
+          1.411,
+          1.49566,
+          1.58032,
+          1.6932,
+          1.80608,
+          1.91896,
+          2.03184,
+          2.14472,
+          2.2576,
+          2.3987,
+          2.5398,
+          2.6809
+        ],
+        "param2": [
+          1.328,
+          1.4276,
+          1.5272,
+          1.66,
+          1.7596,
+          1.8592,
+          1.992,
+          2.1248,
+          2.2576,
+          2.3904,
+          2.5232,
+          2.656,
+          2.822,
+          2.988,
+          3.154
+        ],
+        "param3": [
+          0.602,
+          0.64715,
+          0.6923,
+          0.7525,
+          0.79765,
+          0.8428,
+          0.903,
+          0.9632,
+          1.0234,
+          1.0836,
+          1.1438,
+          1.204,
+          1.27925,
+          1.3545,
+          1.42975
+        ],
+        "param4": [
+          0.01032,
+          0.011094,
+          0.011868,
+          0.0129,
+          0.013674,
+          0.014448,
+          0.01548,
+          0.016512,
+          0.017544,
+          0.018576,
+          0.019608,
+          0.02064,
+          0.02193,
+          0.02322,
+          0.02451
+        ],
+        "param5": [
+          0.32,
+          0.34,
+          0.36,
+          0.38,
+          0.4,
+          0.42,
+          0.44,
+          0.46,
+          0.48,
+          0.5,
+          0.52,
+          0.54,
+          0.56,
+          0.56,
+          0.56
+        ],
+        "param6": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "param7": [
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12
+        ],
+        "param8": [
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20
+        ]
+      }
+    }
+  },
+  "combat3": {
+    "name": "Mordida da Leoa",
+    "descriptionRaw": "Liberando sua fúria flamejante e jogando sua lâmina de lado, Dehya entra no estado \"Leoa Chamejante\", aumentando sua Resistência contra Interrupção.\nNesse estado, Dehya irá automática e continuamente desferir Socos da Leoa Flamejante baseados em seu ATQ e Vida Máxima, causando <color=#FF9999FF>Dano Pyro</color>. Quando a duração acabar, ela fará um Chute-Labareda que causará <color=#FF9999FF>Dano Pyro em AdE</color> baseado em seu ATQ e Vida Máxima.\nSe ao lançar existir ativo no campo de batalha o campo \"Prisão Flamejante\" da Habilidade Elemental \"Inferno Derretido\" de Dehya, ela irá recolhê-lo, e quando a duração de Leoa Chamejante acabar, o gerará novamente numa nova posição, ao gerar novamente, herdará a duração do campo recolhido.\nNesse estado, Dehya não poderá lançar sua Habilidade Elemental, não poderá fazer Ataques Normais, Carregados e Imersivos. Seu \"Ataque Normal: Técnica da Espada Dourada\" e Habilidade Elemental \"Inferno Derretido\" serão substituídos por \"Golpes do Rugido\".\n<color=#FFD780FF>Golpes do Rugido</color>\nLançar um Golpe do Rugido nos 0.4s após lançar Soco da Leoa Flamejante aumentará a velocidade de lançamento do próximo Soco da Leoa Flamejante. \n\n<i>Até mesmo as chamas devem obedecer sua fúria, e sob seu comando se tornarão suas presas e garras.</i>",
+    "description": "Liberando sua fúria flamejante e jogando sua lâmina de lado, Dehya entra no estado \"Leoa Chamejante\", aumentando sua Resistência contra Interrupção.\nNesse estado, Dehya irá automática e continuamente desferir Socos da Leoa Flamejante baseados em seu ATQ e Vida Máxima, causando Dano Pyro. Quando a duração acabar, ela fará um Chute-Labareda que causará Dano Pyro em AdE baseado em seu ATQ e Vida Máxima.\nSe ao lançar existir ativo no campo de batalha o campo \"Prisão Flamejante\" da Habilidade Elemental \"Inferno Derretido\" de Dehya, ela irá recolhê-lo, e quando a duração de Leoa Chamejante acabar, o gerará novamente numa nova posição, ao gerar novamente, herdará a duração do campo recolhido.\nNesse estado, Dehya não poderá lançar sua Habilidade Elemental, não poderá fazer Ataques Normais, Carregados e Imersivos. Seu \"Ataque Normal: Técnica da Espada Dourada\" e Habilidade Elemental \"Inferno Derretido\" serão substituídos por \"Golpes do Rugido\".\nGolpes do Rugido\nLançar um Golpe do Rugido nos 0.4s após lançar Soco da Leoa Flamejante aumentará a velocidade de lançamento do próximo Soco da Leoa Flamejante. ",
+    "flavorText": "Até mesmo as chamas devem obedecer sua fúria, e sob seu comando se tornarão suas presas e garras.",
+    "attributes": {
+      "labels": [
+        "Dano do Soco da Leoa Flamejante|{param1:F1P} do ATQ + {param2:F2P} da Vida Máxima",
+        "Dano do Chute-Labareda|{param3:F1P} do ATQ + {param4:F2P} da Vida Máxima",
+        "Duração|{param5:F1}s",
+        "Tempo de Recarga|{param6:F1}s",
+        "Energia Elemental|{param7:I}"
+      ],
+      "parameters": {
+        "param1": [
+          0.987,
+          1.061025,
+          1.13505,
+          1.23375,
+          1.307775,
+          1.3818,
+          1.4805,
+          1.5792,
+          1.6779,
+          1.7766,
+          1.8753,
+          1.974,
+          2.097375,
+          2.22075,
+          2.344125
+        ],
+        "param2": [
+          0.01692,
+          0.018189,
+          0.019458,
+          0.02115,
+          0.022419,
+          0.023688,
+          0.02538,
+          0.027072,
+          0.028764,
+          0.030456,
+          0.032148,
+          0.03384,
+          0.035955,
+          0.03807,
+          0.040185
+        ],
+        "param3": [
+          1.393,
+          1.497475,
+          1.60195,
+          1.74125,
+          1.845725,
+          1.9502,
+          2.0895,
+          2.2288,
+          2.3681,
+          2.5074,
+          2.6467,
+          2.786,
+          2.960125,
+          3.13425,
+          3.308375
+        ],
+        "param4": [
+          0.02388,
+          0.025671,
+          0.027462,
+          0.02985,
+          0.031641,
+          0.033432,
+          0.03582,
+          0.038208,
+          0.040596,
+          0.042984,
+          0.045372,
+          0.04776,
+          0.050745,
+          0.05373,
+          0.056715
+        ],
+        "param5": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "param6": [
+          18,
+          18,
+          18,
+          18,
+          18,
+          18,
+          18,
+          18,
+          18,
+          18,
+          18,
+          18,
+          18,
+          18,
+          18
+        ],
+        "param7": [
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70
+        ]
+      }
+    }
+  },
+  "passive1": {
+    "name": "Socorro Generoso",
+    "descriptionRaw": "Nos 6s após Dehya recolher Prisão Flamejante com <color=#FFD780FF>Inferno Derretido - Campo da Espada Incinerante</color> ou <color=#FFD780FF>Mordida da Leoa</color>, o Dano que Dehya recebe de Sangue da Leoa Vermelha será reduzido em 60%. Este efeito pode ser ativado 1 vez a cada 2s.\nAlém disso, nos 9s após lançar <color=#FFD780FF>Inferno Derretido - Coragem Flamejante</color>, concederá o estado \"Corpo Fundido Dourado\" para todos os membros da equipe. Quando personagens que estiverem sob o estado do Corpo Fundido Dourado entrarem na Prisão Flamejante, obterão Resistência contra Interrupção adicional. É possível gerar o estado Corpo Fundido Dourado uma vez a cada 18s.",
+    "description": "Nos 6s após Dehya recolher Prisão Flamejante com Inferno Derretido - Campo da Espada Incinerante ou Mordida da Leoa, o Dano que Dehya recebe de Sangue da Leoa Vermelha será reduzido em 60%. Este efeito pode ser ativado 1 vez a cada 2s.\nAlém disso, nos 9s após lançar Inferno Derretido - Coragem Flamejante, concederá o estado \"Corpo Fundido Dourado\" para todos os membros da equipe. Quando personagens que estiverem sob o estado do Corpo Fundido Dourado entrarem na Prisão Flamejante, obterão Resistência contra Interrupção adicional. É possível gerar o estado Corpo Fundido Dourado uma vez a cada 18s."
+  },
+  "passive2": {
+    "name": "Verdade Honesta",
+    "descriptionRaw": "Quando a Vida é inferior a 40%, Dehya regenerará Vida baseado em 20% de sua Vida Máxima, e nos 10s seguintes, Dehya regenerará Vida a cada 2s baseado em 6% de sua Vida Máxima. Esse efeito pode ser desencadeado uma vez a cada 20s.",
+    "description": "Quando a Vida é inferior a 40%, Dehya regenerará Vida baseado em 20% de sua Vida Máxima, e nos 10s seguintes, Dehya regenerará Vida a cada 2s baseado em 6% de sua Vida Máxima. Esse efeito pode ser desencadeado uma vez a cada 20s."
+  },
+  "passive3": {
+    "name": "Jornada Iluminada",
+    "descriptionRaw": "Durante o dia (06:00 - 18:00), os membros do seu grupo ganham o efeito Passos Ágeis: Veloc. Mov. aumenta em 10%.\nNão tem efeito em Domínios, Domínios Dizimados ou Abismo Espiral. O efeito Passos Ágeis não se acumula.",
+    "description": "Durante o dia (06:00 - 18:00), os membros do seu grupo ganham o efeito Passos Ágeis: Veloc. Mov. aumenta em 10%.\nNão tem efeito em Domínios, Domínios Dizimados ou Abismo Espiral. O efeito Passos Ágeis não se acumula."
+  },
+  "costs": {
+    "lvl2": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 12500
+      },
+      {
+        "id": 104335,
+        "name": "Ensinamentos de Práxis",
+        "count": 3
+      },
+      {
+        "id": 112065,
+        "name": "Cetim Vermelho Desbotado",
+        "count": 6
+      }
+    ],
+    "lvl3": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 17500
+      },
+      {
+        "id": 104336,
+        "name": "Guia da Práxis",
+        "count": 2
+      },
+      {
+        "id": 112066,
+        "name": "Seda Vermelha Bordada",
+        "count": 3
+      }
+    ],
+    "lvl4": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 25000
+      },
+      {
+        "id": 104336,
+        "name": "Guia da Práxis",
+        "count": 4
+      },
+      {
+        "id": 112066,
+        "name": "Seda Vermelha Bordada",
+        "count": 4
+      }
+    ],
+    "lvl5": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 30000
+      },
+      {
+        "id": 104336,
+        "name": "Guia da Práxis",
+        "count": 6
+      },
+      {
+        "id": 112066,
+        "name": "Seda Vermelha Bordada",
+        "count": 6
+      }
+    ],
+    "lvl6": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 37500
+      },
+      {
+        "id": 104336,
+        "name": "Guia da Práxis",
+        "count": 9
+      },
+      {
+        "id": 112066,
+        "name": "Seda Vermelha Bordada",
+        "count": 9
+      }
+    ],
+    "lvl7": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 120000
+      },
+      {
+        "id": 104337,
+        "name": "Filosofia da Práxis",
+        "count": 4
+      },
+      {
+        "id": 112067,
+        "name": "Cetim Vermelho",
+        "count": 4
+      },
+      {
+        "id": 113041,
+        "name": "Fios da Marionete",
+        "count": 1
+      }
+    ],
+    "lvl8": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 260000
+      },
+      {
+        "id": 104337,
+        "name": "Filosofia da Práxis",
+        "count": 6
+      },
+      {
+        "id": 112067,
+        "name": "Cetim Vermelho",
+        "count": 6
+      },
+      {
+        "id": 113041,
+        "name": "Fios da Marionete",
+        "count": 1
+      }
+    ],
+    "lvl9": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 450000
+      },
+      {
+        "id": 104337,
+        "name": "Filosofia da Práxis",
+        "count": 12
+      },
+      {
+        "id": 112067,
+        "name": "Cetim Vermelho",
+        "count": 9
+      },
+      {
+        "id": 113041,
+        "name": "Fios da Marionete",
+        "count": 2
+      }
+    ],
+    "lvl10": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 700000
+      },
+      {
+        "id": 104337,
+        "name": "Filosofia da Práxis",
+        "count": 16
+      },
+      {
+        "id": 112067,
+        "name": "Cetim Vermelho",
+        "count": 12
+      },
+      {
+        "id": 113041,
+        "name": "Fios da Marionete",
+        "count": 2
+      },
+      {
+        "id": 104319,
+        "name": "Coroa da Sabedoria",
+        "count": 1
+      }
+    ]
+  },
+  "images": {
+    "filename_combat1": "Skill_A_04",
+    "filename_combat2": "Skill_S_Dehya_01",
+    "filename_combat3": "Skill_E_Dehya_01_HD",
+    "filename_passive1": "UI_Talent_S_Dehya_05",
+    "filename_passive2": "UI_Talent_S_Dehya_06",
+    "filename_passive3": "UI_Talent_S_Dehya_07"
+  },
+  "version": "3.5"
+}
