@@ -508,15 +508,15 @@ switch (travelerName) {
                                 <h3 className="titles-h3">{ptBr.artifactsMainStats}</h3>
                                 <ul id="artifacts-main-stats">
                                     <li>
-                                        <div className="stats-div"><Image width={30} height={30} src="/images/sands.webp" alt={ptBr.sands}/><div><div>{ptBr.sands}:</div></div></div>
+                                        <div className="stats-div"><Image width={30} height={30} src="images/sands.webp" alt={ptBr.sands}/><div><div>{ptBr.sands}:</div></div></div>
                                         <p>{ptBr[characterBuild.mainStatsArtifacts[0] as keyof typeof ptBr]}</p>
                                     </li>
                                     <li>
-                                        <div className="stats-div"><Image width={30} height={30} src="/images/goblet.webp" alt={ptBr.goblet}/><div><div>{ptBr.goblet}:</div></div></div>
+                                        <div className="stats-div"><Image width={30} height={30} src="images/goblet.webp" alt={ptBr.goblet}/><div><div>{ptBr.goblet}:</div></div></div>
                                         <p>{ptBr[characterBuild.mainStatsArtifacts[1] as keyof typeof ptBr]}</p>
                                     </li>
                                     <li>
-                                        <div className="stats-div"><Image width={30} height={30} src="/images/circlet.webp" alt={ptBr.circlet}/><div><div>{ptBr.circlet}:</div></div></div>
+                                        <div className="stats-div"><Image width={30} height={30} src="images/circlet.webp" alt={ptBr.circlet}/><div><div>{ptBr.circlet}:</div></div></div>
                                         <p>{ptBr[characterBuild.mainStatsArtifacts[2] as keyof typeof ptBr]}</p>
                                     </li>
                                 </ul>
