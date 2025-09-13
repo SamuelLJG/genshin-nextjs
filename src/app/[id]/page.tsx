@@ -356,7 +356,7 @@ switch (travelerName) {
         <Image
         id="character-image"
         className={`star${characterData.rarity}  character-icon-mobile`}
-        src={`/images/Banners/${formatarNome(id)}_Card.png`}
+        src={`images/Banners/${formatarNome(id)}_Card.png`}
         alt={characterData.name}
         width={560}
         height={315}
@@ -367,7 +367,7 @@ switch (travelerName) {
       <Image
         id="character-image"
         className={`star${characterData.rarity} character-icon-pc`}
-        src={`/images/Icons/${formatarNome(id)}.png`}
+        src={`images/Icons/${formatarNome(id)}.png`}
         alt={characterData.name}
         width={256}
         height={256}
@@ -382,11 +382,11 @@ switch (travelerName) {
                                    <div id="character-name-box"><h2 id="character-name" className={id=== 'sangonomiya-kokomi' ? 'compress-title' : ''}>{travelerName}</h2><span id={`r${characterData.rarity}`} aria-hidden="true">{characterData.rarity}★</span> </div>  
                                 <div id="character-type">
                                     <p>
-                                        <Image width={25} height={25} src={`/images/${characterData.weaponType}.webp`} alt={characterData.weaponText}/>
+                                        <Image width={25} height={25} src={`images/${characterData.weaponType}.webp`} alt={characterData.weaponText}/>
                                         {characterData.weaponText}
                                     </p>
                                     <p id="element">
-                                        <Image width={23} height={23} src={`/images/element-${elementFormatted.toLowerCase()}.webp`} alt={elementFormatted}/>
+                                        <Image width={23} height={23} src={`images/element-${elementFormatted.toLowerCase()}.webp`} alt={elementFormatted}/>
                                         {elementFormatted}
                                     </p>
                                 </div>
@@ -617,7 +617,7 @@ switch (travelerName) {
                 <td key={j} className="team-character">
                   <Link href={`/${characterName}`}>
                   <Image width={74} height={74}
-                    src={`/images/Team-Icons/${formatarNome(characterName)}.png`} 
+                    src={`images/Team-Icons/${formatarNome(characterName)}.png`} 
                     alt={formatarNomeComEspaco(formatarNome(characterName))}
                   /></Link>
                   <p>
