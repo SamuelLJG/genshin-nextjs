@@ -5,7 +5,7 @@ import { GoogleAnalytics } from '@next/third-parties/google'
 import ForceFullReloadLinks from '@/components/ForceFullReloadLinks';
 import Script from 'next/script';
 
-
+export const runtime = 'edge';
 export const metadata: Metadata = {
   metadataBase: new URL('https://genshinbuild.com'),
   icons: {
