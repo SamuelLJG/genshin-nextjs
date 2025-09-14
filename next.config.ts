@@ -36,14 +36,4 @@ const nextConfig: NextConfig = {
   }
 };
 
-const isProd = process.env.NODE_ENV === 'production';
-
-module.exports = {
-  basePath: isProd ? '/NOME_DO_REPOSITORIO' : '',
-  assetPrefix: isProd ? '/NOME_DO_REPOSITORIO/' : '',
-  images: {
-    unoptimized: true,
-  },
-};
-
 export default nextConfig;
