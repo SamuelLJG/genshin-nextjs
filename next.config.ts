@@ -33,7 +33,10 @@ const nextConfig: NextConfig = {
         permanent: false,
       }
     ];
-  }
+  },
+  output: "export", // para gerar site estático
+  basePath: "/genshin-nextjs", // substitua pelo nome do seu repo
+  assetPrefix: "/genshin-nextjs/", // garante que assets e imagens funcionem
 };
 
 export default nextConfig;
