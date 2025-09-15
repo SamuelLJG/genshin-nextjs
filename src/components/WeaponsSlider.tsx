@@ -151,7 +151,7 @@ export default function WeaponSlider ({ ptData, matchedCharacters,folderData, id
                                  <div id="character-weapons-flex">
                                  {matchedCharacters.map((c: any, i: any) => (
                                          <Link key={i} href={`/${c.name}`}>
-                                             <Image width={100} height={100} src={`images/Team-Icons/${formatarNome(c.name)}.png`} alt={formatarNomeComEspaco(formatarNome(c.name))} />
+                                             <Image width={100} height={100} src={`https://genshinbuild.com/images/Team-Icons/${formatarNome(c.name)}.png`} alt={formatarNomeComEspaco(formatarNome(c.name))} />
                                          </Link>
                                      ))}
                                      </div>

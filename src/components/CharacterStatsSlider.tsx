@@ -61,28 +61,28 @@ export default function CharacterStatsSlider({ stats, stats2, stats3 }: any) {
             <ul id="character-basic-stats-list">
                 <li>
                     <p>
-                        <Image width={25} height={25} src={`images/Basic_HP.webp`} alt={`${stats3.statsIconDescription} ${stats3.basicHp}`} />
+                        <Image width={25} height={25} src={`https://genshinbuild.com/images/Basic_HP.webp`} alt={`${stats3.statsIconDescription} ${stats3.basicHp}`} />
                         {stats3.basicHp}
                     </p>
                     <span>{descricao1}</span>
                 </li>
                 <li>
                     <p>
-                        <Image width={25} height={25} src={`images/Basic_ATK.webp`} alt={`${stats3.statsIconDescription} ${stats3.basicAttack}`} />
+                        <Image width={25} height={25} src={`https://genshinbuild.com/images/Basic_ATK.webp`} alt={`${stats3.statsIconDescription} ${stats3.basicAttack}`} />
                         {stats3.basicAttack}
                     </p>
                     <span>{descricao2}</span>
                 </li>
                 <li>
                     <p>
-                        <Image width={25} height={25} src={`images/Basic_DEF.webp`} alt={`${stats3.statsIconDescription} ${stats3.basicDefense}`} />
+                        <Image width={25} height={25} src={`https://genshinbuild.com/images/Basic_DEF.webp`} alt={`${stats3.statsIconDescription} ${stats3.basicDefense}`} />
                         {stats3.basicDefense}
                     </p>
                     <span>{descricao3}</span>
                 </li>
                 <li>
                     <p>
-                        <Image width={25} height={25} src={`images/${stats2.substatType}.png`} alt={`${stats3.statsIconDescription} ${stats2.substatText}`} />
+                        <Image width={25} height={25} src={`https://genshinbuild.com/images/${stats2.substatType}.png`} alt={`${stats3.statsIconDescription} ${stats2.substatText}`} />
                         {formatarSubstat(stats2.substatText)}
                     </p>
                     <span>{calc}</span>
