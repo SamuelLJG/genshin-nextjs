@@ -33,7 +33,9 @@ const nextConfig: NextConfig = {
         permanent: false,
       }
     ];
-  }
+  },
+  basePath: "/genshin-nextjs",
+  assetPrefix: "/genshin-nextjs/"
 };
 
 export default nextConfig;
