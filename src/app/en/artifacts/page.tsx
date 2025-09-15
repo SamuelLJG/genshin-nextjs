@@ -58,7 +58,7 @@ export default async function Page() {
             <Nav/>
             <main id="main-index">
             <div id="h1-flex">
-            <Image src="/images/flower-with-heart-petals-svgrepo-com.svg" className="index-h1-icon" width={30} height={30} loading="eager" alt={ptBr.artifactsList} /> <h1 id="index-h1">Genshin Impact {ptBr.artifactsList}</h1>
+            <Image src="images/flower-with-heart-petals-svgrepo-com.svg" className="index-h1-icon" width={30} height={30} loading="eager" alt={ptBr.artifactsList} /> <h1 id="index-h1">Genshin Impact {ptBr.artifactsList}</h1>
           </div>
           <ArtifactsFilter ptBr={ptBr}/>
           <AdComponent/>

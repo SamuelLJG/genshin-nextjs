@@ -8,21 +8,21 @@ export default function Footer() {
 
             <Link href="https://mail.google.com/mail/?view=cm&to=genshinbuildsite@gmail.com" target="_blank" className="discord">
                 <div>
-                <Image width={22} height={22} loading="eager" src="/images/email-1572-svgrepo-com.svg" alt="Contact Page"/>
+                <Image width={22} height={22} loading="eager" src="images/email-1572-svgrepo-com.svg" alt="Contact Page"/>
                 </div>    
                 <span>Contact</span>
 
             </Link>    
             <Link href="https://discord.gg/aMdQZQeg3g" target="_blank" className="discord">
                             <div>
-                            <Image width={22} height={22} loading="eager" src="/images/header-icons/discord.svg" alt="Discord Server"/>
+                            <Image width={22} height={22} loading="eager" src="images/header-icons/discord.svg" alt="Discord Server"/>
                             </div>    
                             <span>Discord</span>
         
                         </Link>
             <Link href="/privacy-policy" className="discord">
                             <div>
-                            <Image width={22} height={22} loading="eager" src="/images/policy-round-svgrepo-com.svg" alt="Privacy Policy Page"/>
+                            <Image width={22} height={22} loading="eager" src="images/policy-round-svgrepo-com.svg" alt="Privacy Policy Page"/>
                             </div>    
                             <span>Privacy Policy</span>
         

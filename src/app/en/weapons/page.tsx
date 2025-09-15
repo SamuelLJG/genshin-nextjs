@@ -56,7 +56,7 @@ const fetchWeaponData = (name: string) =>
         <Nav/>
           <main id="main-index">
           <div id="h1-flex">
-            <Image src="/images/sword-fill-svgrepo-com.svg" className="index-h1-icon" width={30} height={30} alt={ptBr.weaponList} loading="eager" /> <h1 id="index-h1">Genshin Impact {ptBr.weaponList}</h1>
+            <Image src="images/sword-fill-svgrepo-com.svg" className="index-h1-icon" width={30} height={30} alt={ptBr.weaponList} loading="eager" /> <h1 id="index-h1">Genshin Impact {ptBr.weaponList}</h1>
           </div>
             <WeaponsFilter ptBr={ptBr}/>
             <AdComponent/>

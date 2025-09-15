@@ -48,7 +48,7 @@ export default function Teams() {
     <main id="main-index" className="iii">
       <div id="h1-flex">
         <Image
-          src="/images/sort-lowest-svgrepo-com.svg"
+          src="images/sort-lowest-svgrepo-com.svg"
           className="index-h1-icon"
           width={30}
           height={30}
@@ -76,7 +76,7 @@ export default function Teams() {
                       <Image
                         width={100}
                         height={100}
-                        src={`/images/Team-Icons/${formatarNome(p.name)}.png`}
+                        src={`images/Team-Icons/${formatarNome(p.name)}.png`}
                         alt={formatarNomeComEspaco(formatarNome(p.name))}
                         className={`border-${p.elementType}`}
                       />

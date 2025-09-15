@@ -117,14 +117,14 @@ export default function Home() {
         <main id="main-index" className="iii"> 
         
         <div id="h1-flex">
-            <Image src="/images/list-paper-school-svgrepo-com.svg" className="index-h1-icon" width={30} height={30} alt={ptBr.charactersList} loading="eager" /> <h1 id="index-h1">Genshin Impact {ptBr.charactersList}</h1>
+            <Image src="images/list-paper-school-svgrepo-com.svg" className="index-h1-icon" width={30} height={30} alt={ptBr.charactersList} loading="eager" /> <h1 id="index-h1">Genshin Impact {ptBr.charactersList}</h1>
           </div>
             <Filter ptBr={ptBr}/>
            <AdComponent/>
             <div id="main-characters-flex">
             {characters.map((char:any,i:any)=> (
                 <Link href={`/${char.name}`} key={i} className={`character-card ${char.elementType} ${char.name.replace(/-/g, '').replace(/traveler/gi, "viajante")} ${char.weapon} rarity-${char.rarity}`}>
-            <Image width={100} height={100} src={`/images/Team-Icons/${formatarNome(char.name)}.png`} alt={formatarNomeComEspaco(formatarNome(char.name))} className={`rarity-${char.rarity}`} loading="eager" priority/>
+            <Image width={100} height={100} src={`images/Team-Icons/${formatarNome(char.name)}.png`} alt={formatarNomeComEspaco(formatarNome(char.name))} className={`rarity-${char.rarity}`} loading="eager" priority/>
             <p>{formatCharacterName(formatarNomeComEspaco(formatarNome(char.name)))}</p>
             {char.newCharacter != null ? <span>{char.newCharacter}</span> : ''  }
             
