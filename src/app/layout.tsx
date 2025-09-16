@@ -36,6 +36,16 @@ export default async function RootLayout({ children }: {children: React.ReactNod
 
   return (
         <>
+        <Script strategy="beforeInteractive">
+          {`
+            (function() {
+              var path = window.location.pathname;
+              if(path.endsWith('/') && path !== '/') {
+                window.location.replace(path.slice(0, -1));
+              }
+            })();
+          `}
+        </Script>
             <Script
   async
   strategy="afterInteractive"
