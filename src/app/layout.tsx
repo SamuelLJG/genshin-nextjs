@@ -7,7 +7,7 @@ import Script from 'next/script';
 export const metadata: Metadata = {
   metadataBase: new URL('https://genshinbuild.com'),
   icons: {
-    icon: 'favicon-96x96.png', // caminho dentro de /public
+    icon: 'https://genshinbuild.com/favicon-96x96.png', // caminho dentro de /public
   },
   robots: {
     index: true,
