@@ -1,6 +1,6 @@
 import Image from "next/image"
 import {characters} from "@/data/characters"
-import Link from "next/link";
+import a from "next/link";
 import Filter from "@/components/full-filter";
 import ptBr from "@/data/en-us.json"
 import AdComponent from "@/components/Adsense-en";
@@ -123,12 +123,12 @@ export default function Home() {
            <AdComponent/>
             <div id="main-characters-flex">
             {characters.map((char:any,i:any)=> (
-                <Link href={`/en/${char.name}`} key={i} className={`character-card ${char.elementType} ${char.name.replace(/-/g, '').replace(/traveler/gi, "viajante")} ${char.weapon} rarity-${char.rarity}`}>
+                <a href={`/en/${char.name}`} key={i} className={`character-card ${char.elementType} ${char.name.replace(/-/g, '').replace(/traveler/gi, "viajante")} ${char.weapon} rarity-${char.rarity}`}>
             <Image width={100} height={100} src={`https://genshinbuild.com/images/Team-Icons/${formatarNome(char.name)}.png`} alt={formatarNomeComEspaco(formatarNome(char.name))} className={`rarity-${char.rarity}`} loading="eager" priority/>
             <p>{formatCharacterName(formatarNomeComEspaco(formatarNome(char.name)))}</p>
             {char.newCharacter != null ? <span>{char.newCharacter}</span> : ''  }
             
-            </Link>
+            </a>
             
         ))}</div></main>
         <Footer/>

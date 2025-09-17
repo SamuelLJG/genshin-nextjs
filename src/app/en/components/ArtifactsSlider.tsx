@@ -2,7 +2,7 @@
 
 import Image from "next/image"
 import SliderHighlight from "@/components/SliderHighlight";
-import Link from "next/link";
+import a from "next/link";
 import AdComponent from "@/components/Adsense-en";
 
    // ou use um state p/ controlar o nível (de 1 a 5)
@@ -67,9 +67,9 @@ export default function WeaponSlider ({ ptData, matchedCharacters, ptBr }: any) 
                                  <h2 className="titles-h2">{ptBr.recommendedCharacters}</h2>
                                  <div id="character-weapons-flex">
                                  {matchedCharacters.map((c: any, i: any) => (
-                                         <Link key={i} href={`/en/${c.name}`}>
+                                         <a key={i} href={`/en/${c.name}`}>
                                              <Image width={100} height={100} src={`https://genshinbuild.com/images/Team-Icons/${formatarNome(c.name)}.png`} alt={formatarNomeComEspaco(formatarNome(c.name))} />
-                                         </Link>
+                                         </a>
                                      ))}
                                      </div>
                              </section>

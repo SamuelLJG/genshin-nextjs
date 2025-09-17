@@ -9,7 +9,7 @@ export default async function Nav() {
         <nav id="header-nav">
             
                 <h2>Main Navigation Menu</h2>
-                <a href="/en/" id="titlessss">
+                <a href="/en" id="titlessss">
                     <div>
                     <Image width={52} height={52} loading="eager" src={`https://genshinbuild.com/images/Icons/Layla.png`} alt="Início"/></div>
                     <div id="logo">genshinbuild.com</div>
@@ -27,7 +27,7 @@ export default async function Nav() {
                             
                             <span className="names">Weapons</span>
                         </a>
-                        <a href="/en/" className="links" id="home">
+                        <a href="/en" className="links" id="home">
                             <div>
                             <Image width={22} height={22} loading="eager" src="https://genshinbuild.com/images/header-icons/home.svg" alt="Characters List"/>
                             </div>

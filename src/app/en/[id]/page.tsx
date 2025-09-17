@@ -5,7 +5,7 @@ import WeaponStatsSlider from "@/components/WeaponStatsSlider";
 import CharacterStatsSlider from "@/components/CharacterStatsSlider";
 import SliderHighlight from '@/components/SliderHighlight';
 import ptBr from "@/data/en-us.json"
-import Link from "next/link";
+import a from "next/link";
 import ScriptsClient from "@/components/scripts-client";
 import type { Metadata } from "next";
 import AscensionSlider from "@/components/AscensionSlider";
@@ -435,7 +435,7 @@ switch (travelerName) {
                         <div id="weapon-container">
                             <section id="weapon-section">
                                 <div id="weapon-main">
-                                  <Link href={`/en/weapons/${characterBuild.bestWeapon.toLowerCase().trim().replace(/\s+/g, '-')}`}>
+                                  <a href={`/en/weapons/${characterBuild.bestWeapon.toLowerCase().trim().replace(/\s+/g, '-')}`}>
                                     <Image
                                         className={`star${armasPT[0].rarity}`}
                                         src={`https://gi.yatta.moe/assets/UI/${armasPT[0].images.filename_icon}.png`}
@@ -443,7 +443,7 @@ switch (travelerName) {
                                         height={160}
                                         alt={armasPT[0].name}
                                     />
-                                    </Link>
+                                    </a>
                                     <div id="weapon-header">
                                         <h3 className={`wa-${armasPT[0].rarity}`}>{armasPT[0].name}</h3>
                                         <div id="weapon-refinement">
@@ -460,7 +460,7 @@ switch (travelerName) {
                                 <h3 className="titles-h3">{ptBr.otherWeapons}</h3>
                                 <div id="other-weapons-list">
                                     {armasPT.slice(1).map((weapons:any, i:any) => (
-                                        <Link key={i} href={`/en/weapons/${characterBuild.otherWeapons[i].toLowerCase().trim().replace(/\s+/g, '-')}`}> 
+                                        <a key={i} href={`/en/weapons/${characterBuild.otherWeapons[i].toLowerCase().trim().replace(/\s+/g, '-')}`}> 
                                         <span className="other-weapons-rank">{i+2}{ptBr.degree}</span>
                                             <Image
                                                 className={`star${weapons.rarity}`}
@@ -473,7 +473,7 @@ switch (travelerName) {
                                             <p>{weapons.name}</p>
                                             <p>{weapons.mainStatText}</p>
                                         </div>
-                                        </Link>
+                                        </a>
                                     ))}
                                    
                                 </div>
@@ -486,9 +486,9 @@ switch (travelerName) {
                     <div id="artifacts-container">
                         <div id="artifacts-section">
                             <section id="artifacts-main">
-                              <Link id="artifact-img-box" href={`/en/artifacts/${characterBuild.bestArtifacts.toLowerCase().trim().replace(/\s+/g, '-')}`}> 
+                              <a id="artifact-img-box" href={`/en/artifacts/${characterBuild.bestArtifacts.toLowerCase().trim().replace(/\s+/g, '-')}`}> 
                             <Image width={160} height={160} className="star5" src={`https://gi.yatta.moe/assets/UI/reliquary/${artefatosPT[0].images.filename_flower}.png`} alt={artefatosPT[0].name}/>
-                            </Link>
+                            </a>
                                 <div id="artifacts-header">
                                     <div>
                                         <h3 id="artifacts-h3" className="wa-5">{artefatosPT[0].name}</h3>
@@ -537,7 +537,7 @@ switch (travelerName) {
                     {artefatosPT.slice(1).map((art, i) => (
                     
                         
-                    <Link key={i} href={`/en/artifacts/${characterBuild.otherArtifacts[i].toLowerCase().trim().replace(/\s+/g, '-')}`}> 
+                    <a key={i} href={`/en/artifacts/${characterBuild.otherArtifacts[i].toLowerCase().trim().replace(/\s+/g, '-')}`}> 
                             <span className="other-artifacts-set">{i+2}{ptBr.degree}</span>
                                         <div className="other-artifacts-box">
                                           <Image width={160} height={160} src={`https://gi.yatta.moe/assets/UI/reliquary/${art.images.filename_flower}.png`} alt={art.name}/>
@@ -546,7 +546,7 @@ switch (travelerName) {
                                           
                                                                           </div>
                                         </div>
-                                        </Link>
+                                        </a>
                         ))}
                         {characterBuild.twoPieces!= null ? 
                         twoPiecesArtifacts.map((_, i) => {
@@ -560,7 +560,7 @@ switch (travelerName) {
                           const pairIndex = i / 2 + 2
                           
                           return (
-                            <Link key={i} href={`/en/artifacts/${characterBuild.twoPieces[i].toLowerCase().trim().replace(/\s+/g, '-')}`}>
+                            <a key={i} href={`/en/artifacts/${characterBuild.twoPieces[i].toLowerCase().trim().replace(/\s+/g, '-')}`}>
                               <span className="other-artifacts-set">{(characterBuild.otherArtifacts.length === 0) ? (
   pairIndex 
 ): (pairIndex+1)}{ptBr.degree}</span>
@@ -575,7 +575,7 @@ switch (travelerName) {
                                   </div>
                                 </div>
                               </div>
-                              </Link>
+                              </a>
                           );
                         }) : ''}
                     </div >
@@ -614,11 +614,11 @@ switch (travelerName) {
               const characterName = Object.keys(character)[0]; // Pega o nome do personagem
               return (
                 <td key={j} className="team-character">
-                  <Link href={`/en/${characterName}`}>
+                  <a href={`/en/${characterName}`}>
                   <Image width={74} height={74}
                     src={`https://genshinbuild.com/images/Team-Icons/${formatarNome(characterName)}.png`} 
                     alt={formatarNomeComEspaco(formatarNome(characterName))}
-                  /></Link>
+                  /></a>
                   <p>
                     {formatarNomeEspecial(formatarNomeComEspaco(formatarNome(characterName)))}
                   </p>

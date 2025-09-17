@@ -1,6 +1,6 @@
 // src/app/armas/page.tsx
 
-import Link from "next/link";
+import a from "next/link";
 import Image from "next/image";
 import WeaponsFilter from "@/components/WeaponsFilter";
 import ptBr from "@/data/en-us.json"
@@ -65,12 +65,12 @@ const fetchWeaponData = (name: string) =>
                         
                   {armasPT.map((post: any, i: number) => (
                     data[i].replace(/'/g, '').toLowerCase().replace(/ /g, '-') != 'prized-isshin-blade' ? 
-                    <Link href={`/en/weapons/${data[i].replace(/'/g, '').replace(/"/g, '').toLowerCase().replace(/ /g, '-')}`} key={i} className={`weapon-card ${post.weaponType} ${post.name} rarity-${post.rarity}-weapon`}>
+                    <a href={`/en/weapons/${data[i].replace(/'/g, '').replace(/"/g, '').toLowerCase().replace(/ /g, '-')}`} key={i} className={`weapon-card ${post.weaponType} ${post.name} rarity-${post.rarity}-weapon`}>
                         <Image width={100} height={100} src={`https://gi.yatta.moe/assets/UI/${post.images.filename_icon}.png`} alt={post.name} className={`star${post.rarity}`} loading="eager" priority/>
                         <div>
                         <p>{post.name}</p>
                         <p>{post.mainStatText}</p></div>
-                        </Link>
+                        </a>
                         : ''
                   ))}
               </div>
