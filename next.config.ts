@@ -39,8 +39,7 @@ const nextConfig: NextConfig = {
         permanent: false,
       }
     ];
-  },
-  output: 'export'
+  }
 };
 
 export default nextConfig;
