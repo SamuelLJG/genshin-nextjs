@@ -1,6 +1,6 @@
 // src/app/armas/page.tsx
 
-import Link from "next/link";
+import a from "next/link";
 import Image from "next/image";
 import ArtifactsFilter from "@/components/ArtifactsFilter";
 import ptBr from "@/data/pt-br.json"
@@ -61,13 +61,13 @@ export default async function Page() {
           <AdComponent/>
               <div id="weapons-flex">
                   {armasPT.map((post: any, i: number) => (
-                    <Link href={`artifacts/${data[i].replace(/'/g, '').toLowerCase().replace(/ /g, '-')}`} key={i} className={`weapon-card ${post.name} rarity-${post.rarityList[post.rarityList.length - 1]}-weapon`}>
+                    <a href={`artifacts/${data[i].replace(/'/g, '').toLowerCase().replace(/ /g, '-')}`} key={i} className={`weapon-card ${post.name} rarity-${post.rarityList[post.rarityList.length - 1]}-weapon`}>
                         <Image width={150} height={150} src={!circletOnly.includes(data[i].replace(/'/g, '')) ? `https://enka.network/ui/${post.images.filename_flower}.png` : `https://enka.network/ui/${post.images.filename_circlet}.png`} alt={post.name} className={`star${post.rarityList[post.rarityList.length - 1]}`} loading="eager" priority/>
                         <div>
                             <p>{post.name}</p>
                             <p>{post.description}</p>
                         </div>
-                        </Link>
+                        </a>
                   ))}
               </div>
           </main>

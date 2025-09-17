@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { characters } from "@/data/characters";
-import Link from "next/link";
+import a from "next/link";
 import React from "react";
 import { Metadata } from "next";
 import AdComponent from "@/components/Adsense";
@@ -72,7 +72,7 @@ export default function Teams() {
               <ul className="tier-list-characters-flex">
                 {chars.map((p) => (
                   <li key={p.name}>
-                    <Link href={p.name}>
+                    <a href={p.name}>
                       <Image
                         width={100}
                         height={100}
@@ -80,7 +80,7 @@ export default function Teams() {
                         alt={formatarNomeComEspaco(formatarNome(p.name))}
                         className={`border-${p.elementType}`}
                       />
-                    </Link>
+                    </a>
                   </li>
                 ))}
               </ul>

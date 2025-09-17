@@ -1,6 +1,6 @@
 import Image from "next/image"
 import {characters} from "@/data/characters"
-import Link from "next/link";
+import a from "next/link";
 import Filter from "@/components/full-filter";
 import ptBr from "@/data/pt-br.json"
 import AdComponent from "@/components/Adsense";
