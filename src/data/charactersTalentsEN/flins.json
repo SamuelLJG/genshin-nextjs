@@ -1,0 +1,737 @@
+{
+  "id": 10000087,
+  "name": "Flins",
+  "combat1": {
+    "name": "Pocztowy Demonspear",
+    "descriptionRaw": "<color=#FFD780FF>Normal Attack</color>\nPerforms up to 5 consecutive spear strikes.\n\n<color=#FFD780FF>Charged Attack</color>\nConsumes a certain amount of Stamina to perform a forward spear throw.\n\n<color=#FFD780FF>Plunging Attack</color>\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+    "description": "Normal Attack\nPerforms up to 5 consecutive spear strikes.\n\nCharged Attack\nConsumes a certain amount of Stamina to perform a forward spear throw.\n\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+    "attributes": {
+      "labels": [
+        "1-Hit DMG|{param1:F1P}",
+        "2-Hit DMG|{param2:F1P}",
+        "3-Hit DMG|{param3:F1P}",
+        "4-Hit DMG|{param4:F1P}×2",
+        "5-Hit DMG|{param5:F1P}",
+        "Charged Attack DMG|{param6:F1P}",
+        "Charged Attack Stamina Cost|{param7:I}",
+        "Plunge DMG|{param8:F1P}",
+        "Low/High Plunge DMG|{param9:P}/{param10:P}"
+      ],
+      "parameters": {
+        "param1": [
+          0.4473,
+          0.4837,
+          0.5201,
+          0.5721,
+          0.6085,
+          0.6501,
+          0.7073,
+          0.7645,
+          0.8217,
+          0.8841,
+          0.9465,
+          1.0089,
+          1.0713,
+          1.1338,
+          1.1962
+        ],
+        "param2": [
+          0.4515,
+          0.4882,
+          0.5250,
+          0.5775,
+          0.6142,
+          0.6562,
+          0.7140,
+          0.7717,
+          0.8295,
+          0.8925,
+          0.9555,
+          1.0185,
+          1.0815,
+          1.1445,
+          1.2075
+        ],
+        "param3": [
+          0.5592,
+          0.6047,
+          0.6502,
+          0.7153,
+          0.7608,
+          0.8128,
+          0.8843,
+          0.9558,
+          1.0274,
+          1.1054,
+          1.1834,
+          1.2614,
+          1.3395,
+          1.4175,
+          1.4955
+        ],
+        "param4": [
+          0.3204,
+          0.3465,
+          0.3725,
+          0.4098,
+          0.4359,
+          0.4657,
+          0.5067,
+          0.5476,
+          0.5886,
+          0.6333,
+          0.6780,
+          0.7227,
+          0.7674,
+          0.8121,
+          0.8569
+        ],
+        "param5": [
+          0.7679,
+          0.8305,
+          0.8930,
+          0.9823,
+          1.0448,
+          1.1162,
+          1.2144,
+          1.3127,
+          1.4109,
+          1.5180,
+          1.6252,
+          1.7323,
+          1.8395,
+          1.9467,
+          2.0538
+        ],
+        "param6": [
+          1.0303,
+          1.1141,
+          1.1980,
+          1.3178,
+          1.4017,
+          1.4975,
+          1.6293,
+          1.7611,
+          1.8928,
+          2.0366,
+          2.1804,
+          2.3241,
+          2.4679,
+          2.6116,
+          2.7554
+        ],
+        "param7": [
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25
+        ],
+        "param8": [
+          0.6393,
+          0.6914,
+          0.7434,
+          0.8177,
+          0.8698,
+          0.9293,
+          1.0110,
+          1.0928,
+          1.1746,
+          1.2638,
+          1.3530,
+          1.4422,
+          1.5314,
+          1.6206,
+          1.7098
+        ],
+        "param9": [
+          1.2784,
+          1.3824,
+          1.4865,
+          1.6351,
+          1.7392,
+          1.8581,
+          2.0216,
+          2.1851,
+          2.3486,
+          2.5270,
+          2.7054,
+          2.8838,
+          3.0622,
+          3.2405,
+          3.4189
+        ],
+        "param10": [
+          1.5968,
+          1.7267,
+          1.8567,
+          2.0424,
+          2.1723,
+          2.3209,
+          2.5251,
+          2.7293,
+          2.9336,
+          3.1564,
+          3.3792,
+          3.6020,
+          3.8248,
+          4.0476,
+          4.2704
+        ]
+      }
+    }
+  },
+  "combat2": {
+    "name": "Ancient Rite: Arcane Light",
+    "descriptionRaw": "Flins summons forth the ancient power concealed within his lamp and switches to his Manifest Flame form. This form has the following characteristics:\n· Flins's Normal and Charged Attacks deal <color=#FFACFFFF>Electro DMG</color> that cannot be overridden by other Elemental infusions, and he is unable to perform Plunging Attacks.\n· His interruption resistance is increased.\n· His Elemental Skill Ancient Rite: Arcane Light is replaced with the special Elemental Skill Northland Spearstorm.\n\n<color=#FFD780FF>Northland Spearstorm</color>\nFlins summons a flurry of spears in front, dealing <color=#FFACFFFF>AoE Electro DMG</color> and causing his Elemental Burst Ancient Ritual: Cometh the Night to be replaced with the special Elemental Burst Thunderous Symphony for the next 6s.\nThe base CD of Northland Spearstorm is 6s and will not be affected by other effects.",
+    "description": "Flins summons forth the ancient power concealed within his lamp and switches to his Manifest Flame form. This form has the following characteristics:\n· Flins's Normal and Charged Attacks deal Electro DMG that cannot be overridden by other Elemental infusions, and he is unable to perform Plunging Attacks.\n· His interruption resistance is increased.\n· His Elemental Skill Ancient Rite: Arcane Light is replaced with the special Elemental Skill Northland Spearstorm.\n\nNorthland Spearstorm: Flins summons a flurry of spears in front, dealing AoE Electro DMG and causing his Elemental Burst Ancient Ritual: Cometh the Night to be replaced with the special Elemental Burst Thunderous Symphony for the next 6s.\nThe base CD of Northland Spearstorm is 6s and will not be affected by other effects.",
+    "attributes": {
+      "labels": [
+        "1-Hit DMG|{param1:F1P}",
+        "2-Hit DMG|{param2:F1P}",
+        "3-Hit DMG|{param3:F1P}",
+        "4-Hit DMG|{param4:F1P}×2",
+        "5-Hit DMG|{param5:F1P}",
+        "Charged Attack DMG|{param6:F1P}",
+        "Northland Spearstorm DMG|{param7:F1P}",
+        "Northland Spearstorm CD|{param8:F1}s",
+        "Manifest Flame Duration|{param9:F1}s",
+        "Skill CD|{param10:F1}s"
+      ],
+      "parameters": {
+        "param1": [
+          0.5825,
+          0.6262,
+          0.6699,
+          0.7281,
+          0.7718,
+          0.8155,
+          0.8737,
+          0.9320,
+          0.9902,
+          1.0485,
+          1.1067,
+          1.1650,
+          1.2378,
+          1.3106,
+          1.3834
+        ],
+        "param2": [
+          0.5880,
+          0.6321,
+          0.6762,
+          0.7350,
+          0.7791,
+          0.8232,
+          0.8820,
+          0.9408,
+          0.9996,
+          1.0584,
+          1.1172,
+          1.1760,
+          1.2494,
+          1.3229,
+          1.3964
+        ],
+        "param3": [
+          0.7283,
+          0.7829,
+          0.8375,
+          0.9103,
+          0.9649,
+          1.0196,
+          1.0924,
+          1.1652,
+          1.2380,
+          1.3109,
+          1.3837,
+          1.4565,
+          1.5475,
+          1.6386,
+          1.7296
+        ],
+        "param4": [
+          0.4173,
+          0.4485,
+          0.4798,
+          0.5216,
+          0.5529,
+          0.5842,
+          0.6259,
+          0.6676,
+          0.7093,
+          0.7511,
+          0.7928,
+          0.8345,
+          0.8867,
+          0.9388,
+          0.9910
+        ],
+        "param5": [
+          1.0001,
+          1.0751,
+          1.1501,
+          1.2501,
+          1.3251,
+          1.4002,
+          1.5002,
+          1.6002,
+          1.7002,
+          1.8002,
+          1.9002,
+          2.0002,
+          2.1252,
+          2.2503,
+          2.3753
+        ],
+        "param6": [
+          1.1496,
+          1.2358,
+          1.3220,
+          1.4370,
+          1.5232,
+          1.6094,
+          1.7244,
+          1.8394,
+          1.9543,
+          2.0693,
+          2.1842,
+          2.2992,
+          2.4429,
+          2.5866,
+          2.7303
+        ],
+        "param7": [
+          1.7840,
+          1.9178,
+          2.0516,
+          2.2300,
+          2.3638,
+          2.4976,
+          2.6760,
+          2.8544,
+          3.0328,
+          3.2112,
+          3.3896,
+          3.5680,
+          3.7910,
+          4.0140,
+          4.2370
+        ],
+        "param8": [
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6
+        ],
+        "param9": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ],
+        "param10": [
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16
+        ]
+      }
+    }
+  },
+  "combat3": {
+    "name": "Ancient Ritual: Cometh the Night",
+    "descriptionRaw": "Flins unleashes the true power of his lamp, dealing <color=#FFACFFFF>AoE Electro DMG</color> and, after a short delay, dealing 2 instances of middle-phase and 1 instance of final-phase <color=#FFACFFFF>AoE Electro DMG</color>, all of which are considered Lunar-Charged DMG.\nMoonsign: Ascendant Gleam: Flins's Skill is enhanced: If there are thunderclouds nearby, Flins will deal an additional 2 instances of middle-phase Lunar-Charged <color=#FFACFFFF>AoE Electro DMG</color>.\n\nAfter using the special Elemental Skill Northland Spearstorm, Flins's Elemental Burst Ancient Ritual: Cometh the Night will be replaced with the special Elemental Burst Thunderous Symphony for the next 6s.\n\n<color=#FFD780FF>Thunderous Symphony</color>\nConsume less Elemental Energy to unleash a special Elemental Burst. Flins deals a single instance of <color=#FFACFFFF>AoE Electro DMG</color> that is considered Lunar-Charged DMG.\nMoonsign: Ascendant Gleam: Flins's Skill is enhanced: If there are thunderclouds nearby, Flins will deal an additional instance of Lunar-Charged <color=#FFACFFFF>AoE Electro DMG</color>.",
+    "description": "Flins unleashes the true power of his lamp, dealing AoE Electro DMG and, after a short delay, dealing 2 instances of middle-phase and 1 instance of final-phase AoE Electro DMG, all of which are considered Lunar-Charged DMG.\nMoonsign: Ascendant Gleam: Flins's Skill is enhanced: If there are thunderclouds nearby, Flins will deal an additional 2 instances of middle-phase Lunar-Charged AoE Electro DMG.\n\nAfter using the special Elemental Skill Northland Spearstorm, Flins's Elemental Burst Ancient Ritual: Cometh the Night will be replaced with the special Elemental Burst Thunderous Symphony for the next 6s.\n\nThunderous Symphony: Consume less Elemental Energy to unleash a special Elemental Burst. Flins deals a single instance of AoE Electro DMG that is considered Lunar-Charged DMG.\nMoonsign: Ascendant Gleam: Flins's Skill is enhanced: If there are thunderclouds nearby, Flins will deal an additional instance of Lunar-Charged AoE Electro DMG.",
+    "attributes": {
+      "labels": [
+        "Initial Skill DMG|{param1:F1P}",
+        "Middle Phase Lunar-Charged DMG|{param2:F1P}",
+        "Final Phase Lunar-Charged DMG|{param3:F1P}",
+        "Energy Cost|{param4:I}",
+        "CD|{param5:F1}s",
+        "Thunderous Symphony DMG|{param6:F1P}",
+        "Thunderous Symphony Additional DMG|{param7:F1P}",
+        "Thunderous Symphony Energy Cost|{param8:I}"
+      ],
+      "parameters": {
+        "param1": [
+          2.5984,
+          2.7933,
+          2.9882,
+          3.2480,
+          3.4429,
+          3.6378,
+          3.8976,
+          4.1574,
+          4.4173,
+          4.6771,
+          4.9370,
+          5.1968,
+          5.5216,
+          5.8464,
+          6.1712
+        ],
+        "param2": [
+          0.1624,
+          0.1746,
+          0.1868,
+          0.2030,
+          0.2152,
+          0.2274,
+          0.2436,
+          0.2598,
+          0.2761,
+          0.2923,
+          0.3086,
+          0.3248,
+          0.3451,
+          0.3654,
+          0.3857
+        ],
+        "param3": [
+          1.1693,
+          1.2570,
+          1.3447,
+          1.4616,
+          1.5493,
+          1.6370,
+          1.7539,
+          1.8708,
+          1.9878,
+          2.1047,
+          2.2216,
+          2.3386,
+          2.4847,
+          2.6309,
+          2.7770
+        ],
+        "param4": [
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80
+        ],
+        "param5": [
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20
+        ],
+        "param6": [
+          0.7146,
+          0.7682,
+          0.8217,
+          0.8932,
+          0.9468,
+          1.0004,
+          1.0718,
+          1.1433,
+          1.2148,
+          1.2862,
+          1.3577,
+          1.4291,
+          1.5184,
+          1.6078,
+          1.6971
+        ],
+        "param7": [
+          1.0394,
+          1.1173,
+          1.1953,
+          1.2992,
+          1.3772,
+          1.4551,
+          1.5590,
+          1.6630,
+          1.7669,
+          1.8708,
+          1.9748,
+          2.0787,
+          2.2086,
+          2.3386,
+          2.4685
+        ],
+        "param8": [
+          30,
+          30,
+          30,
+          30,
+          30,
+          30,
+          30,
+          30,
+          30,
+          30,
+          30,
+          30,
+          30,
+          30,
+          30
+        ]
+      }
+    }
+  },
+  "passive1": {
+    "name": "Moonsign Benediction: Old World Secrets",
+    "descriptionRaw": "When a party member triggers an Electro-Charged reaction, it will be converted into the Lunar-Charged reaction, with every 100 ATK that Flins has increasing Lunar-Charged's Base DMG by 0.7%, up to a maximum of 14%.\n\nAdditionally, when Flins is in the party, the party's Moonsign will increase by 1 level."
+  },
+  "passive2": {
+    "name": "Symphony of Winter",
+    "descriptionRaw": "Flins will gain a corresponding buff effect based on the party's Moonsign.\n\nMoonsign: Ascendant Gleam: Lunar-Charged reactions triggered by Flins will deal an additional 20% DMG."
+  },
+  "passive3": {
+    "name": "Whispering Flame",
+    "descriptionRaw": "Flins's Elemental Mastery is increased by 8% of his ATK. The maximum increase obtainable this way is 160."
+  },
+  "passive4": {
+    "name": "A Light in the Dark",
+    "descriptionRaw": "Displays the location of nearby resources unique to Nod-Krai on the mini-map.\nAdditionally, Flins appears to be able to decipher the whispers of the Wild Hunt..."
+  },
+  "costs": {
+    "lvl2": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 12500
+      },
+      {
+        "id": 104331,
+        "name": "Teachings of Vagrancy",
+        "count": 3
+      },
+      {
+        "id": 112061,
+        "name": "Broken Drive Shaft",
+        "count": 6
+      }
+    ],
+    "lvl3": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 17500
+      },
+      {
+        "id": 104332,
+        "name": "Guide to Vagrancy",
+        "count": 2
+      },
+      {
+        "id": 112062,
+        "name": "Reinforced Drive Shaft",
+        "count": 3
+      }
+    ],
+    "lvl4": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 25000
+      },
+      {
+        "id": 104332,
+        "name": "Guide to Vagrancy",
+        "count": 4
+      },
+      {
+        "id": 112062,
+        "name": "Reinforced Drive Shaft",
+        "count": 4
+      }
+    ],
+    "lvl5": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 30000
+      },
+      {
+        "id": 104332,
+        "name": "Guide to Vagrancy",
+        "count": 6
+      },
+      {
+        "id": 112062,
+        "name": "Reinforced Drive Shaft",
+        "count": 6
+      }
+    ],
+    "lvl6": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 37500
+      },
+      {
+        "id": 104332,
+        "name": "Guide to Vagrancy",
+        "count": 9
+      },
+      {
+        "id": 112062,
+        "name": "Reinforced Drive Shaft",
+        "count": 9
+      }
+    ],
+    "lvl7": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 120000
+      },
+      {
+        "id": 104333,
+        "name": "Philosophies of Vagrancy",
+        "count": 4
+      },
+      {
+        "id": 112063,
+        "name": "Precision Drive Shaft",
+        "count": 4
+      },
+      {
+        "id": 113051,
+        "name": "Ascended Sample: Queen",
+        "count": 1
+      }
+    ],
+    "lvl8": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 260000
+      },
+      {
+        "id": 104333,
+        "name": "Philosophies of Vagrancy",
+        "count": 6
+      },
+      {
+        "id": 112063,
+        "name": "Precision Drive Shaft",
+        "count": 6
+      },
+      {
+        "id": 113051,
+        "name": "Ascended Sample: Queen",
+        "count": 1
+      }
+    ],
+    "lvl9": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 450000
+      },
+      {
+        "id": 104333,
+        "name": "Philosophies of Vagrancy",
+        "count": 12
+      },
+      {
+        "id": 112063,
+        "name": "Precision Drive Shaft",
+        "count": 9
+      },
+      {
+        "id": 113051,
+        "name": "Ascended Sample: Queen",
+        "count": 2
+      }
+    ],
+    "lvl10": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 700000
+      },
+      {
+        "id": 104333,
+        "name": "Philosophies of Vagrancy",
+        "count": 16
+      },
+      {
+        "id": 112063,
+        "name": "Precision Drive Shaft",
+        "count": 12
+      },
+      {
+        "id": 113051,
+        "name": "Ascended Sample: Queen",
+        "count": 2
+      },
+      {
+        "id": 104319,
+        "name": "Crown of Insight",
+        "count": 1
+      }
+    ]
+  },
+  "version": "6.1"
+}
