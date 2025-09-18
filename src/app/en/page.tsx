@@ -127,7 +127,7 @@ export default function Home() {
             <Image width={100} height={100} src={`https://genshinbuild.com/images/Team-Icons/${formatarNome(char.name)}.png`} alt={formatarNomeComEspaco(formatarNome(char.name))} className={`rarity-${char.rarity}`} loading="eager" priority/>
             <p>{formatCharacterName(formatarNomeComEspaco(formatarNome(char.name)))}</p>
             {char.newCharacter != null ? <span>{char.newCharacter}</span> : ''  }
-            
+            {char.soonCharacter != null ? <span style={{backgroundColor:'#02c2b2'}}>{char.soonCharacter}</span> : ''  }
             </a>
             
         ))}</div></main>

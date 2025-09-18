@@ -1,11 +1,40 @@
 export const characters = [
     {
+        name: 'flins',
+        function: 'support',
+        bestWeapon: 'Bloodsoaked Ruins',
+        otherWeapons: ['Staff of Homa','Staff of the Scarlet Sands','Prospectors Drill'],
+        bestArtifacts: 'Night of the Skys Unveiling',
+        otherArtifacts: ['Gilded Dreams', 'Thundering Fury'],
+        teams: [[
+            {'flins': 'mainDps'},
+            {'ineffa': 'subDps'},
+            {'aino': 'subDps'},
+            {'xilonen': 'support'}
+        ],
+        [
+            {'flins': 'mainDps'},
+            {'ineffa': 'subDps'},
+            {'xingqiu': 'subDps'},
+            {'sucrose': 'support'}
+        ]
+        ],
+        talentPriority: ['elementalBurst','elementalSkill','normalAttack'],
+        elementType: 'electro',
+        mainStatsArtifacts: ['atkPercent','atkPercenty', 'critRateOrDamage'],
+        subStatsArtifacts: ['critRateOrDamage', 'atkPercent', 'energyRecharge', 'elementalMastery'],
+        soonCharacter : 'soon',
+        weapon: 'WEAPON_POLE',
+        rarity: '5',
+        rank:'s'
+    },
+    {
         name: 'lauma',
         function: 'support',
         bestWeapon: 'Nightweavers Looking Glass',
         otherWeapons: ['A Thousand Floating Dreams','Sunny Morning Sleep-In','Starcallers Watch'],
-        bestArtifacts: 'Deepwood Memories',
-        otherArtifacts: ['Silken Moons Serenade', 'Instructor'],
+        bestArtifacts: 'Silken Moons Serenade',
+        otherArtifacts: ['Deepwood Memories', 'Night of the Skys Unveiling'],
         teams: [[
             {'alhaitham': 'mainDps'},
             {'xingqiu': 'subDps'},
@@ -19,9 +48,9 @@ export const characters = [
             {'lauma': 'support'}
         ]
         ],
-        talentPriority: ['elementalBurst','elementalSkill'],
+        talentPriority: ['elementalSkill','elementalBurst'],
         elementType: 'dendro',
-        mainStatsArtifacts: ['elementalMastery','elementalMastery', 'critRateOrElementalMastery'],
+        mainStatsArtifacts: ['elementalMasteryOrEnergyRecharge','elementalMastery', 'critRateOrElementalMastery'],
         subStatsArtifacts: ['critRateOrDamage', 'atkPercent', 'energyRecharge', 'elementalMastery'],
         newCharacter : 'new',
         weapon: 'WEAPON_CATALYST',
