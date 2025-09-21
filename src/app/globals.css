@@ -1,8 +1,13 @@
-#header-nav a:first-of-type,.links{
+.links{
     color:hsla(0,0%,100%,.75);
     font-size:calc(14px * var(--minimize));
     text-decoration:none;
     white-space:nowrap
+}
+#nav-flex {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
 }
 .links,a{
     text-decoration:none
@@ -17,13 +22,13 @@ a,body{
     width:calc(25px * var(--minimize));
     height:calc(25px * var(--minimize))
 }
-#stt-box,.links,.names{
+#stt-box{
     padding:calc(15px * var(--minimize))
 }
 .asc,.ascension-costs-flex{
     gap:calc(7px * var(--minimize))
 }
-#character-type p,.asc .boxes p,.links{
+#character-type p,.asc .boxes p{
     text-transform:uppercase
 }
 #character-image,#weapon-full-image{
@@ -36,7 +41,7 @@ a,body{
 #other-artifacts,.asc{
     grid-template-columns:repeat(2,1fr)
 }
-#header-nav,select{
+select{
     padding:calc(10px * var(--minimize))
 }
 #artifacts-container,#other-artifacts,#tier-list-flex{
@@ -68,7 +73,7 @@ a,body{
 .team-card,li{
     list-style:none
 }
-#artifacts-description p:first-of-type,#character-banner,#character-talent-priority li p:first-of-type,#titlessss{
+#artifacts-description p:first-of-type,#character-banner,#character-talent-priority li p:first-of-type{
     border-bottom:calc(1px * var(--minimize)) solid var(--bd)
 }
 #artifacts-sub-stats,#character-banner{
@@ -206,28 +211,27 @@ div::-webkit-scrollbar-thumb:active{
     display:none
 }
 #header-nav{
-    gap:calc(10px * var(--minimize));
+    gap:calc(50px * var(--minimize));
     display:flex;
-    flex-direction:column;
     overflow-x:hidden;
+    justify-content: space-between;
+    align-items: center;
     top:0;
-    background:var(--sub);
-    height:100%;
-    width:calc(55px * var(--minimize));
-    position:fixed;
+    width:100%;
     z-index:1;
-    padding-top:calc(20px * var(--minimize));
-    border-right:calc(1px * var(--minimize)) solid var(--bd)
+}
+#hhh {
+    z-index: 1;
 }
 .links,.links div{
     align-items:center;
-    border-radius:calc(10px * var(--minimize));
     display:flex;
     height:calc(35px * var(--minimize))
 }
 .links{
     width:auto;
-    font-weight:700;
+    font-weight:600;
+    font-family: Plus Jakarta Sans;
     overflow:hidden
 }
 .links div{
@@ -245,38 +249,27 @@ div::-webkit-scrollbar-thumb:active{
 #titlessss img,.boxes2 img{
     height:calc(50px * var(--minimize))
 }
-#header-nav a:first-of-type{
-    padding:calc(0px * var(--minimize)) calc(0px * var(--minimize));
-    display:flex;
-    align-items:center
-}
+
 .names{
     display:flex;
     align-items:center;
-    margin-left:calc(38px * var(--minimize));
-    height:calc(32px * var(--minimize))
 }
 #logo{
-    margin-left:calc(30px * var(--minimize));
-    padding-left:calc(15px * var(--minimize));
-    padding-bottom:calc(20px * var(--minimize));
     font-family:Plus Jakarta Sans;
-    color:#fffffff1;
-    font-weight:600;
+    background: var(--ct);
+    color:var(--bg);
+    padding: 10px 20px;
+    font-weight:700;
     display:flex;
     align-items:center;
-    height:calc(48px * var(--minimize));
-    margin-bottom:calc(-6px * var(--minimize));
     text-transform:none;
     font-size:18px;
-    margin-top:-5px
 }
 #character-basic-stats-list,.numbers2{
     font-weight:500;
     font-size:calc(14px * var(--minimize))
 }
 #titlessss div:first-of-type{
-    min-width:calc(55px * var(--minimize));
     display:flex;
     align-items:center;
     justify-content:center
@@ -291,8 +284,6 @@ div::-webkit-scrollbar-thumb:active{
     border-radius:50%;
     border-top:none;
     width:calc(50px * var(--minimize));
-    margin-left:calc(0px * var(--minimize));
-    margin-bottom:calc(15px * var(--minimize))
 }
 #titlessss{
     width:auto;
@@ -1325,7 +1316,7 @@ select{
     aspect-ratio:1/1
 }
 #main-index{
-    margin:80px auto
+    margin:60px auto
 }
 .buttons-flex{
     display:flex;
@@ -2009,11 +2000,6 @@ footer{
     }
 }
 @media (max-width:1354px){
-    #character-h1,#main-content{
-        max-width:855px;
-        margin-left:calc(50% + calc(37px * var(--minimize)));
-        transform:translateX(-50%)
-    }
     #other-weapons-list{
         white-space:wrap
     }
@@ -2073,11 +2059,7 @@ footer{
         font-size:calc(15px * var(--minimize))
     }
 }
-@media (min-width:971px) and (max-width:1142px){
-    #main-index,footer{
-        margin-left:75px
-    }
-}
+
 @media (max-width:1069px){
     #main-characters-flex{
         grid-template-columns:repeat(7,1fr);
@@ -2085,8 +2067,6 @@ footer{
     }
     #main-index{
         padding:0;
-        margin-right:calc(20px * var(--minimize));
-        margin-left:calc(95px * var(--minimize))
     }
 }
 @media (min-width:971px){
@@ -2125,27 +2105,36 @@ footer{
     .links:hover img{
         filter:brightness(-1000%)
     }
-    #header-nav:hover .names{
-        margin-left:calc(9px * var(--minimize))
+   
+    #header-nav {
+        overflow: hidden;
+        margin: auto;
+        max-width: 885px;
+        padding-right: 70px;
+    background: #2f3038be;
+    border-radius: 5px;
     }
-    #header-nav:hover #logo{
-        margin-left:calc(0px * var(--minimize))
+    #hhh {
+        
+        margin-top: 20px;
     }
-    #header-nav a:first-of-type:hover{
-        background:0 0;
-        opacity:.8;
-        transition:.2s;
-        color:#f5f5f5
+    #nav-flex{
+        gap: 20px;
+    max-width: 600px;
     }
     #header-nav a:hover{
-        background:var(--ct);
-        transition:.1s;
-        color:var(--bg)
+        color:var(--ct)
     }
-    #header-nav:hover{
-        width:calc(250px * var(--minimize));
-        transition:.3s
-    }
+    .links div {
+    display: none;
+}
+.links{
+    font-size: 13px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+
+}
 }
 @media (max-width:992px){
     .weapon-card p:first-of-type{
@@ -2203,7 +2192,10 @@ footer{
     #header-nav #titlessss{
         display:none
     }
-    #header-nav{
+    #nav-flex{
+        
+    background:var(--sub);
+    position:fixed;
         flex-direction:row;
         display:grid;
         grid-template-columns:repeat(5,1fr);
@@ -2223,7 +2215,7 @@ footer{
         height:auto;
         flex-direction:column;
         gap:calc(5px * var(--minimize));
-        padding:0
+        padding:0;
     }
     .names{
         max-width:calc(70px * var(--minimize));
