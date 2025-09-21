@@ -2218,7 +2218,6 @@ footer{
         padding:0;
     }
     .names{
-        max-width:calc(70px * var(--minimize));
         padding:calc(0px * var(--minimize));
         margin:calc(0px * var(--minimize));
         height:auto;
@@ -2572,8 +2571,6 @@ footer{
     }
     #header-nav{
         gap:calc(0px * var(--minimize));
-        padding:calc(10px * var(--minimize)) calc(5px * var(--minimize));
-        width:calc(100% - calc(10px * var(--minimize)))
     }
     #artifacts-sub-stats ul{
         grid-template-columns:repeat(1,1fr)
@@ -2621,6 +2618,9 @@ footer{
     }
     .tier-list-characters-flex{
         grid-template-columns:repeat(3,1fr)
+    }
+    .names{
+        max-width:calc(70px * var(--minimize));
     }
 }
 @media (max-width:340px){
