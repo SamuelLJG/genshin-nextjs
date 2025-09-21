@@ -219,6 +219,25 @@ div::-webkit-scrollbar-thumb:active{
     padding-top:calc(20px * var(--minimize));
     border-right:calc(1px * var(--minimize)) solid var(--bd)
 }
+#header-nav #titlessss{
+        display:none
+    }
+    #header-nav{
+        flex-direction:row;
+        display:grid;
+        grid-template-columns:repeat(5,1fr);
+        align-items:center;
+        padding:calc(10px * var(--minimize));
+        width:calc(100% - calc(20px * var(--minimize)));
+        bottom:0;
+        top:auto;
+        border-top:calc(1px * var(--minimize)) solid var(--bd);
+        border-bottom:calc(2px * var(--minimize)) solid var(--bd);
+        border-right:none;
+        background:var(--bg);
+        height:48.33px;
+        transition:none
+    }
 .links,.links div{
     align-items:center;
     border-radius:calc(10px * var(--minimize));
@@ -2090,21 +2109,6 @@ footer{
     }
 }
 @media (min-width:971px){
-    .links:nth-last-of-type(5){
-        order:3
-    }
-    .links:nth-last-of-type(4){
-        order:4
-    }
-    #home{
-        order:2
-    }
-    .links:nth-last-of-type(2){
-        order:5
-    }
-    .links:last-of-type{
-        order:6
-    }
     .character-card:hover img{
         width:calc(100% + 8px);
         margin-top:-8px;
@@ -2122,43 +2126,27 @@ footer{
         left:-4px;
         transition:.3s
     }
-    .links:hover img{
-        filter:brightness(-1000%)
-    }
-    #header-nav:hover .names{
-        margin-left:calc(9px * var(--minimize))
-    }
-    #header-nav:hover #logo{
-        margin-left:calc(0px * var(--minimize))
-    }
-    #header-nav a:first-of-type:hover{
-        background:0 0;
-        opacity:.8;
-        transition:.2s;
-        color:#f5f5f5
-    }
-    #header-nav a:hover{
-        background:var(--ct);
-        transition:.1s;
-        color:var(--bg)
-    }
-    #header-nav:hover{
-        width:calc(250px * var(--minimize));
-        transition:.3s
-    }
+    
 }
 @media (max-width:992px){
     .weapon-card p:first-of-type{
         max-width:150px
     }
 }
+#character-h1,.links{
+        padding:calc(0px * var(--minimize))
+    }
+    .links{
+        height:auto;
+        flex-direction:column;
+        gap:calc(5px * var(--minimize));
+        padding:0
+    }
 @media (max-width:970px){
     #main-content #index-h1,#main-index{
         margin-top:calc(20px * var(--minimize))
     }
-    #character-h1,.links{
-        padding:calc(0px * var(--minimize))
-    }
+    
     #character-h1,#main-content{
         width:auto;
         max-width:none;
@@ -2200,31 +2188,8 @@ footer{
         margin-top:0;
         margin-bottom:calc(80px * var(--minimize))
     }
-    #header-nav #titlessss{
-        display:none
-    }
-    #header-nav{
-        flex-direction:row;
-        display:grid;
-        grid-template-columns:repeat(5,1fr);
-        align-items:center;
-        padding:calc(10px * var(--minimize));
-        width:calc(100% - calc(20px * var(--minimize)));
-        bottom:0;
-        top:auto;
-        border-top:calc(1px * var(--minimize)) solid var(--bd);
-        border-bottom:calc(2px * var(--minimize)) solid var(--bd);
-        border-right:none;
-        background:var(--bg);
-        height:48.33px;
-        transition:none
-    }
-    .links{
-        height:auto;
-        flex-direction:column;
-        gap:calc(5px * var(--minimize));
-        padding:0
-    }
+    
+    
     .names{
         max-width:calc(70px * var(--minimize));
         padding:calc(0px * var(--minimize));
