@@ -215,7 +215,7 @@ div::-webkit-scrollbar-thumb:active{
     height:100%;
     width:calc(55px * var(--minimize));
     position:fixed;
-    z-index:10;
+    z-index:1;
     padding-top:calc(20px * var(--minimize));
     border-right:calc(1px * var(--minimize)) solid var(--bd)
 }
