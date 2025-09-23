@@ -258,7 +258,7 @@ div::-webkit-scrollbar-thumb:active{
     font-family:Plus Jakarta Sans;
     background: var(--ct);
     color:var(--bg);
-    padding: 10px 20px;
+    padding: 15px 20px;
     font-weight:700;
     display:flex;
     align-items:center;
@@ -2116,7 +2116,7 @@ footer{
     }
     #hhh {
         
-        margin-top: 20px;
+        margin-top: 25px;
     }
     #nav-flex{
         gap: 20px;
@@ -2129,10 +2129,10 @@ footer{
     display: none;
 }
 .links{
-    font-size: 13px;
+    font-size: 13.5px;
     color: white;
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: bolder;
 
 }
 }
