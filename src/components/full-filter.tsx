@@ -75,7 +75,7 @@ const elementOptions = [
     <div id='filter-section2' className='joinads'>
       {/* Barra de Pesquisa */}
       <div className='top-name'>
-      <label htmlFor='index-search'>{ptBr.search}</label>
+        <img src="https://genshinbuild.com/images/search-svgrepo-com.svg" alt="search" />
         <input
           type="text"
           placeholder={ptBr.searchAName}
@@ -84,38 +84,6 @@ const elementOptions = [
           onChange={handleSearchChange}
         />
       </div>
-
-      <div id='select-box'>
-      <div className='top-name2'>
-      <label htmlFor='weapons-element'>{ptBr.element}</label>
-            <select onChange={handleElementChange} value={activeElement ?? ''} id='weapons-element'>
-              <option value="">{ptBr.allB}</option>
-              {elementOptions.map(({ label, value }) => (
-                <option key={value} value={value}>{label}</option>
-              ))}
-            </select>
-          </div>
-          {/* Select de Raridade */}
-          <div className='top-name2'>
-          <label htmlFor='weapons-select'>{ptBr.rarity}</label>
-            <select onChange={handleRarityChange} value={activeRarity ?? ''} id='weapons-select'>
-              <option value="">{ptBr.allA}</option>
-              <option value="5">5 {ptBr.stars}</option>
-              <option value="4">4 {ptBr.stars}</option>
-            </select>
-          </div>
-          {/* Select de Arma (substituto dos botões) */}
-          
-      </div>
-      <div className='top-name2'>
-            <label htmlFor='weapon-type-select'>{ptBr.weaponType}</label>
-            <select onChange={handleWeaponChange} value={activeWeapon ?? ''} id='weapon-type-select'>
-              <option value="">{ptBr.allA}</option>
-              {weaponOptions.map(({ label, value }) => (
-                <option key={value} value={value}>{label}</option>
-              ))}
-            </select>
-          </div>
     </div>
   );
 }

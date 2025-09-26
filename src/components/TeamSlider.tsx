@@ -49,7 +49,7 @@ export default function TeamsFilter({ptBr}:any) {
   return (
     <div id='filter-section2' className='joinads'>
       <div className='top-name'>
-        <label htmlFor='index-search'>{ptBr.search}</label>
+        <img src="https://genshinbuild.com/images/search-svgrepo-com.svg" alt="search" />
         <input
           type="text"
           placeholder={ptBr.searchAName}

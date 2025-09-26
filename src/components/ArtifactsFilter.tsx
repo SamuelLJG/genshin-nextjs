@@ -50,7 +50,7 @@ export default function ArtifactsFilter({ptBr}:any) {
     <div id='filter-section2' className='joinads'>
       {/* Barra de Pesquisa */}
       <div className='top-name'>
-        <label htmlFor='index-search'>{ptBr.search}</label>
+        <img src="https://genshinbuild.com/images/search-svgrepo-com.svg" alt="search" />
         <input
           type="text"
           placeholder={ptBr.searchAName}
@@ -60,15 +60,7 @@ export default function ArtifactsFilter({ptBr}:any) {
         />
       </div>
 
-          <div className='top-name2'>
-            <label htmlFor='weapons-select'>{ptBr.rarity}</label>
-            <select onChange={handleRarityChange} value={activeRarity ?? ''} id='weapons-select'>
-              <option value="">{ptBr.allB}</option>
-              <option value="5">5 {ptBr.stars}</option>
-              <option value="4">4 {ptBr.stars}</option>
-              <option value="3">3 {ptBr.stars}</option>
-            </select>
-          </div>
+         
     </div>
   );
 }

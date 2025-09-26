@@ -1,4 +1,4 @@
-import { Anuphan, Plus_Jakarta_Sans } from 'next/font/google'
+import { Anuphan, Plus_Jakarta_Sans, Inter, Oswald } from 'next/font/google'
 import "./globals.css";
 import { Metadata } from "next";
 import { GoogleAnalytics } from '@next/third-parties/google'
@@ -32,6 +32,14 @@ const plusJakartaSans = Plus_Jakarta_Sans({
   display: 'swap',
 })
 
+const inter = Inter({
+  subsets: ['latin'],
+  display: 'swap',
+})
+const oswald = Oswald({
+  subsets: ['latin'],
+  display: 'swap',
+})
 export default async function RootLayout({ children }: {children: React.ReactNode;}) {
 
   return (

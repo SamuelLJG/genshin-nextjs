@@ -1,7 +1,7 @@
 export const characters = [
     {
         name: 'flins',
-        function: 'support',
+        function: 'mainDps',
         bestWeapon: 'Bloodsoaked Ruins',
         otherWeapons: ['Staff of Homa','Staff of the Scarlet Sands','Prospectors Drill'],
         bestArtifacts: 'Night of the Skys Unveiling',
@@ -637,7 +637,7 @@ export const characters = [
         subStatsArtifacts: ['energyRecharge','hpPercent', 'hp', 'critRate'],
         weapon: 'WEAPON_SWORD_ONE_HAND',
         rarity: '4',
-        rank:'C'
+        rank:'a'
     },
     {
         name: 'dehya',
@@ -1031,7 +1031,8 @@ export const characters = [
         mainStatsArtifacts: ['energyRecharge','defPercent','defPercentOrCritRate'],
         subStatsArtifacts: ['defPercent','energyRecharge', 'critRate'],
         weapon: 'WEAPON_BOW',
-        rarity: '4'
+        rarity: '4',
+        rank:'c'
     },
     {
         name: 'hu-tao',
@@ -1542,7 +1543,8 @@ export const characters = [
         mainStatsArtifacts: ['atkPercentOrEnergyRecharge','atkPercent', 'atkPercentOrCritRate'],
         subStatsArtifacts: ['critRateOrDamage', 'atkPercent','energyRecharge','elementalMastery'],
         weapon: 'WEAPON_CATALYST',
-        rarity: '4'
+        rarity: '4',
+        rank:'b'
     },
     {
         name: 'layla',
@@ -2306,7 +2308,8 @@ export const characters = [
         mainStatsArtifacts: ['atkPercent','hydroBonus', 'critRateOrDamage'],
         subStatsArtifacts: ['critRateOrDamage', 'atkPercent','energyRecharge','elementalMastery'],
         weapon: 'WEAPON_BOW',
-        rarity: '5'
+        rarity: '5',
+        rank:'b'
     },
     {
         name: 'sucrose',
@@ -2448,7 +2451,8 @@ export const characters = [
         mainStatsArtifacts: ['atkPercentOrEnergyRecharge','geoBonus', 'critRateOrDamage'],
         subStatsArtifacts: ['critRate','critDamage', 'atkPercent','energyRecharge'],
         weapon: 'WEAPON_SWORD_ONE_HAND',
-        rarity: '5'
+        rarity: '5',
+        rank: 'd'
     },
     {
         name: 'traveler-electro',

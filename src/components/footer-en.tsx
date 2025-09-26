@@ -13,13 +13,6 @@ export default function Footer() {
                 <span>Contact</span>
 
             </a>    
-            <a href="https://discord.gg/aMdQZQeg3g" target="_blank" className="discord">
-                            <div>
-                            <Image width={22} height={22} loading="eager" src="https://genshinbuild.com/images/header-icons/discord.svg" alt="Discord Server"/>
-                            </div>    
-                            <span>Discord</span>
-        
-                        </a>
             <a href="/privacy-policy" className="discord">
                             <div>
                             <Image width={22} height={22} loading="eager" src="https://genshinbuild.com/images/policy-round-svgrepo-com.svg" alt="Privacy Policy Page"/>

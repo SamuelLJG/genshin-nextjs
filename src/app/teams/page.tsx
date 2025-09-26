@@ -87,7 +87,7 @@ export default function Teams() {
           <body>
             <Nav/>
             
-        <main id="main-index" className="iii"> 
+        <main id="main-index" className="iii teaaaa"> 
         
         <div id="h1-flex">
             <Image src="https://genshinbuild.com/images/team-3-svgrepo-com.svg" className="index-h1-icon" width={30} height={30} alt={ptBr.bestTeams} loading="eager" /> <h1 id="index-h1">Genshin Impact {ptBr.bestTeams}</h1>
