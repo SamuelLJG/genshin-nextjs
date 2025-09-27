@@ -1007,8 +1007,8 @@ select{
     height:calc(90px * var(--minimize));
 }
 .props{
-    width: calc(30px * var(--minimize));
-   height: calc(30px * var(--minimize));
+    width: calc(25px * var(--minimize));
+   height: calc(25px * var(--minimize));
 }
 .weapon-card{
     display:flex;
