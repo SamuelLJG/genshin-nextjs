@@ -1377,6 +1377,7 @@ select{
 .tier-list-characters-flex img{
     margin-bottom:calc(-4px * var(--minimize));
     width:100%;
+    min-width: 30px;
     padding: 2px;
     border-radius: calc(7px * var(--minimize));
     height:auto;
@@ -2198,6 +2199,11 @@ footer{
 }
 @media (min-width:991px){
     
+#tier-list-flex a:hover img {
+    margin-left: -2px;
+    margin-top: -2px;
+    border: 2px solid white;
+}
 .character-card:hover {
     background: #35363f;
     transition: .15s;
