@@ -5,7 +5,7 @@ import { useEffect, useState, ChangeEvent } from 'react';
 export default function WeaponsFilter({ ptBr }: any) {
   const [searchFilter, setSearchFilter] = useState('');
 
-  const ignoreClasses = ['character-card'];
+  const ignoreClasses = ['ddsadada'];
 
   // função util para normalizar texto
   const normalize = (str: string) =>
@@ -21,7 +21,7 @@ export default function WeaponsFilter({ ptBr }: any) {
     const normalizedSearch = normalize(searchFilter);
     const normalizedSearchNoSpace = normalizedSearch.replace(/\s+/g, ''); // versão sem espaço
 
-    const cards = document.querySelectorAll<HTMLElement>('.character-card');
+    const cards = document.querySelectorAll<HTMLElement>('.ddsadada');
 
     cards.forEach((card) => {
       const classList = Array.from(card.classList);

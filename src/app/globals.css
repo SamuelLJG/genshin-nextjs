@@ -1339,50 +1339,62 @@ select{
 }
 #tier-list-flex{
     border:1px solid var(--bd);
-    border-bottom:none;
-    border-top:none
+    background: var(--sub);
+    border-radius: 10px;
 }
 .tiers{
-    align-items:center;
+    padding:  calc(16px * var(--minimize)) calc(10px * var(--minimize));;
+    display: flex;
+    align-items: baseline;
     justify-content:center;
     color:var(--sub);
-    font-weight:700;
-    font-size:30px;
-    min-width:50px
 }
-#tier-list-flex img{
-    margin-bottom:-4px;
+.s, .a,.b,.c,.d {
+        border-radius: calc(10px * var(--minimize));
+        margin: calc(20px * var(--minimize));;
+
+}
+.s {
+     background: linear-gradient(to bottom, rgba(255, 238, 0, 0.452), transparent);
+        border: 1px solid #fe0;
+}
+.a {
+    background: linear-gradient(to bottom, #86f5085d, transparent);
+        border: 1px solid #86f508;
+}
+.b {
+    background: linear-gradient(to bottom, #08f5c256, transparent);
+        border: 1px solid #08f5c2;
+}
+.c {
+    background: linear-gradient(to bottom, #086ff567, transparent);
+        border: 1px solid #086ff5;
+}
+.d {
+    background: linear-gradient(to bottom, #4f08f55b, transparent);
+        border: 1px solid #4f08f5;
+}
+.tier-list-characters-flex img{
+    margin-bottom:calc(-4px * var(--minimize));
     width:100%;
+    padding: 2px;
+    border-radius: calc(7px * var(--minimize));
     height:auto;
-    border:3px solid var(--bd)
 }
-#tier-list-flex img.border-anemo{
-    border-bottom:5px solid #00ff9d
+.tiers img {
+    width: calc(50px * var(--minimize));
 }
-#tier-list-flex img.border-cryo{
-    border-bottom:5px solid #7ffff4
-}
-#tier-list-flex img.border-dendro{
-    border-bottom:5px solid #b3ff00
-}
-#tier-list-flex img.border-electro{
-    border-bottom:5px solid #a200ff
-}
-#tier-list-flex img.border-geo{
-    border-bottom:5px solid #ffc400
-}
-#tier-list-flex img.border-hydro{
-    border-bottom:5px solid #006eff
-}
-#tier-list-flex img.border-pyro{
-    border-bottom:5px solid #f60
+#hdn {
+    display: none;
 }
 .tier-list-characters-flex{
     padding:calc(20px * var(--minimize));
+
     padding-right:calc(23px * var(--minimize));
-    gap:calc(20px * var(--minimize)) calc(25px * var(--minimize));
+    padding-left: 0;
+    gap:calc(15px * var(--minimize)) calc(25px * var(--minimize));
     display:grid;
-    grid-template-columns:repeat(10,1fr)
+    grid-template-columns:repeat(11,1fr)
 }
 #artifacts-flexx,#character-talent-priority ol,#weapon-level,#weapon-main,.ascension-materials-items,.buttons-flex{
     gap:calc(10px * var(--minimize))
@@ -1400,37 +1412,25 @@ select{
 .tiers-flex{
     display:flex;
     align-items:stretch;
-    border:1px solid #fff
+    border-bottom: 1px solid var(--bd);
 }
-.tiers-flex:nth-last-of-type(5) .tiers{
-    background:#fe0
+.tiers-flex:last-of-type {
+    border: 0;
 }
-.tiers-flex:nth-last-of-type(5){
-    border-right:3px solid #fe0
+.char-tier-s img{
+    border:1px solid #fe0
 }
-.tiers-flex:nth-last-of-type(4) .tiers{
-    background:#86f508
+.char-tier-a img{
+    border:1px solid #86f508
 }
-.tiers-flex:nth-last-of-type(4){
-    border-right:3px solid #86f508
+.char-tier-b img{
+    border:1px solid #08f5c2
 }
-.tiers-flex:nth-last-of-type(3) .tiers{
-    background:#08f5c2
+.char-tier-c img{
+    border:1px solid #086ff5
 }
-.tiers-flex:nth-last-of-type(3){
-    border-right:3px solid #08f5c2
-}
-.tiers-flex:nth-last-of-type(2) .tiers{
-    background:#086ff5
-}
-.tiers-flex:nth-last-of-type(2){
-    border-right:3px solid #086ff5
-}
-.tiers-flex:last-of-type .tiers{
-    background:#4f08f5
-}
-.tiers-flex:last-of-type{
-    border-right:3px solid #4f08f5
+.char-tier-d img{
+    border:1px solid #4f08f5
 }
 .tiers-funtcions{
     display:grid;

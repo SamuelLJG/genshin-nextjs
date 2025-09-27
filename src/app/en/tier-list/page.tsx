@@ -5,11 +5,12 @@ import React from "react";
 import { Metadata } from "next";
 import AdComponent from "@/components/Adsense-en";
 import Nav from '@/components/nav-en';
+import Filter from "@/components/tier-filter";
 import Footer from '@/components/footer-en';
-
+import ptBr from "@/data/en-us.json"
 
 export const metadata: Metadata = {
-  title: "Tier List 6.0 | Genshin Impact ",
+  title: "Genshin Impact Tier List 6.0 | Ranking Best Characters",
   description: "Explore the latest Genshin Impact tier list and find out which characters dominate the 2025 meta!",
   alternates: {
     canonical: '/en/tier-list',
@@ -45,49 +46,46 @@ export default function Teams() {
     <html lang="en">
       <body>
         <Nav/>
-    <main id="main-index" className="iii">
-      <div id="h1-flex">
-        <Image
-          src="https://genshinbuild.com/images/sort-lowest-svgrepo-com.svg"
-          className="index-h1-icon"
-          width={30}
-          height={30}
-          alt="Tier-List Ranking"
-          loading="eager"
-        />
-        <h1 id="index-h1" style={{ display: "block" }}>
-          Genshin Impact <span className="nowrap"> Tier-List 6.0</span>
-        </h1>
-      </div>
-      <AdComponent/>
-      <ul id="tier-list-flex" className='joinads'>
-        {ranks.map((rank) => {
-          const chars = characters.filter(
-            (p) => p.rank?.toUpperCase() === rank
-          );
+    <h1 id="hdn">Tier List of the Best Characters in Genshin Impact 6.0</h1>
+    <main id="main-index" className="iii"><Filter ptBr={ptBr}/>
+     <ul id="tier-list-flex" className='joinads'>
+  {ranks.map((rank) => {
+    const chars = characters.filter(
+      (p) => p.rank?.toUpperCase() === rank
+    );
 
-          return (
-            <li className="tiers-flex" key={rank}>
-              <span className="tiers">{rank}</span>
-              <ul className="tier-list-characters-flex">
-                {chars.map((p) => (
-                  <li key={p.name}>
-                    <a href={p.name}>
-                      <Image
-                        width={100}
-                        height={100}
-                        src={`https://genshinbuild.com/images/Team-Icons/${formatarNome(p.name)}.png`}
-                        alt={formatarNomeComEspaco(formatarNome(p.name))}
-                        className={`border-${p.elementType}`}
-                      />
-                    </a>
-                  </li>
-                ))}
-              </ul>
+    // se não tiver personagens, não renderiza nada
+    if (chars.length === 0) return null;
+
+    return (
+      <li className="tiers-flex" key={rank}>
+        <span className={`tiers ${rank.toLowerCase()}`}>
+          <img src={`https://genshinbuild.com/images/tier-${rank.toLowerCase()}.svg`} alt="" />
+        </span>
+        <ul className="tier-list-characters-flex">
+          {chars.map((p) => (
+            <li
+              key={p.name}
+              className={`char-tier-${rank.toLowerCase()} ddsadada ${p.name
+               
+                }`}
+            >
+              <a href={p.name} className="char-tier-flexbox">
+                <Image
+                  width={100}
+                  height={100}
+                  src={`https://genshinbuild.com/images/Team-Icons/${formatarNome(p.name)}.png`}
+                  alt={formatarNomeComEspaco(formatarNome(p.name))}
+                  className={`border-${p.elementType}`}
+                />
+              </a>
             </li>
-          );
-        })}
-      </ul>
+          ))}
+        </ul>
+      </li>
+    );
+  })}
+</ul>
     </main>
         <Footer/>
       </body>

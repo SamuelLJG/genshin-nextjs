@@ -113,7 +113,7 @@ export default function Home() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
             <Nav/>
-                       
+                       <h1 id="hdn">Lista de Todos Personagens de Genshin Impact</h1>
         <main id="main-index" className="iii"> 
             <Filter ptBr={ptBr}/>
            <AdComponent/>

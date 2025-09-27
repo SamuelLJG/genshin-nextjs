@@ -60,20 +60,6 @@ export default async function RootLayout({ children }: {children: React.ReactNod
   src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1999593447203691`}
   crossOrigin="anonymous"
 />
-<Script
-          async
-          src="https://www.googletagmanager.com/gtag/js?id=AW-11069534793"
-          strategy="afterInteractive"
-        />
-        <Script id="google-analytics" strategy="afterInteractive">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'AW-11069534793');
-          `}
-        </Script>
-        <GoogleAnalytics gaId="G-ZMW5Q2STCE" />
         {children}
         </>
   )
