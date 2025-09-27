@@ -58,7 +58,7 @@ export default async function Page() {
           <AdComponent/>
               <div id="weapons-flex">
                   {armasPT.map((post: any, i: number) => (
-                    <a href={`artifacts/${data[i].replace(/'/g, '').toLowerCase().replace(/ /g, '-')}`} key={i} className={`weapon-card ${post.name} rarity-${post.rarityList[post.rarityList.length - 1]}-weapon`}>
+                    <a href={`artifacts/${data[i].replace(/'/g, '').toLowerCase().replace(/ /g, '-')}`} key={i} className={`weapon-card ${post.name.toLowerCase().replace(/\s+/g, '-')} rarity-${post.rarityList[post.rarityList.length - 1]}-weapon`}>
                         <Image width={150} height={150} src={!circletOnly.includes(data[i].replace(/'/g, '')) ? `https://enka.network/ui/${post.images.filename_flower}.png` : `https://enka.network/ui/${post.images.filename_circlet}.png`} alt={post.name} className={`star${post.rarityList[post.rarityList.length - 1]}`} loading="eager" priority/>
                             <p>{post.name}</p>
                             <div className="rara-dendro"></div>

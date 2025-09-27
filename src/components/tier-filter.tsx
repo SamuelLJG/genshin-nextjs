@@ -56,7 +56,7 @@ export default function WeaponsFilter({ ptBr }: any) {
   };
 
   return (
-    <div id='filter-section2' className='joinads'>
+    <div id='filter-section2'>
       {/* Barra de Pesquisa */}
       <div className='top-name'>
         <img src="https://genshinbuild.com/images/search-svgrepo-com.svg" alt="search" />

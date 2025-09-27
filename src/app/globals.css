@@ -55,10 +55,10 @@ select{
     width:calc(150px * var(--minimize));
     height:calc(150px * var(--minimize))
 }
-#character-banner,#main-content,#teams-list,#weapons-body #main-content{
+#character-banner,#main-content,#weapons-body #main-content{
     gap:calc(20px * var(--minimize))
 }
-#character-banner,#other-weapons-list,#stars-box,#teams-list,#wee-section{
+#character-banner,#other-weapons-list,#stars-box,#wee-section{
     margin-top:calc(10px * var(--minimize))
 }
 #character-banner,td,th{
@@ -1749,6 +1749,8 @@ i{
 }
 #teams-list{
     display:grid;
+    gap:calc(15px * var(--minimize));
+    margin-top: calc(15px * var(--minimize));
     max-width:calc(1000px * var(--minimize))
 }
 #weapon-level,.refinement-description{
