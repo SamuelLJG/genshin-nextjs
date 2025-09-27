@@ -58,7 +58,7 @@ select{
 #character-banner,#main-content,#teams-list,#weapons-body #main-content{
     gap:calc(20px * var(--minimize))
 }
-#character-banner,#other-weapons-list,#stars-box,#teams-list,#weapons-flex,#wee-section{
+#character-banner,#other-weapons-list,#stars-box,#teams-list,#wee-section{
     margin-top:calc(10px * var(--minimize))
 }
 #character-banner,td,th{
@@ -574,7 +574,7 @@ div::-webkit-scrollbar-thumb:active{
     align-items:baseline;
     justify-content:space-between
 }
-#artifacts-container,#ascension-materials-list,#character-info,#other-artifacts,#weapons-flex,.ascension-materials-ul{
+#artifacts-container,#ascension-materials-list,#character-info,#other-artifacts,.ascension-materials-ul{
     gap:calc(10px * var(--minimize))
 }
 .ascension-costs-flex label{
@@ -671,7 +671,7 @@ div::-webkit-scrollbar-thumb:active{
     font-size:calc(17px * var(--minimize));
     font-style:italic
 }
-#other-weapons-list p:last-of-type,.weapon-card p:last-of-type{
+#other-weapons-list p:last-of-type{
     font-size:calc(14px * var(--minimize));
     font-weight:400;
     margin-top:calc(3px * var(--minimize));
@@ -814,7 +814,7 @@ div::-webkit-scrollbar-thumb:active{
     padding:calc(5px * var(--minimize)) calc(0px * var(--minimize));
     border-bottom:calc(2px * var(--minimize)) solid var(--bd)
 }
-.four-pieces-name,.two-pieces-name,.weapon-card p:first-of-type{
+.four-pieces-name,.two-pieces-name{
     padding-right:2px;
     -webkit-box-orient:vertical;
     overflow:hidden
@@ -935,23 +935,13 @@ div::-webkit-scrollbar-thumb:active{
     white-space:nowrap;
     color:hsla(0,0%,100%,.75)
 }
-.weapon-card{
-    display:flex;
-    align-items:center;
-    background:#3739417e;
-    border:1px solid var(--bd);
-    font-style:italic;
-    border-radius:4px
-}
+
 select{
     font-family:Plus Jakarta Sans;
     margin:0;
     background-color:#2f3038;
     border:1px solid var(--bd);
     outline:0
-}
-.weapon-card div{
-    margin-left:7px
 }
 select{
     border-radius:3px;
@@ -1000,21 +990,42 @@ select{
 #weapons-select,option{
     cursor:pointer
 }
-.weapon-card p:first-of-type{
-    font-size:calc(17px * var(--minimize));
+.weapon-card p{
+    font-size:calc(14px * var(--minimize));
+    margin-left: -2px;
+    -webkit-box-orient:vertical;
+    overflow:hidden;
     font-weight:700;
+    padding-right: 7px;
     white-space:nowrap;
     max-width:200px;
     width:100%;
     text-overflow:ellipsis
 }
-.weapon-card img{
-    width:calc(75px * var(--minimize));
-    height:auto
+.weapon-card img:first-of-type{
+    width:calc(90px * var(--minimize));
+    height:calc(90px * var(--minimize));
+}
+.props{
+    width: calc(30px * var(--minimize));
+   height: calc(30px * var(--minimize));
+}
+.weapon-card{
+    display:flex;
+    position: relative;
+    align-items:center;
+    background:var(--sub);
+    overflow: hidden;
+    gap: calc(18px * var(--minimize));
+    border:1px solid var(--bd);
+    text-transform: uppercase;
+    border-radius:calc(10px * var(--minimize));
 }
 #weapons-flex{
     display:grid;
-    grid-template-columns:repeat(3,1fr)
+    grid-template-columns:repeat(3,1fr);
+    gap: calc(15px * var(--minimize));;
+    margin-top: calc(15px * var(--minimize));
 }
 
 #h1-flex,#index-h1{
@@ -1193,8 +1204,8 @@ select{
     left:calc(-29px * var(--minimize))
 }
 .char-img{
-    width:90px;
-    height:auto;
+    width: calc(90px * var(--minimize));
+    height:calc(90px * var(--minimize));
     border-top:none;
     border-left:none
 }.character-card{
@@ -1264,6 +1275,8 @@ select{
 }
 .elel img {
     margin-bottom: -4px;
+    width: calc(40px * var(--minimize));
+    height: calc(40px * var(--minimize));
 }
 .count {
     height: 100%;
@@ -1349,28 +1362,29 @@ select{
     justify-content:center;
     color:var(--sub);
 }
-.s, .a,.b,.c,.d {
+
+#tier-list-flex .s,#tier-list-flex  .a,#tier-list-flex  .b,#tier-list-flex  .c,#tier-list-flex  .d {
         border-radius: calc(10px * var(--minimize));
         margin: calc(20px * var(--minimize));;
 
 }
-.s {
+#tier-list-flex  .s {
      background: linear-gradient(to bottom, rgba(255, 238, 0, 0.452), transparent);
         border: 1px solid #fe0;
 }
-.a {
+#tier-list-flex  .a {
     background: linear-gradient(to bottom, #86f5085d, transparent);
         border: 1px solid #86f508;
 }
-.b {
+#tier-list-flex .b {
     background: linear-gradient(to bottom, #08f5c256, transparent);
         border: 1px solid #08f5c2;
 }
-.c {
+#tier-list-flex  .c {
     background: linear-gradient(to bottom, #086ff567, transparent);
         border: 1px solid #086ff5;
 }
-.d {
+#tier-list-flex .d {
     background: linear-gradient(to bottom, #4f08f55b, transparent);
         border: 1px solid #4f08f5;
 }
@@ -2204,7 +2218,7 @@ footer{
     margin-top: -2px;
     border: 2px solid white;
 }
-.character-card:hover {
+.character-card:hover, .weapon-card:hover {
     background: #35363f;
     transition: .15s;
 }
@@ -2362,9 +2376,6 @@ footer{
         display:block;
         margin-top:calc(-2px * var(--minimize))
     }
-    #weapons-flex{
-        grid-template-columns:repeat(3,1fr)
-    }
     .weapon-card p:first-of-type{
         max-width:140px
     }
@@ -2393,6 +2404,10 @@ footer{
     }
 }
 @media (max-width:825px){
+    
+    #weapons-flex{
+        grid-template-columns:repeat(2,1fr)
+    }
     #main-characters-flex{
         grid-template-columns:repeat(2,1fr)
     }
@@ -2472,10 +2487,6 @@ footer{
     #character-name{
         padding:6px 0
     }
-    .weapon-card img{
-        width:calc(65px * var(--minimize));
-        height:calc(65px * var(--minimize))
-    }
 }
 @media (min-width:711px){
     #weapon-description{
@@ -2495,9 +2506,6 @@ footer{
 @media (max-width:710px){
     #character-weapons-flex,.tier-list-characters-flex{
         grid-template-columns:repeat(8,1fr)
-    }
-    #weapons-flex{
-        grid-template-columns:repeat(2,1fr)
     }
     .weapon-card p:first-of-type{
         max-width:32vw
@@ -2656,10 +2664,6 @@ footer{
     }
     .weapon-card p:first-of-type{
         max-width:60vw
-    }
-    .weapon-card img{
-        width:calc(75px * var(--minimize));
-        height:calc(75px * var(--minimize))
     }
     #character-weapons-flex{
         grid-template-columns:repeat(6,1fr)

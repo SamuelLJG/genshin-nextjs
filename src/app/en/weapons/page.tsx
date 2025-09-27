@@ -11,7 +11,7 @@ import Footer from '@/components/footer-en';
 
 
 export const metadata: Metadata = {
-  title: "Weapons List | Genshin Impact",
+  title: "Genshin Impact Weapons List",
   description: "Full Genshin Impact Weapon List by Type, Rarity, and Name – Browse All Swords, Polearms, Bows & More",
   metadataBase: new URL('https://genshinbuild.com'),
   alternates: {
@@ -55,9 +55,9 @@ const fetchWeaponData = (name: string) =>
       <body>
         <Nav/>
           <main id="main-index">
-          <div id="h1-flex">
-            <Image src="https://genshinbuild.com/images/sword-fill-svgrepo-com.svg" className="index-h1-icon" width={30} height={30} alt={ptBr.weaponList} loading="eager" /> <h1 id="index-h1">Genshin Impact {ptBr.weaponList}</h1>
-          </div>
+          <h1 id="hdn">
+            List of All Genshin Impact Weapons
+          </h1>
             <WeaponsFilter ptBr={ptBr}/>
             <AdComponent/>
               <div id="weapons-flex">
@@ -67,9 +67,9 @@ const fetchWeaponData = (name: string) =>
                     data[i].replace(/'/g, '').toLowerCase().replace(/ /g, '-') != 'prized-isshin-blade' ? 
                     <a href={`/en/weapons/${data[i].replace(/'/g, '').replace(/"/g, '').toLowerCase().replace(/ /g, '-')}`} key={i} className={`weapon-card ${post.weaponType} ${post.name} rarity-${post.rarity}-weapon`}>
                         <Image width={100} height={100} src={`https://gi.yatta.moe/assets/UI/${post.images.filename_icon}.png`} alt={post.name} className={`star${post.rarity}`} loading="eager" priority/>
-                        <div>
+                        <img src={`/images/${post.mainStatType}.svg`} className="props" alt="" />
                         <p>{post.name}</p>
-                        <p>{post.mainStatText}</p></div>
+                        <div className="rara-dendro"></div>
                         </a>
                         : ''
                   ))}

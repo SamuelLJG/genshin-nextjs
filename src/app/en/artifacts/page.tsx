@@ -11,7 +11,7 @@ import Footer from '@/components/footer-en';
 
 
 export const metadata: Metadata = {
-  title: "Artifacts List | Genshin Impact",
+  title: "Genshin Impact Artifacts List",
   description: "Complete List of All Genshin Impact Artifact Sets by Name and Rarity",
   alternates: {
     canonical: '/en/artifacts',
@@ -57,19 +57,17 @@ export default async function Page() {
           <body>
             <Nav/>
             <main id="main-index">
-            <div id="h1-flex">
-            <Image src="https://genshinbuild.com/images/flower-with-heart-petals-svgrepo-com.svg" className="index-h1-icon" width={30} height={30} loading="eager" alt={ptBr.artifactsList} /> <h1 id="index-h1">Genshin Impact {ptBr.artifactsList}</h1>
-          </div>
+            <h1 id="hdn">
+            List of All Genshin Impact Artifacts
+          </h1>
           <ArtifactsFilter ptBr={ptBr}/>
           <AdComponent/>
               <div id="weapons-flex">
                   {armasPT.map((post: any, i: number) => (
                     <a href={`/en/artifacts/${data[i].replace(/'/g, '').toLowerCase().replace(/ /g, '-')}`} key={i} className={`weapon-card ${post.name} rarity-${post.rarityList[post.rarityList.length - 1]}-weapon`}>
                         <Image width={150} height={150} src={!circletOnly.includes(data[i].replace(/'/g, '')) ? `https://gi.yatta.moe/assets/UI/reliquary/${post.images.filename_flower}.png` : `https://gi.yatta.moe/assets/UI/reliquary/${post.images.filename_circlet}.png`} alt={post.name} className={`star${post.rarityList[post.rarityList.length - 1]}`} loading="eager" priority/>
-                        <div>
                             <p>{post.name}</p>
-                            <p>{post.description}</p>
-                        </div>
+                            <div className="rara-dendro"></div>
                         </a>
                   ))}
               </div>

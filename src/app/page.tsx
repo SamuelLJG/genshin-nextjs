@@ -121,7 +121,7 @@ export default function Home() {
             {characters.map((char:any,i:any)=> (
                 <a href={`/${char.name}`} key={i} className={`character-card ${char.elementType} ${char.name.replace(/-/g, '').replace(/traveler/gi, "viajante")} ${char.weapon} rarity-${char.rarity}`}><Image width={100} height={100} src={`https://genshinbuild.com/images/Team-Icons/${formatarNome(char.name)}.png`} alt={formatarNomeComEspaco(formatarNome(char.name))} className={`rarity-${char.rarity} char-img`} loading="eager" priority/>
                   <div className={`rara-${char.elementType}`}></div>
-                   <div className="elel"><img width={40} src={`https://genshinbuild.com/images/${char.weapon}.webp`} alt="" /></div><div className="count"><img src={`https://genshinbuild.com/images/tier-${char.rank}.svg`} alt="" /> </div>
+                   <div className="elel"><img src={`https://genshinbuild.com/images/${char.weapon}.webp`} alt="" /></div><div className="count"><img src={`https://genshinbuild.com/images/tier-${char.rank}.svg`} alt="" /> </div>
             
             <p>{formatCharacterName(formatarNomeComEspaco(formatarNome(char.name)))}</p>
             {char.newCharacter != null ? <span>{char.newCharacter}</span> : ''  }

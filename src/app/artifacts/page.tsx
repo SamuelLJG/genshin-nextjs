@@ -11,7 +11,7 @@ import Footer from '@/components/footer';
 
 
 export const metadata: Metadata = {
-  title: "Lista de Artefatos | Genshin Impact",
+  title: "Genshin Impact Lista de Artefatos",
   description: "Lista de todos os conjuntos de artefatos de Genshin Impact com nomes e raridade disponíveis.",
   alternates: {
     canonical: '/artifacts',
@@ -53,20 +53,15 @@ export default async function Page() {
         <html lang="pt-br">
           <body>
             <Nav/>
-            <main id="main-index">
-            <div id="h1-flex">
-            <Image src="https://genshinbuild.com/images/flower-with-heart-petals-svgrepo-com.svg" className="index-h1-icon" width={30} height={30} loading="eager" alt={ptBr.artifactsList} /> <h1 id="index-h1">Genshin Impact {ptBr.artifactsList}</h1>
-          </div>
+            <main id="main-index"> <h1 id="hdn">Lista de Todos os Artefatos de Genshin Impact</h1>
           <ArtifactsFilter ptBr={ptBr}/>
           <AdComponent/>
               <div id="weapons-flex">
                   {armasPT.map((post: any, i: number) => (
                     <a href={`artifacts/${data[i].replace(/'/g, '').toLowerCase().replace(/ /g, '-')}`} key={i} className={`weapon-card ${post.name} rarity-${post.rarityList[post.rarityList.length - 1]}-weapon`}>
                         <Image width={150} height={150} src={!circletOnly.includes(data[i].replace(/'/g, '')) ? `https://enka.network/ui/${post.images.filename_flower}.png` : `https://enka.network/ui/${post.images.filename_circlet}.png`} alt={post.name} className={`star${post.rarityList[post.rarityList.length - 1]}`} loading="eager" priority/>
-                        <div>
                             <p>{post.name}</p>
-                            <p>{post.description}</p>
-                        </div>
+                            <div className="rara-dendro"></div>
                         </a>
                   ))}
               </div>
