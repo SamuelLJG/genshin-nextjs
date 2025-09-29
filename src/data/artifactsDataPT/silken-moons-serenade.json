@@ -5,6 +5,7 @@
     5
   ],
   "name": "Serenata da Lua de Seda",
+  "newWeapon": "new",
   "effect2Pc": "Recarga de Energia +20%",
   "effect4Pc": "Ao causar Dano Elemental, obtém por 8s o efeito Resplandecer Lunar: Missiva Sublime: quando o Presságio Lunar da equipe estiver no Reluzir Inicial/Cheio, aumenta a Proficiência Elemental de todos os personagens em 60/120. Esse efeito pode ser desencadeado, mesmo se o personagem que está com esse conjunto equipado não estiver ativo. Quando um personagem possuir efeitos de Resplandecer Lunar diferentes, aumenta o Dano causado pelas Reações Lunares em 10% para todos os personagens. O efeito gerado por Resplandecer Lunar não é acumulável.",
   "flower": {
