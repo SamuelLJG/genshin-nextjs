@@ -1007,8 +1007,8 @@ select{
     height:calc(90px * var(--minimize));
 }
 .props{
-    width: calc(25px * var(--minimize));
-   height: calc(25px * var(--minimize));
+    width: calc(27px * var(--minimize));
+   height: calc(27px * var(--minimize));
 }
 .weapon-card{
     display:flex;
@@ -1191,7 +1191,7 @@ select{
     font-size:calc(14px * var(--minimize));
     bottom:0;
 }
-.character-card span{
+.character-card span, .weapon-card span{
     background:#58c202;
     color:#fff;
     padding:calc(16px * var(--minimize)) calc(27px * var(--minimize));

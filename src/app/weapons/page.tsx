@@ -66,19 +66,52 @@ const fetchWeaponData = (name: string) =>
             <WeaponsFilter ptBr={ptBr}/>
             <AdComponent/>
               <div id="weapons-flex">
-             
-                        
-                  {armasPT.map((post: any, i: number) => (
-                    data[i].replace(/'/g, '').toLowerCase().replace(/ /g, '-') != 'prized-isshin-blade' ? 
-                    <a href={`weapons/${data[i].replace(/'/g, '').replace(/"/g, '').toLowerCase().replace(/ /g, '-')}`} key={i} className={`weapon-card ${post.weaponType} ${post.name.toLowerCase().replace(/\s+/g, '-')} rarity-${post.rarity}-weapon`}>
-                        <Image width={100} height={100} src={`https://gi.yatta.moe/assets/UI/${post.images.filename_icon}.png`} alt={post.name} className={`star${post.rarity}`} loading="eager" priority/>
-                        <img src={`images/${post.mainStatType}.svg`} className="props" alt="" />
-                        <p>{post.name}</p>
-                        <div className="rara-dendro"></div>
-                        </a>
-                        : ''
-                  ))}
-              </div>
+  {armasPT
+    // junta armas e data pelo índice
+    .map((post: any, i: number) => ({ ...post, slug: data[i] }))
+    // ordena primeiro por newWeapon, depois por ordem alfabética
+    .sort((a, b) => {
+      if (a.newWeapon && !b.newWeapon) return -1; // a vem antes
+      if (!a.newWeapon && b.newWeapon) return 1;  // b vem antes
+      return a.name.localeCompare(b.name, 'pt'); // ordenação alfabética
+    })
+    .map((post: any, i: number) =>
+      post.slug.replace(/'/g, '').toLowerCase().replace(/ /g, '-') !=
+      'prized-isshin-blade' ? (
+        <a
+          href={`weapons/${post.slug
+            .replace(/'/g, '')
+            .replace(/"/g, '')
+            .toLowerCase()
+            .replace(/ /g, '-')}`}
+          key={i}
+          className={`weapon-card ${post.weaponType} ${post.name
+            .toLowerCase()
+            .replace(/\s+/g, '-')} rarity-${post.rarity}-weapon`}
+        >
+          <Image
+            width={100}
+            height={100}
+            src={`https://gi.yatta.moe/assets/UI/${post.images.filename_icon}.png`}
+            alt={post.name}
+            className={`star${post.rarity}`}
+            loading="eager"
+            priority
+          />
+          <img
+            src={`images/${post.mainStatType}.svg`}
+            className="props"
+            alt=""
+          />
+          <p>{post.name}</p>
+          <div className="rara-dendro"></div>
+          {post.newWeapon != null ? <span>{post.newWeapon}</span> : ''}
+        </a>
+      ) : (
+        ''
+      )
+    )}
+</div>
           </main>
           <Footer/>
       </body>

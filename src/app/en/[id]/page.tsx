@@ -14,6 +14,7 @@ import TalentsSlider from "@/components/TalentsSlider";
 import AdComponent from "@/components/Adsense-en";
 import Nav from '@/components/nav-en';
 import Footer from '@/components/footer-en';
+import Script from "next/script";
 
 
 type Props = {
@@ -323,6 +324,18 @@ switch (travelerName) {
     return (
       
         <html lang="en">
+          {id=== 'flins' ? 
+          <head>
+           <Script id="conversion-event" strategy="beforeInteractive">
+        {`
+          gtag('event', 'conversion_event_page_view_2', {
+            // event_parameters
+          });
+        `}
+      </Script>
+
+          </head> : ''}
+          
           <body>
             <script
         type="application/ld+json"
