@@ -28,7 +28,7 @@ export const characters = [
             {'flins': 'mainDps'},
             {'fischl': 'subDps'},
             {'lauma': 'support'},
-            {'sangonomiya-kokomi: 'support'}
+            {'sangonomiya-kokomi': 'support'}
         ]
         ],
         talentPriority: ['elementalBurst','elementalSkill','normalAttack'],
