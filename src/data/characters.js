@@ -17,6 +17,18 @@ export const characters = [
             {'ineffa': 'subDps'},
             {'xingqiu': 'subDps'},
             {'sucrose': 'support'}
+        ],
+        [
+            {'flins': 'mainDps'},
+            {'fischl': 'subDps'},
+            {'aino': 'subDps'},
+            {'sucrose': 'support'}
+        ],
+        [
+            {'flins': 'mainDps'},
+            {'fischl': 'subDps'},
+            {'lauma': 'support},
+            {'sangonomiya-kokomi: 'support'}
         ]
         ],
         talentPriority: ['elementalBurst','elementalSkill','normalAttack'],
