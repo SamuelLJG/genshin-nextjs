@@ -27,7 +27,7 @@ export const characters = [
         [
             {'flins': 'mainDps'},
             {'fischl': 'subDps'},
-            {'lauma': 'support},
+            {'lauma': 'support'},
             {'sangonomiya-kokomi: 'support'}
         ]
         ],
