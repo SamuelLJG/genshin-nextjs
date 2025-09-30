@@ -17,43 +17,26 @@ export const characters = [
             {'ineffa': 'subDps'},
             {'xingqiu': 'subDps'},
             {'sucrose': 'support'}
+        ],
+        [
+            {'flins': 'mainDps'},
+            {'fischl': 'subDps'},
+            {'aino': 'subDps'},
+            {'sucrose': 'support'}
+        ],
+        [
+            {'flins': 'mainDps'},
+            {'fischl': 'subDps'},
+            {'lauma': 'support'},
+            {'sangonomiya-kokomi': 'support'}
         ]
         ],
         talentPriority: ['elementalBurst','elementalSkill','normalAttack'],
         elementType: 'electro',
         mainStatsArtifacts: ['atkPercent','atkPercenty', 'critRateOrDamage'],
         subStatsArtifacts: ['critRateOrDamage', 'atkPercent', 'energyRecharge', 'elementalMastery'],
-        soonCharacter : 'soon',
-        weapon: 'WEAPON_POLE',
-        rarity: '5',
-        rank:'s'
-    },
-    {
-        name: 'lauma',
-        function: 'support',
-        bestWeapon: 'Nightweavers Looking Glass',
-        otherWeapons: ['A Thousand Floating Dreams','Sunny Morning Sleep-In','Starcallers Watch'],
-        bestArtifacts: 'Silken Moons Serenade',
-        otherArtifacts: ['Deepwood Memories', 'Night of the Skys Unveiling'],
-        teams: [[
-            {'alhaitham': 'mainDps'},
-            {'xingqiu': 'subDps'},
-            {'yelan': 'subDps'},
-            {'lauma': 'support'}
-        ],
-        [
-            {'neuvillette': 'mainDps'},
-            {'furina': 'subDps'},
-            {'ineffa': 'support'},
-            {'lauma': 'support'}
-        ]
-        ],
-        talentPriority: ['elementalSkill','elementalBurst'],
-        elementType: 'dendro',
-        mainStatsArtifacts: ['elementalMasteryOrEnergyRecharge','elementalMastery', 'critRateOrElementalMastery'],
-        subStatsArtifacts: ['critRateOrDamage', 'atkPercent', 'energyRecharge', 'elementalMastery'],
         newCharacter : 'new',
-        weapon: 'WEAPON_CATALYST',
+        weapon: 'WEAPON_POLE',
         rarity: '5',
         rank:'s'
     },
@@ -81,7 +64,6 @@ export const characters = [
         elementType: 'hydro',
         mainStatsArtifacts: ['elementalMastery','elementalMastery', 'critRateOrElementalMastery'],
         subStatsArtifacts: ['critRateOrDamage', 'atkPercent', 'energyRecharge', 'elementalMastery'],
-        newCharacter : 'new',
         weapon: 'WEAPON_CLAYMORE',
         rarity: '4',
         rank:'a'
@@ -1545,6 +1527,34 @@ export const characters = [
         weapon: 'WEAPON_CATALYST',
         rarity: '4',
         rank:'b'
+    },
+    {
+        name: 'lauma',
+        function: 'support',
+        bestWeapon: 'Nightweavers Looking Glass',
+        otherWeapons: ['A Thousand Floating Dreams','Sunny Morning Sleep-In','Starcallers Watch'],
+        bestArtifacts: 'Silken Moons Serenade',
+        otherArtifacts: ['Deepwood Memories', 'Night of the Skys Unveiling'],
+        teams: [[
+            {'alhaitham': 'mainDps'},
+            {'xingqiu': 'subDps'},
+            {'yelan': 'subDps'},
+            {'lauma': 'support'}
+        ],
+        [
+            {'neuvillette': 'mainDps'},
+            {'furina': 'subDps'},
+            {'ineffa': 'support'},
+            {'lauma': 'support'}
+        ]
+        ],
+        talentPriority: ['elementalSkill','elementalBurst'],
+        elementType: 'dendro',
+        mainStatsArtifacts: ['elementalMasteryOrEnergyRecharge','elementalMastery', 'critRateOrElementalMastery'],
+        subStatsArtifacts: ['critRateOrDamage', 'atkPercent', 'energyRecharge', 'elementalMastery'],
+        weapon: 'WEAPON_CATALYST',
+        rarity: '5',
+        rank:'s'
     },
     {
         name: 'layla',
