@@ -1,0 +1,654 @@
+{
+  "id": 9101,
+  "name": "Navia",
+  "combat1": {
+    "name": "Desistência Franca",
+    "descriptionRaw": "<color=#FFD780FF>Ataque Normal</color>\nRealiza até 4 golpes consecutivos.\n\n<color=#FFD780FF>Ataque Carregado</color>\nDrena Stamina ao longo do tempo para realizar um ataque giratório contínuo contra todos os inimigos próximos.\nAo final da sequência, realiza um corte poderoso.\n\n<color=#FFD780FF>Ataque Imersivo</color>\nMergulha em pleno ar para golpear o chão, causando dano aos inimigos em seu caminho e infligindo Dano em uma AdE durante o impacto.",
+    "description": "Ataque Normal\nRealiza até 4 golpes consecutivos.\n\nAtaque Carregado\nDrena Stamina ao longo do tempo para realizar um ataque giratório contínuo contra todos os inimigos próximos.\nAo final da sequência, realiza um corte poderoso.\n\nAtaque Imersivo\nMergulha em pleno ar para golpear o chão, causando dano aos inimigos em seu caminho e infligindo Dano em uma AdE durante o impacto.",
+    "attributes": {
+      "labels": [
+        "Dano do 1° Golpe|{param1:F1P}",
+        "Dano do 2° Golpe|{param2:F1P}",
+        "Dano do 3° Golpe|{param3:F1P}×3",
+        "Dano do 4° Golpe|{param4:F1P}",
+        "Dano de Loop de Ataque Carregado|{param5:F1P}",
+        "Dano Final de Ataque Carregado|{param6:P}",
+        "Consumo de Stamina de Ataque Carregado|{param7:F1}/s",
+        "Duração Máxima|{param8:F1}s",
+        "Dano Durante a Queda|{param9:F1P}",
+        "Dano de Queda de Baixa/Alta Altitude|{param10:P}/{param11:P}"
+      ],
+      "parameters": {
+        "param1": [
+          0.93519,
+          1.01131,
+          1.08743,
+          1.196173,
+          1.272293,
+          1.359287,
+          1.478905,
+          1.598522,
+          1.718139,
+          1.848631,
+          1.979123,
+          2.109614,
+          2.240106,
+          2.370597,
+          2.501089
+        ],
+        "param2": [
+          0.865065,
+          0.935478,
+          1.00589,
+          1.106479,
+          1.176891,
+          1.257362,
+          1.36801,
+          1.478658,
+          1.589306,
+          1.710013,
+          1.83072,
+          1.951427,
+          2.072133,
+          2.19284,
+          2.313547
+        ],
+        "param3": [
+          0.348859,
+          0.377255,
+          0.40565,
+          0.446215,
+          0.47461,
+          0.507062,
+          0.551684,
+          0.596306,
+          0.640927,
+          0.689605,
+          0.738283,
+          0.786961,
+          0.835639,
+          0.884317,
+          0.932995
+        ],
+        "param4": [
+          1.334316,
+          1.442923,
+          1.55153,
+          1.706683,
+          1.81529,
+          1.939412,
+          2.110081,
+          2.280749,
+          2.451417,
+          2.637601,
+          2.823785,
+          3.009968,
+          3.196152,
+          3.382335,
+          3.568519
+        ],
+        "param5": [
+          0.62522,
+          0.67611,
+          0.727,
+          0.7997,
+          0.85059,
+          0.90875,
+          0.98872,
+          1.06869,
+          1.14866,
+          1.2359,
+          1.32314,
+          1.41038,
+          1.49762,
+          1.58486,
+          1.6721
+        ],
+        "param6": [
+          1.1309,
+          1.22295,
+          1.315,
+          1.4465,
+          1.53855,
+          1.64375,
+          1.7884,
+          1.93305,
+          2.0777,
+          2.2355,
+          2.3933,
+          2.5511,
+          2.7089,
+          2.8667,
+          3.0245
+        ],
+        "param7": [
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40
+        ],
+        "param8": [
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
+        "param9": [
+          0.745878,
+          0.806589,
+          0.8673,
+          0.95403,
+          1.014741,
+          1.084125,
+          1.179528,
+          1.274931,
+          1.370334,
+          1.47441,
+          1.578486,
+          1.682562,
+          1.786638,
+          1.890714,
+          1.99479
+        ],
+        "param10": [
+          1.49144,
+          1.612836,
+          1.734233,
+          1.907656,
+          2.029052,
+          2.167791,
+          2.358556,
+          2.549322,
+          2.740087,
+          2.948195,
+          3.156303,
+          3.364411,
+          3.572519,
+          3.780627,
+          3.988735
+        ],
+        "param11": [
+          1.862889,
+          2.01452,
+          2.16615,
+          2.382765,
+          2.534396,
+          2.707688,
+          2.945964,
+          3.184241,
+          3.422517,
+          3.682455,
+          3.942393,
+          4.202331,
+          4.462269,
+          4.722207,
+          4.982145
+        ]
+      }
+    }
+  },
+  "combat2": {
+    "name": "Cerimônia Cristalina Flamejante",
+    "descriptionRaw": "Quando um personagem da equipe obtém um Fragmento gerado por uma reação de Cristalização, fornecerá para Navia 1 Fragmento da Rachadura. É possível acumular até 6 Fragmentos da Rachadura. Cada vez que desencadear, redefinirá a duração dos Fragmentos da Rachadura possuídos.\nAo lançar, Navia consumirá todos os Fragmentos da Rachadura e revelará sua refinada arma guarda-chuva, disparando vários Projéteis Cristalinos Rosados que perfuram os inimigos, infligindo <color=#FFE699FF>Dano Geo</color> contra os inimigos que atingir.\nConsumir 0/1/2/3 ou mais Fragmentos da Rachadura disparará 5/7/9/11 Projéteis Cristalinos Rosados respectivamente. Quanto mais Projéteis Cristalinos Rosados atingirem o mesmo inimigo, maior será o Dano causado contra esse inimigo. Se os 11 Projéteis Cristalinos Rosados atingirem, causará 200% do Dano original.\nAlém disso, quando consumir mais que três Fragmentos da Rachadura, para cada Fragmento da Rachadura excedente aumenta o Dano causado desse disparo em 15%.\n\n<color=#FFD780FF>Manter Pressionado</color>\nEntra no Modo de Mira, obtendo continuamente os fragmentos de Cristalização próximos, e quando acabar a duração, Manter Pressionado disparará um Projétil Cristalino Rosado igual ao de pressionar.\n\nInicialmente possui dois usos.\n\n<color=#FFD780FF>Arkhe: Ousia</color>\nPeriodicamente quando Navia disparar sua arma guarda-chuva invocará uma Lâmina da Fluidez que causará <color=#FFE699FF>Dano Geo</color> com Ousia.\n\n<i>\"Manter distância de algumas pessoas que deve se ter distância é parte da etiqueta social. Mas, bem, há outras formas de também se manter essa distância...\"</i>",
+    "description": "Quando um personagem da equipe obtém um Fragmento gerado por uma reação de Cristalização, fornecerá para Navia 1 Fragmento da Rachadura. É possível acumular até 6 Fragmentos da Rachadura. Cada vez que desencadear, redefinirá a duração dos Fragmentos da Rachadura possuídos.\nAo lançar, Navia consumirá todos os Fragmentos da Rachadura e revelará sua refinada arma guarda-chuva, disparando vários Projéteis Cristalinos Rosados que perfuram os inimigos, infligindo Dano Geo contra os inimigos que atingir.\nConsumir 0/1/2/3 ou mais Fragmentos da Rachadura disparará 5/7/9/11 Projéteis Cristalinos Rosados respectivamente. Quanto mais Projéteis Cristalinos Rosados atingirem o mesmo inimigo, maior será o Dano causado contra esse inimigo. Se os 11 Projéteis Cristalinos Rosados atingirem, causará 200% do Dano original.\nAlém disso, quando consumir mais que três Fragmentos da Rachadura, para cada Fragmento da Rachadura excedente aumenta o Dano causado desse disparo em 15%.\n\nManter Pressionado\nEntra no Modo de Mira, obtendo continuamente os fragmentos de Cristalização próximos, e quando acabar a duração, Manter Pressionado disparará um Projétil Cristalino Rosado igual ao de pressionar.\n\nInicialmente possui dois usos.\n\nArkhe: Ousia\nPeriodicamente quando Navia disparar sua arma guarda-chuva invocará uma Lâmina da Fluidez que causará Dano Geo com Ousia.",
+    "flavorText": "\"Manter distância de algumas pessoas que deve se ter distância é parte da etiqueta social. Mas, bem, há outras formas de também se manter essa distância...\"",
+    "attributes": {
+      "labels": [
+        "Dano Básico do Projétil Cristalino Rosado|{param1:F1P}",
+        "Duração do Fragmento da Rachadura|{param3:F1}s",
+        "Dano de Lâmina da Fluidez|{param5:F1P}",
+        "Intervalo de Lâmina da Fluidez|{param6:F1}s",
+        "Tempo de Recarga|{param4:F1}s"
+      ],
+      "parameters": {
+        "param1": [
+          3.948,
+          4.2441,
+          4.5402,
+          4.935,
+          5.2311,
+          5.5272,
+          5.922,
+          6.3168,
+          6.7116,
+          7.1064,
+          7.5012,
+          7.896,
+          8.3895,
+          8.883,
+          9.3765
+        ],
+        "param2": [
+          0.15,
+          0.15,
+          0.15,
+          0.15,
+          0.15,
+          0.15,
+          0.15,
+          0.15,
+          0.15,
+          0.15,
+          0.15,
+          0.15,
+          0.15,
+          0.15,
+          0.15
+        ],
+        "param3": [
+          300,
+          300,
+          300,
+          300,
+          300,
+          300,
+          300,
+          300,
+          300,
+          300,
+          300,
+          300,
+          300,
+          300,
+          300
+        ],
+        "param4": [
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
+        "param5": [
+          0.36,
+          0.387,
+          0.414,
+          0.45,
+          0.477,
+          0.504,
+          0.54,
+          0.576,
+          0.612,
+          0.648,
+          0.684,
+          0.72,
+          0.765,
+          0.81,
+          0.855
+        ],
+        "param6": [
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7
+        ]
+      }
+    }
+  },
+  "combat3": {
+    "name": "Como um Presente do Céu Claro",
+    "descriptionRaw": "Como líder da Spina di Rosula, invoca uma fantástica \"Salva de Canhões Dourados\", ferozmente disparando contra os inimigos em frente, causando <color=#FFE699FF>Dano Geo em AdE</color>, e em seguida continuamente realiza uma Saraivada de Suporte, periodicamente causando <color=#FFE699FF>Dano Geo</color> aos inimigos próximos.\nQuando um tiro atingir um inimigo, concederá 1 Fragmento da Rachadura a Navia. Esse efeito pode ser desencadeado uma vez a 2.4s.\n\n<i>\"Os canhões da Spina di Rosula não servem para ameaçar ninguém, são só disparados antes de uma negociação para celebrá-la com sucesso de antemão.\"</i>",
+    "description": "Como líder da Spina di Rosula, invoca uma fantástica \"Salva de Canhões Dourados\", ferozmente disparando contra os inimigos em frente, causando Dano Geo em AdE, e em seguida continuamente realiza uma Saraivada de Suporte, periodicamente causando Dano Geo aos inimigos próximos.\nQuando um tiro atingir um inimigo, concederá 1 Fragmento da Rachadura a Navia. Esse efeito pode ser desencadeado uma vez a 2.4s.",
+    "flavorText": "\"Os canhões da Spina di Rosula não servem para ameaçar ninguém, são só disparados antes de uma negociação para celebrá-la com sucesso de antemão.\"",
+    "attributes": {
+      "labels": [
+        "Dano de Habilidade|{param1:F1P}",
+        "Dano da Saraivada de Suporte|{param2:F1P}",
+        "Duração da Saraivada de Suporte|{param3:F1}s",
+        "Tempo de Recarga|{param4:F1}s",
+        "Energia Elemental|{param5:I}"
+      ],
+      "parameters": {
+        "param1": [
+          0.752,
+          0.8084,
+          0.8648,
+          0.94,
+          0.9964,
+          1.0528,
+          1.128,
+          1.2032,
+          1.2784,
+          1.3536,
+          1.4288,
+          1.504,
+          1.598,
+          1.692,
+          1.786
+        ],
+        "param2": [
+          0.4315,
+          0.463863,
+          0.496225,
+          0.539375,
+          0.571738,
+          0.6041,
+          0.64725,
+          0.6904,
+          0.73355,
+          0.7767,
+          0.81985,
+          0.863,
+          0.916938,
+          0.970875,
+          1.024813
+        ],
+        "param3": [
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12
+        ],
+        "param4": [
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15
+        ],
+        "param5": [
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60
+        ],
+        "param6": [
+          2.4,
+          2.4,
+          2.4,
+          2.4,
+          2.4,
+          2.4,
+          2.4,
+          2.4,
+          2.4,
+          2.4,
+          2.4,
+          2.4,
+          2.4,
+          2.4,
+          2.4
+        ]
+      }
+    }
+  },
+  "passive1": {
+    "name": "Canal de Corrente Desconhecida",
+    "descriptionRaw": "Nos 4s depois de lançar <color=#FFD780FF>Cerimônia Cristalina Flamejante</color>, o Dano do Ataque Normal, Carregado e Imersivo de Navia será convertido em <color=#FFE699FF>Dano Geo</color> que não pode ser substituído, e aumenta o Dano do Ataque Normal, Carregado e Imersivo de Navia em 40%.",
+    "description": "Nos 4s depois de lançar Cerimônia Cristalina Flamejante, o Dano do Ataque Normal, Carregado e Imersivo de Navia será convertido em Dano Geo que não pode ser substituído, e aumenta o Dano do Ataque Normal, Carregado e Imersivo de Navia em 40%."
+  },
+  "passive2": {
+    "name": "Rede de Ajuda Mútua",
+    "descriptionRaw": "Aumenta o ATQ de Navia em 20% para cada personagem <color=#FF9999FF>Pyro</color>/<color=#FFACFFFF>Electro</color>/<color=#99FFFFFF>Cryo</color>/<color=#80C0FFFF>Hydro</color> na equipe. Esse efeito pode ser acumulado até duas vezes.",
+    "description": "Aumenta o ATQ de Navia em 20% para cada personagem Pyro/Electro/Cryo/Hydro na equipe. Esse efeito pode ser acumulado até duas vezes."
+  },
+  "passive3": {
+    "name": "Transação Detalhada",
+    "descriptionRaw": "Quando enviada para uma expedição de Fontaine por 20 horas, obtém 25% a mais de recompensas.",
+    "description": "Quando enviada para uma expedição de Fontaine por 20 horas, obtém 25% a mais de recompensas."
+  },
+  "costs": {
+    "lvl2": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 12500
+      },
+      {
+        "id": 104338,
+        "name": "Ensinamentos da Igualdade",
+        "count": 3
+      },
+      {
+        "id": 112080,
+        "name": "Pérola Transoceânica",
+        "count": 6
+      }
+    ],
+    "lvl3": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 17500
+      },
+      {
+        "id": 104339,
+        "name": "Guia da Igualdade",
+        "count": 2
+      },
+      {
+        "id": 112081,
+        "name": "Pedaço Transoceânico",
+        "count": 3
+      }
+    ],
+    "lvl4": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 25000
+      },
+      {
+        "id": 104339,
+        "name": "Guia da Igualdade",
+        "count": 4
+      },
+      {
+        "id": 112081,
+        "name": "Pedaço Transoceânico",
+        "count": 4
+      }
+    ],
+    "lvl5": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 30000
+      },
+      {
+        "id": 104339,
+        "name": "Guia da Igualdade",
+        "count": 6
+      },
+      {
+        "id": 112081,
+        "name": "Pedaço Transoceânico",
+        "count": 6
+      }
+    ],
+    "lvl6": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 37500
+      },
+      {
+        "id": 104339,
+        "name": "Guia da Igualdade",
+        "count": 9
+      },
+      {
+        "id": 112081,
+        "name": "Pedaço Transoceânico",
+        "count": 9
+      }
+    ],
+    "lvl7": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 120000
+      },
+      {
+        "id": 104340,
+        "name": "Filosofia da Igualdade",
+        "count": 4
+      },
+      {
+        "id": 112082,
+        "name": "Cristal Caleidoscópico",
+        "count": 4
+      },
+      {
+        "id": 113054,
+        "name": "Fio de Seda Sem Luz",
+        "count": 1
+      }
+    ],
+    "lvl8": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 260000
+      },
+      {
+        "id": 104340,
+        "name": "Filosofia da Igualdade",
+        "count": 6
+      },
+      {
+        "id": 112082,
+        "name": "Cristal Caleidoscópico",
+        "count": 6
+      },
+      {
+        "id": 113054,
+        "name": "Fio de Seda Sem Luz",
+        "count": 1
+      }
+    ],
+    "lvl9": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 450000
+      },
+      {
+        "id": 104340,
+        "name": "Filosofia da Igualdade",
+        "count": 12
+      },
+      {
+        "id": 112082,
+        "name": "Cristal Caleidoscópico",
+        "count": 9
+      },
+      {
+        "id": 113054,
+        "name": "Fio de Seda Sem Luz",
+        "count": 2
+      }
+    ],
+    "lvl10": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 700000
+      },
+      {
+        "id": 104340,
+        "name": "Filosofia da Igualdade",
+        "count": 16
+      },
+      {
+        "id": 112082,
+        "name": "Cristal Caleidoscópico",
+        "count": 12
+      },
+      {
+        "id": 113054,
+        "name": "Fio de Seda Sem Luz",
+        "count": 2
+      },
+      {
+        "id": 104319,
+        "name": "Coroa da Sabedoria",
+        "count": 1
+      }
+    ]
+  },
+  "images": {
+    "filename_combat1": "Skill_A_04",
+    "filename_combat2": "Skill_S_Navia_01",
+    "filename_combat3": "Skill_E_Navia_01_HD",
+    "filename_passive1": "UI_Talent_S_Navia_05",
+    "filename_passive2": "UI_Talent_S_Navia_06",
+    "filename_passive3": "UI_Talent_S_Navia_07"
+  },
+  "version": "4.3"
+}

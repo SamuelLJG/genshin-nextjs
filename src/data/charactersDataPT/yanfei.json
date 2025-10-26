@@ -1,0 +1,203 @@
+{
+  "id": 10000048,
+  "name": "Yanfei",
+  "title": "Inocência Sábia",
+  "description": "Uma Consultora Jurídica animada que vive no Porto de Liyue, é uma garota esperta com sangue da Besta Iluminada.",
+  "weaponType": "WEAPON_CATALYST",
+  "weaponText": "Catalisador",
+  "bodyType": "BODY_GIRL",
+  "gender": "Feminino",
+  "qualityType": "QUALITY_PURPLE",
+  "rarity": 4,
+  "birthdaymmdd": "7/28",
+  "birthday": "28 de julho",
+  "elementType": "ELEMENT_PYRO",
+  "elementText": "Pyro",
+  "affiliation": "Escritório de Advocacia de Yanfei",
+  "associationType": "ASSOC_LIYUE",
+  "region": "Liyue",
+  "substatType": "FIGHT_PROP_FIRE_ADD_HURT",
+  "substatText": "Bônus de Dano Pyro",
+  "constellation": "Bestia Iustitia",
+  "cv": {
+    "english": "Lizzie Freeman",
+    "chinese": "苏子芜",
+    "japanese": "花守ゆみり",
+    "korean": "Jo Kyeong-lee"
+  },
+  "costs": {
+    "ascend1": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 20000
+      },
+      {
+        "id": 104111,
+        "name": "Lasca de Ágata Agnidus",
+        "count": 1
+      },
+      {
+        "id": 100028,
+        "name": "Jade Nocticulosa",
+        "count": 3
+      },
+      {
+        "id": 112035,
+        "name": "Insígnia dos Ladrões de Tesouro",
+        "count": 3
+      }
+    ],
+    "ascend2": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 40000
+      },
+      {
+        "id": 104112,
+        "name": "Fragmento de Ágata Agnidus",
+        "count": 3
+      },
+      {
+        "id": 113016,
+        "name": "Jade Juvenil",
+        "count": 2
+      },
+      {
+        "id": 100028,
+        "name": "Jade Nocticulosa",
+        "count": 10
+      },
+      {
+        "id": 112035,
+        "name": "Insígnia dos Ladrões de Tesouro",
+        "count": 15
+      }
+    ],
+    "ascend3": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 60000
+      },
+      {
+        "id": 104112,
+        "name": "Fragmento de Ágata Agnidus",
+        "count": 6
+      },
+      {
+        "id": 113016,
+        "name": "Jade Juvenil",
+        "count": 4
+      },
+      {
+        "id": 100028,
+        "name": "Jade Nocticulosa",
+        "count": 20
+      },
+      {
+        "id": 112036,
+        "name": "Insígnia do Corvo Prateado",
+        "count": 12
+      }
+    ],
+    "ascend4": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 80000
+      },
+      {
+        "id": 104113,
+        "name": "Pedaço de Ágata Agnidus",
+        "count": 3
+      },
+      {
+        "id": 113016,
+        "name": "Jade Juvenil",
+        "count": 8
+      },
+      {
+        "id": 100028,
+        "name": "Jade Nocticulosa",
+        "count": 30
+      },
+      {
+        "id": 112036,
+        "name": "Insígnia do Corvo Prateado",
+        "count": 18
+      }
+    ],
+    "ascend5": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 100000
+      },
+      {
+        "id": 104113,
+        "name": "Pedaço de Ágata Agnidus",
+        "count": 6
+      },
+      {
+        "id": 113016,
+        "name": "Jade Juvenil",
+        "count": 12
+      },
+      {
+        "id": 100028,
+        "name": "Jade Nocticulosa",
+        "count": 45
+      },
+      {
+        "id": 112037,
+        "name": "Insígnia de Corvo Dourado",
+        "count": 12
+      }
+    ],
+    "ascend6": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 120000
+      },
+      {
+        "id": 104114,
+        "name": "Gema de Ágata Agnidus",
+        "count": 6
+      },
+      {
+        "id": 113016,
+        "name": "Jade Juvenil",
+        "count": 20
+      },
+      {
+        "id": 100028,
+        "name": "Jade Nocticulosa",
+        "count": 60
+      },
+      {
+        "id": 112037,
+        "name": "Insígnia de Corvo Dourado",
+        "count": 24
+      }
+    ]
+  },
+  "images": {
+    "cover1": "https://act-webstatic.hoyoverse.com/upload/contentweb/2022/07/22/494f7aa4668cb7fe2d6d0463e7cc835f_4533806775377872955.png",
+    "cover2": "https://act-webstatic.hoyoverse.com/upload/contentweb/2022/06/29/b59981536d706e05ef5d8074f813933e_1795113348526016806.png",
+    "hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/75c1d48b2fa08bd4c583501a3bb476d3.png",
+    "filename_icon": "UI_AvatarIcon_Feiyan",
+    "filename_iconCard": "UI_AvatarIcon_Feiyan_Card",
+    "filename_sideIcon": "UI_AvatarIcon_Side_Feiyan",
+    "filename_gachaSplash": "UI_Gacha_AvatarImg_Feiyan",
+    "filename_gachaSlice": "UI_Gacha_AvatarIcon_Feiyan",
+    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Feiyan.png",
+    "mihoyo_sideIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_Feiyan.png"
+  },
+  "url": {
+    "fandom": "https://genshin-impact.fandom.com/wiki/Yanfei"
+  },
+  "version": "1.5"
+}

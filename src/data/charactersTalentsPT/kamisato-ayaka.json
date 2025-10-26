@@ -1,0 +1,573 @@
+{
+  "id": 201,
+  "name": "Kamisato Ayaka",
+  "combat1": {
+    "name": "Arte Kamisato: Naname",
+    "descriptionRaw": "<color=#FFD780FF>Ataque Normal</color>\nRealiza até 5 golpes rápidos.\n\n<color=#FFD780FF>Ataque Carregado</color>\nConsome certa quantidade de Stamina para liberar o vento contínuo da espada.\n\n<color=#FFD780FF>Ataque Imersivo</color>\nMergulha do ar para atingir o chão abaixo, causando Dano aos inimigos ao longo do caminho e causando Dano em uma AdE no impacto.",
+    "description": "Ataque Normal\nRealiza até 5 golpes rápidos.\n\nAtaque Carregado\nConsome certa quantidade de Stamina para liberar o vento contínuo da espada.\n\nAtaque Imersivo\nMergulha do ar para atingir o chão abaixo, causando Dano aos inimigos ao longo do caminho e causando Dano em uma AdE no impacto.",
+    "attributes": {
+      "labels": [
+        "Dano do 1° Golpe|{param1:F1P}",
+        "Dano do 2° Golpe|{param2:F1P}",
+        "Dano do 3° Golpe|{param3:F1P}",
+        "Dano do 4° Golpe|{param4:F1P}*3",
+        "Dano do 5° Golpe|{param7:F1P}",
+        "Dano do Ataque Carregado|{param8:F1P}*3",
+        "Consumo de Stamina de Ataque Carregado|{param9:F1}",
+        "Dano Durante a Queda|{param10:P}",
+        "Dano de Queda de Baixa/Alta Altitude|{param11:P}/{param12:P}"
+      ],
+      "parameters": {
+        "param1": [
+          0.457253,
+          0.494472,
+          0.53169,
+          0.584859,
+          0.622077,
+          0.664613,
+          0.723098,
+          0.781584,
+          0.84007,
+          0.903873,
+          0.967676,
+          1.031479,
+          1.095281,
+          1.159084,
+          1.222887
+        ],
+        "param2": [
+          0.486846,
+          0.526473,
+          0.5661,
+          0.62271,
+          0.662337,
+          0.707625,
+          0.769896,
+          0.832167,
+          0.894438,
+          0.96237,
+          1.030302,
+          1.098234,
+          1.166166,
+          1.234098,
+          1.30203
+        ],
+        "param3": [
+          0.626218,
+          0.677189,
+          0.72816,
+          0.800976,
+          0.851947,
+          0.9102,
+          0.990298,
+          1.070395,
+          1.150493,
+          1.237872,
+          1.325251,
+          1.41263,
+          1.50001,
+          1.587389,
+          1.674768
+        ],
+        "param4": [
+          0.226464,
+          0.244897,
+          0.26333,
+          0.289663,
+          0.308096,
+          0.329163,
+          0.358129,
+          0.387095,
+          0.416061,
+          0.447661,
+          0.479261,
+          0.51086,
+          0.54246,
+          0.574059,
+          0.605659
+        ],
+        "param7": [
+          0.781817,
+          0.845454,
+          0.90909,
+          0.999999,
+          1.063635,
+          1.136363,
+          1.236362,
+          1.336362,
+          1.436362,
+          1.545453,
+          1.654544,
+          1.763635,
+          1.872725,
+          1.981816,
+          2.090907
+        ],
+        "param8": [
+          0.55126,
+          0.59613,
+          0.641,
+          0.7051,
+          0.74997,
+          0.80125,
+          0.87176,
+          0.94227,
+          1.01278,
+          1.0897,
+          1.16662,
+          1.24354,
+          1.32046,
+          1.39738,
+          1.4743
+        ],
+        "param9": [
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20
+        ],
+        "param10": [
+          0.639324,
+          0.691362,
+          0.7434,
+          0.81774,
+          0.869778,
+          0.92925,
+          1.011024,
+          1.092798,
+          1.174572,
+          1.26378,
+          1.352988,
+          1.442196,
+          1.531404,
+          1.620612,
+          1.70982
+        ],
+        "param11": [
+          1.278377,
+          1.382431,
+          1.486485,
+          1.635134,
+          1.739187,
+          1.858106,
+          2.02162,
+          2.185133,
+          2.348646,
+          2.527025,
+          2.705403,
+          2.883781,
+          3.062159,
+          3.240537,
+          3.418915
+        ],
+        "param12": [
+          1.596762,
+          1.726731,
+          1.8567,
+          2.04237,
+          2.172339,
+          2.320875,
+          2.525112,
+          2.729349,
+          2.933586,
+          3.15639,
+          3.379194,
+          3.601998,
+          3.824802,
+          4.047606,
+          4.27041
+        ]
+      }
+    }
+  },
+  "combat2": {
+    "name": "Arte Kamisato: Hyouka",
+    "descriptionRaw": "Invoca uma flor gélida que lança os inimigos próximos para o ar, causando <color=#99FFFFFF>Dano Cryo em uma AdE</color>.\n\n<i>\"As nuvens cobrem a noite iluminada pela lua. A saudade cai como uma névoa, enchendo a que está contida com o desejo de vaguear.\"</i>",
+    "description": "Invoca uma flor gélida que lança os inimigos próximos para o ar, causando Dano Cryo em uma AdE.",
+    "flavorText": "\"As nuvens cobrem a noite iluminada pela lua. A saudade cai como uma névoa, enchendo a que está contida com o desejo de vaguear.\"",
+    "attributes": {
+      "labels": [
+        "Dano de Habilidade|{param1:P}",
+        "Tempo de Recarga|{param2:F1}s"
+      ],
+      "parameters": {
+        "param1": [
+          2.392,
+          2.5714,
+          2.7508,
+          2.99,
+          3.1694,
+          3.3488,
+          3.588,
+          3.8272,
+          4.0664,
+          4.3056,
+          4.5448,
+          4.784,
+          5.083,
+          5.382,
+          5.681
+        ],
+        "param2": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ]
+      }
+    }
+  },
+  "combatsp": {
+    "name": "Arte Kamisato: Senho",
+    "descriptionRaw": "<color=#FFD780FF>Corrida Alternada</color>\nAyaka consome Stamina para se esconder dentro de um rápido fluxo de granizo que se move à medida que ela se movimenta.\n\nNa forma Senho, ela se move em alta velocidade na água.\nQuando ela reaparece, os seguintes efeitos são produzidos:\n Libera uma energia fria e aplica <color=#99FFFFFF>Cryo</color> aos oponentes ao redor.\nO frio condensa ao longo da lâmina da Kamisato Ayaka, obtendo por um breve período <color=#99FFFFFF>Encantamento Cryo</color>.\n\n<i>\"Penas pairam molhadas, uma garça branca caminha sobre a água, é uma vista perfeita\".</i>",
+    "description": "Corrida Alternada\nAyaka consome Stamina para se esconder dentro de um rápido fluxo de granizo que se move à medida que ela se movimenta.\n\nNa forma Senho, ela se move em alta velocidade na água.\nQuando ela reaparece, os seguintes efeitos são produzidos:\n Libera uma energia fria e aplica Cryo aos oponentes ao redor.\nO frio condensa ao longo da lâmina da Kamisato Ayaka, obtendo por um breve período Encantamento Cryo.",
+    "flavorText": "\"Penas pairam molhadas, uma garça branca caminha sobre a água, é uma vista perfeita\".",
+    "attributes": {
+      "labels": [
+        "Consumo de Stamina ao Ativar|{param1:F1} pontos",
+        "Consumo de Stamina|{param2:F1} pontos/s",
+        "Duração do Encantamento|{param3:F1}s"
+      ],
+      "parameters": {
+        "param1": [
+          10
+        ],
+        "param2": [
+          15
+        ],
+        "param3": [
+          5
+        ]
+      }
+    }
+  },
+  "combat3": {
+    "name": "Arte Kamisato: Soumetsu",
+    "descriptionRaw": "Ayaka acumula geada com uma pose perfeita, liberando um Granizo Seki no To que avança continuamente para frente.\n\n<color=#FFD780FF>Granizo Seki no To</color>\nCausa <color=#99FFFFFF>Dano Cryo</color> ao cortar continuamente o inimigos que toca com ventos gélidos e afiados como lâminas;\nExplode após sua duração encerrar, causando <color=#99FFFFFF>Dano Cryo em uma AdE</color>.\n\n<i>\"A nevasca cobre os pensamentos da garça, cujo coração está inundado por compaixão\".</i>",
+    "description": "Ayaka acumula geada com uma pose perfeita, liberando um Granizo Seki no To que avança continuamente para frente.\n\nGranizo Seki no To\nCausa Dano Cryo ao cortar continuamente o inimigos que toca com ventos gélidos e afiados como lâminas;\nExplode após sua duração encerrar, causando Dano Cryo em uma AdE.",
+    "flavorText": "\"A nevasca cobre os pensamentos da garça, cujo coração está inundado por compaixão\".",
+    "attributes": {
+      "labels": [
+        "Dano de Corte|{param1:P}",
+        "Dano do Desabrochamento|{param2:P}",
+        "Duração|{param3:F1}s",
+        "Tempo de Recarga|{param4:F1}s",
+        "Energia Elemental|{param5:I}"
+      ],
+      "parameters": {
+        "param1": [
+          1.123,
+          1.207225,
+          1.29145,
+          1.40375,
+          1.487975,
+          1.5722,
+          1.6845,
+          1.7968,
+          1.9091,
+          2.0214,
+          2.1337,
+          2.246,
+          2.386375,
+          2.52675,
+          2.667125
+        ],
+        "param2": [
+          1.6845,
+          1.810837,
+          1.937175,
+          2.105625,
+          2.231962,
+          2.3583,
+          2.52675,
+          2.6952,
+          2.86365,
+          3.0321,
+          3.20055,
+          3.369,
+          3.579562,
+          3.790125,
+          4.000687
+        ],
+        "param3": [
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
+        "param4": [
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20
+        ],
+        "param5": [
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80
+        ]
+      }
+    }
+  },
+  "passive1": {
+    "name": "Amatsutsumi Kunitsutsumi Chinshi",
+    "descriptionRaw": "Depois de usar <color=#FFD780FF>Arte Kamisato: Hyouka</color>, os danos causados pelos Ataques Normais e Carregados da Kamisato Ayaka ganham um aumento de 30% durante 6s.",
+    "description": "Depois de usar Arte Kamisato: Hyouka, os danos causados pelos Ataques Normais e Carregados da Kamisato Ayaka ganham um aumento de 30% durante 6s."
+  },
+  "passive2": {
+    "name": "Bênção de Kanten Senmyou",
+    "descriptionRaw": "Quando a aplicação de Cryo no final da <color=#FFD780FF>Arte Kamisato: Senho</color> acerta um oponente, Kamisato Ayaka ganha os seguintes efeitos:\n·Recupera 10 de Stamina\n·Ganha 18% de <color=#99FFFFFF>Bônus de Dano Cryo</color> por 10s.",
+    "description": "Quando a aplicação de Cryo no final da Arte Kamisato: Senho acerta um oponente, Kamisato Ayaka ganha os seguintes efeitos:\n·Recupera 10 de Stamina\n·Ganha 18% de Bônus de Dano Cryo por 10s."
+  },
+  "passive3": {
+    "name": "Frutos de Shinsa",
+    "descriptionRaw": "Quando Ayaka fabrica Materiais de Ascensão de Armas, ele tem 10% de chance de receber o dobro do produto.",
+    "description": "Quando Ayaka fabrica Materiais de Ascensão de Armas, ele tem 10% de chance de receber o dobro do produto."
+  },
+  "costs": {
+    "lvl2": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 12500
+      },
+      {
+        "id": 104323,
+        "name": "Ensinamentos de Cultura",
+        "count": 3
+      },
+      {
+        "id": 112044,
+        "name": "Protetor de Mão Velho",
+        "count": 6
+      }
+    ],
+    "lvl3": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 17500
+      },
+      {
+        "id": 104324,
+        "name": "Guia da Cultura",
+        "count": 2
+      },
+      {
+        "id": 112045,
+        "name": "Protetor de Mão Kageuchi",
+        "count": 3
+      }
+    ],
+    "lvl4": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 25000
+      },
+      {
+        "id": 104324,
+        "name": "Guia da Cultura",
+        "count": 4
+      },
+      {
+        "id": 112045,
+        "name": "Protetor de Mão Kageuchi",
+        "count": 4
+      }
+    ],
+    "lvl5": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 30000
+      },
+      {
+        "id": 104324,
+        "name": "Guia da Cultura",
+        "count": 6
+      },
+      {
+        "id": 112045,
+        "name": "Protetor de Mão Kageuchi",
+        "count": 6
+      }
+    ],
+    "lvl6": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 37500
+      },
+      {
+        "id": 104324,
+        "name": "Guia da Cultura",
+        "count": 9
+      },
+      {
+        "id": 112045,
+        "name": "Protetor de Mão Kageuchi",
+        "count": 9
+      }
+    ],
+    "lvl7": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 120000
+      },
+      {
+        "id": 104325,
+        "name": "Filosofia da Cultura",
+        "count": 4
+      },
+      {
+        "id": 112046,
+        "name": "Protetor de Mão Famoso",
+        "count": 4
+      },
+      {
+        "id": 113018,
+        "name": "Galho de Jade de Sangue",
+        "count": 1
+      }
+    ],
+    "lvl8": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 260000
+      },
+      {
+        "id": 104325,
+        "name": "Filosofia da Cultura",
+        "count": 6
+      },
+      {
+        "id": 112046,
+        "name": "Protetor de Mão Famoso",
+        "count": 6
+      },
+      {
+        "id": 113018,
+        "name": "Galho de Jade de Sangue",
+        "count": 1
+      }
+    ],
+    "lvl9": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 450000
+      },
+      {
+        "id": 104325,
+        "name": "Filosofia da Cultura",
+        "count": 12
+      },
+      {
+        "id": 112046,
+        "name": "Protetor de Mão Famoso",
+        "count": 9
+      },
+      {
+        "id": 113018,
+        "name": "Galho de Jade de Sangue",
+        "count": 2
+      }
+    ],
+    "lvl10": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 700000
+      },
+      {
+        "id": 104325,
+        "name": "Filosofia da Cultura",
+        "count": 16
+      },
+      {
+        "id": 112046,
+        "name": "Protetor de Mão Famoso",
+        "count": 12
+      },
+      {
+        "id": 113018,
+        "name": "Galho de Jade de Sangue",
+        "count": 2
+      },
+      {
+        "id": 104319,
+        "name": "Coroa da Sabedoria",
+        "count": 1
+      }
+    ]
+  },
+  "images": {
+    "filename_combat1": "Skill_A_01",
+    "filename_combat2": "Skill_S_Ayaka_01",
+    "filename_combatsp": "Skill_S_Ayaka_02",
+    "filename_combat3": "Skill_E_Ayaka_HD",
+    "filename_passive1": "UI_Talent_S_Ayaka_05",
+    "filename_passive2": "UI_Talent_S_Ayaka_06",
+    "filename_passive3": "UI_Talent_Combine_Weapon_Double"
+  },
+  "version": "2.0"
+}

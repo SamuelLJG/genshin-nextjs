@@ -1,0 +1,845 @@
+{
+  "id": 11401,
+  "name": "Skirk",
+  "combat1": {
+    "name": "Devastação: Destruição",
+    "descriptionRaw": "<color=#FFD780FF>Ataque Normal</color>\nRealiza até 5 golpes com a espada.\n\n<color=#FFD780FF>Ataque Carregado</color>\nConsome uma certa quantidade de Stamina para brandir uma lâmina cristalina, infligindo Dano em seu trajeto contra os inimigos.\n\n<color=#FFD780FF>Ataque Imersivo</color>\nMergulha em pleno ar para golpear o chão, causando dano aos inimigos ao longo do caminho e infligindo Dano em uma AdE durante o impacto.",
+    "description": "Ataque Normal\nRealiza até 5 golpes com a espada.\n\nAtaque Carregado\nConsome uma certa quantidade de Stamina para brandir uma lâmina cristalina, infligindo Dano em seu trajeto contra os inimigos.\n\nAtaque Imersivo\nMergulha em pleno ar para golpear o chão, causando dano aos inimigos ao longo do caminho e infligindo Dano em uma AdE durante o impacto.",
+    "attributes": {
+      "labels": [
+        "Dano do 1° Golpe|{param1:F1P}",
+        "Dano do 2° Golpe|{param2:F1P}",
+        "Dano do 3° Golpe|{param3:F1P}+{param4:F1P}",
+        "Dano do 4° Golpe|{param5:F1P}",
+        "Dano do 5° Golpe|{param6:F1P}",
+        "Dano de Ataque Carregado|{param7:F1P}*2",
+        "Consumo de Stamina de Ataque Carregado|{param8:F1}",
+        "Dano Durante a Queda|{param9:F1P}",
+        "Dano de Queda de Baixa/Alta Altitude|{param10:P}/{param11:P}"
+      ],
+      "parameters": {
+        "param1": [
+          0.54524,
+          0.58962,
+          0.634,
+          0.6974,
+          0.74178,
+          0.7925,
+          0.86224,
+          0.93198,
+          1.00172,
+          1.0778,
+          1.15388,
+          1.22996,
+          1.30604,
+          1.38212,
+          1.4582
+        ],
+        "param2": [
+          0.49794,
+          0.53847,
+          0.579,
+          0.6369,
+          0.67743,
+          0.72375,
+          0.78744,
+          0.85113,
+          0.91482,
+          0.9843,
+          1.05378,
+          1.12326,
+          1.19274,
+          1.26222,
+          1.3317
+        ],
+        "param3": [
+          0.32422,
+          0.35061,
+          0.377,
+          0.4147,
+          0.44109,
+          0.47125,
+          0.51272,
+          0.55419,
+          0.59566,
+          0.6409,
+          0.68614,
+          0.73138,
+          0.77662,
+          0.82186,
+          0.8671
+        ],
+        "param4": [
+          0.32422,
+          0.35061,
+          0.377,
+          0.4147,
+          0.44109,
+          0.47125,
+          0.51272,
+          0.55419,
+          0.59566,
+          0.6409,
+          0.68614,
+          0.73138,
+          0.77662,
+          0.82186,
+          0.8671
+        ],
+        "param5": [
+          0.60802,
+          0.65751,
+          0.707,
+          0.7777,
+          0.82719,
+          0.88375,
+          0.96152,
+          1.03929,
+          1.11706,
+          1.2019,
+          1.28674,
+          1.37158,
+          1.45642,
+          1.54126,
+          1.6261
+        ],
+        "param6": [
+          0.82904,
+          0.89652,
+          0.964,
+          1.0604,
+          1.12788,
+          1.205,
+          1.31104,
+          1.41708,
+          1.52312,
+          1.6388,
+          1.75448,
+          1.87016,
+          1.98584,
+          2.10152,
+          2.2172
+        ],
+        "param7": [
+          0.66822,
+          0.72261,
+          0.777,
+          0.8547,
+          0.90909,
+          0.97125,
+          1.05672,
+          1.14219,
+          1.22766,
+          1.3209,
+          1.41414,
+          1.50738,
+          1.60062,
+          1.69386,
+          1.7871
+        ],
+        "param8": [
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20
+        ],
+        "param9": [
+          0.639324,
+          0.691362,
+          0.7434,
+          0.81774,
+          0.869778,
+          0.92925,
+          1.011024,
+          1.092798,
+          1.174572,
+          1.26378,
+          1.352988,
+          1.442196,
+          1.531404,
+          1.620612,
+          1.70982
+        ],
+        "param10": [
+          1.278377,
+          1.382431,
+          1.486485,
+          1.635134,
+          1.739187,
+          1.858106,
+          2.02162,
+          2.185133,
+          2.348646,
+          2.527025,
+          2.705403,
+          2.883781,
+          3.062159,
+          3.240537,
+          3.418915
+        ],
+        "param11": [
+          1.596762,
+          1.726731,
+          1.8567,
+          2.04237,
+          2.172339,
+          2.320875,
+          2.525112,
+          2.729349,
+          2.933586,
+          3.15639,
+          3.379194,
+          3.601998,
+          3.824802,
+          4.047606,
+          4.27041
+        ]
+      }
+    }
+  },
+  "combat2": {
+    "name": "Devastação: Lampejo",
+    "descriptionRaw": "Imita o estilo de combate do \"Cavaleiro Abominável\". Produz efeitos diferentes dependendo se você Pressionar ou Manter pressionado.\n\n<color=#FFD780FF>Pressionar</color>\nSkirk obtém 45 {LINK#N11130005}<color=#FFD780FF>Sutileza da Serpente</color>{/LINK} e alterna para o modo {LINK#N11130006}<color=#FFD780FF>Lampejo de Sete Fases</color>{/LINK}.\n\n<color=#FFD780FF>Manter pressionado</color>\nSkirk obtém 45 Sutileza da Serpente e se moverá continuamente em alta velocidade. Sua Resistência contra Interrupção é aumentada nesse estado.\nDurante esse período, Skirk pode controlar a direção do movimento, e pode se mover sobre a água. Ela também pode usar novamente essa Habilidade para encerrar o movimento rápido antes do tempo.",
+    "description": "Imita o estilo de combate do \"Cavaleiro Abominável\". Produz efeitos diferentes dependendo se você Pressionar ou Manter pressionado.\n\nPressionar\nSkirk obtém 45 **Sutileza da Serpente** e alterna para o modo **Lampejo de Sete Fases**.\n\nManter pressionado\nSkirk obtém 45 Sutileza da Serpente e se moverá continuamente em alta velocidade. Sua Resistência contra Interrupção é aumentada nesse estado.\nDurante esse período, Skirk pode controlar a direção do movimento, e pode se mover sobre a água. Ela também pode usar novamente essa Habilidade para encerrar o movimento rápido antes do tempo.",
+    "attributes": {
+      "labels": [
+        "Dano do 1° Golpe|{param1:F1P}",
+        "Dano do 2° Golpe|{param2:F1P}",
+        "Dano do 3° Golpe|{param3:F1P}+{param4:F1P}",
+        "Dano do 4° Golpe|{param5:F1P}+{param6:F1P}",
+        "Dano do 5° Golpe|{param7:F1P}",
+        "Dano do Ataque Carregado|{param8:F1P}*3",
+        "Consumo de Stamina de Ataque Carregado|{param9:F1}",
+        "Dano Durante a Queda|{param10:F1P}",
+        "Dano de Queda de Baixa/Alta Altitude|{param11:P}/{param12:P}",
+        "Duração do modo Lampejo de Sete Fases|{param13:F1}s",
+        "Máximo de Sutileza da Serpente|{param14:F1}",
+        "Tempo de Recarga|{param15:F1}s"
+      ],
+      "parameters": {
+        "param1": [
+          1.328244,
+          1.436357,
+          1.54447,
+          1.698917,
+          1.80703,
+          1.930588,
+          2.100479,
+          2.270371,
+          2.440263,
+          2.625599,
+          2.810935,
+          2.996272,
+          3.181608,
+          3.366945,
+          3.552281
+        ],
+        "param2": [
+          1.197997,
+          1.295509,
+          1.39302,
+          1.532322,
+          1.629833,
+          1.741275,
+          1.894507,
+          2.047739,
+          2.200972,
+          2.368134,
+          2.535296,
+          2.702459,
+          2.869621,
+          3.036784,
+          3.203946
+        ],
+        "param3": [
+          0.75723,
+          0.818865,
+          0.8805,
+          0.96855,
+          1.030185,
+          1.100625,
+          1.19748,
+          1.294335,
+          1.39119,
+          1.49685,
+          1.60251,
+          1.70817,
+          1.81383,
+          1.91949,
+          2.02515
+        ],
+        "param4": [
+          0.75723,
+          0.818865,
+          0.8805,
+          0.96855,
+          1.030185,
+          1.100625,
+          1.19748,
+          1.294335,
+          1.39119,
+          1.49685,
+          1.60251,
+          1.70817,
+          1.81383,
+          1.91949,
+          2.02515
+        ],
+        "param5": [
+          0.80539,
+          0.870945,
+          0.9365,
+          1.03015,
+          1.095705,
+          1.170625,
+          1.27364,
+          1.376655,
+          1.47967,
+          1.59205,
+          1.70443,
+          1.81681,
+          1.92919,
+          2.04157,
+          2.15395
+        ],
+        "param6": [
+          0.80539,
+          0.870945,
+          0.9365,
+          1.03015,
+          1.095705,
+          1.170625,
+          1.27364,
+          1.376655,
+          1.47967,
+          1.59205,
+          1.70443,
+          1.81681,
+          1.92919,
+          2.04157,
+          2.15395
+        ],
+        "param7": [
+          1.966244,
+          2.126287,
+          2.28633,
+          2.514963,
+          2.675006,
+          2.857912,
+          3.109409,
+          3.360905,
+          3.612401,
+          3.886761,
+          4.161121,
+          4.43548,
+          4.70984,
+          4.984199,
+          5.258559
+        ],
+        "param8": [
+          0.44548,
+          0.48174,
+          0.518,
+          0.5698,
+          0.60606,
+          0.6475,
+          0.70448,
+          0.76146,
+          0.81844,
+          0.8806,
+          0.94276,
+          1.00492,
+          1.06708,
+          1.12924,
+          1.1914
+        ],
+        "param9": [
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20
+        ],
+        "param10": [
+          0.639324,
+          0.691362,
+          0.7434,
+          0.81774,
+          0.869778,
+          0.92925,
+          1.011024,
+          1.092798,
+          1.174572,
+          1.26378,
+          1.352988,
+          1.442196,
+          1.531404,
+          1.620612,
+          1.70982
+        ],
+        "param11": [
+          1.278377,
+          1.382431,
+          1.486485,
+          1.635134,
+          1.739187,
+          1.858106,
+          2.02162,
+          2.185133,
+          2.348646,
+          2.527025,
+          2.705403,
+          2.883781,
+          3.062159,
+          3.240537,
+          3.418915
+        ],
+        "param12": [
+          1.596762,
+          1.726731,
+          1.8567,
+          2.04237,
+          2.172339,
+          2.320875,
+          2.525112,
+          2.729349,
+          2.933586,
+          3.15639,
+          3.379194,
+          3.601998,
+          3.824802,
+          4.047606,
+          4.27041
+        ],
+        "param13": [
+          12.5,
+          12.5,
+          12.5,
+          12.5,
+          12.5,
+          12.5,
+          12.5,
+          12.5,
+          12.5,
+          12.5,
+          12.5,
+          12.5,
+          12.5,
+          12.5,
+          12.5
+        ],
+        "param14": [
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100,
+          100
+        ],
+        "param15": [
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ]
+      }
+    }
+  },
+  "combat3": {
+    "name": "Arte Apodrecida: Obliteração",
+    "descriptionRaw": "O Supremo de Skirk não depende de Energia Elemental, mas sim de {LINK#N11130005}<color=#FFD780FF>Sutileza da Serpente</color>{/LINK}.\nQuando Skirk tiver pelo menos 50 de {LINK#N11130005}<color=#FFD780FF>Sutileza da Serpente</color>{/LINK}, ela poderá consumir toda a sua {LINK#N11130005}<color=#FFD780FF>Sutileza da Serpente</color>{/LINK} para liberar seu Supremo, rasgando o espaço à sua frente e realizando cortes rápidos consecutivos que causam <color=#99FFFFFF>Dano Cryo em uma AdE</color>. Ao mesmo tempo, o Dano causado por cada golpe desse Supremo poderá ser aumentado por cada ponto de {LINK#N11130005}<color=#FFD780FF>Sutileza da Serpente</color>{/LINK} acima de 50 no momento da ativação. Um máximo de 12 pontos poderá ser considerado para esse aumento.\n\nQuando Skirk estiver no modo {LINK#N11130006}<color=#FFD780FF>Lampejo de Sete Fases</color>{/LINK}, o Supremo \"Arte Apodrecida: Obliteração\" será substituído por \"Devastação: Obliteração\".\n\n<color=#FFD780FF>Devastação: Obliteração</color>\nUm Supremo especial que pode ser usado mesmo sem consumir Sutileza da Serpente.\nApós usá-lo, Skirk obterá o efeito \"Tudo Há de Murchar\", que durará até o término do Lampejo de Sete Fases. Após desbloquear o Talento Passivo {LINK#N11130007}<color=#FFD780FF>Razão Além da Razão</color>{/LINK}, ela também poderá absorver Fendas do Vazio próximas.\nEnquanto \"Tudo Há de Murchar\" estiver ativo, a cada 0.1s, após o Ataque Normal de Skirk acertar um inimigo, esse Ataque Normal causará Dano aumentado. Se ela tiver absorvido alguma Fenda do Vazio ao usar o <color=#FFD780FF>Devastação: Obliteração</color>, o Dano desse Ataque Normal será ainda mais aumentado com base no número de Fendas absorvidas.\nEsse efeito será cancelado após ser acionado 10 vezes.",
+    "description": "O Supremo de Skirk não depende de Energia Elemental, mas sim de **Sutileza da Serpente**.\nQuando Skirk tiver pelo menos 50 de **Sutileza da Serpente**, ela poderá consumir toda a sua **Sutileza da Serpente** para liberar seu Supremo, rasgando o espaço à sua frente e realizando cortes rápidos consecutivos que causam Dano Cryo em uma AdE. Ao mesmo tempo, o Dano causado por cada golpe desse Supremo poderá ser aumentado por cada ponto de **Sutileza da Serpente** acima de 50 no momento da ativação. Um máximo de 12 pontos poderá ser considerado para esse aumento.\n\nQuando Skirk estiver no modo **Lampejo de Sete Fases**, o Supremo \"Arte Apodrecida: Obliteração\" será substituído por \"Devastação: Obliteração\".\n\nDevastação: Obliteração\nUm Supremo especial que pode ser usado mesmo sem consumir Sutileza da Serpente.\nApós usá-lo, Skirk obterá o efeito \"Tudo Há de Murchar\", que durará até o término do Lampejo de Sete Fases. Após desbloquear o Talento Passivo **Razão Além da Razão**, ela também poderá absorver Fendas do Vazio próximas.\nEnquanto \"Tudo Há de Murchar\" estiver ativo, a cada 0.1s, após o Ataque Normal de Skirk acertar um inimigo, esse Ataque Normal causará Dano aumentado. Se ela tiver absorvido alguma Fenda do Vazio ao usar o Devastação: Obliteração, o Dano desse Ataque Normal será ainda mais aumentado com base no número de Fendas absorvidas.\nEsse efeito será cancelado após ser acionado 10 vezes.",
+    "attributes": {
+      "labels": [
+        "Dano do Corte|{param1:F1P} ×5",
+        "Dano do Corte Final|{param2:F1P}",
+        "Bônus da Sutileza da Serpente|{param3:F2P} de ATQ por ponto",
+        "Bônus de Dano por absorver 0/1/2/3 Fenda(s) do Vazio|{param4:F1P}/{param5:F1P}/{param6:F1P}/{param7:F1P}",
+        "Tempo de Recarga|{param8:F1}s"
+      ],
+      "parameters": {
+        "param1": [
+          1.2276,
+          1.31967,
+          1.41174,
+          1.5345,
+          1.62657,
+          1.71864,
+          1.8414,
+          1.96416,
+          2.08692,
+          2.20968,
+          2.33244,
+          2.4552,
+          2.60865,
+          2.7621,
+          2.91555
+        ],
+        "param2": [
+          2.046,
+          2.19945,
+          2.3529,
+          2.5575,
+          2.71095,
+          2.8644,
+          3.069,
+          3.2736,
+          3.4782,
+          3.6828,
+          3.8874,
+          4.092,
+          4.34775,
+          4.6035,
+          4.85925
+        ],
+        "param3": [
+          0.193233,
+          0.207726,
+          0.222218,
+          0.241542,
+          0.256034,
+          0.270527,
+          0.28985,
+          0.309173,
+          0.328497,
+          0.34782,
+          0.367143,
+          0.386467,
+          0.410621,
+          0.434775,
+          0.458929
+        ],
+        "param4": [
+          0.035,
+          0.04,
+          0.045,
+          0.05,
+          0.055,
+          0.06,
+          0.065,
+          0.07,
+          0.075,
+          0.08,
+          0.085,
+          0.09,
+          0.095,
+          0.1,
+          0.105
+        ],
+        "param5": [
+          0.066,
+          0.072,
+          0.078,
+          0.084,
+          0.09,
+          0.096,
+          0.102,
+          0.108,
+          0.114,
+          0.12,
+          0.126,
+          0.132,
+          0.138,
+          0.144,
+          0.15
+        ],
+        "param6": [
+          0.088,
+          0.096,
+          0.104,
+          0.112,
+          0.12,
+          0.128,
+          0.136,
+          0.144,
+          0.152,
+          0.16,
+          0.168,
+          0.176,
+          0.184,
+          0.192,
+          0.2
+        ],
+        "param7": [
+          0.11,
+          0.12,
+          0.13,
+          0.14,
+          0.15,
+          0.16,
+          0.17,
+          0.18,
+          0.19,
+          0.2,
+          0.21,
+          0.22,
+          0.23,
+          0.24,
+          0.25
+        ],
+        "param8": [
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15
+        ]
+      }
+    }
+  },
+  "passive1": {
+    "name": "Razão Além da Razão",
+    "descriptionRaw": "Quando membros próximos da equipe desencadearem reações de Congelado, Supercondutor, Redemoinho Cryo ou Cristalização Cryo contra inimigos, uma Fenda do Vazio será criada próxima a esse inimigo. Esse efeito pode ser desencadeado uma vez a cada 2.5s. Um máximo de 3 Fendas do Vazio criadas pela própria Skirk pode existir simultaneamente em campo.\n\nSkirk pode usar os seguintes métodos para absorver Fendas do Vazio próximas:\n· Ao acertar um inimigo com um Ataque Carregado no {LINK#N11130006}<color=#FFD780FF>modo Lampejo de Sete Fases</color>{/LINK}.\n· Ao usar o Supremo especial <color=#FFD780FF>Devastação: Obliteração</color> enquanto estiver no modo Lampejo de Sete Fases.\n· Ao Manter pressionada sua Habilidade Elemental <color=#FFD780FF>Devastação: Lampejo</color> para realizar se mover rapidamente.\n\nCada Fenda absorvida concederá a ela 8 pontos de Sutileza da Serpente.",
+    "description": "Quando membros próximos da equipe desencadearem reações de Congelado, Supercondutor, Redemoinho Cryo ou Cristalização Cryo contra inimigos, uma Fenda do Vazio será criada próxima a esse inimigo. Esse efeito pode ser desencadeado uma vez a cada 2.5s. Um máximo de 3 Fendas do Vazio criadas pela própria Skirk pode existir simultaneamente em campo.\n\nSkirk pode usar os seguintes métodos para absorver Fendas do Vazio próximas:\n· Ao acertar um inimigo com um Ataque Carregado no **modo Lampejo de Sete Fases**.\n· Ao usar o Supremo especial Devastação: Obliteração enquanto estiver no modo Lampejo de Sete Fases.\n· Ao Manter pressionada sua Habilidade Elemental Devastação: Lampejo para realizar se mover rapidamente.\n\nCada Fenda absorvida concederá a ela 8 pontos de Sutileza da Serpente."
+  },
+  "passive2": {
+    "name": "Retorno à Desolação",
+    "descriptionRaw": "Quando membros próximos da equipe de Tipo Elemental <color=#80C0FFFF>Hydro</color> atingirem um inimigo com um ataque <color=#80C0FFFF>Hydro</color>, ou quando os outros personagens próximos da equipe de Tipo Elemental <color=#99FFFFFF>Cryo</color>, exceto a própria Skirk, atingirem um inimigo com um ataque <color=#99FFFFFF>Cryo</color>, Skirk receberá o efeito \"Encruzilhada da Morte\" por 20s. Máximo de 3 acúmulos, com a duração de cada acúmulo contada independentemente.\nCada personagem pode conceder no máximo 1 acúmulo de \"Encruzilhada da Morte\" para Skirk dessa maneira.\nCada acúmulo de \"Encruzilhada da Morte\" aumenta o Dano do Ataque Normal causado por Skirk no modo {LINK#N11130006}<color=#FFD780FF>Lampejo de Sete Fases</color>{/LINK} em 110%/120%/170% de seu Dano original e também aumenta o Dano causado por seu Supremo <color=#FFD780FF>Arte Apodrecida: Obliteração</color> em 105%/115%/160% de seu Dano original.",
+    "description": "Quando membros próximos da equipe de Tipo Elemental Hydro atingirem um inimigo com um ataque Hydro, ou quando os outros personagens próximos da equipe de Tipo Elemental Cryo, exceto a própria Skirk, atingirem um inimigo com um ataque Cryo, Skirk receberá o efeito \"Encruzilhada da Morte\" por 20s. Máximo de 3 acúmulos, com a duração de cada acúmulo contada independentemente.\nCada personagem pode conceder no máximo 1 acúmulo de \"Encruzilhada da Morte\" para Skirk dessa maneira.\nCada acúmulo de \"Encruzilhada da Morte\" aumenta o Dano do Ataque Normal causado por Skirk no modo **Lampejo de Sete Fases** em 110%/120%/170% de seu Dano original e também aumenta o Dano causado por seu Supremo Arte Apodrecida: Obliteração em 105%/115%/160% de seu Dano original."
+  },
+  "passive3": {
+    "name": "Mentoria Mútua de Armamentos",
+    "descriptionRaw": "Quando todos os membros da equipe forem de Tipo Elemental <color=#80C0FFFF>Hydro</color> ou <color=#99FFFFFF>Cryo</color>, e houver pelo menos 1 personagem Hydro e 1 personagem Cryo, o Nível da <color=#FFD780FF>Habilidade Elemental</color> dos membros da equipe será aumentado em 1.",
+    "description": "Quando todos os membros da equipe forem de Tipo Elemental Hydro ou Cryo, e houver pelo menos 1 personagem Hydro e 1 personagem Cryo, o Nível da Habilidade Elemental dos membros da equipe será aumentado em 1."
+  },
+  "costs": {
+    "lvl2": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 12500
+      },
+      {
+        "id": 104347,
+        "name": "Ensinamentos da Disputa",
+        "count": 3
+      },
+      {
+        "id": 112083,
+        "name": "Engrenagem Transmissora",
+        "count": 6
+      }
+    ],
+    "lvl3": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 17500
+      },
+      {
+        "id": 104348,
+        "name": "Guia da Disputa",
+        "count": 2
+      },
+      {
+        "id": 112084,
+        "name": "Engrenagem Reta",
+        "count": 3
+      }
+    ],
+    "lvl4": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 25000
+      },
+      {
+        "id": 104348,
+        "name": "Guia da Disputa",
+        "count": 4
+      },
+      {
+        "id": 112084,
+        "name": "Engrenagem Reta",
+        "count": 4
+      }
+    ],
+    "lvl5": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 30000
+      },
+      {
+        "id": 104348,
+        "name": "Guia da Disputa",
+        "count": 6
+      },
+      {
+        "id": 112084,
+        "name": "Engrenagem Reta",
+        "count": 6
+      }
+    ],
+    "lvl6": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 37500
+      },
+      {
+        "id": 104348,
+        "name": "Guia da Disputa",
+        "count": 9
+      },
+      {
+        "id": 112084,
+        "name": "Engrenagem Reta",
+        "count": 9
+      }
+    ],
+    "lvl7": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 120000
+      },
+      {
+        "id": 104349,
+        "name": "Filosofia da Disputa",
+        "count": 4
+      },
+      {
+        "id": 112085,
+        "name": "Engrenagem Dinâmica",
+        "count": 4
+      },
+      {
+        "id": 113073,
+        "name": "Amostra Ascendida: Cavalo",
+        "count": 1
+      }
+    ],
+    "lvl8": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 260000
+      },
+      {
+        "id": 104349,
+        "name": "Filosofia da Disputa",
+        "count": 6
+      },
+      {
+        "id": 112085,
+        "name": "Engrenagem Dinâmica",
+        "count": 6
+      },
+      {
+        "id": 113073,
+        "name": "Amostra Ascendida: Cavalo",
+        "count": 1
+      }
+    ],
+    "lvl9": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 450000
+      },
+      {
+        "id": 104349,
+        "name": "Filosofia da Disputa",
+        "count": 12
+      },
+      {
+        "id": 112085,
+        "name": "Engrenagem Dinâmica",
+        "count": 9
+      },
+      {
+        "id": 113073,
+        "name": "Amostra Ascendida: Cavalo",
+        "count": 2
+      }
+    ],
+    "lvl10": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 700000
+      },
+      {
+        "id": 104349,
+        "name": "Filosofia da Disputa",
+        "count": 16
+      },
+      {
+        "id": 112085,
+        "name": "Engrenagem Dinâmica",
+        "count": 12
+      },
+      {
+        "id": 113073,
+        "name": "Amostra Ascendida: Cavalo",
+        "count": 2
+      },
+      {
+        "id": 104319,
+        "name": "Coroa da Sabedoria",
+        "count": 1
+      }
+    ]
+  },
+  "images": {
+    "filename_combat1": "Skill_A_01",
+    "filename_combat2": "Skill_S_SkirkNew_01",
+    "filename_combat3": "Skill_E_SkirkNew_01_HD",
+    "filename_passive1": "UI_Talent_S_SkirkNew_05",
+    "filename_passive2": "UI_Talent_S_SkirkNew_06",
+    "filename_passive3": "UI_Talent_S_SkirkNew_08"
+  },
+  "version": "5.7"
+}

@@ -1,0 +1,58 @@
+{
+  "id": 15042,
+  "rarityList": [
+    4,
+    5
+  ],
+  "name": "Silken Moon's Serenade",
+  "newWeapon": "new",
+  "effect2Pc": "Energy Recharge +20%.",
+  "effect4Pc": "When dealing Elemental DMG, gain the Gleaming Moon: Devotion effect for 8s: Increases all party members' Elemental Mastery by 60/120 when the party's Moonsign is Nascent Gleam/Ascendant Gleam. The equipping character can trigger this effect while off-field. All party members' Lunar Reaction DMG is increased by 10% for each different Gleaming Moon effect that party members have. Effects from Gleaming Moon cannot stack.",
+  "flower": {
+    "name": "Crystal Tear of the Wanderer",
+    "relicType": "EQUIP_BRACER",
+    "relicText": "Flower of Life",
+    "description": "An immaculate flower whose beauty is said to have been preserved for eternity by the icy wind.",
+    "story": "That was a time when frost's gentle light had long shattered like a silver mirror, but when the new moon had yet to rise.\nThe gods' ancient blessing, like a lone spark on the vast tundra, eventually flickered out.\nAs the heavenly moon passed from the sky, the earth that could not become the moon began to wither.\n\nThis crystalline bloom was said to be born from the frozen tears of the last moon priestesses,\na physical manifestation of their unwavering devotion even as the lunar light faded from the world.\nEach facet reflects a different aspect of the moon's lost glory, preserving memories of brighter nights."
+  },
+  "plume": {
+    "name": "Pristine Plume of the Blessed",
+    "relicType": "EQUIP_NECKLACE",
+    "relicText": "Plume of Death",
+    "description": "An immaculate feathered accessory said to have been forged by the first Moonchanter herself.",
+    "story": "The great deeds miracle workers did in years past had faded into vaporous prayers, and those prayers were now the silent worries of the masses.\nIn those crumbling, moonless nights, even a holy woman of the purest blood,\nWas hard-pressed to weave the flowing light into a song that could move the world, as her ancestors once did.\n\nThis feather represents the last vestiges of celestial connection, a reminder that even in darkness,\nthe memory of flight and freedom persists, waiting for the new moon's rise."
+  },
+  "sands": {
+    "name": "Frost Devotee's Delirium",
+    "relicType": "EQUIP_SHOES",
+    "relicText": "Sands of Eon",
+    "description": "An immaculate timepiece that long ago ceased turning, along with the delusions of its former owner.",
+    "story": "No matter how fervently the ancestors of the far north once vowed to follow their departed gods,\nTheir descendants, mortals in this sublunary sphere, lived lives as fleeting as a flickering flame.\nIn days long gone, when one could still behold holy women and Archpriestesses channeling the grace of the gods,\nPeople yet believed the new moon would one day arise from the shattered light.\n\nThis timepiece measures the longing between moons, each grain of sand a prayer for the lunar return."
+  },
+  "goblet": {
+    "name": "Joyous Glory of the Pure",
+    "relicType": "EQUIP_RING",
+    "relicText": "Goblet of Eonothem",
+    "description": "An immaculate silver cup said to have been used in the bygone rituals of the Frostmoon Scions. Their modern rites have no need for such a vessel."
+  },
+  "circlet": {
+    "name": "Holy Crown of the Believer",
+    "relicType": "EQUIP_DRESS",
+    "relicText": "Circlet of Logos",
+    "description": "An immaculate adornment created in imitation of the envoy of the grove's antlers.",
+    "story": "Legend has it that the antler crown of Moonchanters today was a gift from the Frost Moon at the moment of its obliteration.\nThe silver tree was splintered, and bereft of white branches they might find, the priesthood pleaded for new coronals.\nOut of pity, the mistress of the moon wove holy crowns for them out of flawless moonlight, ones innate to their birth.\n\nThat was why the last Archpriestess chose to forge her circlet from cold, pure iron.\nThe young Lovia was just a priestess then, one who had never once witnessed a moonlit blessing,\nAnd she dreamed that such lies, that deceived others and oneself alike, could still bind the unfaithful believers together.\n\nDecades later, when the false antlered crown sank into the foul, corrupt blood,\nThat which reflected in her eyes was still not the flawless moonlight, but the frigid night swallowed whole by her own shadow."
+  },
+  "images": {
+    "filename_flower": "UI_RelicIcon_15042_4",
+    "filename_plume": "UI_RelicIcon_15042_2",
+    "filename_sands": "UI_RelicIcon_15042_5",
+    "filename_goblet": "UI_RelicIcon_15042_1",
+    "filename_circlet": "UI_RelicIcon_15042_3",
+    "mihoyo_flower": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15042_4.png",
+    "mihoyo_plume": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15042_2.png",
+    "mihoyo_sands": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15042_5.png",
+    "mihoyo_goblet": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15042_1.png",
+    "mihoyo_circlet": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15042_3.png"
+  },
+  "version": "4.3"
+}

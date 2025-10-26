@@ -1,0 +1,707 @@
+{
+  "id": 4601,
+  "name": "Hutao",
+  "combat1": {
+    "name": "Lança Secreta de Wangsheng",
+    "descriptionRaw": "<color=#FFD780FF>Ataque Normal</color>\nRealiza até 6 golpes com a lança.\n\n<color=#FFD780FF>Ataque Carregado</color>\nConsome uma certa quantidade de Stamina para se lançar para frente, infligindo Dano em seu trajeto.\n\n<color=#FFD780FF>Ataque Imersivo</color>\nMergulha em pleno ar para golpear o chão, causando dano aos inimigos ao longo do caminho e infligindo Dano em uma AdE durante o impacto.",
+    "description": "Ataque Normal\nRealiza até 6 golpes com a lança.\n\nAtaque Carregado\nConsome uma certa quantidade de Stamina para se lançar para frente, infligindo Dano em seu trajeto.\n\nAtaque Imersivo\nMergulha em pleno ar para golpear o chão, causando dano aos inimigos ao longo do caminho e infligindo Dano em uma AdE durante o impacto.",
+    "attributes": {
+      "labels": [
+        "Dano do 1° Golpe|{param1:F1P}",
+        "Dano do 2° Golpe|{param2:F1P}",
+        "Dano do 3° Golpe|{param3:F1P}",
+        "Dano do 4° Golpe|{param4:F1P}",
+        "Dano do 5° Golpe|{param5:F1P}+{param6:F1P}",
+        "Dano do 6° Golpe|{param7:F1P}",
+        "Dano de Ataque Carregado|{param8:F1P}",
+        "Consumo de Stamina de Ataque Carregado|{param9:F1}",
+        "Dano Durante a Queda|{param10:F1P}",
+        "Dano de Queda de Baixa/Alta Altitude|{param11:P}/{param12:P}"
+      ],
+      "parameters": {
+        "param1": [
+          0.468864,
+          0.500832,
+          0.5328,
+          0.575424,
+          0.607392,
+          0.644688,
+          0.69264,
+          0.740592,
+          0.788544,
+          0.836496,
+          0.884448,
+          0.9324,
+          0.980352,
+          1.028304,
+          1.076256
+        ],
+        "param2": [
+          0.482539,
+          0.51544,
+          0.54834,
+          0.592207,
+          0.625108,
+          0.663491,
+          0.712842,
+          0.762193,
+          0.811543,
+          0.860894,
+          0.910244,
+          0.959595,
+          1.008946,
+          1.058296,
+          1.107647
+        ],
+        "param3": [
+          0.6105,
+          0.652125,
+          0.69375,
+          0.74925,
+          0.790875,
+          0.839438,
+          0.901875,
+          0.964313,
+          1.02675,
+          1.089188,
+          1.151625,
+          1.214063,
+          1.2765,
+          1.338938,
+          1.401375
+        ],
+        "param4": [
+          0.65641,
+          0.701165,
+          0.74592,
+          0.805594,
+          0.850349,
+          0.902563,
+          0.969696,
+          1.036829,
+          1.103962,
+          1.171094,
+          1.238227,
+          1.30536,
+          1.372493,
+          1.439626,
+          1.506758
+        ],
+        "param5": [
+          0.332737,
+          0.355423,
+          0.37811,
+          0.408359,
+          0.431045,
+          0.457513,
+          0.491543,
+          0.525573,
+          0.559603,
+          0.593633,
+          0.627663,
+          0.661693,
+          0.695722,
+          0.729752,
+          0.763782
+        ],
+        "param6": [
+          0.352,
+          0.376,
+          0.4,
+          0.432,
+          0.456,
+          0.484,
+          0.52,
+          0.556,
+          0.592,
+          0.628,
+          0.664,
+          0.7,
+          0.736,
+          0.772,
+          0.808
+        ],
+        "param7": [
+          0.859584,
+          0.918192,
+          0.9768,
+          1.054944,
+          1.113552,
+          1.181928,
+          1.26984,
+          1.357752,
+          1.445664,
+          1.533576,
+          1.621488,
+          1.7094,
+          1.797312,
+          1.885224,
+          1.973136
+        ],
+        "param8": [
+          1.3596,
+          1.4523,
+          1.545,
+          1.6686,
+          1.7613,
+          1.86945,
+          2.0085,
+          2.14755,
+          2.2866,
+          2.42565,
+          2.5647,
+          2.70375,
+          2.8428,
+          2.98185,
+          3.1209
+        ],
+        "param9": [
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25
+        ],
+        "param10": [
+          0.654192,
+          0.698796,
+          0.7434,
+          0.802872,
+          0.847476,
+          0.899514,
+          0.96642,
+          1.033326,
+          1.100232,
+          1.167138,
+          1.234044,
+          1.30095,
+          1.367856,
+          1.434762,
+          1.501668
+        ],
+        "param11": [
+          1.308107,
+          1.397296,
+          1.486485,
+          1.605404,
+          1.694593,
+          1.798647,
+          1.932431,
+          2.066214,
+          2.199998,
+          2.333781,
+          2.467565,
+          2.601349,
+          2.735132,
+          2.868916,
+          3.0027
+        ],
+        "param12": [
+          1.633896,
+          1.745298,
+          1.8567,
+          2.005236,
+          2.116638,
+          2.246607,
+          2.41371,
+          2.580813,
+          2.747916,
+          2.915019,
+          3.082122,
+          3.249225,
+          3.416328,
+          3.583431,
+          3.750534
+        ]
+      }
+    }
+  },
+  "combat2": {
+    "name": "Guia do Além",
+    "descriptionRaw": "Somente as chamas eternas podem limpar esse mundo.\nHutao consome uma parte de Vida e repele os inimigos próximos, entrando no estado de Dança de Borboleta.\n\n<color=#FFD780FF>Dança de Borboleta</color>\n·A Dança de Borboleta aumenta o ATQ de Hutao com base em sua Vida Máxima. O ATQ obtido dessa forma não poderá ultrapassar 400% do seu ATQ Básico;\n·O Dano do ATQ é transformado em <color=#FF9999FF>Dano Pyro</color>. Esse dano elemental não pode ser substituído por outro encantamento elemental;\n·O Ataque Carregado pode causar aos inimigos atingidos o efeito de Pétalas Sangrentas;\n·Aumenta a resistência de Hutao a interrupções.\n\n<color=#FFD780FF>Pétalas Sangrentas</color>\nOs inimigos afetados pelas Pétalas Sangrentas receberão a cada 4s <color=#FF9999FF>Dano Pyro</color> uma vez. Esse dano é considerado dano de habilidade elemental.\nSó é possível existir um efeito de Pétalas Sangrentas por alvo, e sua duração só pode ser renovada por Hutao.\n\n<color=#FFD780FF>Dança de Borboleta</color> só se dissipará quando sua duração terminar ou quando Hutao for retirada do combate ou ser derrotada.\n\n<i>A primeira regra para se aprender a técnica secreta de Hutao é: \"A lança abre o caminho para a vida depois da morte, e as borboletas ligam este mundo e o próximo\".</i>",
+    "description": "Somente as chamas eternas podem limpar esse mundo.\nHutao consome uma parte de Vida e repele os inimigos próximos, entrando no estado de Dança de Borboleta.\n\nDança de Borboleta\n·A Dança de Borboleta aumenta o ATQ de Hutao com base em sua Vida Máxima. O ATQ obtido dessa forma não poderá ultrapassar 400% do seu ATQ Básico;\n·O Dano do ATQ é transformado em Dano Pyro. Esse dano elemental não pode ser substituído por outro encantamento elemental;\n·O Ataque Carregado pode causar aos inimigos atingidos o efeito de Pétalas Sangrentas;\n·Aumenta a resistência de Hutao a interrupções.\n\nPétalas Sangrentas\nOs inimigos afetados pelas Pétalas Sangrentas receberão a cada 4s Dano Pyro uma vez. Esse dano é considerado dano de habilidade elemental.\nSó é possível existir um efeito de Pétalas Sangrentas por alvo, e sua duração só pode ser renovada por Hutao.\n\nDança de Borboleta só se dissipará quando sua duração terminar ou quando Hutao for retirada do combate ou ser derrotada.",
+    "flavorText": "A primeira regra para se aprender a técnica secreta de Hutao é: \"A lança abre o caminho para a vida depois da morte, e as borboletas ligam este mundo e o próximo\".",
+    "attributes": {
+      "labels": [
+        "Consumo da Habilidade|{param1:P} da Vida atual",
+        "Aumenta o ATQ|{param2:F2P} da Vida Máxima",
+        "Dano de Pétalas Sangrentas |{param3:P}",
+        "Duração de Pétalas Sangrentas|{param4:F1}s",
+        "Duração|{param5:F1}s",
+        "Tempo de Recarga|{param6:F1}s"
+      ],
+      "parameters": {
+        "param1": [
+          0.3,
+          0.3,
+          0.3,
+          0.3,
+          0.3,
+          0.3,
+          0.3,
+          0.3,
+          0.3,
+          0.3,
+          0.3,
+          0.3,
+          0.3,
+          0.3,
+          0.3
+        ],
+        "param2": [
+          0.03841,
+          0.04071,
+          0.04301,
+          0.046,
+          0.0483,
+          0.0506,
+          0.05359,
+          0.05658,
+          0.05957,
+          0.06256,
+          0.06555,
+          0.06854,
+          0.07153,
+          0.07452,
+          0.07751
+        ],
+        "param3": [
+          0.64,
+          0.688,
+          0.736,
+          0.8,
+          0.848,
+          0.896,
+          0.96,
+          1.024,
+          1.088,
+          1.152,
+          1.216,
+          1.28,
+          1.36,
+          1.44,
+          1.52
+        ],
+        "param4": [
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ],
+        "param5": [
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
+        "param6": [
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16
+        ],
+        "param7": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ]
+      }
+    }
+  },
+  "combat3": {
+    "name": "Pacificadora de Espíritos",
+    "descriptionRaw": "Balança a sua alma flamejante, causando <color=#FF9999FF>Dano Pyro</color> em uma grande AdE.\nAo acertar nos inimigos, restaura a Vida de Hutao baseando na sua Vida Máxima. Esse efeito pode ser aplicado até 5 inimigos acertados.\nAo acertar, se a Vida de Hutao for inferior ou igual a 50%, pode causar um maior Dano e Cura.\n\n<i>Se um falecido ainda está ativo no mundo mortal, a Funerária de Wangsheng poderia ficar inquieta. A cremação é uma maneira que pode acalmar Hutao, todavia, quanto mais preocupada ela fica, maior as suas chamas.</i>",
+    "description": "Balança a sua alma flamejante, causando Dano Pyro em uma grande AdE.\nAo acertar nos inimigos, restaura a Vida de Hutao baseando na sua Vida Máxima. Esse efeito pode ser aplicado até 5 inimigos acertados.\nAo acertar, se a Vida de Hutao for inferior ou igual a 50%, pode causar um maior Dano e Cura.",
+    "flavorText": "Se um falecido ainda está ativo no mundo mortal, a Funerária de Wangsheng poderia ficar inquieta. A cremação é uma maneira que pode acalmar Hutao, todavia, quanto mais preocupada ela fica, maior as suas chamas.",
+    "attributes": {
+      "labels": [
+        "Dano de Habilidade|{param1:P}",
+        "Quando a Vida estiver baixa, Dano de Habilidade|{param2:P}",
+        "Regeneração de Habilidades|{param3:F2P} da Vida Máxima",
+        "Habilidade de Regeneração de Vida Baixa|{param4:F2P} da Vida Máxima",
+        "Tempo de Recarga|{param5:F1}s",
+        "Energia Elemental|{param6:I}"
+      ],
+      "parameters": {
+        "param1": [
+          3.03272,
+          3.21432,
+          3.39592,
+          3.632,
+          3.8136,
+          3.9952,
+          4.23128,
+          4.46736,
+          4.70344,
+          4.93952,
+          5.1756,
+          5.41168,
+          5.64776,
+          5.88384,
+          6.11992
+        ],
+        "param2": [
+          3.7909,
+          4.0179,
+          4.2449,
+          4.54,
+          4.767,
+          4.994,
+          5.2891,
+          5.5842,
+          5.8793,
+          6.1744,
+          6.4695,
+          6.7646,
+          7.0597,
+          7.3548,
+          7.6499
+        ],
+        "param3": [
+          0.062625,
+          0.066375,
+          0.070125,
+          0.075,
+          0.07875,
+          0.0825,
+          0.087375,
+          0.09225,
+          0.097125,
+          0.102,
+          0.106875,
+          0.11175,
+          0.116625,
+          0.1215,
+          0.126375
+        ],
+        "param4": [
+          0.0835,
+          0.0885,
+          0.0935,
+          0.1,
+          0.105,
+          0.11,
+          0.1165,
+          0.123,
+          0.1295,
+          0.136,
+          0.1425,
+          0.149,
+          0.1555,
+          0.162,
+          0.1685
+        ],
+        "param5": [
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15
+        ],
+        "param6": [
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60
+        ],
+        "param7": [
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ]
+      }
+    }
+  },
+  "passive1": {
+    "name": "Crisálida",
+    "descriptionRaw": "Após o estado da <color=#FFD780FF>Dança de Borboleta</color> aplicado por <color=#FFD780FF>Guia do Além</color> terminar, a Taxa CRIT de todos os personagens (menos Hutao) na equipe aumenta em 12% por 8s.",
+    "description": "Após o estado da Dança de Borboleta aplicado por Guia do Além terminar, a Taxa CRIT de todos os personagens (menos Hutao) na equipe aumenta em 12% por 8s."
+  },
+  "passive2": {
+    "name": "Sangue Fervendo",
+    "descriptionRaw": "Quando a Vida de Hutao ficar inferior ou igual a 50%, obterá 33% de <color=#FF9999FF>bônus de Dano Pyro</color>.",
+    "description": "Quando a Vida de Hutao ficar inferior ou igual a 50%, obterá 33% de bônus de Dano Pyro."
+  },
+  "passive3": {
+    "name": "Quanto Mais, Melhor",
+    "descriptionRaw": "Quando uma Comida Perfeita é feita, tem uma chance de 18% de receber uma Comida Estranha de mesmo tipo.",
+    "description": "Quando uma Comida Perfeita é feita, tem uma chance de 18% de receber uma Comida Estranha de mesmo tipo."
+  },
+  "costs": {
+    "lvl2": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 12500
+      },
+      {
+        "id": 104313,
+        "name": "Ensinamentos de Esforço",
+        "count": 3
+      },
+      {
+        "id": 112038,
+        "name": "Néctar da Flor Gigante",
+        "count": 6
+      }
+    ],
+    "lvl3": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 17500
+      },
+      {
+        "id": 104314,
+        "name": "Guia de Esforço",
+        "count": 2
+      },
+      {
+        "id": 112039,
+        "name": "Néctar Brilhante",
+        "count": 3
+      }
+    ],
+    "lvl4": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 25000
+      },
+      {
+        "id": 104314,
+        "name": "Guia de Esforço",
+        "count": 4
+      },
+      {
+        "id": 112039,
+        "name": "Néctar Brilhante",
+        "count": 4
+      }
+    ],
+    "lvl5": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 30000
+      },
+      {
+        "id": 104314,
+        "name": "Guia de Esforço",
+        "count": 6
+      },
+      {
+        "id": 112039,
+        "name": "Néctar Brilhante",
+        "count": 6
+      }
+    ],
+    "lvl6": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 37500
+      },
+      {
+        "id": 104314,
+        "name": "Guia de Esforço",
+        "count": 9
+      },
+      {
+        "id": 112039,
+        "name": "Néctar Brilhante",
+        "count": 9
+      }
+    ],
+    "lvl7": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 120000
+      },
+      {
+        "id": 104315,
+        "name": "Filosofia de Esforço",
+        "count": 4
+      },
+      {
+        "id": 112040,
+        "name": "Néctar Elemental",
+        "count": 4
+      },
+      {
+        "id": 113014,
+        "name": "Fragmento de Espada do Rei Demônio",
+        "count": 1
+      }
+    ],
+    "lvl8": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 260000
+      },
+      {
+        "id": 104315,
+        "name": "Filosofia de Esforço",
+        "count": 6
+      },
+      {
+        "id": 112040,
+        "name": "Néctar Elemental",
+        "count": 6
+      },
+      {
+        "id": 113014,
+        "name": "Fragmento de Espada do Rei Demônio",
+        "count": 1
+      }
+    ],
+    "lvl9": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 450000
+      },
+      {
+        "id": 104315,
+        "name": "Filosofia de Esforço",
+        "count": 12
+      },
+      {
+        "id": 112040,
+        "name": "Néctar Elemental",
+        "count": 9
+      },
+      {
+        "id": 113014,
+        "name": "Fragmento de Espada do Rei Demônio",
+        "count": 2
+      }
+    ],
+    "lvl10": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 700000
+      },
+      {
+        "id": 104315,
+        "name": "Filosofia de Esforço",
+        "count": 16
+      },
+      {
+        "id": 112040,
+        "name": "Néctar Elemental",
+        "count": 12
+      },
+      {
+        "id": 113014,
+        "name": "Fragmento de Espada do Rei Demônio",
+        "count": 2
+      },
+      {
+        "id": 104319,
+        "name": "Coroa da Sabedoria",
+        "count": 1
+      }
+    ]
+  },
+  "images": {
+    "filename_combat1": "Skill_A_03",
+    "filename_combat2": "Skill_S_Hutao_01",
+    "filename_combat3": "Skill_E_Hutao_01_HD",
+    "filename_passive1": "UI_Talent_S_Hutao_05",
+    "filename_passive2": "UI_Talent_S_Hutao_06",
+    "filename_passive3": "UI_Talent_Cook_ExtraFailedItem"
+  },
+  "version": "1.3"
+}

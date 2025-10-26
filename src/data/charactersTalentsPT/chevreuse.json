@@ -1,0 +1,654 @@
+{
+  "id": 9001,
+  "name": "Chevreuse",
+  "combat1": {
+    "name": "Linha de Baioneta Modificada",
+    "descriptionRaw": "<color=#FFD780FF>Ataque Normal</color>\nRealiza até 4 golpes com a lança.\n\n<color=#FFD780FF>Ataque Carregado</color>\nConsome uma certa quantidade de Stamina para se lançar para a frente, infligindo Dano em seu trajeto.\n\n<color=#FFD780FF>Ataque Imersivo</color>\nMergulha em pleno ar para golpear o chão, causando dano aos inimigos ao longo do caminho e infligindo Dano em uma AdE durante o impacto.",
+    "description": "Ataque Normal\nRealiza até 4 golpes com a lança.\n\nAtaque Carregado\nConsome uma certa quantidade de Stamina para se lançar para a frente, infligindo Dano em seu trajeto.\n\nAtaque Imersivo\nMergulha em pleno ar para golpear o chão, causando dano aos inimigos ao longo do caminho e infligindo Dano em uma AdE durante o impacto.",
+    "attributes": {
+      "labels": [
+        "Dano do 1° Golpe|{param1:F1P}",
+        "Dano do 2° Golpe|{param2:F1P}",
+        "Dano do 3° Golpe|{param3:F1P}+{param4:F1P}",
+        "Dano do 4° Golpe|{param5:F1P}",
+        "Dano de Ataque Carregado|{param6:F1P}",
+        "Consumo de Stamina de Ataque Carregado|{param7:F1}",
+        "Dano Durante a Queda|{param8:F1P}",
+        "Dano de Queda de Baixa/Alta Altitude|{param9:P}/{param10:P}"
+      ],
+      "parameters": {
+        "param1": [
+          0.531299,
+          0.574545,
+          0.61779,
+          0.679569,
+          0.722814,
+          0.772237,
+          0.840194,
+          0.908151,
+          0.976108,
+          1.050243,
+          1.124378,
+          1.198513,
+          1.272647,
+          1.346782,
+          1.420917
+        ],
+        "param2": [
+          0.493107,
+          0.533243,
+          0.57338,
+          0.630718,
+          0.670855,
+          0.716725,
+          0.779797,
+          0.842869,
+          0.90594,
+          0.974746,
+          1.043552,
+          1.112357,
+          1.181163,
+          1.249968,
+          1.318774
+        ],
+        "param3": [
+          0.276449,
+          0.298951,
+          0.321453,
+          0.353598,
+          0.3761,
+          0.401816,
+          0.437176,
+          0.472535,
+          0.507895,
+          0.546469,
+          0.585044,
+          0.623618,
+          0.662192,
+          0.700767,
+          0.739341
+        ],
+        "param4": [
+          0.324527,
+          0.350942,
+          0.377357,
+          0.415093,
+          0.441508,
+          0.471697,
+          0.513206,
+          0.554715,
+          0.596225,
+          0.641508,
+          0.68679,
+          0.732073,
+          0.777356,
+          0.822639,
+          0.867922
+        ],
+        "param5": [
+          0.772615,
+          0.835503,
+          0.89839,
+          0.988229,
+          1.051116,
+          1.122988,
+          1.22181,
+          1.320633,
+          1.419456,
+          1.527263,
+          1.63507,
+          1.742877,
+          1.850683,
+          1.95849,
+          2.066297
+        ],
+        "param6": [
+          1.2169,
+          1.31595,
+          1.415,
+          1.5565,
+          1.65555,
+          1.76875,
+          1.9244,
+          2.08005,
+          2.2357,
+          2.4055,
+          2.5753,
+          2.7451,
+          2.9149,
+          3.0847,
+          3.2545
+        ],
+        "param7": [
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25
+        ],
+        "param8": [
+          0.639324,
+          0.691362,
+          0.7434,
+          0.81774,
+          0.869778,
+          0.92925,
+          1.011024,
+          1.092798,
+          1.174572,
+          1.26378,
+          1.352988,
+          1.442196,
+          1.531404,
+          1.620612,
+          1.70982
+        ],
+        "param9": [
+          1.278377,
+          1.382431,
+          1.486485,
+          1.635134,
+          1.739187,
+          1.858106,
+          2.02162,
+          2.185133,
+          2.348646,
+          2.527025,
+          2.705403,
+          2.883781,
+          3.062159,
+          3.240537,
+          3.418915
+        ],
+        "param10": [
+          1.596762,
+          1.726731,
+          1.8567,
+          2.04237,
+          2.172339,
+          2.320875,
+          2.525112,
+          2.729349,
+          2.933586,
+          3.15639,
+          3.379194,
+          3.601998,
+          3.824802,
+          4.047606,
+          4.27041
+        ]
+      }
+    }
+  },
+  "combat2": {
+    "name": "Combate Próximo Rápido",
+    "descriptionRaw": "Chevreuse apoia rapidamente seu rifle no seu ombro e dispara contra os inimigos, causando <color=#FF9999FF>Dano Pyro em AdE</color>.\nUm certo tempo após Chevreuse atingir seu disparo, regenerará Vida continuamente para o próprio personagem ativo. A Vida regenerada é baseada na Vida Máxima de Chevreuse.\nAo Manter Pressionado, lança de uma maneira diferente.\n\n<color=#FFD780FF>Manter Pressionado</color>\nEntra no modo de mira e fixa a mira em seu campo de visão em um inimigo, disparando mais precisamente. Se Chevreuse possuir Projétil Super Explosivo, disparará um Projétil Super Explosivo, causando <color=#FF9999FF>Dano Pyro</color> maior e com maior AdE.\nChevreuse obtém um Projétil Super Explosivo quando um personagem próximo desencadeia Sobrecarga. É possível possuir até 1 Projétil Super Explosivo simultaneamente.\n\n<color=#FFD780FF>Arkhe: Ousia</color>\nPeriodicamente, quando Chevreuse atingir com Projétil Super Explosivo, invocará uma Lâmina da Fluidez que causará <color=#FF9999FF>Dano Pyro</color> com Ousia.\n\n<i>\"Pra falar a verdade, as instruções de treinamento só tem a palavra 'disparo', mas o autor desse livro achou que ter um vocabulário especializado ia ser mais comovente, fazendo os inimigos perderem logo de cara... eu acho que faz sentido, por isso mudei as instruções!\"</i>",
+    "description": "Chevreuse apoia rapidamente seu rifle no seu ombro e dispara contra os inimigos, causando Dano Pyro em AdE.\nUm certo tempo após Chevreuse atingir seu disparo, regenerará Vida continuamente para o próprio personagem ativo. A Vida regenerada é baseada na Vida Máxima de Chevreuse.\nAo Manter Pressionado, lança de uma maneira diferente.\n\nManter Pressionado\nEntra no modo de mira e fixa a mira em seu campo de visão em um inimigo, disparando mais precisamente. Se Chevreuse possuir Projétil Super Explosivo, disparará um Projétil Super Explosivo, causando Dano Pyro maior e com maior AdE.\nChevreuse obtém um Projétil Super Explosivo quando um personagem próximo desencadeia Sobrecarga. É possível possuir até 1 Projétil Super Explosivo simultaneamente.\n\nArkhe: Ousia\nPeriodicamente, quando Chevreuse atingir com Projétil Super Explosivo, invocará uma Lâmina da Fluidez que causará Dano Pyro com Ousia.",
+    "flavorText": "\"Pra falar a verdade, as instruções de treinamento só tem a palavra 'disparo', mas o autor desse livro achou que ter um vocabulário especializado ia ser mais comovente, fazendo os inimigos perderem logo de cara... eu acho que faz sentido, por isso mudei as instruções!\"",
+    "attributes": {
+      "labels": [
+        "Dano de Pressionar|{param1:F1P}",
+        "Dano ao Manter Pressionado|{param2:F1P}",
+        "Dano de Projétil Super Explosivo|{param3:F1P}",
+        "Cura Contínua|{param5:F2P} da Vida Máxima + {param6:I}",
+        "Duração da Cura|{param4:F1}s",
+        "Dano da Lâmina da Fluidez|{param7:F1P}",
+        "Intervalo de Lâmina da Fluidez|{param8:F1}s",
+        "Recarga|{param9:F1}s"
+      ],
+      "parameters": {
+        "param1": [
+          1.152,
+          1.2384,
+          1.3248,
+          1.44,
+          1.5264,
+          1.6128,
+          1.728,
+          1.8432,
+          1.9584,
+          2.0736,
+          2.1888,
+          2.304,
+          2.448,
+          2.592,
+          2.736
+        ],
+        "param2": [
+          1.728,
+          1.8576,
+          1.9872,
+          2.16,
+          2.2896,
+          2.4192,
+          2.592,
+          2.7648,
+          2.9376,
+          3.1104,
+          3.2832,
+          3.456,
+          3.672,
+          3.888,
+          4.104
+        ],
+        "param3": [
+          2.824,
+          3.0358,
+          3.2476,
+          3.53,
+          3.7418,
+          3.9536,
+          4.236,
+          4.5184,
+          4.8008,
+          5.0832,
+          5.3656,
+          5.648,
+          6.001,
+          6.354,
+          6.707
+        ],
+        "param4": [
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12
+        ],
+        "param5": [
+          0.026667,
+          0.028667,
+          0.030667,
+          0.033333,
+          0.035333,
+          0.037333,
+          0.04,
+          0.042667,
+          0.045333,
+          0.048,
+          0.050667,
+          0.053333,
+          0.056667,
+          0.06,
+          0.063333
+        ],
+        "param6": [
+          256.79184,
+          282.47458,
+          310.29758,
+          340.26077,
+          372.36423,
+          406.60788,
+          442.9918,
+          481.51593,
+          522.1803,
+          564.98486,
+          609.9297,
+          657.0147,
+          706.24,
+          757.6055,
+          811.11127
+        ],
+        "param7": [
+          0.288,
+          0.3096,
+          0.3312,
+          0.36,
+          0.3816,
+          0.4032,
+          0.432,
+          0.4608,
+          0.4896,
+          0.5184,
+          0.5472,
+          0.576,
+          0.612,
+          0.648,
+          0.684
+        ],
+        "param8": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ],
+        "param9": [
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15
+        ]
+      }
+    }
+  },
+  "combat3": {
+    "name": "Técnica da Explosão Circular",
+    "descriptionRaw": "Chevreuse usa seu rifle para jogar uma Granada Explosiva contra os inimigos, causando <color=#FF9999FF>Dano Pyro em AdE</color>. Depois que a Granada Explosiva atingir, vai se dividir em várias Granadas Explosivas Secundárias.\nAs Granadas Explosivas Secundárias vão explodir após um curto intervalo de tempo, causando <color=#FF9999FF>Dano Pyro</color> contra os inimigos próximos.\n\n<i>\"Via de regra, bombardear uma área quadrada seria mais eficaz contra inimigos em formação compacta, mas infelizmente, a seção transversal das ondas da explosão são circulares como um bolo, por isso as granadas saem voando nessa direção, e só explodem como frutas ao redor de um bolo!\"</i>",
+    "description": "Chevreuse usa seu rifle para jogar uma Granada Explosiva contra os inimigos, causando Dano Pyro em AdE. Depois que a Granada Explosiva atingir, vai se dividir em várias Granadas Explosivas Secundárias.\nAs Granadas Explosivas Secundárias vão explodir após um curto intervalo de tempo, causando Dano Pyro contra os inimigos próximos.",
+    "flavorText": "\"Via de regra, bombardear uma área quadrada seria mais eficaz contra inimigos em formação compacta, mas infelizmente, a seção transversal das ondas da explosão são circulares como um bolo, por isso as granadas saem voando nessa direção, e só explodem como frutas ao redor de um bolo!\"",
+    "attributes": {
+      "labels": [
+        "Dano de Granada Explosiva|{param1:F1P}",
+        "Dano de Granada Explosiva Secundária|{param2:F1P}",
+        "Recarga|{param3:F1}s",
+        "Energia Elemental|{param4:I}"
+      ],
+      "parameters": {
+        "param1": [
+          3.6816,
+          3.95772,
+          4.23384,
+          4.602,
+          4.87812,
+          5.15424,
+          5.5224,
+          5.89056,
+          6.25872,
+          6.62688,
+          6.99504,
+          7.3632,
+          7.8234,
+          8.2836,
+          8.7438
+        ],
+        "param2": [
+          0.49088,
+          0.527696,
+          0.564512,
+          0.6136,
+          0.650416,
+          0.687232,
+          0.73632,
+          0.785408,
+          0.834496,
+          0.883584,
+          0.932672,
+          0.98176,
+          1.04312,
+          1.10448,
+          1.16584
+        ],
+        "param3": [
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15
+        ],
+        "param4": [
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60
+        ]
+      }
+    }
+  },
+  "passive1": {
+    "name": "Táticas de Combate Coordenado",
+    "descriptionRaw": "Quando todos os personagens da equipe têm Tipo Elemental <color=#FF9999FF>Pyro</color> e <color=#FFACFFFF>Electro</color>, e há pelo menos um personagem Pyro e um personagem Electro:\nChevreuse aplica \"Táticas Coordenadas\" para os membros próximos da equipe: quando o personagem causar uma reação de Sobrecarga, reduzirá a RES <color=#FF9999FF>Pyro</color> e <color=#FFACFFFF>Electro</color> do inimigo afetado em 40% por 6s.\nO efeito das \"Táticas Coordenadas\" será removido quando o Tipo Elemental dos personagens na equipe não cumprir os requisitos do Talento Passivo.",
+    "description": "Quando todos os personagens da equipe têm Tipo Elemental Pyro e Electro, e há pelo menos um personagem Pyro e um personagem Electro:\nChevreuse aplica \"Táticas Coordenadas\" para os membros próximos da equipe: quando o personagem causar uma reação de Sobrecarga, reduzirá a RES Pyro e Electro do inimigo afetado em 40% por 6s.\nO efeito das \"Táticas Coordenadas\" será removido quando o Tipo Elemental dos personagens na equipe não cumprir os requisitos do Talento Passivo."
+  },
+  "passive2": {
+    "name": "Formação Vertical",
+    "descriptionRaw": "Depois de Chevreuse disparar o \"Projétil Super Explosivo\" de <color=#FFD780FF>Combate Próximo Rápido</color>, aumenta o ATQ em 1% a cada 1.000 da Vida Máxima de Chevreuse para todos os personagens <color=#FF9999FF>Pyro</color> e <color=#FFACFFFF>Electro</color> próximos por 30s. É possível aumentar o ATQ até 40% dessa forma.",
+    "description": "Depois de Chevreuse disparar o \"Projétil Super Explosivo\" de Combate Próximo Rápido, aumenta o ATQ em 1% a cada 1.000 da Vida Máxima de Chevreuse para todos os personagens Pyro e Electro próximos por 30s. É possível aumentar o ATQ até 40% dessa forma."
+  },
+  "passive3": {
+    "name": "Estratégia de Movimento Veloz",
+    "descriptionRaw": "Diminui o consumo de Stamina ao correr de todos os seus membros da equipe em 20%.\nNão acumulável com Talentos Passivos que concedem exatamente os mesmos efeitos.",
+    "description": "Diminui o consumo de Stamina ao correr de todos os seus membros da equipe em 20%.\nNão acumulável com Talentos Passivos que concedem exatamente os mesmos efeitos."
+  },
+  "costs": {
+    "lvl2": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 12500
+      },
+      {
+        "id": 104344,
+        "name": "Ensinamentos da Ordem",
+        "count": 3
+      },
+      {
+        "id": 112083,
+        "name": "Engrenagem Transmissora",
+        "count": 6
+      }
+    ],
+    "lvl3": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 17500
+      },
+      {
+        "id": 104345,
+        "name": "Guia da Ordem",
+        "count": 2
+      },
+      {
+        "id": 112084,
+        "name": "Engrenagem Reta",
+        "count": 3
+      }
+    ],
+    "lvl4": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 25000
+      },
+      {
+        "id": 104345,
+        "name": "Guia da Ordem",
+        "count": 4
+      },
+      {
+        "id": 112084,
+        "name": "Engrenagem Reta",
+        "count": 4
+      }
+    ],
+    "lvl5": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 30000
+      },
+      {
+        "id": 104345,
+        "name": "Guia da Ordem",
+        "count": 6
+      },
+      {
+        "id": 112084,
+        "name": "Engrenagem Reta",
+        "count": 6
+      }
+    ],
+    "lvl6": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 37500
+      },
+      {
+        "id": 104345,
+        "name": "Guia da Ordem",
+        "count": 9
+      },
+      {
+        "id": 112084,
+        "name": "Engrenagem Reta",
+        "count": 9
+      }
+    ],
+    "lvl7": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 120000
+      },
+      {
+        "id": 104346,
+        "name": "Filosofia da Ordem",
+        "count": 4
+      },
+      {
+        "id": 112085,
+        "name": "Engrenagem Dinâmica",
+        "count": 4
+      },
+      {
+        "id": 113055,
+        "name": "Olho do Vórtice Sem Luz",
+        "count": 1
+      }
+    ],
+    "lvl8": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 260000
+      },
+      {
+        "id": 104346,
+        "name": "Filosofia da Ordem",
+        "count": 6
+      },
+      {
+        "id": 112085,
+        "name": "Engrenagem Dinâmica",
+        "count": 6
+      },
+      {
+        "id": 113055,
+        "name": "Olho do Vórtice Sem Luz",
+        "count": 1
+      }
+    ],
+    "lvl9": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 450000
+      },
+      {
+        "id": 104346,
+        "name": "Filosofia da Ordem",
+        "count": 12
+      },
+      {
+        "id": 112085,
+        "name": "Engrenagem Dinâmica",
+        "count": 9
+      },
+      {
+        "id": 113055,
+        "name": "Olho do Vórtice Sem Luz",
+        "count": 2
+      }
+    ],
+    "lvl10": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 700000
+      },
+      {
+        "id": 104346,
+        "name": "Filosofia da Ordem",
+        "count": 16
+      },
+      {
+        "id": 112085,
+        "name": "Engrenagem Dinâmica",
+        "count": 12
+      },
+      {
+        "id": 113055,
+        "name": "Olho do Vórtice Sem Luz",
+        "count": 2
+      },
+      {
+        "id": 104319,
+        "name": "Coroa da Sabedoria",
+        "count": 1
+      }
+    ]
+  },
+  "images": {
+    "filename_combat1": "Skill_A_03",
+    "filename_combat2": "Skill_S_Chevreuse_01",
+    "filename_combat3": "Skill_E_Chevreuse_01_HD",
+    "filename_passive1": "UI_Talent_S_Chevreuse_05",
+    "filename_passive2": "UI_Talent_S_Chevreuse_06",
+    "filename_passive3": "UI_Talent_Explosion_Sprint"
+  },
+  "version": "4.3"
+}

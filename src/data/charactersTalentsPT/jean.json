@@ -1,0 +1,636 @@
+{
+  "id": 301,
+  "name": "Jean",
+  "combat1": {
+    "name": "Técnica de Favonius",
+    "descriptionRaw": "<color=#FFD780FF>Ataque Normal</color>\nRealiza até 5 golpes rápidos.\n\n<color=#FFD780FF>Ataque Carregado</color>\nConsome certa quantidade de Stamina para lançar um inimigo ao ar usando o poder do vento.\nInimigos lançados cairão lentamente ao chão.\n\n<color=#FFD780FF> Ataque Imersivo</color>\nMergulha do ar para atingir o chão abaixo, causando Dano aos inimigos ao longo do caminho e causando Dano em uma AdE no impacto.",
+    "description": "Ataque Normal\nRealiza até 5 golpes rápidos.\n\nAtaque Carregado\nConsome certa quantidade de Stamina para lançar um inimigo ao ar usando o poder do vento.\nInimigos lançados cairão lentamente ao chão.\n\n Ataque Imersivo\nMergulha do ar para atingir o chão abaixo, causando Dano aos inimigos ao longo do caminho e causando Dano em uma AdE no impacto.",
+    "attributes": {
+      "labels": [
+        "Dano do 1° Golpe|{param1:F1P}",
+        "Dano do 2° Golpe|{param2:F1P}",
+        "Dano do 3° Golpe|{param3:F1P}",
+        "Dano do 4° Golpe|{param4:F1P}",
+        "Dano do 5° Golpe|{param5:F1P}",
+        "Dano de Ataque Carregado|{param6:P}",
+        "Consumo de Stamina de Ataque Carregado|{param7:F1}",
+        "Dano Durante a Queda|{param8:F1P}",
+        "Dano de Queda de Baixa/Alta Altitude|{param9:P}/{param10:P}"
+      ],
+      "parameters": {
+        "param1": [
+          0.48332,
+          0.52266,
+          0.562,
+          0.6182,
+          0.65754,
+          0.7025,
+          0.76432,
+          0.82614,
+          0.88796,
+          0.9554,
+          1.032675,
+          1.12355,
+          1.214426,
+          1.305301,
+          1.404438
+        ],
+        "param2": [
+          0.4558,
+          0.4929,
+          0.53,
+          0.583,
+          0.6201,
+          0.6625,
+          0.7208,
+          0.7791,
+          0.8374,
+          0.901,
+          0.973875,
+          1.059576,
+          1.145277,
+          1.230978,
+          1.32447
+        ],
+        "param3": [
+          0.60286,
+          0.65193,
+          0.701,
+          0.7711,
+          0.82017,
+          0.87625,
+          0.95336,
+          1.03047,
+          1.10758,
+          1.1917,
+          1.288088,
+          1.401439,
+          1.514791,
+          1.628143,
+          1.751799
+        ],
+        "param4": [
+          0.65876,
+          0.71238,
+          0.766,
+          0.8426,
+          0.89622,
+          0.9575,
+          1.04176,
+          1.12602,
+          1.21028,
+          1.3022,
+          1.407525,
+          1.531387,
+          1.655249,
+          1.779112,
+          1.914234
+        ],
+        "param5": [
+          0.79206,
+          0.85653,
+          0.921,
+          1.0131,
+          1.07757,
+          1.15125,
+          1.25256,
+          1.35387,
+          1.45518,
+          1.5657,
+          1.692338,
+          1.841263,
+          1.990189,
+          2.139115,
+          2.301579
+        ],
+        "param6": [
+          1.62024,
+          1.75212,
+          1.884,
+          2.0724,
+          2.20428,
+          2.355,
+          2.56224,
+          2.76948,
+          2.97672,
+          3.2028,
+          3.46185,
+          3.766493,
+          4.071136,
+          4.375778,
+          4.708116
+        ],
+        "param7": [
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20
+        ],
+        "param8": [
+          0.639324,
+          0.691362,
+          0.7434,
+          0.81774,
+          0.869778,
+          0.92925,
+          1.011024,
+          1.092798,
+          1.174572,
+          1.26378,
+          1.352988,
+          1.442196,
+          1.531404,
+          1.620612,
+          1.70982
+        ],
+        "param9": [
+          1.278377,
+          1.382431,
+          1.486485,
+          1.635134,
+          1.739187,
+          1.858106,
+          2.02162,
+          2.185133,
+          2.348646,
+          2.527025,
+          2.705403,
+          2.883781,
+          3.062159,
+          3.240537,
+          3.418915
+        ],
+        "param10": [
+          1.596762,
+          1.726731,
+          1.8567,
+          2.04237,
+          2.172339,
+          2.320875,
+          2.525112,
+          2.729349,
+          2.933586,
+          3.15639,
+          3.379194,
+          3.601998,
+          3.824802,
+          4.047606,
+          4.27041
+        ]
+      }
+    }
+  },
+  "combat2": {
+    "name": "Espada do Temporal",
+    "descriptionRaw": "Canalizando o poder do vento sem forma em volta da sua espada, Jean libera uma miniatura de uma tempestade, lançando inimigos na direção em que ela mira, causando um <color=#80FFD7FF>Dano Anemo</color> massivo.\n\n<color=#FFD780FF>Manter pressionado</color>\nAo custo de um consumo constante de Stamina, Jean pode comandar um turbilhão que suga inimigos e objetos próximos à sua frente.\nA direção pode ser controlada.\nO personagem fica imóvel ao longo da duração da habilidade.\n\n<i>Aquilo que segue Jean, a defensora convicta, é um vento guardião que pode expulsar o perigo da presença de seus companheiros.</i>",
+    "description": "Canalizando o poder do vento sem forma em volta da sua espada, Jean libera uma miniatura de uma tempestade, lançando inimigos na direção em que ela mira, causando um Dano Anemo massivo.\n\nManter pressionado\nAo custo de um consumo constante de Stamina, Jean pode comandar um turbilhão que suga inimigos e objetos próximos à sua frente.\nA direção pode ser controlada.\nO personagem fica imóvel ao longo da duração da habilidade.",
+    "flavorText": "Aquilo que segue Jean, a defensora convicta, é um vento guardião que pode expulsar o perigo da presença de seus companheiros.",
+    "attributes": {
+      "labels": [
+        "Dano de Habilidade|{param1:P}",
+        "Consumo de Stamina|{param2:F1} pontos/segundo",
+        "Duração Máxima|{param3:F1}s",
+        "Tempo de Recarga|{param4:F1}s"
+      ],
+      "parameters": {
+        "param1": [
+          2.92,
+          3.139,
+          3.358,
+          3.65,
+          3.869,
+          4.088,
+          4.38,
+          4.672,
+          4.964,
+          5.256,
+          5.548,
+          5.84,
+          6.205,
+          6.57,
+          6.935
+        ],
+        "param2": [
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20
+        ],
+        "param3": [
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
+        "param4": [
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6
+        ]
+      }
+    }
+  },
+  "combat3": {
+    "name": "Brisa de Dandelion",
+    "descriptionRaw": "Invocando a proteção do vento, Jean cria um Campo Dandelion rodopiante, lançando inimigos ao redor e causando <color=#80FFD7FF>Dano Anemo</color>.\nAo mesmo tempo, ela regenera instantaneamente uma grande quantidade de Vida para todos os membros da equipe. A Vida restaurada é baseada no ATQ de Jean.\n\n<color=#FFD780FF>Campo de Dandelions</color>\nRegenera continuamente a Vida dos personagens dentro da AdE e concede o atributo <color=#80FFD7FF>Anemo</color>.\nCausa <color=#80FFD7FF>Dano Anemo</color> aos inimigos que entram ou saem do campo.\n\n<i> A magnanimidade de Jean é tão vasta quanto os Dandelions, e é a raiz de seu desejo de proteger os outros.</i>",
+    "description": "Invocando a proteção do vento, Jean cria um Campo Dandelion rodopiante, lançando inimigos ao redor e causando Dano Anemo.\nAo mesmo tempo, ela regenera instantaneamente uma grande quantidade de Vida para todos os membros da equipe. A Vida restaurada é baseada no ATQ de Jean.\n\nCampo de Dandelions\nRegenera continuamente a Vida dos personagens dentro da AdE e concede o atributo Anemo.\nCausa Dano Anemo aos inimigos que entram ou saem do campo.",
+    "flavorText": " A magnanimidade de Jean é tão vasta quanto os Dandelions, e é a raiz de seu desejo de proteger os outros.",
+    "attributes": {
+      "labels": [
+        "Dano de Explosão|{param1:P}",
+        "Dano de Entrada e Saída da Área|{param2:F1P}",
+        "Cura de Ativação de Área|{param3:P} do ATQ +{param4:I}",
+        "Regeneração Contínua|{param5:F2P} ATQ + {param6:I}/s",
+        "Tempo de Recarga|{param7:F1}s",
+        "Energia Elemental|{param8:I}"
+      ],
+      "parameters": {
+        "param1": [
+          4.248,
+          4.5666,
+          4.8852,
+          5.31,
+          5.6286,
+          5.9472,
+          6.372,
+          6.7968,
+          7.2216,
+          7.6464,
+          8.0712,
+          8.496,
+          9.027,
+          9.558,
+          10.089
+        ],
+        "param2": [
+          0.784,
+          0.8428,
+          0.9016,
+          0.98,
+          1.0388,
+          1.0976,
+          1.176,
+          1.2544,
+          1.3328,
+          1.4112,
+          1.4896,
+          1.568,
+          1.666,
+          1.764,
+          1.862
+        ],
+        "param3": [
+          2.512,
+          2.7004,
+          2.8888,
+          3.14,
+          3.3284,
+          3.5168,
+          3.768,
+          4.0192,
+          4.2704,
+          4.5216,
+          4.7728,
+          5.024,
+          5.338,
+          5.652,
+          5.966
+        ],
+        "param4": [
+          1540.3248,
+          1694.3788,
+          1861.2705,
+          2041,
+          2233.5674,
+          2438.9727,
+          2657.2156,
+          2888.2964,
+          3132.215,
+          3388.9717,
+          3658.566,
+          3940.998,
+          4236.268,
+          4544.376,
+          4865.3213
+        ],
+        "param5": [
+          0.2512,
+          0.27004,
+          0.28888,
+          0.314,
+          0.33284,
+          0.35168,
+          0.3768,
+          0.40192,
+          0.42704,
+          0.45216,
+          0.47728,
+          0.5024,
+          0.5338,
+          0.5652,
+          0.5966
+        ],
+        "param6": [
+          154.03249,
+          169.43788,
+          186.12704,
+          204.1,
+          223.35674,
+          243.89726,
+          265.72156,
+          288.82965,
+          313.2215,
+          338.89716,
+          365.8566,
+          394.0998,
+          423.6268,
+          454.4376,
+          486.53214
+        ],
+        "param7": [
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20
+        ],
+        "param8": [
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80
+        ]
+      }
+    }
+  },
+  "passive1": {
+    "name": "Companhia do Vento",
+    "descriptionRaw": "Ao acertar Ataques Normais de Jean, possui 50% de chance de regenerar Vida equivalente a 15% do ATQ de Jean a todos os membros da equipe.",
+    "description": "Ao acertar Ataques Normais de Jean, possui 50% de chance de regenerar Vida equivalente a 15% do ATQ de Jean a todos os membros da equipe."
+  },
+  "passive2": {
+    "name": "Deixe o vento guiar.",
+    "descriptionRaw": "Após usar a <color=#FFD780FF>Brisa de Dandelion</color> regenera 20% de Energia Elemental.",
+    "description": "Após usar a Brisa de Dandelion regenera 20% de Energia Elemental."
+  },
+  "passive3": {
+    "name": "Brisa de Planagem",
+    "descriptionRaw": "Quando uma Culinária Perfeita é feita em uma comida com efeito de recuperação, tem uma chance de 12% de receber o dobro de produção.",
+    "description": "Quando uma Culinária Perfeita é feita em uma comida com efeito de recuperação, tem uma chance de 12% de receber o dobro de produção."
+  },
+  "costs": {
+    "lvl2": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 12500
+      },
+      {
+        "id": 104304,
+        "name": "Ensinamentos de Resistência",
+        "count": 3
+      },
+      {
+        "id": 112005,
+        "name": "Máscara Danificada",
+        "count": 6
+      }
+    ],
+    "lvl3": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 17500
+      },
+      {
+        "id": 104305,
+        "name": "Guia de Resistência",
+        "count": 2
+      },
+      {
+        "id": 112006,
+        "name": "Máscara Suja",
+        "count": 3
+      }
+    ],
+    "lvl4": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 25000
+      },
+      {
+        "id": 104305,
+        "name": "Guia de Resistência",
+        "count": 4
+      },
+      {
+        "id": 112006,
+        "name": "Máscara Suja",
+        "count": 4
+      }
+    ],
+    "lvl5": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 30000
+      },
+      {
+        "id": 104305,
+        "name": "Guia de Resistência",
+        "count": 6
+      },
+      {
+        "id": 112006,
+        "name": "Máscara Suja",
+        "count": 6
+      }
+    ],
+    "lvl6": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 37500
+      },
+      {
+        "id": 104305,
+        "name": "Guia de Resistência",
+        "count": 9
+      },
+      {
+        "id": 112006,
+        "name": "Máscara Suja",
+        "count": 9
+      }
+    ],
+    "lvl7": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 120000
+      },
+      {
+        "id": 104306,
+        "name": "Filosofia de Resistência",
+        "count": 4
+      },
+      {
+        "id": 112007,
+        "name": "Máscara Ominosa",
+        "count": 4
+      },
+      {
+        "id": 113003,
+        "name": "Plumas do Vento Oriental",
+        "count": 1
+      }
+    ],
+    "lvl8": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 260000
+      },
+      {
+        "id": 104306,
+        "name": "Filosofia de Resistência",
+        "count": 6
+      },
+      {
+        "id": 112007,
+        "name": "Máscara Ominosa",
+        "count": 6
+      },
+      {
+        "id": 113003,
+        "name": "Plumas do Vento Oriental",
+        "count": 1
+      }
+    ],
+    "lvl9": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 450000
+      },
+      {
+        "id": 104306,
+        "name": "Filosofia de Resistência",
+        "count": 12
+      },
+      {
+        "id": 112007,
+        "name": "Máscara Ominosa",
+        "count": 9
+      },
+      {
+        "id": 113003,
+        "name": "Plumas do Vento Oriental",
+        "count": 2
+      }
+    ],
+    "lvl10": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 700000
+      },
+      {
+        "id": 104306,
+        "name": "Filosofia de Resistência",
+        "count": 16
+      },
+      {
+        "id": 112007,
+        "name": "Máscara Ominosa",
+        "count": 12
+      },
+      {
+        "id": 113003,
+        "name": "Plumas do Vento Oriental",
+        "count": 2
+      },
+      {
+        "id": 104319,
+        "name": "Coroa da Sabedoria",
+        "count": 1
+      }
+    ]
+  },
+  "images": {
+    "filename_combat1": "Skill_A_01",
+    "filename_combat2": "Skill_S_Qin_02",
+    "filename_combat3": "Skill_E_Qin_01_HD",
+    "filename_passive1": "UI_Talent_S_Qin_05",
+    "filename_passive2": "UI_Talent_S_Qin_06",
+    "filename_passive3": "UI_Talent_Cook_Heal"
+  },
+  "version": "1.0"
+}

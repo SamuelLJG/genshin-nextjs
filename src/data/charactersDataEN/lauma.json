@@ -1,0 +1,173 @@
+{
+  "id": 10000108,
+  "name": "Lauma",
+  "title": "Evermoon’s Sacrament Song",
+  "description": "A Maiden blessed by moonlight and the grove alike, hope born to the Frostmoon Scions.",
+  "weaponType": "WEAPON_CATALYST",
+  "weaponText": "Catalyst",
+  "elementType": "ELEMENT_DENDRO",
+  "elementText": "Dendro",
+  "affiliation": "Chenyu Vale",
+  "substatType": "FIGHT_PROP_ELEMENT_MASTERY",
+  "substatText": "Elemental Mastery",
+  "rarity": "5",
+  "costs": {
+    "ascend1": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 20000
+      },
+      {
+        "id": 104131,
+        "name": "Nagadus Emerald Sliver",
+        "count": 1
+      },
+      {
+        "id": 101263,
+        "name": "Lunargent",
+        "count": 3
+      },
+      {
+        "id": 112125,
+        "name": "Worn Pledge",
+        "count": 3
+      }
+    ],
+    "ascend2": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 40000
+      },
+      {
+        "id": 104132,
+        "name": "Nagadus Emerald Fragment",
+        "count": 3
+      },
+      {
+        "id": 113078,
+        "name": "Luminescent Wings",
+        "count": 2
+      },
+      {
+        "id": 101263,
+        "name": "Lunargent",
+        "count": 10
+      },
+      {
+        "id": 112125,
+        "name": "Worn Pledge",
+        "count": 15
+      }
+    ],
+    "ascend3": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 60000
+      },
+      {
+        "id": 104132,
+        "name": "Nagadus Emerald Fragment",
+        "count": 6
+      },
+      {
+        "id": 113078,
+        "name": "Luminescent Wings",
+        "count": 4
+      },
+      {
+        "id": 101263,
+        "name": "Lunargent",
+        "count": 20
+      },
+      {
+        "id": 112126,
+        "name": "Stainless Pledge",
+        "count": 12
+      }
+    ],
+    "ascend4": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 80000
+      },
+      {
+        "id": 104133,
+        "name": "Nagadus Emerald Chunk",
+        "count": 3
+      },
+      {
+        "id": 113078,
+        "name": "Luminescent Wings",
+        "count": 8
+      },
+      {
+        "id": 101263,
+        "name": "Lunargent",
+        "count": 30
+      },
+      {
+        "id": 112126,
+        "name": "Stainless Pledge",
+        "count": 18
+      }
+    ],
+    "ascend5": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 100000
+      },
+      {
+        "id": 104133,
+        "name": "Nagadus Emerald Chunk",
+        "count": 6
+      },
+      {
+        "id": 113078,
+        "name": "Luminescent Wings",
+        "count": 12
+      },
+      {
+        "id": 101263,
+        "name": "Lunargent",
+        "count": 45
+      },
+      {
+        "id": 112127,
+        "name": "Frosted Pledge",
+        "count": 12
+      }
+    ],
+    "ascend6": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 120000
+      },
+      {
+        "id": 104134,
+        "name": "Nagadus Emerald Gemstone",
+        "count": 6
+      },
+      {
+        "id": 113078,
+        "name": "Luminescent Wings",
+        "count": 20
+      },
+      {
+        "id": 101263,
+        "name": "Lunargent",
+        "count": 60
+      },
+      {
+        "id": 112127,
+        "name": "Frosted Pledge",
+        "count": 24
+      }
+    ]
+  }
+}

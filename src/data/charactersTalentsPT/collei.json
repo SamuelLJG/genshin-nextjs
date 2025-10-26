@@ -1,0 +1,530 @@
+{
+  "id": 6701,
+  "name": "Collei",
+  "combat1": {
+    "name": "Homenagem ao Tiro com Arco",
+    "descriptionRaw": "<color=#FFD780FF>Ataque Normal</color>\nRealiza até 4 disparos consecutivos com o arco.\n\n<color=#FFD780FF>Ataque Carregado</color>\nRealiza um <color=#FFD780FF>Disparo com Mira</color> mais preciso e com mais dano.\nEnquanto mira, elemento Dendro irá acumular na ponta da flecha. Uma flecha completamente carregada irá causar <color=#99FF88FF>Dano Dendro</color>.\n\n<color=#FFD780FF>Ataque Imersivo</color>\nDispara uma chuva de flechas do ar antes de cair e impactar o chão, causando Dano em uma AdE no impacto.",
+    "description": "Ataque Normal\nRealiza até 4 disparos consecutivos com o arco.\n\nAtaque Carregado\nRealiza um Disparo com Mira mais preciso e com mais dano.\nEnquanto mira, elemento Dendro irá acumular na ponta da flecha. Uma flecha completamente carregada irá causar Dano Dendro.\n\nAtaque Imersivo\nDispara uma chuva de flechas do ar antes de cair e impactar o chão, causando Dano em uma AdE no impacto.",
+    "attributes": {
+      "labels": [
+        "Dano do 1° Golpe|{param1:F1P}",
+        "Dano do 2° Golpe|{param2:F1P}",
+        "Dano do 3° Golpe|{param3:F1P}",
+        "Dano do 4° Golpe|{param4:F1P}",
+        "Disparo com Mira|{param5:F1P}",
+        "Disparo com Mira com Energização Completa|{param6:P}",
+        "Dano Durante a Queda|{param7:F1P}",
+        "Dano de Queda de Baixa/Alta Altitude|{param8:P}/{param9:P}"
+      ],
+      "parameters": {
+        "param1": [
+          0.43602,
+          0.47151,
+          0.507,
+          0.5577,
+          0.59319,
+          0.63375,
+          0.68952,
+          0.74529,
+          0.80106,
+          0.8619,
+          0.92274,
+          0.98358,
+          1.04442,
+          1.10526,
+          1.1661
+        ],
+        "param2": [
+          0.42656,
+          0.46128,
+          0.496,
+          0.5456,
+          0.58032,
+          0.62,
+          0.67456,
+          0.72912,
+          0.78368,
+          0.8432,
+          0.90272,
+          0.96224,
+          1.02176,
+          1.08128,
+          1.1408
+        ],
+        "param3": [
+          0.54094,
+          0.58497,
+          0.629,
+          0.6919,
+          0.73593,
+          0.78625,
+          0.85544,
+          0.92463,
+          0.99382,
+          1.0693,
+          1.14478,
+          1.22026,
+          1.29574,
+          1.37122,
+          1.4467
+        ],
+        "param4": [
+          0.68026,
+          0.73563,
+          0.791,
+          0.8701,
+          0.92547,
+          0.98875,
+          1.07576,
+          1.16277,
+          1.24978,
+          1.3447,
+          1.43962,
+          1.53454,
+          1.62946,
+          1.72438,
+          1.8193
+        ],
+        "param5": [
+          0.4386,
+          0.4743,
+          0.51,
+          0.561,
+          0.5967,
+          0.6375,
+          0.6936,
+          0.7497,
+          0.8058,
+          0.867,
+          0.9282,
+          0.9894,
+          1.0506,
+          1.1118,
+          1.173
+        ],
+        "param6": [
+          1.24,
+          1.333,
+          1.426,
+          1.55,
+          1.643,
+          1.736,
+          1.86,
+          1.984,
+          2.108,
+          2.232,
+          2.356,
+          2.48,
+          2.635,
+          2.79,
+          2.945
+        ],
+        "param7": [
+          0.568288,
+          0.614544,
+          0.6608,
+          0.72688,
+          0.773136,
+          0.826,
+          0.898688,
+          0.971376,
+          1.044064,
+          1.12336,
+          1.202656,
+          1.281952,
+          1.361248,
+          1.440544,
+          1.51984
+        ],
+        "param8": [
+          1.136335,
+          1.228828,
+          1.32132,
+          1.453452,
+          1.545944,
+          1.65165,
+          1.796995,
+          1.94234,
+          2.087686,
+          2.246244,
+          2.404802,
+          2.563361,
+          2.721919,
+          2.880478,
+          3.039036
+        ],
+        "param9": [
+          1.419344,
+          1.534872,
+          1.6504,
+          1.81544,
+          1.930968,
+          2.063,
+          2.244544,
+          2.426088,
+          2.607632,
+          2.80568,
+          3.003728,
+          3.201776,
+          3.399824,
+          3.597872,
+          3.79592
+        ]
+      }
+    }
+  },
+  "combat2": {
+    "name": "Carícia das Flores",
+    "descriptionRaw": "Lança um Bumerangue Floral que inflige 1 golpe de <color=#99FF88FF>Dano Dendro</color> contra os oponentes atingidos.\nO Bumerangue Floral retornará depois de um tempo, infligindo <color=#99FF88FF>Dano Dendro</color> novamente.\n\n<i>Essa é a melhor ferramenta de escolha da Collei para lidar com bestas selvagens. Só alguns golpes com essa ferramenta normalmente melhoram o comportamento delas. Esse mesmo princípio funciona muito bem com aqueles mal-intencionados.</i>",
+    "description": "Lança um Bumerangue Floral que inflige 1 golpe de Dano Dendro contra os oponentes atingidos.\nO Bumerangue Floral retornará depois de um tempo, infligindo Dano Dendro novamente.",
+    "flavorText": "Essa é a melhor ferramenta de escolha da Collei para lidar com bestas selvagens. Só alguns golpes com essa ferramenta normalmente melhoram o comportamento delas. Esse mesmo princípio funciona muito bem com aqueles mal-intencionados.",
+    "attributes": {
+      "labels": [
+        "Dano de Habilidade|{param1:F1P}",
+        "Tempo de Recarga|{param2:F1}s"
+      ],
+      "parameters": {
+        "param1": [
+          1.512,
+          1.6254,
+          1.7388,
+          1.89,
+          2.0034,
+          2.1168,
+          2.268,
+          2.4192,
+          2.5704,
+          2.7216,
+          2.8728,
+          3.024,
+          3.213,
+          3.402,
+          3.591
+        ],
+        "param2": [
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12
+        ]
+      }
+    }
+  },
+  "combat3": {
+    "name": "Segredo Miauvilhoso",
+    "descriptionRaw": "A confiável Collambei chega para salvar o dia!\nLança a boneca chamada Collambei, causando uma explosão que inflige <color=#99FF88FF>Dano Dendro em uma AdE</color> e criando uma Zona Collambei. Collambei irá saltar constantemente dentro desta zona, infligindo <color=#99FF88FF>Dano Dendro em uma AdE</color>.\n\n<i>\"Incrível, não é? ...Hã? Você quer saber de onde tirei o nome Collambei? Uh, bem, eu...\"</i>",
+    "description": "A confiável Collambei chega para salvar o dia!\nLança a boneca chamada Collambei, causando uma explosão que inflige Dano Dendro em uma AdE e criando uma Zona Collambei. Collambei irá saltar constantemente dentro desta zona, infligindo Dano Dendro em uma AdE.",
+    "flavorText": "\"Incrível, não é? ...Hã? Você quer saber de onde tirei o nome Collambei? Uh, bem, eu...\"",
+    "attributes": {
+      "labels": [
+        "Dano de Explosão|{param1:F1P}",
+        "Dano de Salto|{param2:F1P}",
+        "Duração|{param3:F1}s",
+        "Tempo de Recarga|{param4:F1}s",
+        "Energia Elemental|{param5:I}"
+      ],
+      "parameters": {
+        "param1": [
+          2.01824,
+          2.169608,
+          2.320976,
+          2.5228,
+          2.674168,
+          2.825536,
+          3.02736,
+          3.229184,
+          3.431008,
+          3.632832,
+          3.834656,
+          4.03648,
+          4.28876,
+          4.54104,
+          4.79332
+        ],
+        "param2": [
+          0.43248,
+          0.464916,
+          0.497352,
+          0.5406,
+          0.573036,
+          0.605472,
+          0.64872,
+          0.691968,
+          0.735216,
+          0.778464,
+          0.821712,
+          0.86496,
+          0.91902,
+          0.97308,
+          1.02714
+        ],
+        "param3": [
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6
+        ],
+        "param4": [
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15
+        ],
+        "param5": [
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60
+        ]
+      }
+    }
+  },
+  "passive1": {
+    "name": "Retorno Floral",
+    "descriptionRaw": "Se antes do <color=#FFD780FF>Bumerangue Floral</color> retornar um dos membros da equipe desencadear a reação elemental de Queimaduras, Aceleração, Intensificação, Propagação, Florescimento, Superflorescimento ou Germinação, concederá ao personagem o estado \"Brotar\", que infligirá <color=#99FF88FF>Dano Dendro</color> continuamente contra os inimigos próximos equivalente a 40% do ATQ de Collei por 3s.\nDesencadear um novo efeito \"Brotar\" na duração do efeito \"Brotar\" existente anulará o efeito original. O Dano infligido pelo efeito \"Brotar\" é considerado Dano de Habilidade Elemental.",
+    "description": "Se antes do Bumerangue Floral retornar um dos membros da equipe desencadear a reação elemental de Queimaduras, Aceleração, Intensificação, Propagação, Florescimento, Superflorescimento ou Germinação, concederá ao personagem o estado \"Brotar\", que infligirá Dano Dendro continuamente contra os inimigos próximos equivalente a 40% do ATQ de Collei por 3s.\nDesencadear um novo efeito \"Brotar\" na duração do efeito \"Brotar\" existente anulará o efeito original. O Dano infligido pelo efeito \"Brotar\" é considerado Dano de Habilidade Elemental."
+  },
+  "passive2": {
+    "name": "Quietude da Floresta",
+    "descriptionRaw": "Quando um personagem dentro da <color=#FFD780FF>Zona Collambei</color> desencadeia uma reação elemental de Queimaduras, Aceleração, Intensificação, Propagação, Florescimento, Superflorescimento ou Germinação, a duração da área será prolongada em 1s.\nÉ possível prolongar a duração até 3 vezes desta maneira em um uso de <color=#FFD780FF>Segredo Miauvilhoso</color>.",
+    "description": "Quando um personagem dentro da Zona Collambei desencadeia uma reação elemental de Queimaduras, Aceleração, Intensificação, Propagação, Florescimento, Superflorescimento ou Germinação, a duração da área será prolongada em 1s.\nÉ possível prolongar a duração até 3 vezes desta maneira em um uso de Segredo Miauvilhoso."
+  },
+  "passive3": {
+    "name": "Campeã Voadora de Sumeru",
+    "descriptionRaw": "Diminui o consumo de Stamina ao Planar de todos os seus personagens em 20%.\nNão acumulável com Talentos Passivos que concedem exatamente os mesmos efeitos.",
+    "description": "Diminui o consumo de Stamina ao Planar de todos os seus personagens em 20%.\nNão acumulável com Talentos Passivos que concedem exatamente os mesmos efeitos."
+  },
+  "costs": {
+    "lvl2": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 12500
+      },
+      {
+        "id": 104335,
+        "name": "Ensinamentos de Práxis",
+        "count": 3
+      },
+      {
+        "id": 112011,
+        "name": "Ponta de Flecha Robusta",
+        "count": 6
+      }
+    ],
+    "lvl3": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 17500
+      },
+      {
+        "id": 104336,
+        "name": "Guia da Práxis",
+        "count": 2
+      },
+      {
+        "id": 112012,
+        "name": "Ponta de Flecha Afiada",
+        "count": 3
+      }
+    ],
+    "lvl4": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 25000
+      },
+      {
+        "id": 104336,
+        "name": "Guia da Práxis",
+        "count": 4
+      },
+      {
+        "id": 112012,
+        "name": "Ponta de Flecha Afiada",
+        "count": 4
+      }
+    ],
+    "lvl5": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 30000
+      },
+      {
+        "id": 104336,
+        "name": "Guia da Práxis",
+        "count": 6
+      },
+      {
+        "id": 112012,
+        "name": "Ponta de Flecha Afiada",
+        "count": 6
+      }
+    ],
+    "lvl6": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 37500
+      },
+      {
+        "id": 104336,
+        "name": "Guia da Práxis",
+        "count": 9
+      },
+      {
+        "id": 112012,
+        "name": "Ponta de Flecha Afiada",
+        "count": 9
+      }
+    ],
+    "lvl7": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 120000
+      },
+      {
+        "id": 104337,
+        "name": "Filosofia da Práxis",
+        "count": 4
+      },
+      {
+        "id": 112013,
+        "name": "Ponta de Flecha Usada",
+        "count": 4
+      },
+      {
+        "id": 113033,
+        "name": "Lágrima da Deusa do Desastre",
+        "count": 1
+      }
+    ],
+    "lvl8": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 260000
+      },
+      {
+        "id": 104337,
+        "name": "Filosofia da Práxis",
+        "count": 6
+      },
+      {
+        "id": 112013,
+        "name": "Ponta de Flecha Usada",
+        "count": 6
+      },
+      {
+        "id": 113033,
+        "name": "Lágrima da Deusa do Desastre",
+        "count": 1
+      }
+    ],
+    "lvl9": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 450000
+      },
+      {
+        "id": 104337,
+        "name": "Filosofia da Práxis",
+        "count": 12
+      },
+      {
+        "id": 112013,
+        "name": "Ponta de Flecha Usada",
+        "count": 9
+      },
+      {
+        "id": 113033,
+        "name": "Lágrima da Deusa do Desastre",
+        "count": 2
+      }
+    ],
+    "lvl10": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 700000
+      },
+      {
+        "id": 104337,
+        "name": "Filosofia da Práxis",
+        "count": 16
+      },
+      {
+        "id": 112013,
+        "name": "Ponta de Flecha Usada",
+        "count": 12
+      },
+      {
+        "id": 113033,
+        "name": "Lágrima da Deusa do Desastre",
+        "count": 2
+      },
+      {
+        "id": 104319,
+        "name": "Coroa da Sabedoria",
+        "count": 1
+      }
+    ]
+  },
+  "images": {
+    "filename_combat1": "Skill_A_02",
+    "filename_combat2": "Skill_S_Collei_01",
+    "filename_combat3": "Skill_E_Collei_01_HD",
+    "filename_passive1": "UI_Talent_S_Collei_05",
+    "filename_passive2": "UI_Talent_S_Collei_06",
+    "filename_passive3": "UI_Talent_Explosion_Glide"
+  },
+  "version": "3.0"
+}

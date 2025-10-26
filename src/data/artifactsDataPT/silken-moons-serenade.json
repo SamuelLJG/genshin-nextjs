@@ -1,0 +1,58 @@
+{
+  "id": 15042,
+  "rarityList": [
+    4,
+    5
+  ],
+  "name": "Serenata da Lua de Seda",
+  "newWeapon": "new",
+  "effect2Pc": "Recarga de Energia +20%",
+  "effect4Pc": "Ao causar Dano Elemental, obtém por 8s o efeito Resplandecer Lunar: Missiva Sublime: quando o Presságio Lunar da equipe estiver no Reluzir Inicial/Cheio, aumenta a Proficiência Elemental de todos os personagens em 60/120. Esse efeito pode ser desencadeado, mesmo se o personagem que está com esse conjunto equipado não estiver ativo. Quando um personagem possuir efeitos de Resplandecer Lunar diferentes, aumenta o Dano causado pelas Reações Lunares em 10% para todos os personagens. O efeito gerado por Resplandecer Lunar não é acumulável.",
+  "flower": {
+    "name": "Lágrima Cristalizada do Errante",
+    "relicType": "EQUIP_BRACER",
+    "relicText": "Flor da Vida",
+    "description": "Uma flor imaculada cuja beleza dizem ter sido preservada pela eternidade pelo vento gelado.",
+    "story": "Essa foi uma época em que a luz gentil da geada havia muito se despedaçado como um espelho de prata, mas quando a lua nova ainda não havia nascido.\nA bênção ancestral dos deuses, como uma única faísca na vasta tundra, eventualmente se apagou.\nQuando a lua celestial passou do céu, a terra que não podia se tornar a lua começou a murchar.\n\nEsta flor cristalina dizia ter nascido das lágrimas congeladas das últimas sacerdotisas da lua,\numa manifestação física de sua devoção inabalável mesmo quando a luz lunar desaparecia do mundo.\nCada faceta reflete um aspecto diferente da glória perdida da lua, preservando memórias de noites mais brilhantes."
+  },
+  "plume": {
+    "name": "Pena Pristina dos Abençoados",
+    "relicType": "EQUIP_NECKLACE",
+    "relicText": "Pluma da Morte",
+    "description": "Um acessório de penas imaculado que dizem ter sido forjado pela primeira Cantora da Lua.",
+    "story": "As grandes façanhas que os trabalhadores de milagres fizeram em anos passados haviam se desvanecido em orações vaporosas, e essas orações eram agora as preocupações silenciosas das massas.\nNaquelas noites desmoronantes e sem lua, mesmo uma mulher sagrada do sangue mais puro,\nTinha dificuldade em tecer a luz fluente em uma canção que pudesse comover o mundo, como seus ancestrais fizeram.\n\nEsta pena representa os últimos vestígios da conexão celestial, um lembrete de que mesmo na escuridão,\na memória do voo e da liberdade persiste, esperando o nascimento da nova lua."
+  },
+  "sands": {
+    "name": "Delírio do Portador do Gelo",
+    "relicType": "EQUIP_SHOES",
+    "relicText": "Areia do tempo",
+    "description": "Um relógio imaculado que há muito deixou de girar, junto com as ilusões de seu antigo dono.",
+    "story": "Não importa o quão fervorosamente os ancestrais do extremo norte juraram seguir seus deuses falecidos,\nSeus descendentes, mortais nesta esfera sublunar, viviam vidas tão efêmeras quanto uma chama cintilante.\nEm dias passados, quando ainda se podia contemplar mulheres sagradas e Arquissacerdotisas canalizando a graça dos deuses,\nAs pessoas ainda acreditavam que a lua nova um dia surgiria da luz despedaçada.\n\nEste medidor de tempo mede o anseio entre luas, cada grão de areia uma oração pelo retorno lunar."
+  },
+  "goblet": {
+    "name": "Alegria Gloriosa da Pureza",
+    "relicType": "EQUIP_RING",
+    "relicText": "Cálice de Eonothem",
+    "description": "Um cálice de prata imaculado que dizem ter sido usado nos rituais antigos dos Filhos da Lua Gelada. Seus ritos modernos não precisam de tal vaso."
+  },
+  "circlet": {
+    "name": "Coroa Sagrada do Crente",
+    "relicType": "EQUIP_DRESS",
+    "relicText": "Tiara de Logos",
+    "description": "Um adorno imaculado criado em imitação das galhas do enviado do bosque.",
+    "story": "Reza a lenda que a coroa de galhada dos Cantores da Lua hoje foi um presente da Lua Gelada no momento de sua obliteração.\nA árvore de prata foi estilhaçada, e desprovida de galhos brancos que pudessem encontrar, o sacerdócio suplicou por novas coroas.\nPor pena, a senhora da lua teceu coroas sagradas para eles com luz lunar impecável, inatas ao seu nascimento.\n\nFoi por isso que a última Arquissacerdotisa escolheu forjar seu diadema de ferro puro e frio.\nA jovem Lovia era apenas uma sacerdotisa então, uma que nunca testemunhara uma bênção ao luar,\nE ela sonhava que tais mentiras, que enganavam os outros e a si mesma, ainda poderiam unir os fiéis descrentes.\n\nDécadas depois, quando a falsa coroa de galhada afundou no sangue imundo e corrupto,\nO que se refletiu em seus olhos ainda não era a luz lunar impecável, mas a noite gélida engolida por sua própria sombra."
+  },
+  "images": {
+    "filename_flower": "UI_RelicIcon_15042_4",
+    "filename_plume": "UI_RelicIcon_15042_2",
+    "filename_sands": "UI_RelicIcon_15042_5",
+    "filename_goblet": "UI_RelicIcon_15042_1",
+    "filename_circlet": "UI_RelicIcon_15042_3",
+    "mihoyo_flower": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15042_4.png",
+    "mihoyo_plume": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15042_2.png",
+    "mihoyo_sands": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15042_5.png",
+    "mihoyo_goblet": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15042_1.png",
+    "mihoyo_circlet": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_RelicIcon_15042_3.png"
+  },
+  "version": "6.0"
+}

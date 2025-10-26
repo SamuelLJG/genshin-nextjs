@@ -1,0 +1,44 @@
+{
+  "id": 12201,
+  "name": "Nefer",
+  "c1": {
+    "name": "Planning Breeds Success",
+    "descriptionRaw": "The Base DMG for Lunar-Bloom reactions caused by Nefer's \u003Ccolor=#FFD780FF\u003EPhantasm Performance\u003C/color\u003E is increased by 60% of her Elemental Mastery. This effect is also boosted by \u003Ccolor=#FFD780FF\u003EVeil of Falsehood\u003C/color\u003E.",
+    "description": "The Base DMG for Lunar-Bloom reactions caused by Nefer's **Phantasm Performance** is increased by 60% of her Elemental Mastery. This effect is also boosted by **Veil of Falsehood**."
+  },
+  "c2": {
+    "name": "Observation Feeds Strategy",
+    "descriptionRaw": "Enhances the effects of the Ascension Talent \u003Ccolor=#FFD780FF\u003EA Wager of Moonlight\u003C/color\u003E: Extends \u003Ccolor=#FFD780FF\u003EVeil of Falsehood\u003C/color\u003E's duration by 5s, and increases its stack limit to 5, as well as causing \u003Ccolor=#FFD780FF\u003EPhantasm Performance\u003C/color\u003E to deal up to 140% of its original DMG. When Nefer unleashes her Elemental Skill \u003Ccolor=#FFD780FF\u003ESenet Strategy: Dance of a Thousand Nights\u003C/color\u003E, she will instantly gain 2 stacks of Veil of Falsehood. Additionally, when Veil of Falsehood reaches 5 stacks, or when the fifth stack's duration is refreshed, Nefer's Elemental Mastery will be increased by 200 for 8s instead.\nYou must first unlock the Ascension Talent \"A Wager of Moonlight.\"",
+    "description": "Enhances the effects of the Ascension Talent **A Wager of Moonlight**: Extends **Veil of Falsehood**'s duration by 5s, and increases its stack limit to 5, as well as causing **Phantasm Performance** to deal up to 140% of its original DMG. When Nefer unleashes her Elemental Skill **Senet Strategy: Dance of a Thousand Nights**, she will instantly gain 2 stacks of Veil of Falsehood. Additionally, when Veil of Falsehood reaches 5 stacks, or when the fifth stack's duration is refreshed, Nefer's Elemental Mastery will be increased by 200 for 8s instead.\nYou must first unlock the Ascension Talent \"A Wager of Moonlight.\""
+  },
+  "c3": {
+    "name": "Deceit Cloaks the Truth",
+    "descriptionRaw": "Increases the Level of \u003Ccolor=#FFD780FF\u003ESenet Strategy: Dance of a Thousand Nights\u003C/color\u003E by 3.\nMaximum upgrade level is 15.",
+    "description": "Increases the Level of **Senet Strategy: Dance of a Thousand Nights** by 3.\nMaximum upgrade level is 15."
+  },
+  "c4": {
+    "name": "Delusion Ensnares Reason",
+    "descriptionRaw": "When Nefer is on the field and in the \u003Ccolor=#FFD780FF\u003EShadow Dance\u003C/color\u003E state, you will gain Verdant Dew 25% faster.\nAdditionally, while Nefer is in the Shadow Dance state, nearby opponents will have their \u003Ccolor=#99FF88FF\u003EDendro RES\u003C/color\u003E decreased by 20%. When Nefer exits the Shadow Dance state or after she strays a certain distance away from the opponents, this effect will be removed after 4.5s.",
+    "description": "When Nefer is on the field and in the **Shadow Dance** state, you will gain Verdant Dew 25% faster.\nAdditionally, while Nefer is in the Shadow Dance state, nearby opponents will have their Dendro RES decreased by 20%. When Nefer exits the Shadow Dance state or after she strays a certain distance away from the opponents, this effect will be removed after 4.5s."
+  },
+  "c5": {
+    "name": "Opportunity Hides in the Margins",
+    "descriptionRaw": "Increases the Level of \u003Ccolor=#FFD780FF\u003ESacred Vow: True Eye's Phantasm\u003C/color\u003E by 3.\nMaximum upgrade level is 15.",
+    "description": "Increases the Level of **Sacred Vow: True Eye's Phantasm** by 3.\nMaximum upgrade level is 15."
+  },
+  "c6": {
+    "name": "Victory Flows from the Turning of Tides",
+    "descriptionRaw": "When Nefer unleashes \u003Ccolor=#FFD780FF\u003EPhantasm Performance\u003C/color\u003E, the second stage of DMG dealt by herself will be converted to deal \u003Ccolor=#99FF88FF\u003EAoE Dendro DMG\u003C/color\u003E equal to 85% of her Elemental Mastery. Additionally, when the attacks from Phantasm Performance end, an extra instance of \u003Ccolor=#99FF88FF\u003EAoE Dendro DMG\u003C/color\u003E equal to 120% of Nefer's Elemental Mastery will be dealt. All of the aforementioned DMG is considered Lunar-Bloom DMG dealt by Phantasm Performance.\n\n\u003Ccolor=#FFD780FF\u003EMoonsign: Ascendant Gleam\u003C/color\u003E\nNefer's Lunar-Bloom DMG is \u003Ccolor=#FFD780FF\u003Eelevated\u003C/color\u003E by 15%.",
+    "description": "When Nefer unleashes **Phantasm Performance**, the second stage of DMG dealt by herself will be converted to deal AoE Dendro DMG equal to 85% of her Elemental Mastery. Additionally, when the attacks from Phantasm Performance end, an extra instance of AoE Dendro DMG equal to 120% of Nefer's Elemental Mastery will be dealt. All of the aforementioned DMG is considered Lunar-Bloom DMG dealt by Phantasm Performance.\n\nMoonsign: Ascendant Gleam\nNefer's Lunar-Bloom DMG is **elevated** by 15%."
+  },
+  "images": {
+    "filename_c1": "UI_Talent_S_Nefer_01",
+    "filename_c2": "UI_Talent_S_Nefer_02",
+    "filename_c3": "UI_Talent_U_Nefer_01",
+    "filename_c4": "UI_Talent_S_Nefer_03",
+    "filename_c5": "UI_Talent_U_Nefer_02",
+    "filename_c6": "UI_Talent_S_Nefer_04",
+    "filename_constellation": "Eff_UI_Talent_Nefer"
+  },
+  "version": "6.1"
+}

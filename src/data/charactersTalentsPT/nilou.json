@@ -1,0 +1,670 @@
+{
+  "id": 7001,
+  "name": "Nilou",
+  "combat1": {
+    "name": "Dança da Meia-Lua",
+    "descriptionRaw": "<color=#FFD780FF>Ataque Normal</color>\nRealiza até 3 golpes rápidos.\n\n<color=#FFD780FF>Ataque Carregado</color>\nConsome uma certa quantidade de Stamina para desferir um golpe giratório.\n\n<color=#FFD780FF>Ataque Imersivo</color>\nMergulha em pleno ar para golpear o chão, causando dano aos inimigos ao longo do caminho e infligindo Dano em uma AdE durante o impacto.",
+    "description": "Ataque Normal\nRealiza até 3 golpes rápidos.\n\nAtaque Carregado\nConsome uma certa quantidade de Stamina para desferir um golpe giratório.\n\nAtaque Imersivo\nMergulha em pleno ar para golpear o chão, causando dano aos inimigos ao longo do caminho e infligindo Dano em uma AdE durante o impacto.",
+    "attributes": {
+      "labels": [
+        "Dano do 1° Golpe|{param1:F1P}",
+        "Dano do 2° Golpe|{param2:F1P}",
+        "Dano do 3° Golpe|{param3:F1P}",
+        "Dano de Ataque Carregado|{param4:F1P}+{param5:F1P}",
+        "Consumo de Stamina de Ataque Carregado|{param6:F1}",
+        "Dano Durante a Queda|{param7:F1P}",
+        "Dano de Queda de Baixa/Alta Altitude|{param8:P}/{param9:P}"
+      ],
+      "parameters": {
+        "param1": [
+          0.503074,
+          0.544022,
+          0.58497,
+          0.643467,
+          0.684415,
+          0.731213,
+          0.795559,
+          0.859906,
+          0.924253,
+          0.994449,
+          1.064645,
+          1.134842,
+          1.205038,
+          1.275235,
+          1.345431
+        ],
+        "param2": [
+          0.45439,
+          0.491375,
+          0.52836,
+          0.581196,
+          0.618181,
+          0.66045,
+          0.71857,
+          0.776689,
+          0.834809,
+          0.898212,
+          0.961615,
+          1.025018,
+          1.088422,
+          1.151825,
+          1.215228
+        ],
+        "param3": [
+          0.70354,
+          0.760805,
+          0.81807,
+          0.899877,
+          0.957142,
+          1.022588,
+          1.112575,
+          1.202563,
+          1.292551,
+          1.390719,
+          1.488887,
+          1.587056,
+          1.685224,
+          1.783393,
+          1.881561
+        ],
+        "param4": [
+          0.50224,
+          0.54312,
+          0.584,
+          0.6424,
+          0.68328,
+          0.73,
+          0.79424,
+          0.85848,
+          0.92272,
+          0.9928,
+          1.06288,
+          1.13296,
+          1.20304,
+          1.27312,
+          1.3432
+        ],
+        "param5": [
+          0.54438,
+          0.58869,
+          0.633,
+          0.6963,
+          0.74061,
+          0.79125,
+          0.86088,
+          0.93051,
+          1.00014,
+          1.0761,
+          1.15206,
+          1.22802,
+          1.30398,
+          1.37994,
+          1.4559
+        ],
+        "param6": [
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20
+        ],
+        "param7": [
+          0.639324,
+          0.691362,
+          0.7434,
+          0.81774,
+          0.869778,
+          0.92925,
+          1.011024,
+          1.092798,
+          1.174572,
+          1.26378,
+          1.352988,
+          1.442196,
+          1.531404,
+          1.620612,
+          1.70982
+        ],
+        "param8": [
+          1.278377,
+          1.382431,
+          1.486485,
+          1.635134,
+          1.739187,
+          1.858106,
+          2.02162,
+          2.185133,
+          2.348646,
+          2.527025,
+          2.705403,
+          2.883781,
+          3.062159,
+          3.240537,
+          3.418915
+        ],
+        "param9": [
+          1.596762,
+          1.726731,
+          1.8567,
+          2.04237,
+          2.172339,
+          2.320875,
+          2.525112,
+          2.729349,
+          2.933586,
+          3.15639,
+          3.379194,
+          3.601998,
+          3.824802,
+          4.047606,
+          4.27041
+        ]
+      }
+    }
+  },
+  "combat2": {
+    "name": "Dança dos Sete Reinos",
+    "descriptionRaw": "Entra no estado de \"Pirueta\", infligindo <color=#80C0FFFF>Dano Hydro</color> baseado na Vida Máxima de Nilou.\nEnquanto estiver no estado de Pirueta, ao desferir Ataques Normais ou lançar sua Habilidade Elemental, Nilou entrará nas posições \"Dança de Espadas\" e \"Dança Rodopiante\" respectivamente, fazendo com que o Dano infligido seja convertido em <color=#80C0FFFF>Dano Hydro</color> que não pode ser substituído, e é considerado Dano de Habilidade Elemental.\n\nNesse estado, o terceiro passo da dança de Nilou eliminará o estado de Pirueta e, de acordo com o tipo do terceiro passo, desencadeará os seguintes efeitos:\n· Dança de Espadas: lança uma Lua Aquática, que inflige <color=#80C0FFFF>Dano Hydro</color> contra os inimigos que atinge e faz Nilou entrar no estado \"Súplica Lunar\". Nesse estado, ao realizar Ataques Normais, eles serão convertidos em Dança de Espadas e, ao realizar o último ataque, será lançada uma Lua Aquática;\n· Dança Rodopiante: lança uma Roda d'Água, infligindo <color=#80C0FFFF>Dano Hydro em AdE</color>, e gerando uma \"Aura da Tranquilidade\" que segue o personagem ativo, continuamente aplicando o estado <color=#80C0FFFF>Molhado</color> aos oponentes.\n\nEnquanto Nilou estiver no estado de Pirueta ou da Súplica Lunar, ela não poderá desferir Ataques Carregados; esses estados serão eliminados quando Nilou sair do campo de batalha.\n\n<i>\"Quando seus pés delicados tocam suavemente a água, ela cria ondulações tão resplandecentes quanto os sete céus.\"</i>",
+    "description": "Entra no estado de \"Pirueta\", infligindo Dano Hydro baseado na Vida Máxima de Nilou.\nEnquanto estiver no estado de Pirueta, ao desferir Ataques Normais ou lançar sua Habilidade Elemental, Nilou entrará nas posições \"Dança de Espadas\" e \"Dança Rodopiante\" respectivamente, fazendo com que o Dano infligido seja convertido em Dano Hydro que não pode ser substituído, e é considerado Dano de Habilidade Elemental.\n\nNesse estado, o terceiro passo da dança de Nilou eliminará o estado de Pirueta e, de acordo com o tipo do terceiro passo, desencadeará os seguintes efeitos:\n· Dança de Espadas: lança uma Lua Aquática, que inflige Dano Hydro contra os inimigos que atinge e faz Nilou entrar no estado \"Súplica Lunar\". Nesse estado, ao realizar Ataques Normais, eles serão convertidos em Dança de Espadas e, ao realizar o último ataque, será lançada uma Lua Aquática;\n· Dança Rodopiante: lança uma Roda d'Água, infligindo Dano Hydro em AdE, e gerando uma \"Aura da Tranquilidade\" que segue o personagem ativo, continuamente aplicando o estado Molhado aos oponentes.\n\nEnquanto Nilou estiver no estado de Pirueta ou da Súplica Lunar, ela não poderá desferir Ataques Carregados; esses estados serão eliminados quando Nilou sair do campo de batalha.",
+    "flavorText": "\"Quando seus pés delicados tocam suavemente a água, ela cria ondulações tão resplandecentes quanto os sete céus.\"",
+    "attributes": {
+      "labels": [
+        "Dano de Habilidade|{param1:F2P} da Vida Máxima",
+        "Dano do 1° Golpe da Dança de Espadas/Dança Rodopiante|{param6:F2P}/{param2:F2P} da Vida Máxima",
+        "Dano do 2º Golpe da Dança de Espadas/Dança Rodopiante|{param7:F2P}/{param3:F2P} da Vida Máxima",
+        "Dano de Lua Aquática/Roda d'Água|{param4:F2P}/{param5:F2P} da Vida Máxima",
+        "Duração de Pirueta|{param11:F1}s",
+        "Duração da Súplica Lunar|{param10:F1}s",
+        "Duração da Aura da Tranquilidade|{param8:F1}s",
+        "Recarga|{param9:F1}s"
+      ],
+      "parameters": {
+        "param1": [
+          0.033389,
+          0.035893,
+          0.038397,
+          0.041736,
+          0.04424,
+          0.046744,
+          0.050083,
+          0.053422,
+          0.056761,
+          0.0601,
+          0.063439,
+          0.066778,
+          0.070951,
+          0.075125,
+          0.079298
+        ],
+        "param2": [
+          0.032619,
+          0.035066,
+          0.037512,
+          0.040774,
+          0.04322,
+          0.045667,
+          0.048929,
+          0.052191,
+          0.055453,
+          0.058715,
+          0.061976,
+          0.065238,
+          0.069316,
+          0.073393,
+          0.077471
+        ],
+        "param3": [
+          0.039605,
+          0.042575,
+          0.045546,
+          0.049506,
+          0.052476,
+          0.055447,
+          0.059407,
+          0.063368,
+          0.067328,
+          0.071289,
+          0.075249,
+          0.07921,
+          0.08416,
+          0.089111,
+          0.094061
+        ],
+        "param4": [
+          0.071688,
+          0.077065,
+          0.082441,
+          0.08961,
+          0.094987,
+          0.100363,
+          0.107532,
+          0.114701,
+          0.12187,
+          0.129038,
+          0.136207,
+          0.143376,
+          0.152337,
+          0.161298,
+          0.170259
+        ],
+        "param5": [
+          0.050616,
+          0.054412,
+          0.058208,
+          0.06327,
+          0.067066,
+          0.070862,
+          0.075924,
+          0.080986,
+          0.086047,
+          0.091109,
+          0.09617,
+          0.101232,
+          0.107559,
+          0.113886,
+          0.120213
+        ],
+        "param6": [
+          0.045525,
+          0.048939,
+          0.052354,
+          0.056906,
+          0.06032,
+          0.063735,
+          0.068287,
+          0.07284,
+          0.077392,
+          0.081945,
+          0.086497,
+          0.09105,
+          0.09674,
+          0.102431,
+          0.108121
+        ],
+        "param7": [
+          0.051445,
+          0.055303,
+          0.059162,
+          0.064306,
+          0.068164,
+          0.072023,
+          0.077167,
+          0.082312,
+          0.087456,
+          0.092601,
+          0.097745,
+          0.10289,
+          0.10932,
+          0.115751,
+          0.122181
+        ],
+        "param8": [
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12
+        ],
+        "param9": [
+          18,
+          18,
+          18,
+          18,
+          18,
+          18,
+          18,
+          18,
+          18,
+          18,
+          18,
+          18,
+          18,
+          18,
+          18
+        ],
+        "param10": [
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ],
+        "param11": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ]
+      }
+    }
+  },
+  "combat3": {
+    "name": "Dança da Lótus: Nascente Longínqua Onírica",
+    "descriptionRaw": "Inicia a Dança da Nascente Longínqua Onírica, desabrochando a Lótus de Águas Longínquas, que inflige <color=#80C0FFFF>Dano Hydro em AdE</color> baseado na Vida Máxima de Nilou e aplicando o estado \"Inundação Eterna\" aos inimigos atingidos.\nApós um curto intervalo, inimigos sob o estado Inundação Eterna sofrerão <color=#80C0FFFF>Dano Hydro</color>.\n\n<i>\"Nunca testemunhamos sonho tão distante, mas essa dança pode trazê-lo à vida.\"</i>",
+    "description": "Inicia a Dança da Nascente Longínqua Onírica, desabrochando a Lótus de Águas Longínquas, que inflige Dano Hydro em AdE baseado na Vida Máxima de Nilou e aplicando o estado \"Inundação Eterna\" aos inimigos atingidos.\nApós um curto intervalo, inimigos sob o estado Inundação Eterna sofrerão Dano Hydro.",
+    "flavorText": "\"Nunca testemunhamos sonho tão distante, mas essa dança pode trazê-lo à vida.\"",
+    "attributes": {
+      "labels": [
+        "Dano de Habilidade|{param1:F1P} da Vida Máxima",
+        "Dano da Inundação Eterna|{param2:F1P} da Vida Máxima",
+        "Recarga|{param3:F1}s",
+        "Energia Elemental|{param4:I}"
+      ],
+      "parameters": {
+        "param1": [
+          0.18432,
+          0.198144,
+          0.211968,
+          0.2304,
+          0.244224,
+          0.258048,
+          0.27648,
+          0.294912,
+          0.313344,
+          0.331776,
+          0.350208,
+          0.36864,
+          0.39168,
+          0.41472,
+          0.43776
+        ],
+        "param2": [
+          0.22528,
+          0.242176,
+          0.259072,
+          0.2816,
+          0.298496,
+          0.315392,
+          0.33792,
+          0.360448,
+          0.382976,
+          0.405504,
+          0.428032,
+          0.45056,
+          0.47872,
+          0.50688,
+          0.53504
+        ],
+        "param3": [
+          18,
+          18,
+          18,
+          18,
+          18,
+          18,
+          18,
+          18,
+          18,
+          18,
+          18,
+          18,
+          18,
+          18,
+          18
+        ],
+        "param4": [
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70
+        ]
+      }
+    }
+  },
+  "passive1": {
+    "name": "Corte das Pétalas Dançantes",
+    "descriptionRaw": "Quando todos os personagens da equipe são do tipo elemental <color=#99FF88FF>Dendro</color> e <color=#80C0FFFF>Hydro</color>, e quando há pelo menos um personagem Dendro e Hydro:\nAo completar a terceira etapa da <color=#FFD780FF>Dança dos Sete Reinos</color>, Nilou concede a todos os membros próximos da equipe o estado \"Recompensa do Cálice Dourado\" que dura por 30s.\nPersonagens que estão sob o estado Recompensa do Cálice Dourado, ao sofrerem um <color=#99FF88FF>Ataque Dendro</color>, aumentarão a Proficiência Elemental de todos os personagens próximos em 100 por 10s; além disso, ao desencadearem a reação de Florescimento, substituirão a criação de um Núcleo Dendro por um \"Núcleo da Riqueza\".\nDiferente do Núcleo Dendro, o Núcleo da Riqueza explode rapidamente e tem uma AdE maior.\nO Núcleo da Riqueza não pode desencadear as reações de Germinação e Superflorescimento, e compartilha o limite de quantidade com os Núcleos Dendro. O Dano do Núcleo da Riqueza é considerado como Dano de Núcleo Dendro criado pela reação de Florescimento.\nQuando os requisitos de Talento Passivo do tipo de elementos dos personagens da equipe não forem atendidos, os efeitos da Recompensa do Cálice Dourado existentes serão removidos.",
+    "description": "Quando todos os personagens da equipe são do tipo elemental Dendro e Hydro, e quando há pelo menos um personagem Dendro e Hydro:\nAo completar a terceira etapa da Dança dos Sete Reinos, Nilou concede a todos os membros próximos da equipe o estado \"Recompensa do Cálice Dourado\" que dura por 30s.\nPersonagens que estão sob o estado Recompensa do Cálice Dourado, ao sofrerem um Ataque Dendro, aumentarão a Proficiência Elemental de todos os personagens próximos em 100 por 10s; além disso, ao desencadearem a reação de Florescimento, substituirão a criação de um Núcleo Dendro por um \"Núcleo da Riqueza\".\nDiferente do Núcleo Dendro, o Núcleo da Riqueza explode rapidamente e tem uma AdE maior.\nO Núcleo da Riqueza não pode desencadear as reações de Germinação e Superflorescimento, e compartilha o limite de quantidade com os Núcleos Dendro. O Dano do Núcleo da Riqueza é considerado como Dano de Núcleo Dendro criado pela reação de Florescimento.\nQuando os requisitos de Talento Passivo do tipo de elementos dos personagens da equipe não forem atendidos, os efeitos da Recompensa do Cálice Dourado existentes serão removidos."
+  },
+  "passive2": {
+    "name": "Sonhos da Dança de Eras",
+    "descriptionRaw": "Para cada 1.000 pontos de Vida Máxima de Nilou acima de 30.000, aumenta o Dano infligido pelos Núcleos da Riqueza criados pelos personagens sob o estado de \"Recompensa do Cálice Dourado\" em 9%.\nO aumento de Dano infligido pelos Núcleos da Riqueza desta forma pode ser de até 400%.",
+    "description": "Para cada 1.000 pontos de Vida Máxima de Nilou acima de 30.000, aumenta o Dano infligido pelos Núcleos da Riqueza criados pelos personagens sob o estado de \"Recompensa do Cálice Dourado\" em 9%.\nO aumento de Dano infligido pelos Núcleos da Riqueza desta forma pode ser de até 400%."
+  },
+  "passive3": {
+    "name": "Lótus da Jade Branca",
+    "descriptionRaw": "Ao fazer uma comida Perfeita relacionada a efeitos de Aventura, há 12% de chance de se obter o dobro de produção.",
+    "description": "Ao fazer uma comida Perfeita relacionada a efeitos de Aventura, há 12% de chance de se obter o dobro de produção."
+  },
+  "costs": {
+    "lvl2": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 12500
+      },
+      {
+        "id": 104335,
+        "name": "Ensinamentos de Práxis",
+        "count": 3
+      },
+      {
+        "id": 112059,
+        "name": "Esporo de Cogumelo Flutuante",
+        "count": 6
+      }
+    ],
+    "lvl3": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 17500
+      },
+      {
+        "id": 104336,
+        "name": "Guia da Práxis",
+        "count": 2
+      },
+      {
+        "id": 112060,
+        "name": "Pólen fluorescente",
+        "count": 3
+      }
+    ],
+    "lvl4": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 25000
+      },
+      {
+        "id": 104336,
+        "name": "Guia da Práxis",
+        "count": 4
+      },
+      {
+        "id": 112060,
+        "name": "Pólen fluorescente",
+        "count": 4
+      }
+    ],
+    "lvl5": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 30000
+      },
+      {
+        "id": 104336,
+        "name": "Guia da Práxis",
+        "count": 6
+      },
+      {
+        "id": 112060,
+        "name": "Pólen fluorescente",
+        "count": 6
+      }
+    ],
+    "lvl6": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 37500
+      },
+      {
+        "id": 104336,
+        "name": "Guia da Práxis",
+        "count": 9
+      },
+      {
+        "id": 112060,
+        "name": "Pólen fluorescente",
+        "count": 9
+      }
+    ],
+    "lvl7": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 120000
+      },
+      {
+        "id": 104337,
+        "name": "Filosofia da Práxis",
+        "count": 4
+      },
+      {
+        "id": 112061,
+        "name": "Poeira Cristalina de Cisto",
+        "count": 4
+      },
+      {
+        "id": 113033,
+        "name": "Lágrima da Deusa do Desastre",
+        "count": 1
+      }
+    ],
+    "lvl8": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 260000
+      },
+      {
+        "id": 104337,
+        "name": "Filosofia da Práxis",
+        "count": 6
+      },
+      {
+        "id": 112061,
+        "name": "Poeira Cristalina de Cisto",
+        "count": 6
+      },
+      {
+        "id": 113033,
+        "name": "Lágrima da Deusa do Desastre",
+        "count": 1
+      }
+    ],
+    "lvl9": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 450000
+      },
+      {
+        "id": 104337,
+        "name": "Filosofia da Práxis",
+        "count": 12
+      },
+      {
+        "id": 112061,
+        "name": "Poeira Cristalina de Cisto",
+        "count": 9
+      },
+      {
+        "id": 113033,
+        "name": "Lágrima da Deusa do Desastre",
+        "count": 2
+      }
+    ],
+    "lvl10": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 700000
+      },
+      {
+        "id": 104337,
+        "name": "Filosofia da Práxis",
+        "count": 16
+      },
+      {
+        "id": 112061,
+        "name": "Poeira Cristalina de Cisto",
+        "count": 12
+      },
+      {
+        "id": 113033,
+        "name": "Lágrima da Deusa do Desastre",
+        "count": 2
+      },
+      {
+        "id": 104319,
+        "name": "Coroa da Sabedoria",
+        "count": 1
+      }
+    ]
+  },
+  "images": {
+    "filename_combat1": "Skill_A_01",
+    "filename_combat2": "Skill_S_Nilou_01",
+    "filename_combat3": "Skill_E_Nilou_01_HD",
+    "filename_passive1": "UI_Talent_S_Nilou_05",
+    "filename_passive2": "UI_Talent_S_Nilou_06",
+    "filename_passive3": "UI_Talent_S_Yunjin_07"
+  },
+  "version": "3.1"
+}

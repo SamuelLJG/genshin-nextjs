@@ -1,0 +1,44 @@
+{
+  "id": 12201,
+  "name": "Nefer",
+  "c1": {
+    "name": "O Plano é o Começo do Sucesso",
+    "descriptionRaw": "Aumenta o Dano Básico causado por Florescimento Lunar de \u003Ccolor=#FFD780FF\u003ETruque Fantástico\u003C/color\u003E de Nefer. O aumento é equivalente a 60% da Proficiência Elemental de Nefer. Esse efeito é cumulativo com o bônus de \u003Ccolor=#FFD780FF\u003ECortina do Segredo Falso\u003C/color\u003E.",
+    "description": "Aumenta o Dano Básico causado por Florescimento Lunar de **Truque Fantástico** de Nefer. O aumento é equivalente a 60% da Proficiência Elemental de Nefer. Esse efeito é cumulativo com o bônus de **Cortina do Segredo Falso**."
+  },
+  "c2": {
+    "name": "Precisão Planejada",
+    "descriptionRaw": "Fortalece o efeito do Talento de Ascensão \u003Ccolor=#FFD780FF\u003EAposta Sob o Luar\u003C/color\u003E: prolonga a duração de \u003Ccolor=#FFD780FF\u003ECortina do Segredo Falso\u003C/color\u003E por 5s, aumenta o máximo de acúmulos para 5, e o Dano de \u003Ccolor=#FFD780FF\u003ETruque Fantástico\u003C/color\u003E para 140% do Dano original causado. Quando Nefer lançar sua Habilidade Elemental \u003Ccolor=#FFD780FF\u003EEstratégia de Senet: Dança de Mil Noites\u003C/color\u003E, imediatamente obtém 2 acúmulos de Cortina do Segredo Falso. Além disso, quando acumular 5 Cortinas do Segredo Falso, ou quando redefinir a duração dos 5 acúmulos, aumenta a Proficiência Elemental de Nefer em 500 por 8s.\nÉ necessário desbloquear o Talento de Ascensão Aposta Sob o Luar.",
+    "description": "Fortalece o efeito do Talento de Ascensão **Aposta Sob o Luar**: prolonga a duração de **Cortina do Segredo Falso** por 5s, aumenta o máximo de acúmulos para 5, e o Dano de **Truque Fantástico** para 140% do Dano original causado. Quando Nefer lançar sua Habilidade Elemental **Estratégia de Senet: Dança de Mil Noites**, imediatamente obtém 2 acúmulos de Cortina do Segredo Falso. Além disso, quando acumular 5 Cortinas do Segredo Falso, ou quando redefinir a duração dos 5 acúmulos, aumenta a Proficiência Elemental de Nefer em 500 por 8s.\nÉ necessário desbloquear o Talento de Ascensão Aposta Sob o Luar."
+  },
+  "c3": {
+    "name": "Vestígios das Mentiras",
+    "descriptionRaw": "Aumenta o nível da Habilidade Elemental \u003Ccolor=#FFD780FF\u003EEstratégia de Senet: Dança de Mil Noites\u003C/color\u003E em 3 níveis. \nO nível máximo de elevação é 15.",
+    "description": "Aumenta o nível da Habilidade Elemental **Estratégia de Senet: Dança de Mil Noites** em 3 níveis. \nO nível máximo de elevação é 15."
+  },
+  "c4": {
+    "name": "Mergulho da Rede do Mistério",
+    "descriptionRaw": "Quando Nefer é a personagem ativa e está no estado \u003Ccolor=#FFD780FF\u003EBaile das Sombras\u003C/color\u003E, o Orvalho Verdejante obtém um aumento de velocidade de 25%.\nAlém disso, quando Nefer está no Baile das Sombras, reduz a \u003Ccolor=#99FF88FF\u003ERES Dendro\u003C/color\u003E dos inimigos próximos em 20%. Quando Nefer não estiver no estado Baile das Sombras ou após se afastar uma certa distância dos inimigos, removerá esse efeito após 4.5s.",
+    "description": "Quando Nefer é a personagem ativa e está no estado **Baile das Sombras**, o Orvalho Verdejante obtém um aumento de velocidade de 25%.\nAlém disso, quando Nefer está no Baile das Sombras, reduz a RES Dendro dos inimigos próximos em 20%. Quando Nefer não estiver no estado Baile das Sombras ou após se afastar uma certa distância dos inimigos, removerá esse efeito após 4.5s."
+  },
+  "c5": {
+    "name": "Oportunidade Única",
+    "descriptionRaw": "Aumenta o nível do Supremo \u003Ccolor=#FFD780FF\u003EVoto Sagrado: Fantasma do Olho Verdadeiro\u003C/color\u003E em 3.\nO nível máximo de elevação é 15.",
+    "description": "Aumenta o nível do Supremo **Voto Sagrado: Fantasma do Olho Verdadeiro** em 3.\nO nível máximo de elevação é 15."
+  },
+  "c6": {
+    "name": "Momento da Reviravolta Decisiva",
+    "descriptionRaw": "Quando Nefer lança \u003Ccolor=#FFD780FF\u003ETruque Fantástico\u003C/color\u003E, seu próprio Dano do 2° Golpe será convertido para \u003Ccolor=#99FF88FF\u003EDano Dendro em AdE\u003C/color\u003E equivalente a 85% de sua Proficiência Elemental. Além disso, quando a duração do ataque de Truque Fantástico acabar, causa uma instância de \u003Ccolor=#99FF88FF\u003EDano Dendro em AdE\u003C/color\u003E equivalente a 120% de sua Proficiência Elemental. Esse Dano é considerado Dano de Florescimento Lunar causado por Truque Fantástico.\n\n\u003Ccolor=#FFD780FF\u003EPresságio Lunar: Reluzir Cheio\u003C/color\u003E\nO Dano de Florescimento Lunar de Nefer é \u003Ccolor=#FFD780FF\u003EElevado\u003C/color\u003E em 15%.",
+    "description": "Quando Nefer lança **Truque Fantástico**, seu próprio Dano do 2° Golpe será convertido para Dano Dendro em AdE equivalente a 85% de sua Proficiência Elemental. Além disso, quando a duração do ataque de Truque Fantástico acabar, causa uma instância de Dano Dendro em AdE equivalente a 120% de sua Proficiência Elemental. Esse Dano é considerado Dano de Florescimento Lunar causado por Truque Fantástico.\n\nPresságio Lunar: Reluzir Cheio\nO Dano de Florescimento Lunar de Nefer é **Elevado** em 15%."
+  },
+  "images": {
+    "filename_c1": "UI_Talent_S_Nefer_01",
+    "filename_c2": "UI_Talent_S_Nefer_02",
+    "filename_c3": "UI_Talent_U_Nefer_01",
+    "filename_c4": "UI_Talent_S_Nefer_03",
+    "filename_c5": "UI_Talent_U_Nefer_02",
+    "filename_c6": "UI_Talent_S_Nefer_04",
+    "filename_constellation": "Eff_UI_Talent_Nefer"
+  },
+  "version": "6.1"
+}

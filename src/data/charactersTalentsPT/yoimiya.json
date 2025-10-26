@@ -1,0 +1,618 @@
+{
+  "id": 4901,
+  "name": "Yoimiya",
+  "combat1": {
+    "name": "Pirotecnia",
+    "descriptionRaw": "<color=#FFD780FF>Ataque Normal</color>\nRealiza até 5 disparos consecutivos com um arco.\n\n<color=#FFD780FF>Ataque Carregado</color>\nRealiza um <color=#FFD780FF>Disparo com Mira</color> mais preciso com Dano aumentado.\nAo mirar, uma aura flamejante acumulará na ponta da flecha antes de ser disparada. Tem diferentes efeitos baseados em quanto tempo a energia foi carregada:\nCarga Nível 1: Dispara uma Flecha Flamejante que causa <color=#FF9999FF>Dano Pyro</color>\nCarga Nível 2: Gera um máximo de 3 Flechas Abrasadoras com base no tempo decorrido no carregamento, liberando-as como parte do Disparo com Mira. Flechas Abrasadoras irão perseguir os alvos próximos, causando <color=#FF9999FF>Dano Pyro</color> ao atingir um inimigo.\n\n<color=#FFD780FF>Ataque Imersivo</color>\nDispara uma chuva de flechas em pleno ar antes de cair e atingir o chão, causando Dano em AdE no impacto.",
+    "description": "Ataque Normal\nRealiza até 5 disparos consecutivos com um arco.\n\nAtaque Carregado\nRealiza um Disparo com Mira mais preciso com Dano aumentado.\nAo mirar, uma aura flamejante acumulará na ponta da flecha antes de ser disparada. Tem diferentes efeitos baseados em quanto tempo a energia foi carregada:\nCarga Nível 1: Dispara uma Flecha Flamejante que causa Dano Pyro\nCarga Nível 2: Gera um máximo de 3 Flechas Abrasadoras com base no tempo decorrido no carregamento, liberando-as como parte do Disparo com Mira. Flechas Abrasadoras irão perseguir os alvos próximos, causando Dano Pyro ao atingir um inimigo.\n\nAtaque Imersivo\nDispara uma chuva de flechas em pleno ar antes de cair e atingir o chão, causando Dano em AdE no impacto.",
+    "attributes": {
+      "labels": [
+        "Dano do 1° Golpe|{param1:F1P} x2",
+        "Dano do 2° Golpe|{param2:F1P}",
+        "Dano do 3° Golpe|{param3:F1P}",
+        "Dano do 4° Golpe|{param4:F1P}*2",
+        "Dano do 5° Golpe|{param5:F1P}",
+        "Disparo com Mira|{param6:F1P}",
+        "Disparo com Mira com Energização Completa|{param7:P}",
+        "Dano da Flecha Abrasadora|{param8:P}",
+        "Dano Durante a Queda|{param9:F1P}",
+        "Dano de Queda de Baixa/Alta Altitude|{param10:P}/{param11:P}"
+      ],
+      "parameters": {
+        "param1": [
+          0.3564,
+          0.3807,
+          0.405,
+          0.4374,
+          0.4617,
+          0.49005,
+          0.5265,
+          0.56295,
+          0.5994,
+          0.63585,
+          0.6723,
+          0.70875,
+          0.7452,
+          0.78165,
+          0.8181
+        ],
+        "param2": [
+          0.68376,
+          0.73038,
+          0.777,
+          0.83916,
+          0.88578,
+          0.94017,
+          1.0101,
+          1.08003,
+          1.14996,
+          1.21989,
+          1.28982,
+          1.35975,
+          1.42968,
+          1.49961,
+          1.56954
+        ],
+        "param3": [
+          0.888888,
+          0.949494,
+          1.0101,
+          1.090908,
+          1.151514,
+          1.222221,
+          1.31313,
+          1.404039,
+          1.494948,
+          1.585857,
+          1.676766,
+          1.767675,
+          1.858584,
+          1.949493,
+          2.040402
+        ],
+        "param4": [
+          0.4642,
+          0.49585,
+          0.5275,
+          0.5697,
+          0.60135,
+          0.638275,
+          0.68575,
+          0.733225,
+          0.7807,
+          0.828175,
+          0.87565,
+          0.923125,
+          0.9706,
+          1.018075,
+          1.06555
+        ],
+        "param5": [
+          1.05864,
+          1.13082,
+          1.203,
+          1.29924,
+          1.37142,
+          1.45563,
+          1.5639,
+          1.67217,
+          1.78044,
+          1.88871,
+          1.99698,
+          2.10525,
+          2.21352,
+          2.32179,
+          2.43006
+        ],
+        "param6": [
+          0.4386,
+          0.4743,
+          0.51,
+          0.561,
+          0.5967,
+          0.6375,
+          0.6936,
+          0.7497,
+          0.8058,
+          0.867,
+          0.9282,
+          0.9894,
+          1.0506,
+          1.1118,
+          1.173
+        ],
+        "param7": [
+          1.24,
+          1.333,
+          1.426,
+          1.55,
+          1.643,
+          1.736,
+          1.86,
+          1.984,
+          2.108,
+          2.232,
+          2.356,
+          2.48,
+          2.635,
+          2.79,
+          2.945
+        ],
+        "param8": [
+          0.164,
+          0.1763,
+          0.1886,
+          0.205,
+          0.2173,
+          0.2296,
+          0.246,
+          0.2624,
+          0.2788,
+          0.2952,
+          0.3116,
+          0.328,
+          0.3485,
+          0.369,
+          0.3895
+        ],
+        "param9": [
+          0.568288,
+          0.614544,
+          0.6608,
+          0.72688,
+          0.773136,
+          0.826,
+          0.898688,
+          0.971376,
+          1.044064,
+          1.12336,
+          1.202656,
+          1.281952,
+          1.361248,
+          1.440544,
+          1.51984
+        ],
+        "param10": [
+          1.136335,
+          1.228828,
+          1.32132,
+          1.453452,
+          1.545944,
+          1.65165,
+          1.796995,
+          1.94234,
+          2.087686,
+          2.246244,
+          2.404802,
+          2.563361,
+          2.721919,
+          2.880478,
+          3.039036
+        ],
+        "param11": [
+          1.419344,
+          1.534872,
+          1.6504,
+          1.81544,
+          1.930968,
+          2.063,
+          2.244544,
+          2.426088,
+          2.607632,
+          2.80568,
+          3.003728,
+          3.201776,
+          3.399824,
+          3.597872,
+          3.79592
+        ]
+      }
+    }
+  },
+  "combat2": {
+    "name": "Dança de Fogo Niwabi",
+    "descriptionRaw": "Com o fogo de artifício de incenso explodindo no ar, um anel de salitre rodeia Yoimiya.\n\n<color=#FFD780FF>Niwabi Enshou</color>\nDurante o intervalo de tempo, as flechas disparadas pelo Ataque Normal de Yoimiya serão Flechas Ardentes, causando <color=#FF9999FF>Dano Pyro</color>, e aumentando o dano causado pelo Ataque Normal. A Carga Nível 2 do Ataque Normal: Pirotecnia não irá causar Flechas Ardentes durante este tempo.\n\nO efeito será desativado quando Yoimiya sair do campo.\n\n<i>\"Niwabi\" é uma forma de fogo de artifício de incenso criada por Yoimiya. Sua capacidade de poder ser acendido sem qualquer treinamento ou preparação fez dela muito popular. Depois de vários acidentes relacionados com o fogo, a Comissão Tenryou baniu o uso de \"Niwabi\", mas pequenas e brilhantes explosões ainda são frequentemente vistas durante a noite. Se vistas de cima, parecem até estrelas brilhando.</i>",
+    "description": "Com o fogo de artifício de incenso explodindo no ar, um anel de salitre rodeia Yoimiya.\n\nNiwabi Enshou\nDurante o intervalo de tempo, as flechas disparadas pelo Ataque Normal de Yoimiya serão Flechas Ardentes, causando Dano Pyro, e aumentando o dano causado pelo Ataque Normal. A Carga Nível 2 do Ataque Normal: Pirotecnia não irá causar Flechas Ardentes durante este tempo.\n\nO efeito será desativado quando Yoimiya sair do campo.",
+    "flavorText": "\"Niwabi\" é uma forma de fogo de artifício de incenso criada por Yoimiya. Sua capacidade de poder ser acendido sem qualquer treinamento ou preparação fez dela muito popular. Depois de vários acidentes relacionados com o fogo, a Comissão Tenryou baniu o uso de \"Niwabi\", mas pequenas e brilhantes explosões ainda são frequentemente vistas durante a noite. Se vistas de cima, parecem até estrelas brilhando.",
+    "attributes": {
+      "labels": [
+        "Dano da Flecha Abrasadora|{param4:F1P} Dano de Ataque Normal",
+        "Duração|{param2:F1}s",
+        "Tempo de Recarga|{param3:F1}s"
+      ],
+      "parameters": {
+        "param1": [
+          0.37909,
+          0.40179,
+          0.42449,
+          0.454,
+          0.4767,
+          0.4994,
+          0.52891,
+          0.55842,
+          0.58793,
+          0.61744,
+          0.64695,
+          0.67646,
+          0.70597,
+          0.73548,
+          0.76499
+        ],
+        "param2": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ],
+        "param3": [
+          18,
+          18,
+          18,
+          18,
+          18,
+          18,
+          18,
+          18,
+          18,
+          18,
+          18,
+          18,
+          18,
+          18,
+          18
+        ],
+        "param4": [
+          1.37909,
+          1.40179,
+          1.42449,
+          1.454,
+          1.4767,
+          1.4994,
+          1.52891,
+          1.55842,
+          1.58793,
+          1.61744,
+          1.64695,
+          1.67646,
+          1.70597,
+          1.73548,
+          1.76499
+        ]
+      }
+    }
+  },
+  "combat3": {
+    "name": "Saxifraga Ryuukin",
+    "descriptionRaw": "Quando sua criação original, a \"Saxifraga Ryuukin\" voa no ar, Yoimiya dispara mísseis flamejantes repletos de surpresas que causam <color=#FF9999FF>Dano Pyro em uma AdE</color> e marca um dos inimigos atingidos com uma Flama Dourada.\n\n<color=#FFD780FF>Saxifraga Ryuukin</color>\nTodos os Ataques Normais, Ataques Carregados, Ataques Imersivos, Habilidades Elementais e Supremos lançados por todos os personagens na equipe (exceto a própria Yoimiya) que acertem em inimigos sob a influência da Flama Dourada causarão uma explosão, causando <color=#FF9999FF>Dano Pyro em uma AdE</color>.\nQuando um inimigo é derrotado sob a influência da Flama Dourada durante o tempo do efeito, o efeito passará para outro inimigo ao redor, que herdará a duração restante.\n\nA Flama Dourada pode ser ativada uma vez a cada 2s. Quando Yoimiya for derrotada, os efeitos da Flama Dourada criados através das suas habilidades serão desativados.\n\n<i>Os fogos de artifício são a luz estelar feitas pelo homem, cometas disparados no céu. Apesar deles durarem apenas um instante, a memória do seu brilho certamente perdura eternamente.</i>",
+    "description": "Quando sua criação original, a \"Saxifraga Ryuukin\" voa no ar, Yoimiya dispara mísseis flamejantes repletos de surpresas que causam Dano Pyro em uma AdE e marca um dos inimigos atingidos com uma Flama Dourada.\n\nSaxifraga Ryuukin\nTodos os Ataques Normais, Ataques Carregados, Ataques Imersivos, Habilidades Elementais e Supremos lançados por todos os personagens na equipe (exceto a própria Yoimiya) que acertem em inimigos sob a influência da Flama Dourada causarão uma explosão, causando Dano Pyro em uma AdE.\nQuando um inimigo é derrotado sob a influência da Flama Dourada durante o tempo do efeito, o efeito passará para outro inimigo ao redor, que herdará a duração restante.\n\nA Flama Dourada pode ser ativada uma vez a cada 2s. Quando Yoimiya for derrotada, os efeitos da Flama Dourada criados através das suas habilidades serão desativados.",
+    "flavorText": "Os fogos de artifício são a luz estelar feitas pelo homem, cometas disparados no céu. Apesar deles durarem apenas um instante, a memória do seu brilho certamente perdura eternamente.",
+    "attributes": {
+      "labels": [
+        "Dano de Habilidade|{param1:P}",
+        "Dano de Explosão de Flama Dourada|{param2:P}",
+        "Duração|{param4:F1}s",
+        "Tempo de Recarga|{param5:F1}s",
+        "Energia Elemental|{param6:I}"
+      ],
+      "parameters": {
+        "param1": [
+          1.272,
+          1.3674,
+          1.4628,
+          1.59,
+          1.6854,
+          1.7808,
+          1.908,
+          2.0352,
+          2.1624,
+          2.2896,
+          2.4168,
+          2.544,
+          2.703,
+          2.862,
+          3.021
+        ],
+        "param2": [
+          1.22,
+          1.3115,
+          1.403,
+          1.525,
+          1.6165,
+          1.708,
+          1.83,
+          1.952,
+          2.074,
+          2.196,
+          2.318,
+          2.44,
+          2.5925,
+          2.745,
+          2.8975
+        ],
+        "param3": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "param4": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ],
+        "param5": [
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15
+        ],
+        "param6": [
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60,
+          60
+        ]
+      }
+    }
+  },
+  "passive1": {
+    "name": "Truque da Encrenqueira",
+    "descriptionRaw": "Enquanto a <color=#FFD780FF>Dança de Fogo Niwabi</color> estiver presente, acertos com o Ataque Normal da Yoimiya, irão aumentar 2% do <color=#FF9999FF>Bônus de Dano Pyro</color>. O efeito dura por 3s e pode ser acumulado em até 10 vezes.",
+    "description": "Enquanto a Dança de Fogo Niwabi estiver presente, acertos com o Ataque Normal da Yoimiya, irão aumentar 2% do Bônus de Dano Pyro. O efeito dura por 3s e pode ser acumulado em até 10 vezes."
+  },
+  "passive2": {
+    "name": "Queimadura de Verão",
+    "descriptionRaw": "Todos os personagens da equipe (com exceção da própria Yoimiya) ganharão um aumento de 10% no ATQ por 15s após usar a <color=#FFD780FF>Saxifraga Ryuukin</color>. Além disso, um bônus adicional de ATQ será adicionado com base no número de cargas do \"Truque da Encrenqueira\" que Yoimiya possui ao usar a <color=#FFD780FF>Saxifraga Ryuukin</color>. Cada carga aumenta 1% de ATQ.",
+    "description": "Todos os personagens da equipe (com exceção da própria Yoimiya) ganharão um aumento de 10% no ATQ por 15s após usar a Saxifraga Ryuukin. Além disso, um bônus adicional de ATQ será adicionado com base no número de cargas do \"Truque da Encrenqueira\" que Yoimiya possui ao usar a Saxifraga Ryuukin. Cada carga aumenta 1% de ATQ."
+  },
+  "passive3": {
+    "name": "Correspondência Flamejante",
+    "descriptionRaw": "Quando Yoimiya cria uma Decoração, Item de Decoração e Paisagem, ela tem 100% de chance de reembolsar uma parte dos materiais utilizados.",
+    "description": "Quando Yoimiya cria uma Decoração, Item de Decoração e Paisagem, ela tem 100% de chance de reembolsar uma parte dos materiais utilizados."
+  },
+  "costs": {
+    "lvl2": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 12500
+      },
+      {
+        "id": 104320,
+        "name": "Ensinamentos do Mundo Mortal",
+        "count": 3
+      },
+      {
+        "id": 112008,
+        "name": "Pergaminho Guia",
+        "count": 6
+      }
+    ],
+    "lvl3": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 17500
+      },
+      {
+        "id": 104321,
+        "name": "Guia do Mundo Mortal",
+        "count": 2
+      },
+      {
+        "id": 112009,
+        "name": "Pergaminho do Encantamento",
+        "count": 3
+      }
+    ],
+    "lvl4": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 25000
+      },
+      {
+        "id": 104321,
+        "name": "Guia do Mundo Mortal",
+        "count": 4
+      },
+      {
+        "id": 112009,
+        "name": "Pergaminho do Encantamento",
+        "count": 4
+      }
+    ],
+    "lvl5": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 30000
+      },
+      {
+        "id": 104321,
+        "name": "Guia do Mundo Mortal",
+        "count": 6
+      },
+      {
+        "id": 112009,
+        "name": "Pergaminho do Encantamento",
+        "count": 6
+      }
+    ],
+    "lvl6": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 37500
+      },
+      {
+        "id": 104321,
+        "name": "Guia do Mundo Mortal",
+        "count": 9
+      },
+      {
+        "id": 112009,
+        "name": "Pergaminho do Encantamento",
+        "count": 9
+      }
+    ],
+    "lvl7": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 120000
+      },
+      {
+        "id": 104322,
+        "name": "Filosofia do Mundo Mortal",
+        "count": 4
+      },
+      {
+        "id": 112010,
+        "name": "Pergaminho da Maldição",
+        "count": 4
+      },
+      {
+        "id": 113017,
+        "name": "Coroa do Senhor dos Dragões",
+        "count": 1
+      }
+    ],
+    "lvl8": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 260000
+      },
+      {
+        "id": 104322,
+        "name": "Filosofia do Mundo Mortal",
+        "count": 6
+      },
+      {
+        "id": 112010,
+        "name": "Pergaminho da Maldição",
+        "count": 6
+      },
+      {
+        "id": 113017,
+        "name": "Coroa do Senhor dos Dragões",
+        "count": 1
+      }
+    ],
+    "lvl9": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 450000
+      },
+      {
+        "id": 104322,
+        "name": "Filosofia do Mundo Mortal",
+        "count": 12
+      },
+      {
+        "id": 112010,
+        "name": "Pergaminho da Maldição",
+        "count": 9
+      },
+      {
+        "id": 113017,
+        "name": "Coroa do Senhor dos Dragões",
+        "count": 2
+      }
+    ],
+    "lvl10": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 700000
+      },
+      {
+        "id": 104322,
+        "name": "Filosofia do Mundo Mortal",
+        "count": 16
+      },
+      {
+        "id": 112010,
+        "name": "Pergaminho da Maldição",
+        "count": 12
+      },
+      {
+        "id": 113017,
+        "name": "Coroa do Senhor dos Dragões",
+        "count": 2
+      },
+      {
+        "id": 104319,
+        "name": "Coroa da Sabedoria",
+        "count": 1
+      }
+    ]
+  },
+  "images": {
+    "filename_combat1": "Skill_A_02",
+    "filename_combat2": "Skill_S_Yoimiya_01",
+    "filename_combat3": "Skill_E_Yoimiya_01_HD",
+    "filename_passive1": "UI_Talent_S_Yoimiya_05",
+    "filename_passive2": "UI_Talent_S_Yoimiya_06",
+    "filename_passive3": "UI_Talent_S_Yoimiya_07"
+  },
+  "version": "2.0"
+}

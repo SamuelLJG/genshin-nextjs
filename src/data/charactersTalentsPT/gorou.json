@@ -1,0 +1,584 @@
+{
+  "id": 5501,
+  "name": "Gorou",
+  "combat1": {
+    "name": "Flechas de Garras Dilacerantes",
+    "descriptionRaw": "<color=#FFD780FF>Ataque Normal</color>\nRealiza até 4 tiros consecutivos com um arco.\n\n<color=#FFD780FF>Ataque Carregado</color>\nDispara um <color=#FFD780FF>Tiro com Mira</color> mais preciso e com Dano aumentado.\nAo mirar, Pedras Cristalizadas irão se acumular na ponta da flecha. Uma flecha em Pedras Cristalizadas completamente carregada inflige <color=#FFE699FF>Dano Geo</color>.\n\n<color=#FFD780FF>Ataque Imersivo</color>\nDispara uma chuva de flechas em pleno ar antes de atingir o chão, infligindo Dano em uma AdE durante o impacto.",
+    "description": "Ataque Normal\nRealiza até 4 tiros consecutivos com um arco.\n\nAtaque Carregado\nDispara um Tiro com Mira mais preciso e com Dano aumentado.\nAo mirar, Pedras Cristalizadas irão se acumular na ponta da flecha. Uma flecha em Pedras Cristalizadas completamente carregada inflige Dano Geo.\n\nAtaque Imersivo\nDispara uma chuva de flechas em pleno ar antes de atingir o chão, infligindo Dano em uma AdE durante o impacto.",
+    "attributes": {
+      "labels": [
+        "Dano do 1° Golpe|{param1:F1P}",
+        "Dano do 2° Golpe|{param2:F1P}",
+        "Dano do 3° Golpe|{param3:F1P}",
+        "Dano do 4° Golpe|{param4:F1P}",
+        "Disparo com Mira|{param5:F1P}",
+        "Disparo com Mira com Energização Completa|{param6:P}",
+        "Dano Durante a Queda|{param7:F1P}",
+        "Dano de Queda de Baixa/Alta Altitude|{param8:P}/{param9:P}"
+      ],
+      "parameters": {
+        "param1": [
+          0.37754,
+          0.40827,
+          0.439,
+          0.4829,
+          0.51363,
+          0.54875,
+          0.59704,
+          0.64533,
+          0.69362,
+          0.7463,
+          0.79898,
+          0.85166,
+          0.90434,
+          0.95702,
+          1.0097
+        ],
+        "param2": [
+          0.37152,
+          0.40176,
+          0.432,
+          0.4752,
+          0.50544,
+          0.54,
+          0.58752,
+          0.63504,
+          0.68256,
+          0.7344,
+          0.78624,
+          0.83808,
+          0.88992,
+          0.94176,
+          0.9936
+        ],
+        "param3": [
+          0.4945,
+          0.53475,
+          0.575,
+          0.6325,
+          0.67275,
+          0.71875,
+          0.782,
+          0.84525,
+          0.9085,
+          0.9775,
+          1.0465,
+          1.1155,
+          1.1845,
+          1.2535,
+          1.3225
+        ],
+        "param4": [
+          0.58996,
+          0.63798,
+          0.686,
+          0.7546,
+          0.80262,
+          0.8575,
+          0.93296,
+          1.00842,
+          1.08388,
+          1.1662,
+          1.24852,
+          1.33084,
+          1.41316,
+          1.49548,
+          1.5778
+        ],
+        "param5": [
+          0.4386,
+          0.4743,
+          0.51,
+          0.561,
+          0.5967,
+          0.6375,
+          0.6936,
+          0.7497,
+          0.8058,
+          0.867,
+          0.9282,
+          0.9894,
+          1.0506,
+          1.1118,
+          1.173
+        ],
+        "param6": [
+          1.24,
+          1.333,
+          1.426,
+          1.55,
+          1.643,
+          1.736,
+          1.86,
+          1.984,
+          2.108,
+          2.232,
+          2.356,
+          2.48,
+          2.635,
+          2.79,
+          2.945
+        ],
+        "param7": [
+          0.568288,
+          0.614544,
+          0.6608,
+          0.72688,
+          0.773136,
+          0.826,
+          0.898688,
+          0.971376,
+          1.044064,
+          1.12336,
+          1.202656,
+          1.281952,
+          1.361248,
+          1.440544,
+          1.51984
+        ],
+        "param8": [
+          1.136335,
+          1.228828,
+          1.32132,
+          1.453452,
+          1.545944,
+          1.65165,
+          1.796995,
+          1.94234,
+          2.087686,
+          2.246244,
+          2.404802,
+          2.563361,
+          2.721919,
+          2.880478,
+          3.039036
+        ],
+        "param9": [
+          1.419344,
+          1.534872,
+          1.6504,
+          1.81544,
+          1.930968,
+          2.063,
+          2.244544,
+          2.426088,
+          2.607632,
+          2.80568,
+          3.003728,
+          3.201776,
+          3.399824,
+          3.597872,
+          3.79592
+        ]
+      }
+    }
+  },
+  "combat2": {
+    "name": "Defesa Concentrada Inuzaka",
+    "descriptionRaw": "Causa <color=#FFE699FF>Dano Geo em uma AdE</color> e levanta o Estandarte do General.\n\n<color=#FFD780FF>Estandarte do General</color>\nFornece os seguintes bônus com base no número de membros da equipe que são do Elemento <color=#FFE699FF>Geo</color>:\nTer 1 membro da equipe do Elemento Geo concede o efeito \"Robusto\": Bônus de DEF.\nTer 2 membros da equipe do Elemento Geo concede o efeito \"Inquebrável\": Resistência a interrupção, além do efeito do mencionado anteriormente.\nTer 3 membros da equipe do Elemento Geo concede o efeito \"Destruidor\": concede um <color=#FFE699FF>Bônus de Dano GEO</color>, além dos efeitos mencionados anteriormente.\n\nApenas 1 Estandarte do General que Gorou criou pode existir no campo a qualquer momento. Os personagens só podem se beneficiar de 1 Estandarte do General por vez. Quando os membros da equipe deixam o campo, os efeitos do campo duram por 2s.\n\n<color=#FFD780FF>Manter Pressionado</color>\nMantenha Pressionado para designar o local que ficará a habilidade.\n\n<i>\"Assuma esta formação e estaremos seguros - eu garanto!\" Como general e líder das tropas, a última coisa que Gorou quer é ver aqueles que o seguem serem feridos.</i>",
+    "description": "Causa Dano Geo em uma AdE e levanta o Estandarte do General.\n\nEstandarte do General\nFornece os seguintes bônus com base no número de membros da equipe que são do Elemento Geo:\nTer 1 membro da equipe do Elemento Geo concede o efeito \"Robusto\": Bônus de DEF.\nTer 2 membros da equipe do Elemento Geo concede o efeito \"Inquebrável\": Resistência a interrupção, além do efeito do mencionado anteriormente.\nTer 3 membros da equipe do Elemento Geo concede o efeito \"Destruidor\": concede um Bônus de Dano GEO, além dos efeitos mencionados anteriormente.\n\nApenas 1 Estandarte do General que Gorou criou pode existir no campo a qualquer momento. Os personagens só podem se beneficiar de 1 Estandarte do General por vez. Quando os membros da equipe deixam o campo, os efeitos do campo duram por 2s.\n\nManter Pressionado\nMantenha Pressionado para designar o local que ficará a habilidade.",
+    "flavorText": "\"Assuma esta formação e estaremos seguros - eu garanto!\" Como general e líder das tropas, a última coisa que Gorou quer é ver aqueles que o seguem serem feridos.",
+    "attributes": {
+      "labels": [
+        "Dano de Habilidade|{param1:F1P}",
+        "Aumento da DEF|{param2:I}",
+        "Taxa de Bônus de Dano Geo|{param3:P}",
+        "Duração|{param4:F1}s",
+        "Tempo de Recarga|{param5:F1}s"
+      ],
+      "parameters": {
+        "param1": [
+          1.072,
+          1.1524,
+          1.2328,
+          1.34,
+          1.4204,
+          1.5008,
+          1.608,
+          1.7152,
+          1.8224,
+          1.9296,
+          2.0368,
+          2.144,
+          2.278,
+          2.412,
+          2.546
+        ],
+        "param2": [
+          206.16,
+          221.622,
+          237.084,
+          257.7,
+          273.162,
+          288.624,
+          309.24,
+          329.856,
+          350.472,
+          371.088,
+          391.704,
+          412.32,
+          438.09,
+          463.86,
+          489.63
+        ],
+        "param3": [
+          0.15,
+          0.15,
+          0.15,
+          0.15,
+          0.15,
+          0.15,
+          0.15,
+          0.15,
+          0.15,
+          0.15,
+          0.15,
+          0.15,
+          0.15,
+          0.15,
+          0.15
+        ],
+        "param4": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ],
+        "param5": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ]
+      }
+    }
+  },
+  "combat3": {
+    "name": "Juuga: Para a Vitória",
+    "descriptionRaw": "Demonstrando seu valor como general, Gorou causa <color=#FFE699FF>Dano Geo em uma AdE</color> e cria um campo conhecido como a Glória do General para animar seus companheiros.\n\n<color=#FFD780FF>Glória do General</color>\nEste campo tem as seguintes propriedades:\nEste campo tem efeitos idênticos aos do Estandarte do General criado por sua Habilidade Elemental, Defesa Concentrada Inuzaka, concedendo bônus baseado no número de membros da equipe cujo elemento seja <color=#FFE699FF>Geo</color>, e também se moverá junto com seu personagem ativo atual.\nCria 1 Colapso Cristalino a cada 1.5s que causa <color=#FFE699FF>Dano Geo em uma AdE</color> a 1 oponente dentro de sua AdE.\n· Ele puxará 1 fragmento elemental pela Reação de Cristalização dentro de sua área de ação para a posição do seu personagem ativo a cada 1.5 s.\n\nSe um Estandarte do General criado pelo próprio Gorou existir atualmente em campo quando esta habilidade for utilizada, ele será destruído.\n\n<i>\"Nós temos a vantagem do terreno!\" Gorou pode sempre mudar ligeiramente o terreno do campo de batalha para ajudar a ganhar a vitória. Esta técnica o tem assistido através de muitas batalhas contra uma oposição aparentemente superior.</i>",
+    "description": "Demonstrando seu valor como general, Gorou causa Dano Geo em uma AdE e cria um campo conhecido como a Glória do General para animar seus companheiros.\n\nGlória do General\nEste campo tem as seguintes propriedades:\nEste campo tem efeitos idênticos aos do Estandarte do General criado por sua Habilidade Elemental, Defesa Concentrada Inuzaka, concedendo bônus baseado no número de membros da equipe cujo elemento seja Geo, e também se moverá junto com seu personagem ativo atual.\nCria 1 Colapso Cristalino a cada 1.5s que causa Dano Geo em uma AdE a 1 oponente dentro de sua AdE.\n· Ele puxará 1 fragmento elemental pela Reação de Cristalização dentro de sua área de ação para a posição do seu personagem ativo a cada 1.5 s.\n\nSe um Estandarte do General criado pelo próprio Gorou existir atualmente em campo quando esta habilidade for utilizada, ele será destruído.",
+    "flavorText": "\"Nós temos a vantagem do terreno!\" Gorou pode sempre mudar ligeiramente o terreno do campo de batalha para ajudar a ganhar a vitória. Esta técnica o tem assistido através de muitas batalhas contra uma oposição aparentemente superior.",
+    "attributes": {
+      "labels": [
+        "Dano de Habilidade|{param1:P} da DEF",
+        "Dano do Colapso Cristalino|{param2:P} da DEF",
+        "Duração|{param3:F1}s",
+        "Tempo de Recarga|{param4:F1}s",
+        "Energia Elemental|{param5:I}"
+      ],
+      "parameters": {
+        "param1": [
+          0.98216,
+          1.055822,
+          1.129484,
+          1.2277,
+          1.301362,
+          1.375024,
+          1.47324,
+          1.571456,
+          1.669672,
+          1.767888,
+          1.866104,
+          1.96432,
+          2.08709,
+          2.20986,
+          2.33263
+        ],
+        "param2": [
+          0.613,
+          0.658975,
+          0.70495,
+          0.76625,
+          0.812225,
+          0.8582,
+          0.9195,
+          0.9808,
+          1.0421,
+          1.1034,
+          1.1647,
+          1.226,
+          1.302625,
+          1.37925,
+          1.455875
+        ],
+        "param3": [
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
+        "param4": [
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20
+        ],
+        "param5": [
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80
+        ]
+      }
+    }
+  },
+  "passive1": {
+    "name": "Contra o Vento e a Maré",
+    "descriptionRaw": "Nos 12 segundos seguintes de lançar <color=#FFD780FF>Juuga: Para a Vitória</color>, a DEF de todos os membros da equipe ao redor será aumentada em 25%.",
+    "description": "Nos 12 segundos seguintes de lançar Juuga: Para a Vitória, a DEF de todos os membros da equipe ao redor será aumentada em 25%."
+  },
+  "passive2": {
+    "name": "Um Favor Recíproco",
+    "descriptionRaw": "Gorou recebe os seguintes Bônus de Dano aos seus ataques baseado em sua DEF:\n<color=#FFD780FF>Defesa Concentrada Inuzaka</color> aumenta o Dano da habilidade em 156% da sua DEF.\n<color=#FFD780FF>Juuga: Para a Vitória</color> aumenta o Dano da habilidade e do Colapso Cristalino em 15.6% da DEF.",
+    "description": "Gorou recebe os seguintes Bônus de Dano aos seus ataques baseado em sua DEF:\nDefesa Concentrada Inuzaka aumenta o Dano da habilidade em 156% da sua DEF.\nJuuga: Para a Vitória aumenta o Dano da habilidade e do Colapso Cristalino em 15.6% da DEF."
+  },
+  "passive3": {
+    "name": "Cãozinho Farejador",
+    "descriptionRaw": "Mostra a localização de <color=#FFD780FF>recursos únicos de Inazuma</color> próximos no mapa.",
+    "description": "Mostra a localização de recursos únicos de Inazuma próximos no mapa."
+  },
+  "costs": {
+    "lvl2": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 12500
+      },
+      {
+        "id": 104326,
+        "name": "Ensinamentos da Luz Celeste",
+        "count": 3
+      },
+      {
+        "id": 112053,
+        "name": "Casca Espectral",
+        "count": 6
+      }
+    ],
+    "lvl3": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 17500
+      },
+      {
+        "id": 104327,
+        "name": "Guia da Luz Celeste",
+        "count": 2
+      },
+      {
+        "id": 112054,
+        "name": "Coração Espectral",
+        "count": 3
+      }
+    ],
+    "lvl4": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 25000
+      },
+      {
+        "id": 104327,
+        "name": "Guia da Luz Celeste",
+        "count": 4
+      },
+      {
+        "id": 112054,
+        "name": "Coração Espectral",
+        "count": 4
+      }
+    ],
+    "lvl5": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 30000
+      },
+      {
+        "id": 104327,
+        "name": "Guia da Luz Celeste",
+        "count": 6
+      },
+      {
+        "id": 112054,
+        "name": "Coração Espectral",
+        "count": 6
+      }
+    ],
+    "lvl6": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 37500
+      },
+      {
+        "id": 104327,
+        "name": "Guia da Luz Celeste",
+        "count": 9
+      },
+      {
+        "id": 112054,
+        "name": "Coração Espectral",
+        "count": 9
+      }
+    ],
+    "lvl7": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 120000
+      },
+      {
+        "id": 104328,
+        "name": "Filosofia da Luz Celeste",
+        "count": 4
+      },
+      {
+        "id": 112055,
+        "name": "Núcleo Espectral",
+        "count": 4
+      },
+      {
+        "id": 113025,
+        "name": "Momento Derretido",
+        "count": 1
+      }
+    ],
+    "lvl8": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 260000
+      },
+      {
+        "id": 104328,
+        "name": "Filosofia da Luz Celeste",
+        "count": 6
+      },
+      {
+        "id": 112055,
+        "name": "Núcleo Espectral",
+        "count": 6
+      },
+      {
+        "id": 113025,
+        "name": "Momento Derretido",
+        "count": 1
+      }
+    ],
+    "lvl9": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 450000
+      },
+      {
+        "id": 104328,
+        "name": "Filosofia da Luz Celeste",
+        "count": 12
+      },
+      {
+        "id": 112055,
+        "name": "Núcleo Espectral",
+        "count": 9
+      },
+      {
+        "id": 113025,
+        "name": "Momento Derretido",
+        "count": 2
+      }
+    ],
+    "lvl10": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 700000
+      },
+      {
+        "id": 104328,
+        "name": "Filosofia da Luz Celeste",
+        "count": 16
+      },
+      {
+        "id": 112055,
+        "name": "Núcleo Espectral",
+        "count": 12
+      },
+      {
+        "id": 113025,
+        "name": "Momento Derretido",
+        "count": 2
+      },
+      {
+        "id": 104319,
+        "name": "Coroa da Sabedoria",
+        "count": 1
+      }
+    ]
+  },
+  "images": {
+    "filename_combat1": "Skill_A_02",
+    "filename_combat2": "Skill_S_Gorou_01",
+    "filename_combat3": "Skill_E_Gorou_01_HD",
+    "filename_passive1": "UI_Talent_S_Gorou_05",
+    "filename_passive2": "UI_Talent_S_Gorou_06",
+    "filename_passive3": "UI_Talent_S_Gorou_07"
+  },
+  "version": "2.3"
+}

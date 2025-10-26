@@ -1,0 +1,29 @@
+{
+  "name": "new-genshin-next",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "export": "next build && next export",
+    "lint": "next lint",
+    "pages:build": "npx @cloudflare/next-on-pages"
+  },
+  "dependencies": {
+    "@next/third-parties": "^15.3.1",
+    "@vercel/speed-insights": "^1.2.0",
+    "next": "^15.3.1",
+    "nextjs-progressbar": "^0.0.16",
+    "node": "^24.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "server-only-context": "^0.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "typescript": "^5"
+  }
+}

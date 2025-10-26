@@ -1,0 +1,666 @@
+{
+  "id": 703,
+  "name": "Viajante (Hydro)",
+  "combat1": {
+    "name": "Corrente Estrangeira",
+    "descriptionRaw": "<color=#FFD780FF>Ataque Normal</color>\nRealiza até 5 golpes consecutivos.\n\n<color=#FFD780FF>Ataque Carregado</color>\nConsome uma certa quantidade de Stamina para desferir 2 golpes rápidos com a espada.\n\n<color=#FFD780FF>Ataque Imersivo</color>\nMergulha em pleno ar para golpear o chão, causando dano aos inimigos ao longo do caminho e infligindo Dano em uma AdE no impacto.",
+    "description": "Ataque Normal\nRealiza até 5 golpes consecutivos.\n\nAtaque Carregado\nConsome uma certa quantidade de Stamina para desferir 2 golpes rápidos com a espada.\n\nAtaque Imersivo\nMergulha em pleno ar para golpear o chão, causando dano aos inimigos ao longo do caminho e infligindo Dano em uma AdE no impacto.",
+    "attributes": {
+      "labels": [
+        "Dano do 1° Golpe|{param1:F1P}",
+        "Dano do 2° Golpe|{param2:F1P}",
+        "Dano do 3° Golpe|{param3:F1P}",
+        "Dano do 4° Golpe|{param4:F1P}",
+        "Dano do 5° Golpe|{param5:F1P}",
+        "Dano de Ataque Carregado|{param6:F1P}+{param7:F1P}",
+        "Consumo de Stamina de Ataque Carregado|{param8:F1}",
+        "Dano Durante a Queda|{param9:F1P}",
+        "Dano de Queda de Baixa/Alta Altitude|{param10:P}/{param11:P}"
+      ],
+      "parameters": {
+        "param1": [
+          0.44462,
+          0.48081,
+          0.517,
+          0.5687,
+          0.60489,
+          0.64625,
+          0.70312,
+          0.75999,
+          0.81686,
+          0.8789,
+          0.94094,
+          1.00298,
+          1.06502,
+          1.12706,
+          1.1891
+        ],
+        "param2": [
+          0.4343,
+          0.46965,
+          0.505,
+          0.5555,
+          0.59085,
+          0.63125,
+          0.6868,
+          0.74235,
+          0.7979,
+          0.8585,
+          0.9191,
+          0.9797,
+          1.0403,
+          1.1009,
+          1.1615
+        ],
+        "param3": [
+          0.52976,
+          0.57288,
+          0.616,
+          0.6776,
+          0.72072,
+          0.77,
+          0.83776,
+          0.90552,
+          0.97328,
+          1.0472,
+          1.12112,
+          1.19504,
+          1.26896,
+          1.34288,
+          1.4168
+        ],
+        "param4": [
+          0.58308,
+          0.63054,
+          0.678,
+          0.7458,
+          0.79326,
+          0.8475,
+          0.92208,
+          0.99666,
+          1.07124,
+          1.1526,
+          1.23396,
+          1.31532,
+          1.39668,
+          1.47804,
+          1.5594
+        ],
+        "param5": [
+          0.70778,
+          0.76539,
+          0.823,
+          0.9053,
+          0.96291,
+          1.02875,
+          1.11928,
+          1.20981,
+          1.30034,
+          1.3991,
+          1.49786,
+          1.59662,
+          1.69538,
+          1.79414,
+          1.8929
+        ],
+        "param6": [
+          0.559,
+          0.6045,
+          0.65,
+          0.715,
+          0.7605,
+          0.8125,
+          0.884,
+          0.9555,
+          1.027,
+          1.105,
+          1.183,
+          1.261,
+          1.339,
+          1.417,
+          1.495
+        ],
+        "param7": [
+          0.7224,
+          0.7812,
+          0.84,
+          0.924,
+          0.9828,
+          1.05,
+          1.1424,
+          1.2348,
+          1.3272,
+          1.428,
+          1.5288,
+          1.6296,
+          1.7304,
+          1.8312,
+          1.932
+        ],
+        "param8": [
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20
+        ],
+        "param9": [
+          0.639324,
+          0.691362,
+          0.7434,
+          0.81774,
+          0.869778,
+          0.92925,
+          1.011024,
+          1.092798,
+          1.174572,
+          1.26378,
+          1.352988,
+          1.442196,
+          1.531404,
+          1.620612,
+          1.70982
+        ],
+        "param10": [
+          1.278377,
+          1.382431,
+          1.486485,
+          1.635134,
+          1.739187,
+          1.858106,
+          2.02162,
+          2.185133,
+          2.348646,
+          2.527025,
+          2.705403,
+          2.883781,
+          3.062159,
+          3.240537,
+          3.418915
+        ],
+        "param11": [
+          1.596762,
+          1.726731,
+          1.8567,
+          2.04237,
+          2.172339,
+          2.320875,
+          2.525112,
+          2.729349,
+          2.933586,
+          3.15639,
+          3.379194,
+          3.601998,
+          3.824802,
+          4.047606,
+          4.27041
+        ]
+      }
+    }
+  },
+  "combat2": {
+    "name": "Sabre da Insígnia Aquática",
+    "descriptionRaw": "Lança uma corrente torrencial que varre a terra.\n\n<color=#FFD780FF>Pressionar</color>\nLança uma Erupção Torrencial para frente que causa <color=#80C0FFFF>Dano Hydro</color> contra os inimigos que atingir.\n\n<color=#FFD780FF>Manter Pressionado</color>\nEntra no modo de mira e lança continuamente Gotas de Orvalho na direção que se está mirando, causando <color=#80C0FFFF>Dano Hydro</color> contra os inimigos que atingir.\nAo terminar, lança uma Erupção Torrencial para frente que causa <color=#80C0FFFF>Dano Hydro</color> contra os inimigos que atingir.\nAbundância: ao lançar o Manter Pressionado, se a Vida do Viajante for maior que 50%, aumentará o Dano causado por Gota de Orvalho baseado na Vida Máxima do Viajante, e consumirá uma certa quantidade de Vida a cada segundo.\n\n<color=#FFD780FF>Arkhe: Pneuma</color>\nPeriodicamente, depois de lançar uma Erupção Torrencial, lançará um Espinho Espiritual que perfurará os inimigos e que causará <color=#80C0FFFF>Dano Hydro</color> aplicado com Pneuma.\n\n<i>Você e Paimon observaram as ondas criadas na superfície das águas.</i>",
+    "description": "Lança uma corrente torrencial que varre a terra.\n\nPressionar\nLança uma Erupção Torrencial para frente que causa Dano Hydro contra os inimigos que atingir.\n\nManter Pressionado\nEntra no modo de mira e lança continuamente Gotas de Orvalho na direção que se está mirando, causando Dano Hydro contra os inimigos que atingir.\nAo terminar, lança uma Erupção Torrencial para frente que causa Dano Hydro contra os inimigos que atingir.\nAbundância: ao lançar o Manter Pressionado, se a Vida do Viajante for maior que 50%, aumentará o Dano causado por Gota de Orvalho baseado na Vida Máxima do Viajante, e consumirá uma certa quantidade de Vida a cada segundo.\n\nArkhe: Pneuma\nPeriodicamente, depois de lançar uma Erupção Torrencial, lançará um Espinho Espiritual que perfurará os inimigos e que causará Dano Hydro aplicado com Pneuma.",
+    "flavorText": "Você e Paimon observaram as ondas criadas na superfície das águas.",
+    "attributes": {
+      "labels": [
+        "Dano de Erupção Torrencial|{param2:F1P}",
+        "Dano da Gota de Orvalho|{param1:F1P}",
+        "Dano do Espinho Espiritual|{param3:F1P}",
+        "Intervalo de Espinho Espiritual|{param4:F1}s",
+        "Consumo de Vida de Abundância|{param5:F2P} da Vida Máxima",
+        "Aumento de Dano de Abundância|{param6:F2P} da Vida Máxima",
+        "Duração de Manter Pressionado| Até {param9:F1}s",
+        "Tempo de Recarga|{param8:F1}s"
+      ],
+      "parameters": {
+        "param1": [
+          0.328,
+          0.3526,
+          0.3772,
+          0.41,
+          0.4346,
+          0.4592,
+          0.492,
+          0.5248,
+          0.5576,
+          0.5904,
+          0.6232,
+          0.656,
+          0.697,
+          0.738,
+          0.779
+        ],
+        "param2": [
+          1.8928,
+          2.03476,
+          2.17672,
+          2.366,
+          2.50796,
+          2.64992,
+          2.8392,
+          3.02848,
+          3.21776,
+          3.40704,
+          3.59632,
+          3.7856,
+          4.0222,
+          4.2588,
+          4.4954
+        ],
+        "param3": [
+          0.328,
+          0.3526,
+          0.3772,
+          0.41,
+          0.4346,
+          0.4592,
+          0.492,
+          0.5248,
+          0.5576,
+          0.5904,
+          0.6232,
+          0.656,
+          0.697,
+          0.738,
+          0.779
+        ],
+        "param4": [
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
+        "param5": [
+          0.04,
+          0.04,
+          0.04,
+          0.04,
+          0.04,
+          0.04,
+          0.04,
+          0.04,
+          0.04,
+          0.04,
+          0.04,
+          0.04,
+          0.04,
+          0.04,
+          0.04
+        ],
+        "param6": [
+          0.0064,
+          0.00688,
+          0.00736,
+          0.008,
+          0.00848,
+          0.00896,
+          0.0096,
+          0.01024,
+          0.01088,
+          0.01152,
+          0.01216,
+          0.0128,
+          0.0136,
+          0.0144,
+          0.0152
+        ],
+        "param7": [
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ],
+        "param8": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ],
+        "param9": [
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6
+        ]
+      }
+    }
+  },
+  "combat3": {
+    "name": "Maré Ascendente",
+    "descriptionRaw": "Lança uma Bolha Aquática que se move lentamente, causando <color=#80C0FFFF>Dano Hydro</color> continuamente contra os inimigos próximos.\n\n<i>Você e Paimon estudaram a subida e descida da maré.</i>",
+    "description": "Lança uma Bolha Aquática que se move lentamente, causando Dano Hydro continuamente contra os inimigos próximos.",
+    "flavorText": "Você e Paimon estudaram a subida e descida da maré.",
+    "attributes": {
+      "labels": [
+        "Dano de Habilidade|{param1:F1P}",
+        "Duração|{param2:F1}s",
+        "Tempo de Recarga|{param3:F1}s",
+        "Energia Elemental|{param4:I}"
+      ],
+      "parameters": {
+        "param1": [
+          1.018664,
+          1.095064,
+          1.171464,
+          1.27333,
+          1.34973,
+          1.42613,
+          1.527996,
+          1.629862,
+          1.731729,
+          1.833595,
+          1.935462,
+          2.037328,
+          2.164661,
+          2.291994,
+          2.419327
+        ],
+        "param2": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "param3": [
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20
+        ],
+        "param4": [
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80
+        ]
+      }
+    }
+  },
+  "passive1": {
+    "name": "Águas Puras",
+    "descriptionRaw": "#Quando a Gota de Orvalho disparada com o Manter Pressionado de <color=#FFD780FF>Sabre da Insígnia Aquática</color> atingir um inimigo, gerará uma Gota d'Água Primordial perto d{F#a}{M#o} Viajante. Quando {F#a}{M#o} Viajante coletar uma Gota d'Água Primordial, regenerará 7% de sua Vida.\nÉ possível gerar até uma Gota d'Água Primordial dessa forma. E cada vez que Sabre da Insígnia Aquática for lançado, é possível criar até 4 Gotas d'Água Primordial.",
+    "description": "Quando a Gota de Orvalho disparada com o Manter Pressionado de Sabre da Insígnia Aquática atingir um inimigo, gerará uma Gota d'Água Primordial perto do Viajante. Quando o Viajante coletar uma Gota d'Água Primordial, regenerará 7% de sua Vida.\nÉ possível gerar até uma Gota d'Água Primordial dessa forma. E cada vez que Sabre da Insígnia Aquática for lançado, é possível criar até 4 Gotas d'Água Primordial."
+  },
+  "passive2": {
+    "name": "Água Cristalina",
+    "descriptionRaw": "#Se lançar com o Manter Pressionado de <color=#FFD780FF>Sabre da Insígnia Aquática</color> consumir Vida através de Abundância, aumentará o Dano causado de Erupção Torrencial no final do lançamento, o valor do aumento é igual a 45% do valor da Abundância consumido pel{F#a}{M#o} Viajante neste lançamento.\nÉ possível aumentar o Dano em até 5.000 desta forma.",
+    "description": "Se lançar com o Manter Pressionado de Sabre da Insígnia Aquática consumir Vida através de Abundância, aumentará o Dano causado de Erupção Torrencial no final do lançamento, o valor do aumento é igual a 45% do valor da Abundância consumido pelo Viajante neste lançamento.\nÉ possível aumentar o Dano em até 5.000 desta forma."
+  },
+  "costs": {
+    "lvl2": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 12500
+      },
+      {
+        "id": 104338,
+        "name": "Ensinamentos da Igualdade",
+        "count": 3
+      },
+      {
+        "id": 112080,
+        "name": "Pérola Transoceânica",
+        "count": 6
+      }
+    ],
+    "lvl3": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 17500
+      },
+      {
+        "id": 104342,
+        "name": "Guia da Justiça",
+        "count": 2
+      },
+      {
+        "id": 112081,
+        "name": "Pedaço Transoceânico",
+        "count": 3
+      }
+    ],
+    "lvl4": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 25000
+      },
+      {
+        "id": 104345,
+        "name": "Guia da Ordem",
+        "count": 4
+      },
+      {
+        "id": 112081,
+        "name": "Pedaço Transoceânico",
+        "count": 4
+      }
+    ],
+    "lvl5": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 30000
+      },
+      {
+        "id": 104339,
+        "name": "Guia da Igualdade",
+        "count": 6
+      },
+      {
+        "id": 112081,
+        "name": "Pedaço Transoceânico",
+        "count": 6
+      }
+    ],
+    "lvl6": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 37500
+      },
+      {
+        "id": 104342,
+        "name": "Guia da Justiça",
+        "count": 9
+      },
+      {
+        "id": 112081,
+        "name": "Pedaço Transoceânico",
+        "count": 9
+      }
+    ],
+    "lvl7": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 120000
+      },
+      {
+        "id": 104346,
+        "name": "Filosofia da Ordem",
+        "count": 4
+      },
+      {
+        "id": 112082,
+        "name": "Cristal Caleidoscópico",
+        "count": 4
+      },
+      {
+        "id": 113046,
+        "name": "Samambaia do Paraíso Exuberante",
+        "count": 1
+      }
+    ],
+    "lvl8": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 260000
+      },
+      {
+        "id": 104340,
+        "name": "Filosofia da Igualdade",
+        "count": 6
+      },
+      {
+        "id": 112082,
+        "name": "Cristal Caleidoscópico",
+        "count": 6
+      },
+      {
+        "id": 113046,
+        "name": "Samambaia do Paraíso Exuberante",
+        "count": 1
+      }
+    ],
+    "lvl9": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 450000
+      },
+      {
+        "id": 104343,
+        "name": "Filosofia da Justiça",
+        "count": 12
+      },
+      {
+        "id": 112082,
+        "name": "Cristal Caleidoscópico",
+        "count": 9
+      },
+      {
+        "id": 113046,
+        "name": "Samambaia do Paraíso Exuberante",
+        "count": 2
+      }
+    ],
+    "lvl10": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 700000
+      },
+      {
+        "id": 104346,
+        "name": "Filosofia da Ordem",
+        "count": 16
+      },
+      {
+        "id": 112082,
+        "name": "Cristal Caleidoscópico",
+        "count": 12
+      },
+      {
+        "id": 113046,
+        "name": "Samambaia do Paraíso Exuberante",
+        "count": 2
+      },
+      {
+        "id": 104319,
+        "name": "Coroa da Sabedoria",
+        "count": 1
+      }
+    ]
+  },
+  "images": {
+    "filename_combat1": "Skill_A_01",
+    "filename_combat2": "Skill_S_PlayerWater_01",
+    "filename_combat3": "Skill_E_PlayerWater_01_HD",
+    "filename_passive1": "UI_Talent_S_PlayerWater_05",
+    "filename_passive2": "UI_Talent_S_PlayerWater_06"
+  },
+  "version": "4.0"
+}

@@ -1,0 +1,608 @@
+{
+  "id": 11001,
+  "name": "Iansan",
+  "combat1": {
+    "name": "Espinho Pesado",
+    "descriptionRaw": "<color=#FFD780FF>Ataque Normal</color>\nRealiza até 3 golpes com a lança.\n\n<color=#FFD780FF>Ataque Carregado</color>\nConsome uma certa quantidade de Stamina para se lançar para a frente, infligindo Dano em seu trajeto.\n\n<color=#FFD780FF>Ataque Imersivo</color>\nMergulha em pleno ar para golpear o chão, causando dano aos inimigos ao longo do caminho e infligindo Dano em uma AdE durante o impacto.\n\n<color=#FFD780FF>Estado Espírito da Noite: Descida Trovejante</color>\nEnquanto estiver no estado Bênção do Espírito da Noite: o Ataque Carregado de Iansan será transformado na formidável Descida Trovejante, consumindo uma certa quantidade de Stamina para descer com força, causando <color=#FFACFFFF>Dano Electro em uma AdE</color> com alinhamento Espírito da Noite.",
+    "description": "Ataque Normal\nRealiza até 3 golpes com a lança.\n\nAtaque Carregado\nConsome uma certa quantidade de Stamina para se lançar para a frente, infligindo Dano em seu trajeto.\n\nAtaque Imersivo\nMergulha em pleno ar para golpear o chão, causando dano aos inimigos ao longo do caminho e infligindo Dano em uma AdE durante o impacto.\n\nEstado Espírito da Noite: Descida Trovejante\nEnquanto estiver no estado Bênção do Espírito da Noite: o Ataque Carregado de Iansan será transformado na formidável Descida Trovejante, consumindo uma certa quantidade de Stamina para descer com força, causando Dano Electro em uma AdE com alinhamento Espírito da Noite.",
+    "attributes": {
+      "labels": [
+        "Dano do 1° Golpe|{param1:F1P}",
+        "Dano do 2° Golpe|{param2:F1P}",
+        "Dano do 3° Golpe|{param3:F1P}",
+        "Dano de Ataque Carregado|{param4:F1P}",
+        "Dano da Descida Trovejante|{param5:F1P}",
+        "Consumo de Stamina do Ataque Carregado e da Descida Trovejante|{param6:F1}",
+        "Dano Durante a Queda|{param7:F1P}",
+        "Dano de Queda de Baixa/Alta Altitude|{param8:P}/{param9:P}"
+      ],
+      "parameters": {
+        "param1": [
+          0.469758,
+          0.507994,
+          0.54623,
+          0.600853,
+          0.639089,
+          0.682787,
+          0.742873,
+          0.802958,
+          0.863043,
+          0.928591,
+          0.994139,
+          1.059686,
+          1.125234,
+          1.190781,
+          1.256329
+        ],
+        "param2": [
+          0.427644,
+          0.462452,
+          0.49726,
+          0.546986,
+          0.581794,
+          0.621575,
+          0.676274,
+          0.730972,
+          0.785671,
+          0.845342,
+          0.905013,
+          0.964684,
+          1.024356,
+          1.084027,
+          1.143698
+        ],
+        "param3": [
+          0.643882,
+          0.696291,
+          0.7487,
+          0.82357,
+          0.875979,
+          0.935875,
+          1.018232,
+          1.100589,
+          1.182946,
+          1.27279,
+          1.362634,
+          1.452478,
+          1.542322,
+          1.632166,
+          1.72201
+        ],
+        "param4": [
+          1.00276,
+          1.08438,
+          1.166,
+          1.2826,
+          1.36422,
+          1.4575,
+          1.58576,
+          1.71402,
+          1.84228,
+          1.9822,
+          2.12212,
+          2.26204,
+          2.40196,
+          2.54188,
+          2.6818
+        ],
+        "param5": [
+          0.84194,
+          0.91047,
+          0.979,
+          1.0769,
+          1.14543,
+          1.22375,
+          1.33144,
+          1.43913,
+          1.54682,
+          1.6643,
+          1.78178,
+          1.89926,
+          2.01674,
+          2.13422,
+          2.2517
+        ],
+        "param6": [
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25,
+          25
+        ],
+        "param7": [
+          0.639324,
+          0.691362,
+          0.7434,
+          0.81774,
+          0.869778,
+          0.92925,
+          1.011024,
+          1.092798,
+          1.174572,
+          1.26378,
+          1.352988,
+          1.442196,
+          1.531404,
+          1.620612,
+          1.70982
+        ],
+        "param8": [
+          1.278377,
+          1.382431,
+          1.486485,
+          1.635134,
+          1.739187,
+          1.858106,
+          2.02162,
+          2.185133,
+          2.348646,
+          2.527025,
+          2.705403,
+          2.883781,
+          3.062159,
+          3.240537,
+          3.418915
+        ],
+        "param9": [
+          1.596762,
+          1.726731,
+          1.8567,
+          2.04237,
+          2.172339,
+          2.320875,
+          2.525112,
+          2.729349,
+          2.933586,
+          3.15639,
+          3.379194,
+          3.601998,
+          3.824802,
+          4.047606,
+          4.27041
+        ]
+      }
+    }
+  },
+  "combat2": {
+    "name": "Investida Trovejante",
+    "descriptionRaw": "Iansan avança uma certa distância, causando <color=#FFACFFFF>Dano Electro</color> com alinhamento Espírito da Noite a todos os inimigos em seu caminho.\nApós usar esta Habilidade, Iansan recuperará 54 pontos de Espírito da Noite e entrará no estado de Bênção do Espírito da Noite. Nos 5s após essa investida e ao pressionar para lançar um Ataque Normal, Iansan rapidamente lançará uma Descida Trovejante que não consumirá Stamina.\n\n<color=#FFD780FF>Bênção do Espírito da Noite: Iansan</color>\nConsome continuamente pontos de Espírito da Noite. Caso fiquem esgotados, ou caso a Habilidade seja usada novamente, o estado de Bênção do Espírito da Noite terminará. Este estado possui as seguintes propriedades:\n· Aumenta a Velocidade de Movimento de Iansan.\n· Segurar o comando de corrida alternará para o modo Investida Relampejante, aumentando significativamente a Velocidade de Movimento de Iansan temporariamente. Nesse modo, Iansan pode realizar saltos longos usando o terreno, ou consumir pontos adicionais de Espírito da Noite para se mover sobre a água ou Flogisto Líquido enquanto permanece imune a dano causado por este último.\n\n<i>\"Mais rápido, mais forte! É pra isso que todo esse esforço serve!\"</i>",
+    "description": "Iansan avança uma certa distância, causando Dano Electro com alinhamento Espírito da Noite a todos os inimigos em seu caminho.\nApós usar esta Habilidade, Iansan recuperará 54 pontos de Espírito da Noite e entrará no estado de Bênção do Espírito da Noite. Nos 5s após essa investida e ao pressionar para lançar um Ataque Normal, Iansan rapidamente lançará uma Descida Trovejante que não consumirá Stamina.\n\nBênção do Espírito da Noite: Iansan\nConsome continuamente pontos de Espírito da Noite. Caso fiquem esgotados, ou caso a Habilidade seja usada novamente, o estado de Bênção do Espírito da Noite terminará. Este estado possui as seguintes propriedades:\n· Aumenta a Velocidade de Movimento de Iansan.\n· Segurar o comando de corrida alternará para o modo Investida Relampejante, aumentando significativamente a Velocidade de Movimento de Iansan temporariamente. Nesse modo, Iansan pode realizar saltos longos usando o terreno, ou consumir pontos adicionais de Espírito da Noite para se mover sobre a água ou Flogisto Líquido enquanto permanece imune a dano causado por este último.",
+    "flavorText": "\"Mais rápido, mais forte! É pra isso que todo esse esforço serve!\"",
+    "attributes": {
+      "labels": [
+        "Dano de Habilidade|{param1:F1P}",
+        "Limite de Pontos de Espírito da Noite|{param2:F1}",
+        "Recarga|{param3:F1}s"
+      ],
+      "parameters": {
+        "param1": [
+          2.864,
+          3.0788,
+          3.2936,
+          3.58,
+          3.7948,
+          4.0096,
+          4.296,
+          4.5824,
+          4.8688,
+          5.1552,
+          5.4416,
+          5.728,
+          6.086,
+          6.444,
+          6.802
+        ],
+        "param2": [
+          54,
+          54,
+          54,
+          54,
+          54,
+          54,
+          54,
+          54,
+          54,
+          54,
+          54,
+          54,
+          54,
+          54,
+          54
+        ],
+        "param3": [
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16
+        ]
+      }
+    }
+  },
+  "combat3": {
+    "name": "Os Três Princípios do Poder",
+    "descriptionRaw": "Seu pé esmaga a terra com o nome do Poder, causando <color=#FFACFFFF>Dano Electro em AdE</color> com alinhamento Espírito da Noite, e então retira sua Escala Cinética de Edição Limitada (Para Treinos).\nAo lançar, Iansan obtém 15 pontos de Espírito da Noite, e entra no estado Bênção do Espírito da Noite.\nQuando a Escala Cinética sair do campo, o estado Bênção do Espírito da Noite de Iansan terminará.\n\n<color=#FFD780FF>Escala Cinética</color>\nA Escala Cinética acompanha o personagem ativo, e aumenta o ATQ do personagem ativo com base nos pontos de Espírito da Noite de Iansan de formas diferentes:\n· Se Iansan tiver menos de 42 pontos de Espírito da Noite, recebe um bônus de ATQ baseado dos pontos de Espírito da Noite e do ATQ dela.\n· Se Iansan tiver pelo menos 42 pontos de Espírito da Noite, a Escala Cinética será trocada para o modo \"Suporte Flamejante!\", recebendo um bônus de ATQ ainda maior, baseado apenas no ATQ dela.\nAlém disso, enquanto a Escala Cinética existir, ela registrará a distância percorrida pelo personagem ativo, exceto a própria Iansan, registrando essa distância a cada segundo para regenerar pontos de Espírito da Noite para Iansan.\nA Escala Cinética desaparecerá quando o estado Bênção do Espírito da Noite de Iansan acabar. Quando ela não estiver em combate, a Escala Cinética desaparecerá depois de 1s. Enquanto a Escala Cinética existir e Iansan não for a personagem ativa, a Bênção do Espírito da Noite não terminará.\n\n<i>\"Poder não é uma questão de talento natural. O poder vem da prática constante. O poder deve ser utilizado corretamente.\"</i>",
+    "description": "Seu pé esmaga a terra com o nome do Poder, causando Dano Electro em AdE com alinhamento Espírito da Noite, e então retira sua Escala Cinética de Edição Limitada (Para Treinos).\nAo lançar, Iansan obtém 15 pontos de Espírito da Noite, e entra no estado Bênção do Espírito da Noite.\nQuando a Escala Cinética sair do campo, o estado Bênção do Espírito da Noite de Iansan terminará.\n\nEscala Cinética\nA Escala Cinética acompanha o personagem ativo, e aumenta o ATQ do personagem ativo com base nos pontos de Espírito da Noite de Iansan de formas diferentes:\n· Se Iansan tiver menos de 42 pontos de Espírito da Noite, recebe um bônus de ATQ baseado dos pontos de Espírito da Noite e do ATQ dela.\n· Se Iansan tiver pelo menos 42 pontos de Espírito da Noite, a Escala Cinética será trocada para o modo \"Suporte Flamejante!\", recebendo um bônus de ATQ ainda maior, baseado apenas no ATQ dela.\nAlém disso, enquanto a Escala Cinética existir, ela registrará a distância percorrida pelo personagem ativo, exceto a própria Iansan, registrando essa distância a cada segundo para regenerar pontos de Espírito da Noite para Iansan.\nA Escala Cinética desaparecerá quando o estado Bênção do Espírito da Noite de Iansan acabar. Quando ela não estiver em combate, a Escala Cinética desaparecerá depois de 1s. Enquanto a Escala Cinética existir e Iansan não for a personagem ativa, a Bênção do Espírito da Noite não terminará.",
+    "flavorText": "\"Poder não é uma questão de talento natural. O poder vem da prática constante. O poder deve ser utilizado corretamente.\"",
+    "attributes": {
+      "labels": [
+        "Dano de Habilidade|{param1:F1P}",
+        "Taxa de Conversão de ATQ dos Pontos de Espírito da Noite Elevados|{param2:P} de ATQ",
+        "Taxa de Conversão de ATQ dos Pontos de Espírito da Noite Baixos|{param3:F1P} de ATQ/Pontos de Espírito da Noite",
+        "Bônus Máximo de ATQ|{param4:F1}",
+        "Duração|{param6:F1}s",
+        "Duração do Estado Fora de Combate|{param5:F1}s",
+        "Tempo de Recarga|{param7:F1}s",
+        "Energia Elemental|{param8:I}"
+      ],
+      "parameters": {
+        "param1": [
+          4.304,
+          4.6268,
+          4.9496,
+          5.38,
+          5.7028,
+          6.0256,
+          6.456,
+          6.8864,
+          7.3168,
+          7.7472,
+          8.1776,
+          8.608,
+          9.146,
+          9.684,
+          10.222
+        ],
+        "param2": [
+          0.27,
+          0.27,
+          0.27,
+          0.27,
+          0.27,
+          0.27,
+          0.27,
+          0.27,
+          0.27,
+          0.27,
+          0.27,
+          0.27,
+          0.27,
+          0.27,
+          0.27
+        ],
+        "param3": [
+          0.005,
+          0.005,
+          0.005,
+          0.005,
+          0.005,
+          0.005,
+          0.005,
+          0.005,
+          0.005,
+          0.005,
+          0.005,
+          0.005,
+          0.005,
+          0.005,
+          0.005
+        ],
+        "param4": [
+          330,
+          370,
+          410,
+          450,
+          490,
+          530,
+          570,
+          610,
+          650,
+          690,
+          730,
+          770,
+          810,
+          850,
+          890
+        ],
+        "param5": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "param6": [
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12
+        ],
+        "param7": [
+          18,
+          18,
+          18,
+          18,
+          18,
+          18,
+          18,
+          18,
+          18,
+          18,
+          18,
+          18,
+          18,
+          18,
+          18
+        ],
+        "param8": [
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70,
+          70
+        ]
+      }
+    }
+  },
+  "passive1": {
+    "name": "Treinamento de Resistência Fortalecida",
+    "descriptionRaw": "Depois de Descida Trovejante atingir um inimigo, Iansan obtém o efeito Objetivo do Treino por 15s.\nNesse período, aumenta o ATQ de Iansan em 20%, e quando regenera pontos de Espírito da Noite através da Escala Cinética do Supremo <color=#FFD780FF>Os Três Princípios do Poder</color>, regenerará mais 1 ponto adicional. Além disso, quando o personagem ativo da equipe consumir ou regenerar pontos de Espírito da Noite, a próxima Escala Cinética de Iansan regenerará até 4 pontos de Espírito da Noite adicionais. Esse efeito pode ser desencadeado uma vez a cada 2.8s.\nO efeito Objetivo do Treino desaparecerá quando o estado Bênção do Espírito da Noite de Iansan acabar.",
+    "description": "Depois de Descida Trovejante atingir um inimigo, Iansan obtém o efeito Objetivo do Treino por 15s.\nNesse período, aumenta o ATQ de Iansan em 20%, e quando regenera pontos de Espírito da Noite através da Escala Cinética do Supremo Os Três Princípios do Poder, regenerará mais 1 ponto adicional. Além disso, quando o personagem ativo da equipe consumir ou regenerar pontos de Espírito da Noite, a próxima Escala Cinética de Iansan regenerará até 4 pontos de Espírito da Noite adicionais. Esse efeito pode ser desencadeado uma vez a cada 2.8s.\nO efeito Objetivo do Treino desaparecerá quando o estado Bênção do Espírito da Noite de Iansan acabar."
+  },
+  "passive2": {
+    "name": "Teste de Gradiente de Energia Cinética",
+    "descriptionRaw": "Quando um membro próximo da equipe desencadeia Explosão do Espírito da Noite, Iansan obtém Aquecimento por 10s.\nNesse período, quando Iansan regenerar pelo menos 1 ponto de Espírito da Noite, regenerará pontos de Espírito da Noite para o personagem ativo. A quantidade regenerada é baseada em 60% do ATQ de Iansan. Esse efeito pode ser desencadeado uma vez a cada 2.8s.",
+    "description": "Quando um membro próximo da equipe desencadeia Explosão do Espírito da Noite, Iansan obtém Aquecimento por 10s.\nNesse período, quando Iansan regenerar pelo menos 1 ponto de Espírito da Noite, regenerará pontos de Espírito da Noite para o personagem ativo. A quantidade regenerada é baseada em 60% do ATQ de Iansan. Esse efeito pode ser desencadeado uma vez a cada 2.8s."
+  },
+  "passive3": {
+    "name": "Presente do Reino da Noite: Movimentos Poderosos",
+    "descriptionRaw": "Quando consumir todos os pontos de Espírito da Noite, e quando Iansan estiver em campo, passará a consumir Flogisto para manter o estado Bênção do Espírito da Noite.\nQuando está em uma área de Natlan com Dispositivos de Flogisto, poderá fazer Transmissão do Espírito da Noite: Iansan. Quando o personagem ativo está correndo, ou em um estado de movimento especial concedido por um Talento, ou a uma certa altura no ar, trocar para Iansan como personagem ativa fará: ela entrará no estado Bênção do Espírito da Noite, e obterá 25 pontos de Espírito da Noite. A Transmissão do Espírito da Noite pode ser desencadeada uma vez a cada 10s por equipe.\nAlém disso, nas áreas de Natlan onde existe o mecanismo de Flogisto, ao utilizar a diferença de terreno para saltar, Iansan não sofrerá Dano de Queda.",
+    "description": "Quando consumir todos os pontos de Espírito da Noite, e quando Iansan estiver em campo, passará a consumir Flogisto para manter o estado Bênção do Espírito da Noite.\nQuando está em uma área de Natlan com Dispositivos de Flogisto, poderá fazer Transmissão do Espírito da Noite: Iansan. Quando o personagem ativo está correndo, ou em um estado de movimento especial concedido por um Talento, ou a uma certa altura no ar, trocar para Iansan como personagem ativa fará: ela entrará no estado Bênção do Espírito da Noite, e obterá 25 pontos de Espírito da Noite. A Transmissão do Espírito da Noite pode ser desencadeada uma vez a cada 10s por equipe.\nAlém disso, nas áreas de Natlan onde existe o mecanismo de Flogisto, ao utilizar a diferença de terreno para saltar, Iansan não sofrerá Dano de Queda."
+  },
+  "passive4": {
+    "name": "Plano de Balanceamento Calórico",
+    "descriptionRaw": "Enquanto está em uma área de Natlan com um Dispositivo de Flogisto, obtém novamente 10 de Flogisto quando ele cair de acima de 50% para abaixo de 50%. Esse efeito pode ocorrer uma vez a cada 10s.",
+    "description": "Enquanto está em uma área de Natlan com um Dispositivo de Flogisto, obtém novamente 10 de Flogisto quando ele cair de acima de 50% para abaixo de 50%. Esse efeito pode ocorrer uma vez a cada 10s."
+  },
+  "costs": {
+    "lvl2": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 12500
+      },
+      {
+        "id": 104347,
+        "name": "Ensinamentos da Disputa",
+        "count": 3
+      },
+      {
+        "id": 112104,
+        "name": "Apito de Madeira do Sentinela",
+        "count": 6
+      }
+    ],
+    "lvl3": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 17500
+      },
+      {
+        "id": 104348,
+        "name": "Guia da Disputa",
+        "count": 2
+      },
+      {
+        "id": 112105,
+        "name": "Apito de Metal do Guerreiro",
+        "count": 3
+      }
+    ],
+    "lvl4": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 25000
+      },
+      {
+        "id": 104348,
+        "name": "Guia da Disputa",
+        "count": 4
+      },
+      {
+        "id": 112105,
+        "name": "Apito de Metal do Guerreiro",
+        "count": 4
+      }
+    ],
+    "lvl5": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 30000
+      },
+      {
+        "id": 104348,
+        "name": "Guia da Disputa",
+        "count": 6
+      },
+      {
+        "id": 112105,
+        "name": "Apito de Metal do Guerreiro",
+        "count": 6
+      }
+    ],
+    "lvl6": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 37500
+      },
+      {
+        "id": 104348,
+        "name": "Guia da Disputa",
+        "count": 9
+      },
+      {
+        "id": 112105,
+        "name": "Apito de Metal do Guerreiro",
+        "count": 9
+      }
+    ],
+    "lvl7": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 120000
+      },
+      {
+        "id": 104349,
+        "name": "Filosofia da Disputa",
+        "count": 4
+      },
+      {
+        "id": 112106,
+        "name": "Apito Dourado do Guerreiro de Coroa Sauriana",
+        "count": 4
+      },
+      {
+        "id": 113062,
+        "name": "Veredito Negado",
+        "count": 1
+      }
+    ],
+    "lvl8": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 260000
+      },
+      {
+        "id": 104349,
+        "name": "Filosofia da Disputa",
+        "count": 6
+      },
+      {
+        "id": 112106,
+        "name": "Apito Dourado do Guerreiro de Coroa Sauriana",
+        "count": 6
+      },
+      {
+        "id": 113062,
+        "name": "Veredito Negado",
+        "count": 1
+      }
+    ],
+    "lvl9": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 450000
+      },
+      {
+        "id": 104349,
+        "name": "Filosofia da Disputa",
+        "count": 12
+      },
+      {
+        "id": 112106,
+        "name": "Apito Dourado do Guerreiro de Coroa Sauriana",
+        "count": 9
+      },
+      {
+        "id": 113062,
+        "name": "Veredito Negado",
+        "count": 2
+      }
+    ],
+    "lvl10": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 700000
+      },
+      {
+        "id": 104349,
+        "name": "Filosofia da Disputa",
+        "count": 16
+      },
+      {
+        "id": 112106,
+        "name": "Apito Dourado do Guerreiro de Coroa Sauriana",
+        "count": 12
+      },
+      {
+        "id": 113062,
+        "name": "Veredito Negado",
+        "count": 2
+      },
+      {
+        "id": 104319,
+        "name": "Coroa da Sabedoria",
+        "count": 1
+      }
+    ]
+  },
+  "images": {
+    "filename_combat1": "Skill_A_03",
+    "filename_combat2": "Skill_S_Iansan_01",
+    "filename_combat3": "Skill_E_Iansan_01_HD",
+    "filename_passive1": "UI_Talent_S_Iansan_05",
+    "filename_passive2": "UI_Talent_S_Iansan_06",
+    "filename_passive3": "UI_Talent_S_Varesa_07",
+    "filename_passive4": "UI_Talent_S_Iansan_08"
+  },
+  "version": "5.5"
+}
