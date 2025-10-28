@@ -10,7 +10,7 @@ import Footer from '@/components/footer-en';
 import ptBr from "@/data/en-us.json"
 
 export const metadata: Metadata = {
-  title: "Genshin Impact Tier List 6.0 | Ranking Best Characters",
+  title: "Genshin Impact Tier List 6.1 | Ranking Best Characters",
   description: "Explore the latest Genshin Impact tier list and find out which characters dominate the 2025 meta!",
   alternates: {
     canonical: '/en/tier-list',

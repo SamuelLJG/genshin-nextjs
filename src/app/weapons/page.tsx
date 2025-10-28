@@ -12,11 +12,11 @@ import {weapons, newWeapons, soonWeapons} from '@/data/wa-list'
 
 
 export const metadata: Metadata = {
-  title: "Weapons List | Genshin Impact",
-  description: "Full Genshin Impact Weapon List by Type, Rarity, and Name – Browse All Swords, Polearms, Bows & More",
+  title: "Lista de Armas | Genshin Impact",
+  description: "Lista completa de armas de Genshin Impact separadas por tipo, raridade e nome. Veja todas as espadas, lanças, arcos e mais.",
   metadataBase: new URL('https://genshinbuild.com'),
   alternates: {
-    canonical: '/en/weapons',
+    canonical: '/weapons',
     languages: {
       'en': `/en/weapons`,
       'pt-br': `/weapons`,
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     images: `/images/genshinbuild-image.png`,
-    url: '/en/weapons',
+    url: '/weapons',
     type: 'website'
   }
 };
