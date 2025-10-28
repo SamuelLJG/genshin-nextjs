@@ -1,0 +1,203 @@
+{
+  "id": 15515,
+  "name": "Aurora do Hino Distante",
+  "description": "Um arco que carrega a melodia do amanhecer, dizem ter sido forjado da primeira luz da aurora.",
+  "descriptionRaw": "Um arco que carrega a melodia do amanhecer, dizem ter sido forjado da primeira luz da aurora.",
+  "weaponType": "WEAPON_BOW",
+  "weaponText": "Arco",
+  "rarity": "5",
+  "story": "Na era em que o mundo ainda era jovem e as estrelas tinham acabado de começar a cantar seus hinos celestiais, existia uma melodia que anunciava a chegada do amanhecer. Este arco foi forjado dessa mesma melodia, capturando a essência da aurora em sua forma graciosa.\n\nA lenda conta sobre um tempo em que a escuridão ameaçava consumir o mundo, e as pessoas oravam por salvação. Em resposta às suas súplicas, os primeiros raios do amanhecer se uniram para formar esta arma, suas cordas tecidas da luz dourada do nascer do sol e sua estrutura esculpida da esperança de um novo começo.\n\nQuando tensionado, ele canta com a voz da estrela da manhã, cada flecha carregando a promessa de um novo dia. Dizem que aqueles que o empunham são abençoados com a coragem para enfrentar qualquer escuridão, pois carregam a esperança eterna do amanhecer dentro de seus corações.\n\nA melodia do arco muda com a passagem do tempo - dos sussurros suaves do início da manhã ao coro triunfante da luz plena do dia, ele se adapta ao ritmo da alma de seu portador, tornando-se uma extensão de seu próprio ser.",
+  "baseAtkValue": 47.54,
+  "mainStatType": "FIGHT_PROP_CRITICAL_HURT",
+  "mainStatText": "Dano CRIT",
+  "baseStatText": "9.6%",
+  "effectName": "Canção do Prenúncio da Alvorada",
+  "effectTemplateRaw": "Nos 3s após sair do estado de batalha, obtém o efeito Canção do Tempo: aumenta o Dano de Ataques Normais/Habilidades Elementais/Supremos em <color=#99FFFFFF>{0}</color>. Também pode ser ativado quando o portador não é a personagem ativa.\nQuando estiver em batalha, o efeito de Canção do Tempo é reduzido em <color=#99FFFFFF>{1}</color> por segundo até 0%. Quando o Ataque Normal/Habilidade Elemental/Supremo atinge um inimigo, aumenta o Tipo de Dano correspondente de Canção do Tempo em <color=#99FFFFFF>{2}</color>, até <color=#99FFFFFF>{0}</color>. Duas Bruxas: o efeito acima de quando um oponente é atingido muda para aumentar o Dano de Canção do Tempo em <color=#99FFFFFF>{3}</color> para todos os tipos de Dano. Cada tipo de Dano aumentado pode ser ativado uma vez a cada 0.1s. Esse efeito pode ser desencadeado, mesmo que o portador não seja o personagem ativo.",
+  "r1": {
+    "description": "Nos 3s após sair do estado de batalha, obtém o efeito Canção do Tempo: aumenta o Dano de Ataques Normais/Habilidades Elementais/Supremos em 60%. Também pode ser ativado quando o portador não é a personagem ativa.\nQuando estiver em batalha, o efeito de Canção do Tempo é reduzido em 10% por segundo até 0%. Quando o Ataque Normal/Habilidade Elemental/Supremo atinge um inimigo, aumenta o Tipo de Dano correspondente de Canção do Tempo em 10%, até 60%. Duas Bruxas: o efeito acima de quando um oponente é atingido muda para aumentar o Dano de Canção do Tempo em 20% para todos os tipos de Dano. Cada tipo de Dano aumentado pode ser ativado uma vez a cada 0.1s. Esse efeito pode ser desencadeado, mesmo que o portador não seja o personagem ativo.",
+    "values": [
+      "60%",
+      "10%",
+      "10%",
+      "20%"
+    ]
+  },
+  "r2": {
+    "description": "Nos 3s após sair do estado de batalha, obtém o efeito Canção do Tempo: aumenta o Dano de Ataques Normais/Habilidades Elementais/Supremos em 75%. Também pode ser ativado quando o portador não é a personagem ativa.\nQuando estiver em batalha, o efeito de Canção do Tempo é reduzido em 12.5% por segundo até 0%. Quando o Ataque Normal/Habilidade Elemental/Supremo atinge um inimigo, aumenta o Tipo de Dano correspondente de Canção do Tempo em 12.5%, até 75%. Duas Bruxas: o efeito acima de quando um oponente é atingido muda para aumentar o Dano de Canção do Tempo em 25% para todos os tipos de Dano. Cada tipo de Dano aumentado pode ser ativado uma vez a cada 0.1s. Esse efeito pode ser desencadeado, mesmo que o portador não seja o personagem ativo.",
+    "values": [
+      "75%",
+      "12.5%",
+      "12.5%",
+      "25%"
+    ]
+  },
+  "r3": {
+    "description": "Nos 3s após sair do estado de batalha, obtém o efeito Canção do Tempo: aumenta o Dano de Ataques Normais/Habilidades Elementais/Supremos em 90%. Também pode ser ativado quando o portador não é a personagem ativa.\nQuando estiver em batalha, o efeito de Canção do Tempo é reduzido em 15% por segundo até 0%. Quando o Ataque Normal/Habilidade Elemental/Supremo atinge um inimigo, aumenta o Tipo de Dano correspondente de Canção do Tempo em 15%, até 90%. Duas Bruxas: o efeito acima de quando um oponente é atingido muda para aumentar o Dano de Canção do Tempo em 30% para todos os tipos de Dano. Cada tipo de Dano aumentado pode ser ativado uma vez a cada 0.1s. Esse efeito pode ser desencadeado, mesmo que o portador não seja o personagem ativo.",
+    "values": [
+      "90%",
+      "15%",
+      "15%",
+      "30%"
+    ]
+  },
+  "r4": {
+    "description": "Nos 3s após sair do estado de batalha, obtém o efeito Canção do Tempo: aumenta o Dano de Ataques Normais/Habilidades Elementais/Supremos em 105%. Também pode ser ativado quando o portador não é a personagem ativa.\nQuando estiver em batalha, o efeito de Canção do Tempo é reduzido em 17.5% por segundo até 0%. Quando o Ataque Normal/Habilidade Elemental/Supremo atinge um inimigo, aumenta o Tipo de Dano correspondente de Canção do Tempo em 17.5%, até 105%. Duas Bruxas: o efeito acima de quando um oponente é atingido muda para aumentar o Dano de Canção do Tempo em 35% para todos os tipos de Dano. Cada tipo de Dano aumentado pode ser ativado uma vez a cada 0.1s. Esse efeito pode ser desencadeado, mesmo que o portador não seja o personagem ativo.",
+    "values": [
+      "105%",
+      "17.5%",
+      "17.5%",
+      "35%"
+    ]
+  },
+  "r5": {
+    "description": "Nos 3s após sair do estado de batalha, obtém o efeito Canção do Tempo: aumenta o Dano de Ataques Normais/Habilidades Elementais/Supremos em 120%. Também pode ser ativado quando o portador não é a personagem ativa.\nQuando estiver em batalha, o efeito de Canção do Tempo é reduzido em 20% por segundo até 0%. Quando o Ataque Normal/Habilidade Elemental/Supremo atinge um inimigo, aumenta o Tipo de Dano correspondente de Canção do Tempo em 20%, até 120%. Duas Bruxas: o efeito acima de quando um oponente é atingido muda para aumentar o Dano de Canção do Tempo em 40% para todos os tipos de Dano. Cada tipo de Dano aumentado pode ser ativado uma vez a cada 0.1s. Esse efeito pode ser desencadeado, mesmo que o portador não seja o personagem ativo.",
+    "values": [
+      "120%",
+      "20%",
+      "20%",
+      "40%"
+    ]
+  },
+  "costs": {
+    "ascend1": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 10000
+      },
+      {
+        "id": 114009,
+        "name": "Grilhões de Dandelion",
+        "count": 5
+      },
+      {
+        "id": 112014,
+        "name": "Chifre Pesado",
+        "count": 5
+      },
+      {
+        "id": 112035,
+        "name": "Insígnia dos Ladrões de Tesouro",
+        "count": 3
+      }
+    ],
+    "ascend2": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 20000
+      },
+      {
+        "id": 114010,
+        "name": "Correntes do Gladiador de Dandelion",
+        "count": 5
+      },
+      {
+        "id": 112014,
+        "name": "Chifre Pesado",
+        "count": 18
+      },
+      {
+        "id": 112035,
+        "name": "Insígnia dos Ladrões de Tesouro",
+        "count": 12
+      }
+    ],
+    "ascend3": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 30000
+      },
+      {
+        "id": 114010,
+        "name": "Correntes do Gladiador de Dandelion",
+        "count": 9
+      },
+      {
+        "id": 112015,
+        "name": "Chifre de Bronze Negro",
+        "count": 9
+      },
+      {
+        "id": 112036,
+        "name": "Insígnia do Corvo Prateado",
+        "count": 9
+      }
+    ],
+    "ascend4": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 45000
+      },
+      {
+        "id": 114011,
+        "name": "Manilhas do Gladiador de Dandelion",
+        "count": 5
+      },
+      {
+        "id": 112015,
+        "name": "Chifre de Bronze Negro",
+        "count": 18
+      },
+      {
+        "id": 112036,
+        "name": "Insígnia do Corvo Prateado",
+        "count": 14
+      }
+    ],
+    "ascend5": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 55000
+      },
+      {
+        "id": 114011,
+        "name": "Manilhas do Gladiador de Dandelion",
+        "count": 9
+      },
+      {
+        "id": 112016,
+        "name": "Chifre de Cristal Preto",
+        "count": 14
+      },
+      {
+        "id": 112037,
+        "name": "Insígnia de Corvo Dourado",
+        "count": 9
+      }
+    ],
+    "ascend6": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 65000
+      },
+      {
+        "id": 114012,
+        "name": "Sonho do Gladiador de Dandelion",
+        "count": 6
+      },
+      {
+        "id": 112016,
+        "name": "Chifre de Cristal Preto",
+        "count": 27
+      },
+      {
+        "id": 112037,
+        "name": "Insígnia de Corvo Dourado",
+        "count": 18
+      }
+    ]
+  },
+  "images": {
+    "filename_icon": "UI_EquipIcon_Bow_Arianna",
+    "filename_awakenIcon": "UI_EquipIcon_Bow_Arianna_Awaken",
+    "filename_gacha": "UI_Gacha_EquipIcon_Bow_Arianna",
+    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Arianna.png",
+    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Arianna_Awaken.png"
+  },
+  "version": "6.2"
+}

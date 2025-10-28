@@ -1,0 +1,26 @@
+{
+  "c1": {
+    "name": "Adamah's Redemption",
+    "descriptionRaw": "Durin's Elemental Burst DMG is increased by 25%.\nAdditionally, after unleashing an Elemental Burst, Durin gains 12 stacks of Cycle of Enlightenment for 20s. Durin can consume Cycle of Enlightenment stacks to trigger different effects, depending on the Elemental Burst he unleashes:\n· Principle of Purity: As the Light Transforms: When nearby active characters apart from Durin deal Normal Attack, Charged Attack, Plunging Attack, Elemental Skill, or Elemental Burst DMG, 1 stack of Cycle of Enlightenment will be consumed to increase the DMG dealt by 60% of Durin's ATK.\n· Principle of Darkness: As the Stars Smolder: When Durin deals Elemental Burst DMG, 2 stacks of Cycle of Enlightenment will be consumed to increase the DMG dealt by 100% of Durin's ATK.\n\nWhen an Elemental Burst is used, Cycle of Enlightenment stacks will be reset."
+  },
+  "c2": {
+    "name": "Unground Visions",
+    "descriptionRaw": "For 20s after Durin uses an Elemental Burst, after nearby party members trigger Vaporize, Melt, Burning, Overloaded, Pyro Swirl, or Pyro Crystallize reactions, nearby party members will gain a 50% Pyro DMG Bonus, as well as a DMG Bonus for the corresponding Element involved in the reaction, for 6s."
+  },
+  "c3": {
+    "name": "Flame Mirror's Revelation",
+    "descriptionRaw": "Increases the Level of Principle of Purity: As the Light Shifts by 3.\nMaximum upgrade level is 15."
+  },
+  "c4": {
+    "name": "Emanare's Source",
+    "descriptionRaw": "When effects that consume Cycle of Enlightenment stacks are triggered as part of the Constellation Adamah's Redemption, there is a 55% chance that no Cycle of Enlightenment stacks will be consumed."
+  },
+  "c5": {
+    "name": "Scouring Flame's Sundering",
+    "descriptionRaw": "Increases the Level of Binary Form: Convergence and Division by 3.\nMaximum upgrade level is 15."
+  },
+  "c6": {
+    "name": "Dual Birth",
+    "descriptionRaw": "Durin's Elemental Burst DMG ignores 30% of opponents' DEF.\nAdditionally, Durin's Elemental Bursts Principle of Purity: As the Light Transforms and Principle of Darkness: As the Stars Smolder are each enhanced:\n· After Principle of Purity: As the Light Transforms and Dragon of White Flame hit an opponent, that opponent's DEF is decreased by 30% for 6s.\n· DMG from Principle of Darkness: As the Stars Smolder and Dragon of Dark Decay will ignore an additional 40% of opponents' DEF."
+  }
+}

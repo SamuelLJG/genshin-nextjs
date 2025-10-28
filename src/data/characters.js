@@ -41,6 +41,73 @@ export const characters = [
         rank:'s'
     },
     {
+        name: 'durin',
+        function: 'subDps',
+        bestWeapon: 'Black Erosion',
+        otherWeapons: ['Primordial Jade Cutter','Moonweavers Dawn','The Black Sword'],
+        bestArtifacts: 'Emblem of Severed Fate',
+        otherArtifacts: ['Noblesse Oblige', 'Crimson Witch of Flames'],
+        teams: [[
+            {'mualani': 'mainDps'},
+            {'durin': 'subDps'},
+            {'mona': 'support'},
+            {'xilonen': 'support'}
+        ],
+        [
+            {'varesa': 'mainDps'},
+            {'durin': 'subDps'},
+            {'chevreuse': 'support'},
+            {'iansan': 'support'}
+        ],
+        [
+            {'arlecchino': 'mainDps'},
+            {'durin': 'subDps'},
+            {'fischl': 'subDps'},
+            {'chevreuse': 'support'}
+        ],
+        [
+            {'kinich': 'mainDps'},
+            {'durin': 'subDps'},
+            {'emilie': 'subDps'},
+            {'iansan': 'support'}
+        ]
+        ],
+        talentPriority: ['elementalBurst','elementalSkill'],
+        elementType: 'pyro',
+        mainStatsArtifacts: ['atkPercent','pyroBonus', 'critRateOrDamage'],
+        subStatsArtifacts: ['critRateOrDamage', 'atkPercent', 'energyRecharge'],
+        soonCharacter : 'soon',
+        weapon: 'WEAPON_SWORD_ONE_HAND',
+        rarity: '5',
+    },
+    {
+        name: 'jahoda',
+        function: 'support',
+        bestWeapon: 'The Dawn of Distant Hymn',
+        otherWeapons: ['Rainstering of the Rainbow Serpent','Favonius Warbow','Sacrificial Bow'],
+        bestArtifacts: 'Viridescent Venerer',
+        teams: [[
+            {'flins': 'mainDps'},
+            {'ineffa': 'subDps'},
+            {'yelan': 'subDps'},
+            {'jahoda': 'support'}
+        ],
+        [
+            {'flins': 'mainDps'},
+            {'ineffa': 'support'},
+            {'aino': 'support'},
+            {'jahoda': 'support'}
+        ]
+        ],
+        talentPriority: ['elementalBurst','elementalSkill'],
+        elementType: 'anemo',
+        mainStatsArtifacts: ['atkPercent','atkPercent', 'atkPercentOrHealingBonus'],
+        subStatsArtifacts: ['critRate', 'atkPercent', 'energyRecharge'],
+        soonCharacter : 'soon',
+        weapon: 'WEAPON_BOW',
+        rarity: '4',
+    },
+    {
         name: 'aino',
         function: 'support',
         bestWeapon: 'Flame-Forged Insight',
@@ -1167,7 +1234,6 @@ export const characters = [
         elementType: 'cryo',
         mainStatsArtifacts: ['atkPercentOrElementalMastery','atkPercentOrElementalMastery', 'critRateOrDamage'],
         subStatsArtifacts: ['critRateOrDamage', 'atkPercent', 'energyRecharge', 'elementalMastery'],
-        newCharacter : 'new',
         weapon: 'WEAPON_POLE',
         rarity: '5',
         rank:'a'

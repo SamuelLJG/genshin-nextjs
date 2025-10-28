@@ -1,0 +1,188 @@
+{
+  "id":  14515,
+  "name": "Chuva da Serpente Arco-Íris",
+  "description": "Um arco misterioso que parece sussurrar com a voz dos ventos antigos.",
+  "descriptionRaw": "Um arco misterioso que parece sussurrar com a voz dos ventos antigos.",
+  "weaponType": "WEAPON_BOW",
+  "weaponText": "Arco",
+  "rarity": "4",
+  "story": "Este arco carrega os sussurros dos ventos antigos, dizem ter sido abençoado pela própria Serpente Arco-Íris. Aqueles que o empunham podem ouvir os segredos dos reinos astrais.\n\nNos dias em que o mundo era jovem e os céus ainda estavam sendo tecidos, a Serpente Arco-Íris descia dos reinos celestiais para abençoar as terras abaixo. Onde passava, arco-íris se formavam, e os ventos carregavam mensagens entre os reinos mortal e divino.\n\nEste arco foi forjado de um fragmento de um desses arco-íris, capturando a essência da serpente em sua curva graciosa. Quando tensionado, parece cantar com a voz dos ventos antigos, contando contos de tempos esquecidos e estrelas distantes.\n\nAqueles que ouvem atentamente seus sussurros podem ouvir segredos do futuro, ou ecos do passado - mas apenas se seu coração for puro e suas intenções verdadeiras.",
+  "baseAtkValue": 42.4,
+  "mainStatType": "FIGHT_PROP_CHARGE_EFFICIENCY",
+  "mainStatText": "Recarga de Energia",
+  "baseStatText": "10.0%",
+  "effectName": "Idioma Estelar Estrangeiro Sagrado",
+  "effectTemplateRaw": "Nos 8s após o ataque do personagem que não está ativo atingir o inimigo, aumenta o ATQ em <color=#99FFFFFF>{0}</color>.",
+  "r1": {
+    "description": "Nos 8s após o ataque do personagem que não está ativo atingir o inimigo, aumenta o ATQ em 28%.",
+    "values": [
+      "28%"
+    ]
+  },
+  "r2": {
+    "description": "Nos 8s após o ataque do personagem que não está ativo atingir o inimigo, aumenta o ATQ em 35%.",
+    "values": [
+      "35%"
+    ]
+  },
+  "r3": {
+    "description": "Nos 8s após o ataque do personagem que não está ativo atingir o inimigo, aumenta o ATQ em 42%.",
+    "values": [
+      "42%"
+    ]
+  },
+  "r4": {
+    "description": "Nos 8s após o ataque do personagem que não está ativo atingir o inimigo, aumenta o ATQ em 49%.",
+    "values": [
+      "49%"
+    ]
+  },
+  "r5": {
+    "description": "Nos 8s após o ataque do personagem que não está ativo atingir o inimigo, aumenta o ATQ em 56%.",
+    "values": [
+      "56%"
+    ]
+  },
+  "costs": {
+    "ascend1": [
+      {
+        "id":  202,
+        "name": "Mora",
+        "count": 5000
+      },
+      {
+        "id":  114053,
+        "name": "Consideração Mística do Vento Noturno",
+        "count": 3
+      },
+      {
+        "id":  112116,
+        "name": "Broto Refratante",
+        "count": 3
+      },
+      {
+        "id":  112125,
+        "name": "Garantia Desgastada",
+        "count": 2
+      }
+    ],
+    "ascend2": [
+      {
+        "id":  202,
+        "name": "Mora",
+        "count": 15000
+      },
+      {
+        "id":  114070,
+        "name": "Premonição Mística do Vento Noturno",
+        "count": 3
+      },
+      {
+        "id":  112116,
+        "name": "Broto Refratante",
+        "count": 12
+      },
+      {
+        "id":  112125,
+        "name": "Garantia Desgastada",
+        "count": 8
+      }
+    ],
+    "ascend3": [
+      {
+        "id":  202,
+        "name": "Mora",
+        "count": 20000
+      },
+      {
+        "id":  114070,
+        "name": "Premonição Mística do Vento Noturno",
+        "count": 6
+      },
+      {
+        "id":  112117,
+        "name": "Folha Desconcertante",
+        "count": 6
+      },
+      {
+        "id":  112126,
+        "name": "Garantia Imaculada",
+        "count": 6
+      }
+    ],
+    "ascend4": [
+      {
+        "id":  202,
+        "name": "Mora",
+        "count": 30000
+      },
+      {
+        "id":  114071,
+        "name": "Sofrimento Místico do Vento Noturno",
+        "count": 3
+      },
+      {
+        "id":  112117,
+        "name": "Folha Desconcertante",
+        "count": 12
+      },
+      {
+        "id":  112126,
+        "name": "Garantia Imaculada",
+        "count": 9
+      }
+    ],
+    "ascend5": [
+      {
+        "id":  202,
+        "name": "Mora",
+        "count": 35000
+      },
+      {
+        "id":  114071,
+        "name": "Sofrimento Místico do Vento Noturno",
+        "count": 6
+      },
+      {
+        "id":  112118,
+        "name": "Folha Ilusória",
+        "count": 9
+      },
+      {
+        "id":  112127,
+        "name": "Garantia Gélida",
+        "count": 6
+      }
+    ],
+    "ascend6": [
+      {
+        "id":  202,
+        "name": "Mora",
+        "count": 45000
+      },
+      {
+        "id":  114072,
+        "name": "Revelação Mística do Vento Noturno",
+        "count": 4
+      },
+      {
+        "id":  112118,
+        "name": "Folha Ilusória",
+        "count": 18
+      },
+      {
+        "id":  112127,
+        "name": "Garantia Gélida",
+        "count": 12
+      }
+    ]
+  },
+  "images": {
+    "filename_icon": "UI_EquipIcon_Bow_ElegguaBow",
+    "filename_awakenIcon": "UI_EquipIcon_Bow_ElegguaBow_Awaken",
+    "filename_gacha": "UI_Gacha_EquipIcon_Bow_ElegguaBow",
+    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_ElegguaBow.png",
+    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_ElegguaBow_Awaken.png"
+  },
+  "version": "6.2"
+}

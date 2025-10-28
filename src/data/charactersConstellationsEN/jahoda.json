@@ -1,0 +1,26 @@
+{
+  "c1": {
+    "name": "One More Flask!",
+    "descriptionRaw": "When the Purr-loined Treasure Flask from the Elemental Skill Cunning Scheme: Wealth Redistribution Plan launches a Fluffy Meowball that hits an enemy, there is a 50% chance for it to bounce, dealing the corresponding Elemental DMG to nearby enemies."
+  },
+  "c2": {
+    "name": "Rogue's Quick Thinking",
+    "descriptionRaw": "When the party reaches Ascendant Gleam, the Elemental Buffs in Ascension Talent 1 for both the first and second most common Elemental Types in the team will take effect simultaneously."
+  },
+  "c3": {
+    "name": "A Desperate Gamble",
+    "descriptionRaw": "Increases the Level of Secret Tool: Hunter's Seven Gadgets by 3.\nMaximum upgrade level is 15."
+  },
+  "c4": {
+    "name": "Wild Berries on the Dust",
+    "descriptionRaw": "When the Purr-sonal Household Helper Coordinators from the Elemental Burst Secret Tool: Hunter's Seven Gadgets undergo an Elemental Conversion, Jahoda will recover 4 Elemental Energy."
+  },
+  "c5": {
+    "name": "The Greatest Treasure",
+    "descriptionRaw": "Increases the Level of Cunning Scheme: Wealth Redistribution Plan by 3.\nMaximum upgrade level is 15."
+  },
+  "c6": {
+    "name": "The Tiniest Luck",
+    "descriptionRaw": "For 20s after the Purr-loined Treasure Flask in the Elemental Skill Cunning Scheme: Wealth Redistribution Plan is fully charged, Nod-Krai characters in your team gain +5% CRIT Rate and +40% CRIT DMG."
+  }
+}

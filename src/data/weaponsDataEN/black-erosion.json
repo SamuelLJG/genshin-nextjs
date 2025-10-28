@@ -1,0 +1,198 @@
+{
+  "id": 11516,
+  "name": "Black Erosion",
+  "description": "A mysterious sword that bears the marks of erosion, yet retains an aura of ancient power.",
+  "descriptionRaw": "A mysterious sword that bears the marks of erosion, yet retains an aura of ancient power.",
+  "weaponType": "WEAPON_SWORD_ONE_HAND",
+  "weaponText": "Sword",
+  "rarity": 5,
+  "story": "In the age when the world was young and the gods still walked among mortals, there existed a blade forged from the essence of fading stars and the tears of fallen kingdoms. This sword, known as Black Erosion, was said to carry within it the memory of all that had been lost to time.\n\nIt was crafted by a smith who had witnessed the decay of civilizations, who understood that all things must eventually return to dust. Yet in this understanding, he sought to create something that would endure - not by resisting erosion, but by embracing it.\n\nThe blade was quenched in waters drawn from the deepest abyss, where light had never reached. It was tempered with the breath of dying stars and polished with sands from forgotten deserts. Each strike of the hammer echoed with the sound of collapsing empires, each fold of the metal contained the pattern of decaying matter.\n\nThose who wielded Black Erosion found that it did not cut through obstacles, but rather accelerated their natural decay. A fortress wall would crumble to dust before the blade even touched it, and armor would rust away at its mere presence. Yet the sword itself showed no signs of wear, for it had been born of erosion and was thus immune to its effects.\n\nLegends say that the blade still exists, waiting in some forgotten tomb or sunken city for a wielder who understands that true power lies not in resisting change, but in flowing with the inevitable currents of time and decay.",
+  "baseAtkValue": 45.94,
+  "mainStatType": "FIGHT_PROP_CRITICAL",
+  "mainStatText": "CRIT Rate",
+  "baseStatText": "7.2%",
+  "effectName": "Day King's Searing Glory",
+  "effectTemplateRaw": "Elemental Burst DMG is increased by <color=#99FFFFFF>{0}</color>. After an Elemental Burst hits an opponent, gain Limpid for 3s: ATK is increased by <color=#99FFFFFF>{1}</color>, and ATK for current active characters excluding the equipping character is increased by <color=#99FFFFFF>{2}</color>. Additionally, when the party activates Witchcraft effects, the effects of Limpid are further increased by 75%. The equipping character can trigger this effect while off-field.",
+  "r1": {
+    "description": "Elemental Burst DMG is increased by 16%. After an Elemental Burst hits an opponent, gain Limpid for 3s: ATK is increased by 16%, and ATK for current active characters excluding the equipping character is increased by 12%. Additionally, when the party activates Witchcraft effects, the effects of Limpid are further increased by 75%. The equipping character can trigger this effect while off-field.",
+    "values": [
+      "16%",
+      "16%",
+      "12%"
+    ]
+  },
+  "r2": {
+    "description": "Elemental Burst DMG is increased by 20%. After an Elemental Burst hits an opponent, gain Limpid for 3s: ATK is increased by 20%, and ATK for current active characters excluding the equipping character is increased by 15%. Additionally, when the party activates Witchcraft effects, the effects of Limpid are further increased by 75%. The equipping character can trigger this effect while off-field.",
+    "values": [
+      "20%",
+      "20%",
+      "15%"
+    ]
+  },
+  "r3": {
+    "description": "Elemental Burst DMG is increased by 24%. After an Elemental Burst hits an opponent, gain Limpid for 3s: ATK is increased by 24%, and ATK for current active characters excluding the equipping character is increased by 18%. Additionally, when the party activates Witchcraft effects, the effects of Limpid are further increased by 75%. The equipping character can trigger this effect while off-field.",
+    "values": [
+      "24%",
+      "24%",
+      "18%"
+    ]
+  },
+  "r4": {
+    "description": "Elemental Burst DMG is increased by 28%. After an Elemental Burst hits an opponent, gain Limpid for 3s: ATK is increased by 28%, and ATK for current active characters excluding the equipping character is increased by 21%. Additionally, when the party activates Witchcraft effects, the effects of Limpid are further increased by 75%. The equipping character can trigger this effect while off-field.",
+    "values": [
+      "28%",
+      "28%",
+      "21%"
+    ]
+  },
+  "r5": {
+    "description": "Elemental Burst DMG is increased by 32%. After an Elemental Burst hits an opponent, gain Limpid for 3s: ATK is increased by 32%, and ATK for current active characters excluding the equipping character is increased by 24%. Additionally, when the party activates Witchcraft effects, the effects of Limpid are further increased by 75%. The equipping character can trigger this effect while off-field.",
+    "values": [
+      "32%",
+      "32%",
+      "24%"
+    ]
+  },
+  "costs": {
+    "ascend1": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 10000
+      },
+      {
+        "id": 114001,
+        "name": "Tile of Decarabian's Tower",
+        "count": 5
+      },
+      {
+        "id": 112128,
+        "name": "Frostnight's Glimmer",
+        "count": 5
+      },
+      {
+        "id": 112122,
+        "name": "Broken Drive Shaft",
+        "count": 3
+      }
+    ],
+    "ascend2": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 20000
+      },
+      {
+        "id": 114002,
+        "name": "Debris of Decarabian's City",
+        "count": 5
+      },
+      {
+        "id": 112128,
+        "name": "Frostnight's Glimmer",
+        "count": 18
+      },
+      {
+        "id": 112122,
+        "name": "Broken Drive Shaft",
+        "count": 12
+      }
+    ],
+    "ascend3": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 30000
+      },
+      {
+        "id": 114002,
+        "name": "Debris of Decarabian's City",
+        "count": 9
+      },
+      {
+        "id": 112129,
+        "name": "Frostnight's Glow",
+        "count": 9
+      },
+      {
+        "id": 112123,
+        "name": "Reinforced Drive Shaft",
+        "count": 9
+      }
+    ],
+    "ascend4": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 45000
+      },
+      {
+        "id": 114003,
+        "name": "Fragment of Decarabian's Epic",
+        "count": 5
+      },
+      {
+        "id": 112129,
+        "name": "Frostnight's Glow",
+        "count": 18
+      },
+      {
+        "id": 112123,
+        "name": "Reinforced Drive Shaft",
+        "count": 14
+      }
+    ],
+    "ascend5": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 55000
+      },
+      {
+        "id": 114003,
+        "name": "Fragment of Decarabian's Epic",
+        "count": 9
+      },
+      {
+        "id": 112130,
+        "name": "Frostnight's Glory",
+        "count": 14
+      },
+      {
+        "id": 112124,
+        "name": "Precision Drive Shaft",
+        "count": 9
+      }
+    ],
+    "ascend6": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 65000
+      },
+      {
+        "id": 114004,
+        "name": "Scattered Piece of Decarabian's Dream",
+        "count": 6
+      },
+      {
+        "id": 112130,
+        "name": "Frostnight's Glory",
+        "count": 27
+      },
+      {
+        "id": 112124,
+        "name": "Precision Drive Shaft",
+        "count": 18
+      }
+    ]
+  },
+  "images": {
+    "filename_icon": "UI_EquipIcon_Sword_Motsognir",
+    "filename_awakenIcon": "UI_EquipIcon_Sword_Motsognir_Awaken",
+    "filename_gacha": "UI_Gacha_EquipIcon_Sword_Motsognir",
+    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Motsognir.png",
+    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Motsognir_Awaken.png"
+  },
+  "version": "6.2"
+}

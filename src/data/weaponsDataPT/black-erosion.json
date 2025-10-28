@@ -1,0 +1,198 @@
+{
+  "id": 11516,
+  "name": "Erosão Negra",
+  "description": "Uma espada misteriosa que carrega as marcas da erosão, mas mantém uma aura de poder antigo.",
+  "descriptionRaw": "Uma espada misteriosa que carrega as marcas da erosão, mas mantém uma aura de poder antigo.",
+  "weaponType": "WEAPON_SWORD_ONE_HAND",
+  "weaponText": "Espada",
+  "rarity": 5,
+  "story": "Na era em que o mundo era jovem e os deuses ainda caminhavam entre os mortais, existia uma lâmina forjada da essência de estrelas desvanecentes e das lágrimas de reinos caídos. Esta espada, conhecida como Erosão Negra, dizia-se carregar dentro de si a memória de tudo que foi perdido para o tempo.\n\nFoi criada por um ferreiro que testemunhou a decadência de civilizações, que compreendeu que todas as coisas devem eventualmente retornar ao pó. No entanto, nesta compreensão, ele buscou criar algo que perdurasse - não resistindo à erosão, mas abraçando-a.\n\nA lâmina foi temperada em águas retiradas do abismo mais profundo, onde a luz nunca chegou. Foi endurecida com o sopro de estrelas moribundas e polida com areias de desertos esquecidos. Cada golpe do martelo ecoava com o som de impérios em colapso, cada dobra do metal continha o padrão da matéria em decomposição.\n\nAqueles que empunhavam a Erosão Negra descobriram que ela não cortava através de obstáculos, mas sim acelerava sua decadência natural. Uma muralha de fortaleza desmoronaria em pó antes mesmo da lâmina tocá-la, e armaduras enferrujariam com sua mera presença. No entanto, a própria espada não mostrava sinais de desgaste, pois nascera da erosão e era assim imune aos seus efeitos.\n\nLendas dizem que a lâmina ainda existe, esperando em alguma tumba esquecida ou cidade submersa por um portador que compreenda que o verdadeiro poder não está em resistir à mudança, mas em fluir com as correntes inevitáveis do tempo e da decadência.",
+  "baseAtkValue": 45.94,
+  "mainStatType": "FIGHT_PROP_CRITICAL",
+  "mainStatText": "Taxa Crítica",
+  "baseStatText": "7.2%",
+  "effectName": "Esplendor do Rei Diurno",
+  "effectTemplateRaw": "Aumenta o Dano do Supremo em <color=#99FFFFFF>{0}</color>. Depois que o Supremo atingir um inimigo, obtém o efeito Cristalino por 3s: aumenta o ATQ em <color=#99FFFFFF>{1}</color>, e aumenta o ATQ do personagem ativo que não é o portador em <color=#99FFFFFF>{2}</color>. Além disso, quando a equipe ativar o efeito Bruxa, aumenta o efeito Cristalino em mais 75%. Esse efeito pode ser desencadeado, mesmo que o portador não seja o personagem ativo.",
+  "r1": {
+    "description": "Aumenta o Dano do Supremo em 16%. Depois que o Supremo atingir um inimigo, obtém o efeito Cristalino por 3s: aumenta o ATQ em 16%, e aumenta o ATQ do personagem ativo que não é o portador em 12%. Além disso, quando a equipe ativar o efeito Bruxa, aumenta o efeito Cristalino em mais 75%. Esse efeito pode ser desencadeado, mesmo que o portador não seja o personagem ativo.",
+    "values": [
+      "16%",
+      "16%",
+      "12%"
+    ]
+  },
+  "r2": {
+    "description": "Aumenta o Dano do Supremo em 20%. Depois que o Supremo atingir um inimigo, obtém o efeito Cristalino por 3s: aumenta o ATQ em 20%, e aumenta o ATQ do personagem ativo que não é o portador em 15%. Além disso, quando a equipe ativar o efeito Bruxa, aumenta o efeito Cristalino em mais 75%. Esse efeito pode ser desencadeado, mesmo que o portador não seja o personagem ativo.",
+    "values": [
+      "20%",
+      "20%",
+      "15%"
+    ]
+  },
+  "r3": {
+    "description": "Aumenta o Dano do Supremo em 24%. Depois que o Supremo atingir um inimigo, obtém o efeito Cristalino por 3s: aumenta o ATQ em 24%, e aumenta o ATQ do personagem ativo que não é o portador em 18%. Além disso, quando a equipe ativar o efeito Bruxa, aumenta o efeito Cristalino em mais 75%. Esse efeito pode ser desencadeado, mesmo que o portador não seja o personagem ativo.",
+    "values": [
+      "24%",
+      "24%",
+      "18%"
+    ]
+  },
+  "r4": {
+    "description": "Aumenta o Dano do Supremo em 28%. Depois que o Supremo atingir um inimigo, obtém o efeito Cristalino por 3s: aumenta o ATQ em 28%, e aumenta o ATQ do personagem ativo que não é o portador em 21%. Além disso, quando a equipe ativar o efeito Bruxa, aumenta o efeito Cristalino em mais 75%. Esse efeito pode ser desencadeado, mesmo que o portador não seja o personagem ativo.",
+    "values": [
+      "28%",
+      "28%",
+      "21%"
+    ]
+  },
+  "r5": {
+    "description": "Aumenta o Dano do Supremo em 32%. Depois que o Supremo atingir um inimigo, obtém o efeito Cristalino por 3s: aumenta o ATQ em 32%, e aumenta o ATQ do personagem ativo que não é o portador em 24%. Além disso, quando a equipe ativar o efeito Bruxa, aumenta o efeito Cristalino em mais 75%. Esse efeito pode ser desencadeado, mesmo que o portador não seja o personagem ativo.",
+    "values": [
+      "32%",
+      "32%",
+      "24%"
+    ]
+  },
+  "costs": {
+    "ascend1": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 10000
+      },
+      {
+        "id": 114001,
+        "name": "Fragmento de Azulejo de Decarabian",
+        "count": 5
+      },
+      {
+        "id": 114021,
+        "name": "Cintilar da Geada Noturna",
+        "count": 5
+      },
+      {
+        "id": 112122,
+        "name": "Eixo Destruído",
+        "count": 3
+      }
+    ],
+    "ascend2": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 20000
+      },
+      {
+        "id": 114002,
+        "name": "Detritos da Cidade de Decarabian",
+        "count": 5
+      },
+      {
+        "id": 114021,
+        "name": "Cintilar da Geada Noturna",
+        "count": 18
+      },
+      {
+        "id": 112122,
+        "name": "Eixo Destruído",
+        "count": 12
+      }
+    ],
+    "ascend3": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 30000
+      },
+      {
+        "id": 114002,
+        "name": "Detritos da Cidade de Decarabian",
+        "count": 9
+      },
+      {
+        "id": 114022,
+        "name": "Incandescência da Geada Noturna",
+        "count": 9
+      },
+      {
+        "id": 112123,
+        "name": "Eixo Reforçado",
+        "count": 9
+      }
+    ],
+    "ascend4": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 45000
+      },
+      {
+        "id": 114003,
+        "name": "Fragmentos Épicos da Decarabian",
+        "count": 5
+      },
+      {
+        "id": 114022,
+        "name": "Incandescência da Geada Noturna",
+        "count": 18
+      },
+      {
+        "id": 112123,
+        "name": "Eixo Reforçado",
+        "count": 14
+      }
+    ],
+    "ascend5": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 55000
+      },
+      {
+        "id": 114003,
+        "name": "Fragmentos Épicos da Decarabian",
+        "count": 9
+      },
+      {
+        "id": 114023,
+        "name": "Glória da Geada Noturna",
+        "count": 14
+      },
+      {
+        "id": 112124,
+        "name": "Eixo de Precisão",
+        "count": 9
+      }
+    ],
+    "ascend6": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 65000
+      },
+      {
+        "id": 114004,
+        "name": "Pedaços de Sonho da Decarabian",
+        "count": 6
+      },
+      {
+        "id": 114023,
+        "name": "Glória da Geada Noturna",
+        "count": 27
+      },
+      {
+        "id": 112124,
+        "name": "Eixo de Precisão",
+        "count": 18
+      }
+    ]
+  },
+  "images": {
+    "filename_icon": "UI_EquipIcon_Sword_Motsognir",
+    "filename_awakenIcon": "UI_EquipIcon_Sword_Motsognir_Awaken",
+    "filename_gacha": "UI_Gacha_EquipIcon_Sword_Motsognir",
+    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Motsognir.png",
+    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Motsognir_Awaken.png"
+  },
+  "version": "6.2"
+}

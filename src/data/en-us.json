@@ -57,6 +57,7 @@
     "atkPercentOrCritRate": "ATK % / Crit Rate",
     "energyRechargeOrElementalMastery": "ER % / EM",
     "atkPercentOrElementalMastery": "ATK % / EM",
+    "atkPercentOrHealingBonus": "ATK % / Healing Bonus",
     "defPercent": "DEF %",
     "defPercentOrEnergyRecharge": "DEF % / ER %",
     "defPercentOrCritRate": "DEF % / Crit Rate",

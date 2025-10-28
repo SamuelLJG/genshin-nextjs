@@ -95,7 +95,7 @@ export default function WeaponSlider ({ ptData, matchedCharacters,folderData, id
                             
                             <div><Stars starClass={ptData.rarity}/></div>
                         </div>
-                        <Image width={215} height={215} src={id != ptData.name3 ? `https://gi.yatta.moe/assets/UI/${ptData.images.filename_icon}.png` : `https://api.hakush.in/gi/UI/${ptData.images.filename_icon}.webp`
+                        <Image width={215} height={215} src={id != ptData.name3 ? `https://api.hakush.in/gi/UI/${ptData.images.filename_icon}.webp` : `https://api.hakush.in/gi/UI/${ptData.images.filename_icon}.webp`
                       } id="weapon-full-image" alt={ptData.name} loading="eager" priority />
                     </section>
                     <section id="wee-level-section">
@@ -124,7 +124,7 @@ export default function WeaponSlider ({ ptData, matchedCharacters,folderData, id
                     <section> 
                                 <h2 className="titles-h2">{ptBr.ascensionCosts}</h2>
                        <div className="ascension-costs-flex">
-                               <label htmlFor="talents-costs-slider">{ptBr.cost} {level-1}→{level} <Image width={50} height={50} src={`https://gi.yatta.moe/assets/UI/UI_ItemIcon_${currentCosts[0].id}.png`} alt={currentCosts[0].name}/>{currentCosts[0].count/1000}K</label>
+                               <label htmlFor="talents-costs-slider">{ptBr.cost} {level-1}→{level} <Image width={50} height={50} src={`https://api.hakush.in/gi/UI/UI_ItemIcon_${currentCosts[0].id}.webp`} alt={currentCosts[0].name}/>{currentCosts[0].count/1000}K</label>
                                <input
                                 type="range"
                                 min="1"
@@ -137,7 +137,7 @@ export default function WeaponSlider ({ ptData, matchedCharacters,folderData, id
                        <ul className="ascension-materials-ul">
                            {currentCosts.slice(1).map((item:any, i:any) => (
                                                <li key={i} className="boxes2">
-                                                   <Image width={50} height={50} src={`https://gi.yatta.moe/assets/UI/UI_ItemIcon_${item.id}.png`} alt={item.name}/>
+                                                   <Image width={50} height={50} src={`https://api.hakush.in/gi/UI/UI_ItemIcon_${item.id}.webp`} alt={item.name}/>
                                                    <p className="numbers2">{item.name}</p>
                                                    <span>{item.count}</span>
                                                </li>

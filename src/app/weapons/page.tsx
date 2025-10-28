@@ -8,15 +8,15 @@ import { Metadata } from "next";
 import AdComponent from "@/components/Adsense";
 import Nav from '@/components/nav';
 import Footer from '@/components/footer';
-import {weapons,newWeapons} from '@/data/wa-list'
+import {weapons, newWeapons, soonWeapons} from '@/data/wa-list'
 
 
 export const metadata: Metadata = {
-  title: "Genshin Impact Lista de Armas",
-  description: "Lista completa de armas de Genshin Impact separadas por tipo, raridade e nome. Veja todas as espadas, lanças, arcos e mais.",
+  title: "Weapons List | Genshin Impact",
+  description: "Full Genshin Impact Weapon List by Type, Rarity, and Name – Browse All Swords, Polearms, Bows & More",
   metadataBase: new URL('https://genshinbuild.com'),
   alternates: {
-    canonical: '/weapons',
+    canonical: '/en/weapons',
     languages: {
       'en': `/en/weapons`,
       'pt-br': `/weapons`,
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     images: `/images/genshinbuild-image.png`,
-    url: '/weapons',
+    url: '/en/weapons',
     type: 'website'
   }
 };
@@ -56,6 +56,7 @@ const fetchWeaponData = (name: string) =>
   );
   const armasPT = responsesPTWeapons
   
+  // Adicione a lista de soonWeapons aqui (exemplo)
   
   // Função para gerar slug a partir do nome em inglês
   const generateSlug = (name: string) => {
@@ -65,7 +66,8 @@ const fetchWeaponData = (name: string) =>
       .replace(/\s+/g, '-');
   }
   
-  // Gera slugs das newWeapons uma vez para reutilizar
+  // Gera slugs das soonWeapons e newWeapons uma vez para reutilizar
+  const soonWeaponSlugs = soonWeapons.map(weapon => generateSlug(weapon));
   const newWeaponSlugs = newWeapons.map(weapon => generateSlug(weapon));
   
   return (
@@ -83,24 +85,36 @@ const fetchWeaponData = (name: string) =>
   {armasPT
     // junta armas e data pelo índice
     .map((post: any, i: number) => ({ ...post, slug: data[i] }))
-    // ordena primeiro por newWeapon, depois por ordem alfabética
+    // ordena primeiro por soonWeapon, depois newWeapon, depois por ordem alfabética
     .sort((a, b) => {
-      // Verifica se o slug da arma atual está na lista de newWeapons
+      // Verifica se o slug da arma atual está na lista de soonWeapons ou newWeapons
       const aSlug = generateSlug(a.slug || a.name);
       const bSlug = generateSlug(b.slug || b.name);
       
+      const aIsSoon = soonWeaponSlugs.includes(aSlug);
+      const bIsSoon = soonWeaponSlugs.includes(bSlug);
       const aIsNew = newWeaponSlugs.includes(aSlug);
       const bIsNew = newWeaponSlugs.includes(bSlug);
       
-      // Se a é newWeapon e b não é, a vem primeiro
+      // Prioridade: Soon > New > Resto
+      
+      // Se a é soon e b não é, a vem primeiro
+      if (aIsSoon && !bIsSoon) return -1;
+      // Se b é soon e a não é, b vem primeiro
+      if (!aIsSoon && bIsSoon) return 1;
+      
+      // Se ambas são soon ou nenhuma é soon, verifica new
+      // Se a é new e b não é, a vem primeiro
       if (aIsNew && !bIsNew) return -1;
-      // Se b é newWeapon e a não é, b vem primeiro
+      // Se b é new e a não é, b vem primeiro
       if (!aIsNew && bIsNew) return 1;
-      // Se ambos são newWeapons ou ambos não são, ordena alfabeticamente
+      
+      // Se ambas são new ou nenhuma é new, ordena alfabeticamente
       return a.name.localeCompare(b.name, 'pt');
     })
     .map((post: any, i: number) => {
       const postSlug = generateSlug(post.slug || post.name);
+      const isSoonWeapon = soonWeaponSlugs.includes(postSlug);
       const isNewWeapon = newWeaponSlugs.includes(postSlug);
       
       return post.slug.replace(/'/g, '').toLowerCase().replace(/ /g, '-') !=
@@ -114,12 +128,12 @@ const fetchWeaponData = (name: string) =>
           key={i}
           className={`weapon-card ${post.weaponType} ${post.name
             .toLowerCase()
-            .replace(/\s+/g, '-')} rarity-${post.rarity}-weapon ${isNewWeapon ? 'new-weapon' : ''}`}
+            .replace(/\s+/g, '-')} rarity-${post.rarity}-weapon ${isSoonWeapon ? 'soon-weapon' : ''} ${isNewWeapon ? 'new-weapon' : ''}`}
         >
           <Image
             width={100}
             height={100}
-            src={`https://gi.yatta.moe/assets/UI/${post.images.filename_icon}.png`}
+            src={`https://api.hakush.in/gi/UI/${post.images.filename_icon}.webp`}
             alt={post.name}
             className={`star${post.rarity}`}
             loading="eager"
@@ -132,8 +146,14 @@ const fetchWeaponData = (name: string) =>
           />
           <p>{post.name}</p>
             
+          {/* Badge para soon weapons */}
+          {isSoonWeapon && (
+            <span className="soon-weapon-badge"></span>
+          )}
+          
+          {/* Badge para new weapons */}
           {isNewWeapon && (
-            <span></span>
+            <span className="new-weapon-badge"></span>
           )}
           
           <div className="rara-dendro"></div>

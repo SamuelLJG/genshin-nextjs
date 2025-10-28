@@ -1206,6 +1206,13 @@ select{
 .weapon-card span::before {
     content: 'new';
 }
+.weapon-card span.soon-weapon-badge {
+    background:#02c2a8;
+}
+.weapon-card span.soon-weapon-badge::before {
+    content: 'soon';
+}
+
 .char-img{
     width: calc(90px * var(--minimize));
     height:calc(90px * var(--minimize));

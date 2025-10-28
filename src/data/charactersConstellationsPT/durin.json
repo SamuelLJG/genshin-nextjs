@@ -1,0 +1,26 @@
+{
+  "c1": {
+    "name": "Redenção de Adamah",
+    "descriptionRaw": "Aumenta o Dano causado pelo Supremo de Durin em 25%.\nAlém disso, ao lançar o Supremo, Durin obtém 12 acúmulos de Ciclo do Esclarecimento por 20s. Durin pode consumir os acúmulos de Ciclo do Esclarecimento de formas diferentes de acordo com o Supremo lançado, gerando efeitos fortalecedores diferentes. Se o Supremo lançado por Durin for:\n· Princípio da Pureza: Como a Luz se Transforma: quando todos os membros da equipe, exceto Durin, causarem Dano de Ataque Normal, Carregado, Imersivo, Habilidade Elemental ou Supremo, consome 1 acúmulo de Ciclo do Esclarecimento, aumentando o Dano causado em 60% do ATQ de Durin.\n· Princípio da Escuridão: Como as Estrelas Ardem: quando Durin causar Dano de Supremo, consome 2 acúmulos de Ciclo do Esclarecimento e aumenta o Dano causado em 100% do ATQ de Durin.\n\nO número de acúmulos de Ciclo do Esclarecimento é redefinido quando o Supremo é lançado."
+  },
+  "c2": {
+    "name": "Visões Infundadas",
+    "descriptionRaw": "Nos 20s após Durin lançar seu Supremo, quando os personagens próximos causarem Vaporização, Fusão, Queimaduras, Sobrecarga, Redemoinho Pyro ou Cristalização Pyro, todos os personagens obtêm 50% de Bônus de Dano Pyro, e bônus de Dano do Elemento correspondente participante da reação por 6s."
+  },
+  "c3": {
+    "name": "Revelação do Espelho Flamejante",
+    "descriptionRaw": "Aumenta o nível do Supremo Princípio da Pureza: Transformação da Luz em 3.\nO nível máximo de elevação é 15."
+  },
+  "c4": {
+    "name": "Fonte de Emanare",
+    "descriptionRaw": "Quando ativar efeitos que consomem Ciclo do Esclarecimento da Constelação Redenção de Adamah, possui 55% de chance de não consumir Ciclo do Esclarecimento."
+  },
+  "c5": {
+    "name": "Rachadura da Chama Furiosa",
+    "descriptionRaw": "Aumenta o nível da Habilidade Elemental Forma Binária: Convergência e Divisão em 3 níveis.\nO nível máximo de elevação é 15."
+  },
+  "c6": {
+    "name": "Nascimento Dual",
+    "descriptionRaw": "O Dano causado pelo Supremo de Durin ignora 30% da DEF do inimigo.\nAlém disso, os Supremos de Durin Princípio da Pureza: Como a Luz se Transforma e Princípio da Escuridão: Como as Estrelas Ardem são fortalecidos:\n· Nos 6s após o Supremo Princípio da Pureza: Como a Luz se Transforma e Dragão da Chama Branca atingirem um inimigo, reduz sua DEF em 30%.\n· O Dano causado pelo Supremo Princípio da Escuridão: Como as Estrelas Ardem e Dragão da Chama Escura ignoram em mais 40% a DEF do inimigo."
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "c1": {
+    "name": "Mais Uma Garrafa!",
+    "descriptionRaw": "Quando as Bolas Miaufinhas de Garrafa Secreta Ronron da Habilidade Elemental Estratagema Impressionante: Plano de Redistribuição de Riqueza atingem um inimigo, possuem 50% de chance de ricochetear, causando Dano Elemental correspondente contra os inimigos próximos."
+  },
+  "c2": {
+    "name": "Pensamento Rápido da Ladra",
+    "descriptionRaw": "Quando a equipe alcançar Reluzir Cheio, os Bônus Elementais do Talento de Ascensão 1 para o primeiro e segundo Tipo Elemental mais comum na equipe surtirão efeito simultaneamente."
+  },
+  "c3": {
+    "name": "Aposta Desesperada",
+    "descriptionRaw": "Aumenta o nível do Supremo Dispositivo Secreto: Sete Itens do Caçador em 3.\nO nível máximo de elevação é 15."
+  },
+  "c4": {
+    "name": "Frutas Selvagens na Poeira",
+    "descriptionRaw": "Quando os Coordenadores Felino de Assistência Doméstica de Dispositivo Secreto: Sete Itens do Caçador passarem por Conversão Elemental, regenera 4 de Energia Elemental para Jahoda."
+  },
+  "c5": {
+    "name": "O Maior Tesouro",
+    "descriptionRaw": "Aumenta o nível da Habilidade Elemental Plano de Redistribuição de Riqueza em 3 níveis.\nO nível máximo de elevação é 15."
+  },
+  "c6": {
+    "name": "A Menor Sorte",
+    "descriptionRaw": "Nos 20s depois de a Garrafa Secreta Ronron da Habilidade Elemental Estratagema Impressionante: Plano de Redistribuição de Riqueza encher, aumenta a Taxa CRIT dos personagens de Nod-Krai em 5% e o Dano CRIT em 40%."
+  }
+}

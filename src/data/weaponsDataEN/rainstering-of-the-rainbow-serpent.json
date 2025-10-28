@@ -1,0 +1,188 @@
+{
+  "id": 14515,
+  "name": "Rainstering of the Rainbow Serpent",
+  "description": "A mysterious bow that seems to whisper with the voice of ancient winds.",
+  "descriptionRaw": "A mysterious bow that seems to whisper with the voice of ancient winds.",
+  "weaponType": "WEAPON_BOW",
+  "weaponText": "Bow",
+  "rarity": "4",
+  "story": "This bow carries the whispers of the ancient winds, said to have been blessed by the Rainbow Serpent itself. Those who wield it can hear the secrets of the astral realms.\n\nIn the days when the world was young and the skies were still being woven, the Rainbow Serpent would descend from the celestial realms to bless the lands below. Where it passed, rainbows would form, and the winds would carry messages between the mortal and divine realms.\n\nThis bow was crafted from a fragment of one such rainbow, capturing the serpent's essence within its graceful curve. When drawn, it seems to sing with the voice of the ancient winds, telling tales of forgotten times and distant stars.\n\nThose who listen closely to its whispers may hear secrets of the future, or echoes of the past - but only if their heart is pure and their intentions true.",
+  "baseAtkValue": 42.4,
+  "mainStatType": "FIGHT_PROP_CHARGE_EFFICIENCY",
+  "mainStatText": "Energy Recharge",
+  "baseStatText": "10.0%",
+  "effectName": "Astral Whispers Beyond the Sacred Throne",
+  "effectTemplateRaw": "ATK is increased by <color=#99FFFFFF>{0}</color> for 8s when the character's attacks hit an opponent while the character is off-field.",
+  "r1": {
+    "description": "ATK is increased by 28% for 8s when the character's attacks hit an opponent while the character is off-field.",
+    "values": [
+      "28%"
+    ]
+  },
+  "r2": {
+    "description": "ATK is increased by 35% for 8s when the character's attacks hit an opponent while the character is off-field.",
+    "values": [
+      "35%"
+    ]
+  },
+  "r3": {
+    "description": "ATK is increased by 42% for 8s when the character's attacks hit an opponent while the character is off-field.",
+    "values": [
+      "42%"
+    ]
+  },
+  "r4": {
+    "description": "ATK is increased by 49% for 8s when the character's attacks hit an opponent while the character is off-field.",
+    "values": [
+      "49%"
+    ]
+  },
+  "r5": {
+    "description": "ATK is increased by 56% for 8s when the character's attacks hit an opponent while the character is off-field.",
+    "values": [
+      "56%"
+    ]
+  },
+  "costs": {
+    "ascend1": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 5000
+      },
+      {
+        "id": 114053,
+        "name": "Night-Wind's Mystic Consideration",
+        "count": 3
+      },
+      {
+        "id": 112116,
+        "name": "Refractive Bud",
+        "count": 3
+      },
+      {
+        "id": 112125,
+        "name": "Tattered Warrant",
+        "count": 2
+      }
+    ],
+    "ascend2": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 15000
+      },
+      {
+        "id": 114070,
+        "name": "Night-Wind's Mystic Premonition",
+        "count": 3
+      },
+      {
+        "id": 112116,
+        "name": "Refractive Bud",
+        "count": 12
+      },
+      {
+        "id": 112125,
+        "name": "Tattered Warrant",
+        "count": 8
+      }
+    ],
+    "ascend3": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 20000
+      },
+      {
+        "id": 114070,
+        "name": "Night-Wind's Mystic Premonition",
+        "count": 6
+      },
+      {
+        "id": 112117,
+        "name": "Bewildering Broadleaf",
+        "count": 6
+      },
+      {
+        "id": 112126,
+        "name": "Immaculate Warrant",
+        "count": 6
+      }
+    ],
+    "ascend4": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 30000
+      },
+      {
+        "id": 114071,
+        "name": "Night-Wind's Mystic Augury",
+        "count": 3
+      },
+      {
+        "id": 112117,
+        "name": "Bewildering Broadleaf",
+        "count": 12
+      },
+      {
+        "id": 112126,
+        "name": "Immaculate Warrant",
+        "count": 9
+      }
+    ],
+    "ascend5": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 35000
+      },
+      {
+        "id": 114071,
+        "name": "Night-Wind's Mystic Augury",
+        "count": 6
+      },
+      {
+        "id": 112118,
+        "name": "Illusory Leafcoil",
+        "count": 9
+      },
+      {
+        "id": 112127,
+        "name": "Frost-Etched Warrant",
+        "count": 6
+      }
+    ],
+    "ascend6": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 45000
+      },
+      {
+        "id": 114072,
+        "name": "Night-Wind's Mystic Revelation",
+        "count": 4
+      },
+      {
+        "id": 112118,
+        "name": "Illusory Leafcoil",
+        "count": 18
+      },
+      {
+        "id": 112127,
+        "name": "Frost-Etched Warrant",
+        "count": 12
+      }
+    ]
+  },
+  "images": {
+    "filename_icon": "UI_EquipIcon_Bow_ElegguaBow",
+    "filename_awakenIcon": "UI_EquipIcon_Bow_ElegguaBow_Awaken",
+    "filename_gacha": "UI_Gacha_EquipIcon_Bow_ElegguaBow",
+    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_ElegguaBow.png",
+    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_ElegguaBow_Awaken.png"
+  },
+  "version": "6.2"
+}

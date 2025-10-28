@@ -33,7 +33,7 @@ const fetchWeaponDataPT = (name: string) =>
     title: `${product.name} | Genshin Impact Armas`,
     description: product.description,
     openGraph: {
-      images: `https://gi.yatta.moe/assets/UI/${product.images.filename_icon}.png`,
+      images: `https://api.hakush.in/gi/UI/${product.images.filename_icon}.webp`,
       url: `/weapons/${id}`,
       type: 'website'
     },

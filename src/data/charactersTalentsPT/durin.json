@@ -1,0 +1,82 @@
+{
+  "combat1": {
+    "name": "Golpe da Asa Radiante",
+    "descriptionRaw": "<color=#FFD780FF>Ataque Normal</color>\nRealiza até 4 golpes rápidos.\n\n<color=#FFD780FF>Ataque Carregado</color>\nConsome uma certa quantidade de Stamina para desferir um golpe em frente.\n\n<color=#FFD780FF>Ataque Imersivo</color>\nMergulha em pleno ar para golpear o chão, causando dano aos inimigos ao longo do caminho e infligindo Dano em uma AdE durante o impacto."
+  },
+  "combat2": {
+    "name": "Forma Binária: Convergência e Divisão",
+    "descriptionRaw": "Purifica a substância das almas e dos desejos para realizar a Transmutação Essencial. Nesse período, a Habilidade Elemental Forma Binária: Convergência e Divisão de Durin será substituída pela Habilidade Elemental especial Conversão: Confirmação da Pureza, seu Ataque Normal Golpe da Asa Radiante será substituído pelo Ataque Normal Especial Conversão: Negação da Escuridão.\n\nConversão: Confirmação da Pureza\nCausa uma instância de Dano Pyro em AdE contra os inimigos próximos, remove a Transmutação Essencial e entra no estado Confirmação da Pureza por 30s.\n\nConversão: Negação da Escuridão\nCausa 3 instâncias consecutivas de Dano Pyro contra o inimigo, remove Transmutação Essencial e entra no estado Negação da Escuridão por 30s.\n\nQuando Durin entrar em Confirmação da Pureza ou Negação da Escuridão, regenera uma certa quantidade de Energia Elemental. É possível regenerar Energia Elemental uma vez a cada Xs dessa forma."
+  },
+  "combat3": {
+    "name": "Princípio da Pureza: Transformação da Luz",
+    "descriptionRaw": "Usa formas diferentes para liberar o poder de uma besta. Durin lança seu Supremo de formas diferentes de acordo com o estado de Transmutação Essencial.\n\nPrincípio da Pureza: Como a Luz se Transforma\nSe Durin estiver no estado Confirmação da Pureza, lançará o Supremo Princípio da Pureza: Como a Luz se Transforma, causando 3 instâncias de Dano Pyro em AdE contra o inimigo em frente, e revelando o poder da forma Dragão da Chama Branca. Dragão da Chama Branca acompanha o personagem ativo, e periodicamente ataca os inimigos próximos, causando Dano Pyro em AdE. Esse Dano é considerado Dano de Supremo.\n\nPrincípio da Escuridão: Como as Estrelas Ardem\nSe Durin estiver no estado Negação da Escuridão, seu Supremo será convertido para Princípio da Escuridão: Como as Estrelas Ardem, causando três instâncias de Dano Pyro em AdE, e revelando a forma Dragão da Chama Escura. O Dragão da Chama Escura acompanha o personagem ativo, e periodicamente realiza um ataque contra um inimigo próximo, causando Dano Pyro. Esse Dano é considerado Dano de Supremo.\n\nAlém disso, se Durin não estiver no Estado Especial de Transmutação Essencial, lançará o Supremo Princípio da Pureza: Como a Luz se Transforma."
+  },
+  "passive1": {
+    "name": "Ecos da Terra Surgente",
+    "descriptionRaw": "Ganha 25% de recompensas a mais quando enviada numa Expedição em Mondstadt por 20 horas."
+  },
+  "passive2": {
+    "name": "Luz Manifesta do Cálculo Divino",
+    "descriptionRaw": "Gera efeitos de fortalecimento diferentes de acordo com o estado revelado do poder pelo lançamento do Supremo de Durin.\nSe o poder revelado de Durin for:\n\nDragão da Chama Branca\nDepois que os personagens próximos desencadearem Queimaduras, Sobrecarga, Redemoinho Pyro ou Cristalização Pyro, reduz a RES Pyro e RES do Elemento correspondente participante da reação desse inimigo em 20% por 6s.\n\nDragão da Chama Escura\nAumenta o Dano causado por Vaporização de Durin em 40%, e aumenta o Dano causado por Fusão em 40%."
+  },
+  "passive3": {
+    "name": "Caos Formado como a Noite",
+    "descriptionRaw": "Nos Xs depois de Durin entrar no estado Confirmação da Pureza ou Negação da Escuridão de Transmutação Essencial através da Habilidade Elemental Forma Binária: Convergência e Divisão, aumenta o Dano causado pelo Supremo de Durin em 50% de seu ATQ. É possível aumentar o Dano do Supremo de Durin em até 1000 dessa forma."
+  },
+  "passive4": {
+    "name": "Presente da Noite da Bruxa: Ode à Sublimação",
+    "descriptionRaw": "Depois de completar Tarefa da Bruxa: Deste Mundo, Durin se tornará um personagem Mágico. Quando a equipe possuir pelo menos 2 personagens Mágicos, obtém o efeito Mágico: Ritual Secreto, fortalecendo o personagem Mágico.\n\nMágico: Ritual Secreto\nO Talento Passivo Luz Manifesta do Cálculo Divino tem todos os seus efeitos fortalecidos em 75%, exceto sua duração."
+  },
+  "costs": {
+    "lvl2": [
+      {"id": 202, "name": "Mora", "count": 12500},
+      {"id": 104307, "name": "Ensinamentos de Poemas", "count": 3},
+      {"id": 112125, "name": "Garantia Desgastada", "count": 6}
+    ],
+    "lvl3": [
+      {"id": 202, "name": "Mora", "count": 17500},
+      {"id": 104308, "name": "Guia de Poemas", "count": 2},
+      {"id": 112126, "name": "Garantia Imaculada", "count": 3}
+    ],
+    "lvl4": [
+      {"id": 202, "name": "Mora", "count": 25000},
+      {"id": 104308, "name": "Guia de Poemas", "count": 4},
+      {"id": 112126, "name": "Garantia Imaculada", "count": 4}
+    ],
+    "lvl5": [
+      {"id": 202, "name": "Mora", "count": 30000},
+      {"id": 104308, "name": "Guia de Poemas", "count": 6},
+      {"id": 112126, "name": "Garantia Imaculada", "count": 6}
+    ],
+    "lvl6": [
+      {"id": 202, "name": "Mora", "count": 37500},
+      {"id": 104308, "name": "Guia de Poemas", "count": 9},
+      {"id": 112126, "name": "Garantia Imaculada", "count": 9}
+    ],
+    "lvl7": [
+      {"id": 202, "name": "Mora", "count": 120000},
+      {"id": 104309, "name": "Filosofia de Poemas", "count": 4},
+      {"id": 112127, "name": "Garantia Gélida", "count": 4},
+      {"id": 113069, "name": "Chamas Solares Erodidas", "count": 1}
+    ],
+    "lvl8": [
+      {"id": 202, "name": "Mora", "count": 260000},
+      {"id": 104309, "name": "Filosofia de Poemas", "count": 6},
+      {"id": 112127, "name": "Garantia Gélida", "count": 6},
+      {"id": 113069, "name": "Chamas Solares Erodidas", "count": 1}
+    ],
+    "lvl9": [
+      {"id": 202, "name": "Mora", "count": 450000},
+      {"id": 104309, "name": "Filosofia de Poemas", "count": 12},
+      {"id": 112127, "name": "Garantia Gélida", "count": 9},
+      {"id": 113069, "name": "Chamas Solares Erodidas", "count": 2}
+    ],
+    "lvl10": [
+      {"id": 202, "name": "Mora", "count": 700000},
+      {"id": 104309, "name": "Filosofia de Poemas", "count": 16},
+      {"id": 112127, "name": "Garantia Gélida", "count": 12},
+      {"id": 113069, "name": "Chamas Solares Erodidas", "count": 2},
+      {"id": 104319, "name": "Coroa da Sabedoria", "count": 1}
+    ]
+  }
+}

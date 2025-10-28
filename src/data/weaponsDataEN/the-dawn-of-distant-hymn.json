@@ -1,0 +1,203 @@
+{
+  "id": 15515,
+  "name": "The Dawn of Distant Hymn",
+  "description": "A bow that carries the melody of daybreak, said to have been forged from the first light of dawn.",
+  "descriptionRaw": "A bow that carries the melody of daybreak, said to have been forged from the first light of dawn.",
+  "weaponType": "WEAPON_BOW",
+  "weaponText": "Bow",
+  "rarity": "5",
+  "story": "In the age when the world was still young and the stars had just begun to sing their celestial hymns, there existed a melody that heralded the coming of dawn. This bow was forged from that very melody, capturing the essence of daybreak in its graceful form.\n\nLegend tells of a time when darkness threatened to consume the world, and the people prayed for salvation. In response to their pleas, the first rays of dawn coalesced into this weapon, its strings woven from the golden light of sunrise and its frame carved from the hope of a new beginning.\n\nWhen drawn, it sings with the voice of the morning star, each arrow carrying the promise of a new day. Those who wield it are said to be blessed with the courage to face any darkness, for they carry the eternal hope of dawn within their hearts.\n\nThe bow's melody changes with the passing of time - from the gentle whispers of early morning to the triumphant chorus of full daylight, it adapts to the rhythm of its wielder's soul, becoming an extension of their very being.",
+  "baseAtkValue": 47.54,
+  "mainStatType": "FIGHT_PROP_CRITICAL_HURT",
+  "mainStatText": "CRIT DMG",
+  "baseStatText": "9.6%",
+  "effectName": "Dawning Song of Daybreak",
+  "effectTemplateRaw": "Gain the Time's Rhapsody effect for 3s after leaving combat: Normal Attack/Elemental Skill/Elemental Burst DMG is increased by <color=#99FFFFFF>{0}</color>. The equipping character can trigger this effect while off-field.\nWhile in combat, the Time's Rhapsody effect will decrease by <color=#99FFFFFF>{1}</color> per second until it reaches 0%. When a Normal Attack/Elemental Skill/Elemental Burst hits an opponent, the Time's Rhapsody effect for the corresponding DMG type is increased by <color=#99FFFFFF>{2}</color> until it reaches <color=#99FFFFFF>{0}</color>. Two Witches: The above effect for when opponents are hit is changed so that hits increase the Time's Rhapsody effect for all DMG types by <color=#99FFFFFF>{3}</color>. Each type of DMG-type increase can be triggered once every 0.1s. The equipping character can trigger this effect while off-field.",
+  "r1": {
+    "description": "Gain the Time's Rhapsody effect for 3s after leaving combat: Normal Attack/Elemental Skill/Elemental Burst DMG is increased by 60%. The equipping character can trigger this effect while off-field.\nWhile in combat, the Time's Rhapsody effect will decrease by 10% per second until it reaches 0%. When a Normal Attack/Elemental Skill/Elemental Burst hits an opponent, the Time's Rhapsody effect for the corresponding DMG type is increased by 10% until it reaches 60%. Two Witches: The above effect for when opponents are hit is changed so that hits increase the Time's Rhapsody effect for all DMG types by 20%. Each type of DMG-type increase can be triggered once every 0.1s. The equipping character can trigger this effect while off-field.",
+    "values": [
+      "60%",
+      "10%",
+      "10%",
+      "20%"
+    ]
+  },
+  "r2": {
+    "description": "Gain the Time's Rhapsody effect for 3s after leaving combat: Normal Attack/Elemental Skill/Elemental Burst DMG is increased by 75%. The equipping character can trigger this effect while off-field.\nWhile in combat, the Time's Rhapsody effect will decrease by 12.5% per second until it reaches 0%. When a Normal Attack/Elemental Skill/Elemental Burst hits an opponent, the Time's Rhapsody effect for the corresponding DMG type is increased by 12.5% until it reaches 75%. Two Witches: The above effect for when opponents are hit is changed so that hits increase the Time's Rhapsody effect for all DMG types by 25%. Each type of DMG-type increase can be triggered once every 0.1s. The equipping character can trigger this effect while off-field.",
+    "values": [
+      "75%",
+      "12.5%",
+      "12.5%",
+      "25%"
+    ]
+  },
+  "r3": {
+    "description": "Gain the Time's Rhapsody effect for 3s after leaving combat: Normal Attack/Elemental Skill/Elemental Burst DMG is increased by 90%. The equipping character can trigger this effect while off-field.\nWhile in combat, the Time's Rhapsody effect will decrease by 15% per second until it reaches 0%. When a Normal Attack/Elemental Skill/Elemental Burst hits an opponent, the Time's Rhapsody effect for the corresponding DMG type is increased by 15% until it reaches 90%. Two Witches: The above effect for when opponents are hit is changed so that hits increase the Time's Rhapsody effect for all DMG types by 30%. Each type of DMG-type increase can be triggered once every 0.1s. The equipping character can trigger this effect while off-field.",
+    "values": [
+      "90%",
+      "15%",
+      "15%",
+      "30%"
+    ]
+  },
+  "r4": {
+    "description": "Gain the Time's Rhapsody effect for 3s after leaving combat: Normal Attack/Elemental Skill/Elemental Burst DMG is increased by 105%. The equipping character can trigger this effect while off-field.\nWhile in combat, the Time's Rhapsody effect will decrease by 17.5% per second until it reaches 0%. When a Normal Attack/Elemental Skill/Elemental Burst hits an opponent, the Time's Rhapsody effect for the corresponding DMG type is increased by 17.5% until it reaches 105%. Two Witches: The above effect for when opponents are hit is changed so that hits increase the Time's Rhapsody effect for all DMG types by 35%. Each type of DMG-type increase can be triggered once every 0.1s. The equipping character can trigger this effect while off-field.",
+    "values": [
+      "105%",
+      "17.5%",
+      "17.5%",
+      "35%"
+    ]
+  },
+  "r5": {
+    "description": "Gain the Time's Rhapsody effect for 3s after leaving combat: Normal Attack/Elemental Skill/Elemental Burst DMG is increased by 120%. The equipping character can trigger this effect while off-field.\nWhile in combat, the Time's Rhapsody effect will decrease by 20% per second until it reaches 0%. When a Normal Attack/Elemental Skill/Elemental Burst hits an opponent, the Time's Rhapsody effect for the corresponding DMG type is increased by 20% until it reaches 120%. Two Witches: The above effect for when opponents are hit is changed so that hits increase the Time's Rhapsody effect for all DMG types by 40%. Each type of DMG-type increase can be triggered once every 0.1s. The equipping character can trigger this effect while off-field.",
+    "values": [
+      "120%",
+      "20%",
+      "20%",
+      "40%"
+    ]
+  },
+  "costs": {
+    "ascend1": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 10000
+      },
+      {
+        "id": 114009,
+        "name": "Fetters of the Dandelion Gladiator",
+        "count": 5
+      },
+      {
+        "id": 112014,
+        "name": "Heavy Horn",
+        "count": 5
+      },
+      {
+        "id": 112035,
+        "name": "Treasure Hoarder Insignia",
+        "count": 3
+      }
+    ],
+    "ascend2": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 20000
+      },
+      {
+        "id": 114010,
+        "name": "Chains of the Dandelion Gladiator",
+        "count": 5
+      },
+      {
+        "id": 112014,
+        "name": "Heavy Horn",
+        "count": 18
+      },
+      {
+        "id": 112035,
+        "name": "Treasure Hoarder Insignia",
+        "count": 12
+      }
+    ],
+    "ascend3": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 30000
+      },
+      {
+        "id": 114010,
+        "name": "Chains of the Dandelion Gladiator",
+        "count": 9
+      },
+      {
+        "id": 112015,
+        "name": "Black Bronze Horn",
+        "count": 9
+      },
+      {
+        "id": 112036,
+        "name": "Silver Raven Insignia",
+        "count": 9
+      }
+    ],
+    "ascend4": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 45000
+      },
+      {
+        "id": 114011,
+        "name": "Shackles of the Dandelion Gladiator",
+        "count": 5
+      },
+      {
+        "id": 112015,
+        "name": "Black Bronze Horn",
+        "count": 18
+      },
+      {
+        "id": 112036,
+        "name": "Silver Raven Insignia",
+        "count": 14
+      }
+    ],
+    "ascend5": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 55000
+      },
+      {
+        "id": 114011,
+        "name": "Shackles of the Dandelion Gladiator",
+        "count": 9
+      },
+      {
+        "id": 112016,
+        "name": "Black Crystal Horn",
+        "count": 14
+      },
+      {
+        "id": 112037,
+        "name": "Golden Raven Insignia",
+        "count": 9
+      }
+    ],
+    "ascend6": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 65000
+      },
+      {
+        "id": 114012,
+        "name": "Dream of the Dandelion Gladiator",
+        "count": 6
+      },
+      {
+        "id": 112016,
+        "name": "Black Crystal Horn",
+        "count": 27
+      },
+      {
+        "id": 112037,
+        "name": "Golden Raven Insignia",
+        "count": 18
+      }
+    ]
+  },
+  "images": {
+    "filename_icon": "UI_EquipIcon_Bow_Arianna",
+    "filename_awakenIcon": "UI_EquipIcon_Bow_Arianna_Awaken",
+    "filename_gacha": "UI_Gacha_EquipIcon_Bow_Arianna",
+    "mihoyo_icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Arianna.png",
+    "mihoyo_awakenIcon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Arianna_Awaken.png"
+  },
+  "version": "6.2"
+}
