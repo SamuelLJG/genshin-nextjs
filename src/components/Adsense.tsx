@@ -13,6 +13,7 @@ export default function AdTargetingRaw() {
    <script>
       googletag.cmd.push(function() { googletag.display("div-gpt-ad-1606164528140-0"); });
    </script>
+   </div>
 `;
 
   return <div dangerouslySetInnerHTML={{ __html: rawCode }} />;
