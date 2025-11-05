@@ -6,7 +6,7 @@ import ptBr from "@/data/pt-br.json"
 import AdComponent from "@/components/Adsense";
 import { Metadata } from "next";
 import Nav from '@/components/nav';
-import AdTargetingRaw from "@/components/Adsense";
+import AdTargetingRaw from "@/components/AdTargetingRaw";
 import Footer from '@/components/footer';
 
 export const metadata: Metadata = {

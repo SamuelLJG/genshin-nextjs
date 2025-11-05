@@ -1,6 +1,6 @@
 
 
-export default function AdTargetingRaw() {
+export default function AdComponent() {
   const rawCode = `
 <script>
    window.googletag = window.googletag || {cmd: []};

@@ -5,7 +5,7 @@ import WeaponStatsSlider from "@/components/WeaponStatsSlider";
 import CharacterStatsSlider from "@/components/CharacterStatsSlider";
 import SliderHighlight from '@/components/SliderHighlight';
 import ptBr from '@/data/pt-br.json'
-import AdTargetingRaw from "@/components/Adsense";
+import AdTargetingRaw from "@/components/AdTargetingRaw";
 import ScriptsClient from "@/components/scripts-client";
 import type { Metadata } from "next";
 import AscensionSlider from "@/components/AscensionSlider";
