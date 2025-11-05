@@ -2,7 +2,6 @@ import { Anuphan, Plus_Jakarta_Sans, Inter, Oswald } from 'next/font/google'
 import "./globals.css";
 import { Metadata } from "next";
 import { GoogleAnalytics } from '@next/third-parties/google'
-import ForceFullReloadLinks from '@/components/ForceFullReloadLinks';
 import Script from 'next/script';
 export const metadata: Metadata = {
   metadataBase: new URL('https://genshinbuild.com'),
@@ -54,12 +53,6 @@ export default async function RootLayout({ children }: {children: React.ReactNod
             })();
           `}
         </Script>
-            <Script
-  async
-  strategy="afterInteractive"
-  src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1999593447203691`}
-  crossOrigin="anonymous"
-/>
 <Script
           async
           src="https://www.googletagmanager.com/gtag/js?id=AW-11069534793"
