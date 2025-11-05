@@ -44,7 +44,8 @@ export default async function RootLayout({ children }: {children: React.ReactNod
 
   return (
         <>
-        <AdTargetingRaw/>
+        <head><AdTargetingRaw/></head>
+        
 <Script
           async
           src="https://www.googletagmanager.com/gtag/js?id=AW-11069534793"
