@@ -1,5 +1,4 @@
-// src/components/AdTargetingRaw.tsx
-"use client";
+
 
 export default function AdTargetingRaw() {
   const rawCode = `
