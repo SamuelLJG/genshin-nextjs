@@ -2,6 +2,7 @@ import { Anuphan, Plus_Jakarta_Sans, Inter, Oswald } from 'next/font/google'
 import "./globals.css";
 import { Metadata } from "next";
 import { GoogleAnalytics } from '@next/third-parties/google'
+import AdTargetingRaw from '@/components/AdTargetingRaw';
 import Script from 'next/script';
 export const metadata: Metadata = {
   metadataBase: new URL('https://genshinbuild.com'),
@@ -43,16 +44,7 @@ export default async function RootLayout({ children }: {children: React.ReactNod
 
   return (
         <>
-        <Script strategy="beforeInteractive">
-          {`
-            (function() {
-              var path = window.location.pathname;
-              if(path.endsWith('/') && path !== '/') {
-                window.location.replace(path.slice(0, -1));
-              }
-            })();
-          `}
-        </Script>
+        <AdTargetingRaw/>
 <Script
           async
           src="https://www.googletagmanager.com/gtag/js?id=AW-11069534793"

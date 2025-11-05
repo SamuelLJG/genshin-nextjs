@@ -328,22 +328,6 @@ switch (travelerName) {
       
         <html lang="pt-br">
           <body>
-            <Script
-        id="gpt-lib"
-        src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"
-        strategy="afterInteractive"
-      />
-
-      {/* Inicialização e targeting */}
-      <Script id="gpt-targeting" strategy="afterInteractive">
-        {`
-          window.googletag = window.googletag || { cmd: [] };
-          googletag.cmd.push(function() {
-            googletag.pubads().setTargeting("id_post_wp", ["${postId}"]);
-            googletag.enableServices();
-          });
-        `}
-      </Script>
             <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
