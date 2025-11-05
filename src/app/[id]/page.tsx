@@ -5,7 +5,7 @@ import WeaponStatsSlider from "@/components/WeaponStatsSlider";
 import CharacterStatsSlider from "@/components/CharacterStatsSlider";
 import SliderHighlight from '@/components/SliderHighlight';
 import ptBr from '@/data/pt-br.json'
-import GptTargetingAd from "@/components/GptTargetingAd";
+import Script from "next/script";
 import ScriptsClient from "@/components/scripts-client";
 import type { Metadata } from "next";
 import AscensionSlider from "@/components/AscensionSlider";
@@ -74,8 +74,11 @@ export async function generateStaticParams() {
   // gera todas as rotas possíveis com base no seu JSON
   return characters.map((c) => ({ id: c.name }));
 }
+interface AdTargetingProps {
+  postId: string | number;
+}
 
-export default async function Home( { params }:any ) {
+export default async function Home( { params, postId }: any & AdTargetingProps) {
   
   
     let { id } = await params;
@@ -325,8 +328,22 @@ switch (travelerName) {
       
         <html lang="pt-br">
           <body>
-            
-            <GptTargetingAd postId={id}/>
+            <Script
+        id="gpt-lib"
+        src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"
+        strategy="afterInteractive"
+      />
+
+      {/* Inicialização e targeting */}
+      <Script id="gpt-targeting" strategy="afterInteractive">
+        {`
+          window.googletag = window.googletag || { cmd: [] };
+          googletag.cmd.push(function() {
+            googletag.pubads().setTargeting("id_post_wp", ["${postId}"]);
+            googletag.enableServices();
+          });
+        `}
+      </Script>
             <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}

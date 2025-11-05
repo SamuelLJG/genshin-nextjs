@@ -104,7 +104,7 @@ export default async function Page() {
       />
       <p>{post.name}</p>
       <div className="rara-dendro"></div>
-      {post.newWeapon != null ? <span>{post.newWeapon}</span> : ''}
+      {post.newWeapon != null ? <span></span> : ''}
     </a>
   ))}
               </div>
