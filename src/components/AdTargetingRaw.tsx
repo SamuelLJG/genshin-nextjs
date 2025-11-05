@@ -1,20 +1,26 @@
-
-
-export default function AdTargetingRaw() {
-  const rawCode = `
-<script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script> 
+export default function Head() {
+  return (
+    <>
+      {/* Inserção literal do código, incluindo PHP */}
+      <script
+        async
+        src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"
+      ></script>
+      <script
+        dangerouslySetInnerHTML={{
+          __html: `
 <?php
 $id = get_the_ID();
 ?>
 
-<script>
-  window.googletag = window.googletag || {cmd: []};
-  googletag.cmd.push(function() {
-    googletag.pubads().setTargeting("id_post_wp", ["<?php echo $id; ?>"]);
-    googletag.enableServices();
-  });
-</script>
-`;
-
-  return <div dangerouslySetInnerHTML={{ __html: rawCode }} />;
+window.googletag = window.googletag || {cmd: []};
+googletag.cmd.push(function() {
+  googletag.pubads().setTargeting("id_post_wp", ["<?php echo $id; ?>"]);
+  googletag.enableServices();
+});
+          `,
+        }}
+      />
+    </>
+  );
 }
