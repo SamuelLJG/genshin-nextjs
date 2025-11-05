@@ -44,7 +44,7 @@ export default async function RootLayout({ children }: {children: React.ReactNod
 
   return (
         <>
-        <head><AdTargetingRaw/></head>
+        
         
 <Script
           async

@@ -5,7 +5,7 @@ import WeaponStatsSlider from "@/components/WeaponStatsSlider";
 import CharacterStatsSlider from "@/components/CharacterStatsSlider";
 import SliderHighlight from '@/components/SliderHighlight';
 import ptBr from '@/data/pt-br.json'
-import Script from "next/script";
+import AdTargetingRaw from "@/components/Adsense";
 import ScriptsClient from "@/components/scripts-client";
 import type { Metadata } from "next";
 import AscensionSlider from "@/components/AscensionSlider";
@@ -327,6 +327,7 @@ switch (travelerName) {
     return (
       
         <html lang="pt-br">
+          <head><AdTargetingRaw/></head>
           <body>
             <script
         type="application/ld+json"
