@@ -16,5 +16,5 @@ export default function AdComponent() {
    </div>
 `;
 
-  return <div dangerouslySetInnerHTML={{ __html: rawCode }} />;
+  return <div className="adContainer" dangerouslySetInnerHTML={{ __html: rawCode }} />;
 }

@@ -21,6 +21,21 @@ googletag.cmd.push(function() {
           `,
         }}
       />
+      <script
+        dangerouslySetInnerHTML={{
+          __html: `
+        window.googletag = window.googletag || {cmd: []};
+        var bloco_interstitial;
+        googletag.cmd.push(function() {        
+        bloco_interstitial = googletag.defineOutOfPageSlot('/22106840220,22971553453/genshinbuild.com/genshinbuild.com_Interstitial_11082023', googletag.enums.OutOfPageFormat.INTERSTITIAL);
+        if (bloco_interstitial) bloco_interstitial.addService(googletag.pubads());
+        googletag.enableServices();
+        googletag.display(bloco_interstitial);
+        });
+        });
+          `,
+        }}
+      />
     </>
   );
 }

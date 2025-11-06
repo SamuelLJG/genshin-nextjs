@@ -11,7 +11,8 @@ import type { Metadata } from "next";
 import AscensionSlider from "@/components/AscensionSlider";
 import { notFound } from 'next/navigation'
 import TalentsSlider from "@/components/TalentsSlider";
-import AdComponent from "@/components/Adsense-en";
+import AdComponent from "@/components/Adsense";
+import AdComponent2 from "@/components/Adsense2";
 import Nav from '@/components/nav-en';
 import Footer from '@/components/footer-en';
 import Script from "next/script";
@@ -646,7 +647,7 @@ switch (travelerName) {
 </ol>
 
                 </section>
-                   <AdComponent/>
+                   <AdComponent2/>
 <section id="ascension-costs-section">
   <h2 className="titles-h2">{travelerName}{" "}{ptBr.ascensionCosts}</h2>
   <AscensionSlider currentCosts={characterData.costs} ptBr={ptBr}/>

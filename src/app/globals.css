@@ -1213,6 +1213,15 @@ select{
     content: 'soon';
 }
 
+.adContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--bd);
+    border-radius: 10px;
+    background: var(--sub);
+}
+
 .char-img{
     width: calc(90px * var(--minimize));
     height:calc(90px * var(--minimize));
