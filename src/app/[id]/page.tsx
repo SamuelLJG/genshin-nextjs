@@ -327,7 +327,6 @@ switch (travelerName) {
     return (
       
         <html lang="pt-br">
-          <head><AdTargetingRaw/></head>
           <body>
             <script
         type="application/ld+json"

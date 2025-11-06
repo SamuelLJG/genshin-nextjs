@@ -57,7 +57,23 @@ export default async function RootLayout({ children }: {children: React.ReactNod
         });`
           }
         </Script>
-        
+        <Script
+        async
+        src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"
+      ></Script>
+      <Script strategy='afterInteractive'> { `
+<?php
+$id = get_the_ID();
+?>
+
+window.googletag = window.googletag || {cmd: []};
+googletag.cmd.push(function() {
+  googletag.pubads().setTargeting("id_post_wp", ["<?php echo $id; ?>"]);
+  googletag.enableServices();
+});
+          `
+        }
+        </Script>
 <Script
           async
           src="https://www.googletagmanager.com/gtag/js?id=AW-11069534793"
