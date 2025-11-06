@@ -110,7 +110,7 @@ export default function Home() {
       }
     return (
         <html lang="pt-br">
-          <head><AdTargetingRaw/><Instertitial/></head>
+          <head><AdTargetingRaw/></head>
           <body>
             <script
         type="application/ld+json"
