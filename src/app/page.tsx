@@ -4,6 +4,8 @@ import a from "next/link";
 import Filter from "@/components/full-filter";
 import ptBr from "@/data/pt-br.json"
 import AdComponent from "@/components/Adsense";
+import Anchor from "@/components/anchor";
+import Instertitial from "@/components/interstitial";
 import { Metadata } from "next";
 import Nav from '@/components/nav';
 import AdTargetingRaw from "@/components/AdTargetingRaw";
@@ -108,7 +110,7 @@ export default function Home() {
       }
     return (
         <html lang="pt-br">
-          <head><AdTargetingRaw/></head>
+          <head><AdTargetingRaw/><Instertitial/></head>
           <body>
             <script
         type="application/ld+json"
@@ -132,6 +134,7 @@ export default function Home() {
             
         ))}</div></main>
         <Footer/>
+        <Anchor/>
           </body>
         </html>
     )
