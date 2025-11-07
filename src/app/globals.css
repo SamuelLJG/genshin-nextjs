@@ -2402,6 +2402,9 @@ footer{
     }
 }
 @media (min-width:826px){
+    #slider2 {
+        display: none;
+    }
     #artifacts-sub-stats li{
         width:100%
     }
@@ -2425,7 +2428,7 @@ footer{
     }
 }
 @media (max-width:825px){
-    
+    #slider1{display: none;}
     #weapons-flex{
         grid-template-columns:repeat(2,1fr)
     }

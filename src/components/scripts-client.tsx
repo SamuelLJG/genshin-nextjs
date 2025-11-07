@@ -30,26 +30,6 @@ export default function ScriptsClient() {
     }
 
     
-
-    const minhaDiv = document.querySelector<HTMLElement>('#character-basic-stats')
-    const containerA = document.querySelector<HTMLElement>('#character-main')
-    const maincontent = document.querySelector<HTMLElement>('#main-content')
-    const referencia = document.querySelector<HTMLElement>('#ascension-materials')
-
-    if (minhaDiv && containerA && maincontent && referencia) {
-      const mQ = window.matchMedia('(max-width: 825px)')
-
-      const moverDiv = (e: MediaQueryListEvent | MediaQueryList) => {
-        if (e.matches) {
-          maincontent.insertBefore(minhaDiv, referencia)
-        } else {
-          containerA.appendChild(minhaDiv)
-        }
-      }
-
-      moverDiv(mQ)
-      mQ.addEventListener('change', moverDiv)
-    }
   }, [])
 
   return null // Este componente só manipula o DOM, não precisa renderizar nada

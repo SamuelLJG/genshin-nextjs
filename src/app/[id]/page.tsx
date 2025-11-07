@@ -398,9 +398,16 @@ switch (travelerName) {
                             </div>
                             <p id="character-description">{extrairAtePrimeiroPonto(characterData.description)}.</p>
                         </div>
+                        <div id="slider1">
                         <CharacterStatsSlider stats={characterFolder} stats2={characterData} stats3={ptBr}/>
+                        </div>
                     </div>
                 </section>
+                
+                <AdComponent/>
+                <div id="slider2">
+                <CharacterStatsSlider stats={characterFolder} stats2={characterData} stats3={ptBr}/>
+                </div>
                 <section id="ascension-materials">
                     <h2 className="titles-h2">{travelerName}{" "}{ptBr.ascensionMaterials}</h2>
                     <ul id="ascension-materials-list">
@@ -486,7 +493,7 @@ switch (travelerName) {
                             </section>
                         </div>
                 </section>
-                <AdComponent/>
+                       <AdComponent2/>
                 <section className='joinads'>
                     <h2 className="titles-h2">{travelerName}{" "}{ptBr.bestArtifacts}</h2>
                     <div id="artifacts-container">
@@ -639,7 +646,6 @@ switch (travelerName) {
 </ol>
 
                 </section>
-                       <AdComponent2/>
 <section id="ascension-costs-section">
   <h2 className="titles-h2">{travelerName}{" "}{ptBr.ascensionCosts}</h2>
   <AscensionSlider currentCosts={characterData.costs} ptBr={ptBr}/>
