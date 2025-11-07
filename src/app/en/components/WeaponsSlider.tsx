@@ -5,7 +5,7 @@ import Stars from "@/components/Stars"
 import { useState } from "react";
 import SliderHighlight from "@/components/SliderHighlight";
 import a from "next/link";
-import AdComponent from "@/components/Adsense-en";
+import AdComponent from "@/components/Adsense";
 
 function formatEffect(effectTemplateRaw: string, refinementLevel: number, ptData: any) {
     const refinementKey = `r${refinementLevel}`;

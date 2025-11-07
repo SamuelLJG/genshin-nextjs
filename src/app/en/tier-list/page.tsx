@@ -3,7 +3,9 @@ import { characters } from "@/data/characters";
 import a from "next/link";
 import React from "react";
 import { Metadata } from "next";
-import AdComponent from "@/components/Adsense-en";
+import AdComponent from "@/components/Adsense";
+import AdTargetingRaw from "@/components/AdTargetingRaw";
+import Anchor from "@/components/anchor";
 import Nav from '@/components/nav-en';
 import Filter from "@/components/tier-filter";
 import Footer from '@/components/footer-en';
@@ -44,10 +46,13 @@ export default function Teams() {
 
   return (
     <html lang="en">
-      <body>
+              <head><AdTargetingRaw /></head>
+              <body>
+                <Anchor/>
         <Nav/>
     <h1 id="hdn">Tier List of the Best Characters in Genshin Impact 6.0</h1>
     <main id="main-index" className="iii"><Filter ptBr={ptBr}/>
+    <AdComponent/>
      <ul id="tier-list-flex" className='joinads'>
   {ranks.map((rank) => {
     const chars = characters.filter(

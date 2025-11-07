@@ -13,6 +13,8 @@ import { notFound } from 'next/navigation'
 import TalentsSlider from "@/components/TalentsSlider";
 import AdComponent from "@/components/Adsense";
 import AdComponent2 from "@/components/Adsense2";
+import AdTargetingRaw from "@/components/AdTargetingRaw";
+import Anchor from "@/components/anchor";
 import Nav from '@/components/nav-en';
 import Footer from '@/components/footer-en';
 import Script from "next/script";
@@ -325,19 +327,10 @@ switch (travelerName) {
     return (
       
         <html lang="en">
-          {id=== 'flins' ? 
-          <head>
-           <Script id="conversion-event" strategy="beforeInteractive">
-        {`
-          gtag('event', 'conversion_event_page_view_2', {
-            // event_parameters
-          });
-        `}
-      </Script>
-
-          </head> : ''}
           
+          <head><AdTargetingRaw /></head>
           <body>
+            <Anchor/>
             <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}

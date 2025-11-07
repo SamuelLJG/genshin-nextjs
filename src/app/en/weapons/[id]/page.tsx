@@ -6,6 +6,8 @@ import { notFound } from "next/navigation";
 import Nav from '@/components/nav-en';
 import Footer from '@/components/footer-en';
 import {weapons} from '@/data/wa-list'
+import AdTargetingRaw from "@/components/AdTargetingRaw";
+import Anchor from "@/components/anchor";
 
 import type { Metadata, ResolvingMetadata } from 'next'
  
@@ -110,7 +112,9 @@ const fetchWeaponFolder = (name: string) =>
       
   return (
              <html lang="en">
-              <body>
+                       <head><AdTargetingRaw /></head>
+                       <body>
+                         <Anchor/>
               <Nav/>
              <WeaponSlider ptData={ptData} matchedCharacters={matchedCharacters} folderData={folderData} id={id} ptBr={ptBr}/>
           

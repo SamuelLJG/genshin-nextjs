@@ -5,7 +5,9 @@ import Image from "next/image";
 import ArtifactsFilter from "@/components/ArtifactsFilter";
 import ptBr from "@/data/en-us.json"
 import { Metadata } from "next";
-import AdComponent from "@/components/Adsense-en";
+import AdComponent from "@/components/Adsense";
+import AdTargetingRaw from "@/components/AdTargetingRaw";
+import Anchor from "@/components/anchor";
 import Nav from '@/components/nav-en';
 import Footer from '@/components/footer-en';
 import { artifacts } from '@/data/wa-list';
@@ -55,7 +57,9 @@ export default async function Page() {
   
   return (
         <html lang="en">
-          <body>
+                  <head><AdTargetingRaw /></head>
+                  <body>
+                    <Anchor/>
             <Nav/>
             <main id="main-index">
             <h1 id="hdn">

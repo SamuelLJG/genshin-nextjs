@@ -3,7 +3,9 @@ import {characters} from "@/data/characters"
 import a from "next/link";
 import Filter from "@/components/full-filter";
 import ptBr from "@/data/en-us.json"
-import AdComponent from "@/components/Adsense-en";
+import AdComponent from "@/components/Adsense";
+import AdTargetingRaw from "@/components/AdTargetingRaw";
+import Anchor from "@/components/anchor";
 import { Metadata } from "next";
 import Nav from '@/components/nav-en';
 import Footer from '@/components/footer-en';
@@ -107,7 +109,9 @@ export default function Home() {
       }
     return (
         <html lang="en">
+          <head><AdTargetingRaw /></head>
           <body>
+            <Anchor/>
             <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}

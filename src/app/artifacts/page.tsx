@@ -6,6 +6,8 @@ import ArtifactsFilter from "@/components/ArtifactsFilter";
 import ptBr from "@/data/pt-br.json"
 import { Metadata } from "next";
 import AdComponent from "@/components/Adsense";
+import AdTargetingRaw from "@/components/AdTargetingRaw";
+import Anchor from "@/components/anchor";
 import Nav from '@/components/nav';
 import Footer from '@/components/footer';
 import { artifacts } from "@/data/wa-list";
@@ -52,7 +54,9 @@ export default async function Page() {
   
   return (
         <html lang="pt-br">
-          <body>
+                  <head><AdTargetingRaw /></head>
+                  <body>
+                    <Anchor/>
             <Nav/>
             <main id="main-index"> <h1 id="hdn">Lista de Todos os Artefatos de Genshin Impact</h1>
           <ArtifactsFilter ptBr={ptBr}/>

@@ -9,6 +9,8 @@ import type { Metadata, ResolvingMetadata } from 'next'
 import Nav from '@/components/nav';
 import Footer from '@/components/footer';
 import { artifacts } from '@/data/wa-list';
+import Anchor from "@/components/anchor";
+import AdTargetingRaw from "@/components/AdTargetingRaw";
 
 const validIds = artifacts
 function slugify(name: string) {
@@ -100,7 +102,9 @@ const fetchArtifactDataEN = (name: string) =>
       );
       
   return <html lang="pt-br">
-          <body>
+            <head><AdTargetingRaw /></head>
+            <body>
+              <Anchor/>
             <Nav/>
             <ArtifactsSlider ptData={ptData} matchedCharacters={matchedCharacters} ptBr={ptBr}/>
             <Footer/>

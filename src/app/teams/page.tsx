@@ -5,6 +5,8 @@ import TeamsFilter from "@/components/TeamSlider";
 import ptBr from "@/data/pt-br.json"
 import { Metadata } from "next";
 import AdComponent from "@/components/Adsense";
+import AdTargetingRaw from "@/components/AdTargetingRaw";
+import Anchor from "@/components/anchor";
 import Nav from '@/components/nav';
 import Footer from '@/components/footer';
 
@@ -84,7 +86,9 @@ export default function Teams() {
       }
     return (
 <html lang="pt-br">
+          <head><AdTargetingRaw /></head>
           <body>
+            <Anchor/>
             <Nav/>
             
         <main id="main-index" className="iii teaaaa"> 

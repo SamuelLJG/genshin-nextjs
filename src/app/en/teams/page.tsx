@@ -4,7 +4,9 @@ import a from "next/link";
 import TeamsFilter from "@/components/TeamSlider";
 import ptBr from "@/data/en-us.json"
 import { Metadata } from "next";
-import AdComponent from "@/components/Adsense-en";
+import AdComponent from "@/components/Adsense";
+import AdTargetingRaw from "@/components/AdTargetingRaw";
+import Anchor from "@/components/anchor";
 import Nav from '@/components/nav-en';
 import Footer from '@/components/footer-en';
 
@@ -84,7 +86,9 @@ export default function Teams() {
       }
     return (
 <html lang="en">
+          <head><AdTargetingRaw /></head>
           <body>
+            <Anchor/>
             <Nav/>
             
         <main id="main-index" className="iii"> 

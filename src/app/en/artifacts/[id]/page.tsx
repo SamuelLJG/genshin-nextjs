@@ -9,6 +9,8 @@ import type { Metadata, ResolvingMetadata } from 'next'
 import Nav from '@/components/nav-en';
 import Footer from '@/components/footer-en';
 import { artifacts } from '@/data/wa-list';
+import AdTargetingRaw from "@/components/AdTargetingRaw";
+import Anchor from "@/components/anchor";
 
 
 type Props = {
@@ -100,7 +102,9 @@ const fetchArtifactDataEN = (name: string) =>
       );
       
   return <html lang="en">
-          <body>
+            <head><AdTargetingRaw /></head>
+            <body>
+              <Anchor/>
             <Nav/>
             <ArtifactsSlider ptData={ptData} matchedCharacters={matchedCharacters} ptBr={ptBr}/>
             <Footer/>

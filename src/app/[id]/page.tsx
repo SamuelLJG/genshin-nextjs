@@ -5,7 +5,6 @@ import WeaponStatsSlider from "@/components/WeaponStatsSlider";
 import CharacterStatsSlider from "@/components/CharacterStatsSlider";
 import SliderHighlight from '@/components/SliderHighlight';
 import ptBr from '@/data/pt-br.json'
-import AdTargetingRaw from "@/components/AdTargetingRaw";
 import ScriptsClient from "@/components/scripts-client";
 import type { Metadata } from "next";
 import AscensionSlider from "@/components/AscensionSlider";
@@ -13,7 +12,8 @@ import { notFound } from 'next/navigation'
 import TalentsSlider from "@/components/TalentsSlider";
 import AdComponent from "@/components/Adsense";
 import AdComponent2 from "@/components/Adsense2";
-import AdComponent3 from "@/components/Adsense3";
+import AdTargetingRaw from "@/components/AdTargetingRaw";
+import Anchor from "@/components/anchor";
 import Nav from '@/components/nav';
 import Footer from '@/components/footer';
 
@@ -327,7 +327,9 @@ switch (travelerName) {
     return (
       
         <html lang="pt-br">
+          <head><AdTargetingRaw /></head>
           <body>
+            <Anchor/>
             <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}

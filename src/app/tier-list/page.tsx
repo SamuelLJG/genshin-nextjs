@@ -4,6 +4,8 @@ import a from "next/link";
 import React from "react";
 import { Metadata } from "next";
 import AdComponent from "@/components/Adsense";
+import AdTargetingRaw from "@/components/AdTargetingRaw";
+import Anchor from "@/components/anchor";
 import Nav from '@/components/nav';
 import Footer from '@/components/footer';
 import ptBr from "@/data/pt-br.json"
@@ -86,10 +88,12 @@ function formatCharacterName(name: string) {
       }
   return (
     <html lang="pt-br">
-      <body>
+          <head><AdTargetingRaw /></head>
+          <body>
+            <Anchor/>
         <Nav/>
         <h1 id="hdn">Tier List dos Melhores Personagens de Genshin Impact 6.1</h1>
-    <main id="main-index" className="iii"><Filter ptBr={ptBr}/>
+    <main id="main-index" className="iii"><Filter ptBr={ptBr}/><AdComponent/>
      <ul id="tier-list-flex" className='joinads'>
   {ranks.map((rank) => {
     const chars = characters.filter(
