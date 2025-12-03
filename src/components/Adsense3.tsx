@@ -2,24 +2,18 @@
 
 export default function AdComponent() {
   const rawCode = `
- <script>
-window.googletag = window.googletag || {cmd: []};
-googletag.cmd.push(function() {
-googletag.defineSlot('/22106840220,22971553453/genshinbuild.com/genshinbuild.com_mw_content3_11082023', [[250, 250], [336, 280], [300, 250]],
-'div-gpt-ad-160618295246-0').addService(googletag.pubads());
-googletag.pubads().enableLazyLoad({
-            fetchMarginPercent: 20,
-            renderMarginPercent: 10,
-            mobileScaling: 2.0
-        });
-googletag.enableServices();
-});
-</script>
-<div id='div-gpt-ad-160618295246-0'>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1999593447203691"
+     crossorigin="anonymous"></script>
+<!-- Display 3 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-1999593447203691"
+     data-ad-slot="9925646389"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 <script>
-googletag.cmd.push(function() { googletag.display('div-gpt-ad-160618295246-0'); });
+     (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
-</div>
 `;
 
   return <div className="adContainer" dangerouslySetInnerHTML={{ __html: rawCode }} />;
