@@ -1214,9 +1214,8 @@ select{
 }
 
 .adContainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: block;
+    text-align: center;
     border: 1px solid var(--bd);
     border-radius: 10px;
     background: var(--sub);
