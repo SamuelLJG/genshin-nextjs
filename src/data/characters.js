@@ -79,6 +79,7 @@ export const characters = [
         soonCharacter : 'soon',
         weapon: 'WEAPON_SWORD_ONE_HAND',
         rarity: '5',
+        rank: 's',
     },
     {
         name: 'jahoda',
@@ -106,6 +107,7 @@ export const characters = [
         soonCharacter : 'soon',
         weapon: 'WEAPON_BOW',
         rarity: '4',
+        rank: 'b',
     },
     {
         name: 'aino',
