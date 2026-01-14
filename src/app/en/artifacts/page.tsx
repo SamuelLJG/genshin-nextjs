@@ -1,6 +1,6 @@
 // src/app/armas/page.tsx
 
-import a from "next/link";
+import Link from "next/link";
 import Image from "next/image";
 import ArtifactsFilter from "@/components/ArtifactsFilter";
 import ptBr from "@/data/en-us.json"
@@ -79,7 +79,7 @@ export default async function Page() {
     // sensitivity: 'base' => ignora acentos (É = E)
   })
   .map((post: any, i: number) => (
-    <a
+    <Link
       href={`/en/artifacts/${post.slug
         .replace(/'/g, '')
         .toLowerCase()
@@ -109,7 +109,7 @@ export default async function Page() {
       <p>{post.name}</p>
       <div className="rara-dendro"></div>
       {post.newWeapon != null ? <span></span> : ''}
-    </a>
+    </Link>
   ))}
               </div>
           </main>

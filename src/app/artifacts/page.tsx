@@ -1,6 +1,6 @@
 // src/app/armas/page.tsx
 
-import a from "next/link";
+import Link from "next/link";
 import Image from "next/image";
 import ArtifactsFilter from "@/components/ArtifactsFilter";
 import ptBr from "@/data/pt-br.json"

@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { characters } from "@/data/characters";
-import a from "next/link";
+import Link from "next/link";
 import React from "react";
 import { Metadata } from "next";
 import AdComponent from "@/components/Adsense";
@@ -116,7 +116,7 @@ function formatCharacterName(name: string) {
                
                 .replace(/traveler/gi, "viajante")}`}
             >
-              <a href={p.name} className="char-tier-flexbox">
+              <Link href={p.name} className="char-tier-flexbox">
                 <Image
                   width={100}
                   height={100}
@@ -124,7 +124,7 @@ function formatCharacterName(name: string) {
                   alt={formatarNomeComEspaco(formatarNome(p.name))}
                   className={`border-${p.elementType}`}
                 />
-              </a>
+              </Link>
             </li>
           ))}
         </ul>
