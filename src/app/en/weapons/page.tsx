@@ -3,13 +3,13 @@
 import Link from "next/link";
 import Image from "next/image";
 import WeaponsFilter from "@/components/WeaponsFilter";
-import ptBr from "@/data/pt-br.json"
+import ptBr from "@/data/en-us.json"
 import { Metadata } from "next";
 import AdComponent from "@/components/Adsense";
 import AdTargetingRaw from "@/components/AdTargetingRaw";
 import Anchor from "@/components/anchor";
-import Nav from '@/components/nav';
-import Footer from '@/components/footer';
+import Nav from '@/components/nav-en';
+import Footer from '@/components/footer-en';
 import {weapons, newWeapons, soonWeapons} from '@/data/wa-list'
 
 
@@ -74,14 +74,14 @@ const fetchWeaponData = (name: string) =>
   
   return (
         
-    <html lang="pt-br">
+    <html lang="en">
               <head><AdTargetingRaw /></head>
               <body>
                 <Anchor/>
         <Nav/>
           <main id="main-index">
           <h1 id="hdn">
-            Lista de Todas as Armas de Genshin Impact
+            List of All Genshin Impact Weapons
           </h1>
             <WeaponsFilter ptBr={ptBr}/>
             <AdComponent/>
@@ -143,7 +143,9 @@ const fetchWeaponData = (name: string) =>
             loading="eager"
             priority
           />
-          <img
+          <Image
+            width={100}
+            height={100}
             src={`https://genshinbuild.com/images/${post.mainStatType}.svg`}
             className="props"
             alt=""

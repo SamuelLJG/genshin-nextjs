@@ -1,0 +1,44 @@
+{
+  "id": 12501,
+  "name": "Columbina",
+  "c1": {
+    "name": "Resplendor Sobre Flores e Picos",
+    "descriptionRaw": "Ao lançar a Habilidade Elemental \u003Ccolor=#FFD780FF\u003EMaré Eterna\u003C/color\u003E, desencadeia imediatamente um efeito equivalente a {LINK#N11250001}\u003Ccolor=#FFD780FF\u003EInterferência Kuuvahki\u003C/color\u003E{/LINK}. Esse efeito pode ser desencadeado uma vez a cada 15s.\n\u003Ccolor=#FFD780FF\u003EPresságio Lunar: Reluzir Cheio\u003C/color\u003E\nAo desencadear Interferência Kuuvahki, se o tipo de Reação Lunar que Columbina possui mais Gravitação for:\n· \u003Ccolor=#FFD780FF\u003ECarga Lunar\u003C/color\u003E: regenera 6 de Energia Elemental para o personagem ativo.\n· \u003Ccolor=#FFD780FF\u003EFlorescimento Lunar\u003C/color\u003E: aumenta a RES contra Interrupção do personagem ativo por 8s.\n· \u003Ccolor=#FFD780FF\u003ECristalização Lunar\u003C/color\u003E: invoca \u003Ccolor=#FFD780FF\u003EEscudo da Chuva do Mar\u003C/color\u003E, com absorção de Dano de 12% da Vida Máxima de Columbina e com 250% de eficácia contra \u003Ccolor=#80C0FFFF\u003EHydro\u003C/color\u003E por 8s.\n\nO Dano de Reações Lunares de todos os membros próximos da equipe é {LINK#N11190007}\u003Ccolor=#FFD780FF\u003EElevado\u003C/color\u003E{/LINK} em 1.5%.",
+    "description": "Ao lançar a Habilidade Elemental Maré Eterna, desencadeia imediatamente um efeito equivalente a **Interferência Kuuvahki**. Esse efeito pode ser desencadeado uma vez a cada 15s.\nPresságio Lunar: Reluzir Cheio\nAo desencadear Interferência Kuuvahki, se o tipo de Reação Lunar que Columbina possui mais Gravitação for:\n· Carga Lunar: regenera 6 de Energia Elemental para o personagem ativo.\n· Florescimento Lunar: aumenta a RES contra Interrupção do personagem ativo por 8s.\n· Cristalização Lunar: invoca Escudo da Chuva do Mar, com absorção de Dano de 12% da Vida Máxima de Columbina e com 250% de eficácia contra Hydro por 8s.\n\nO Dano de Reações Lunares de todos os membros próximos da equipe é **Elevado** em 1.5%."
+  },
+  "c2": {
+    "name": "Esplendor Acompanhado",
+    "descriptionRaw": "Aumenta a velocidade de acumulação de {LINK#N11250001}\u003Ccolor=#FFD780FF\u003EGravitação\u003C/color\u003E{/LINK} em 34%.\nAo desencadear \u003Ccolor=#FFD780FF\u003EInterferência Kuuvahki\u003C/color\u003E, Columbina obtém o efeito \u003Ccolor=#FFD780FF\u003EBrilho Branco\u003C/color\u003E que aumenta sua Vida Máxima em 40% por 8s.\n\n\u003Ccolor=#FFD780FF\u003EPresságio Lunar: Reluzir Cheio\u003C/color\u003E:\nNa duração do efeito \u003Ccolor=#FFD780FF\u003EBrilho Branco\u003C/color\u003E, se desencadear\u003Ccolor=#FFD780FF\u003EInterferência Kuuvahki\u003C/color\u003E, e se o Tipo de Reação Lunar que acumulou Gravitação para Columbina for:\n· \u003Ccolor=#FFD780FF\u003ECarga Lunar\u003C/color\u003E: aumenta o ATQ do personagem ativo. O aumento é equivalente a 1% da Vida Máxima de Columbina.\n· \u003Ccolor=#FFD780FF\u003EFlorescimento Lunar\u003C/color\u003E: aumenta a Proficiência Elemental do personagem ativo. O aumento é equivalente a 0.35% da Vida Máxima de Columbina.\n· \u003Ccolor=#FFD780FF\u003ECristalização Lunar\u003C/color\u003E: aumenta a DEF do personagem ativo. O aumento é equivalente a 1% da Vida Máxima de Columbina.\n\nO Dano de Reações Lunares de todos os membros próximos da equipe é {LINK#N11190007}\u003Ccolor=#FFD780FF\u003EElevado\u003C/color\u003E{/LINK} em 7%.",
+    "description": "Aumenta a velocidade de acumulação de **Gravitação** em 34%.\nAo desencadear Interferência Kuuvahki, Columbina obtém o efeito Brilho Branco que aumenta sua Vida Máxima em 40% por 8s.\n\nPresságio Lunar: Reluzir Cheio:\nNa duração do efeito Brilho Branco, se desencadearInterferência Kuuvahki, e se o Tipo de Reação Lunar que acumulou Gravitação para Columbina for:\n· Carga Lunar: aumenta o ATQ do personagem ativo. O aumento é equivalente a 1% da Vida Máxima de Columbina.\n· Florescimento Lunar: aumenta a Proficiência Elemental do personagem ativo. O aumento é equivalente a 0.35% da Vida Máxima de Columbina.\n· Cristalização Lunar: aumenta a DEF do personagem ativo. O aumento é equivalente a 1% da Vida Máxima de Columbina.\n\nO Dano de Reações Lunares de todos os membros próximos da equipe é **Elevado** em 7%."
+  },
+  "c3": {
+    "name": "Brilho Onírico Sobre Águas Tranquilas",
+    "descriptionRaw": "Aumenta o nível da Habilidade Elemental \u003Ccolor=#FFD780FF\u003E{LINK#S11252}Maré Eterna{/LINK}\u003C/color\u003E em 3.\nNível máximo de elvação é 15.\n\nDano de Reações Lunares de todos os membros próximos da equipe é {LINK#N11190007}\u003Ccolor=#FFD780FF\u003EElevado\u003C/color\u003E{/LINK} em 1.5%.",
+    "description": "Aumenta o nível da Habilidade Elemental **Maré Eterna** em 3.\nNível máximo de elvação é 15.\n\nDano de Reações Lunares de todos os membros próximos da equipe é **Elevado** em 1.5%."
+  },
+  "c4": {
+    "name": "Picos Entre Névoas Florais",
+    "descriptionRaw": "Ao desencadear {LINK#N11250001}\u003Ccolor=#FFD780FF\u003EInterferência Kuuvahki\u003C/color\u003E{/LINK}, regenera 4 de Energia Elemental para Columbina.\nAlém disso, de acordo com o tipo de Reação Lunar que acumulou mais \u003Ccolor=#FFD780FF\u003EGravitação\u003C/color\u003E, se for Carga Lunar/Florescimento Lunar/Cristalização Lunar, aumenta o Dano da Reação Lunar causado por essa Interferência Kuuvahki. O valor de aumento é baseado em 12.5%/2.5%/12.5% da Vida Máxima de Columbina. Esse efeito pode ser desencadeado uma vez a cada 15s.\n\nO Dano de Reações Lunares de todos os membros próximos da equipe é {LINK#N11190007}\u003Ccolor=#FFD780FF\u003EElevado\u003C/color\u003E{/LINK} em 1.5%.",
+    "description": "Ao desencadear **Interferência Kuuvahki**, regenera 4 de Energia Elemental para Columbina.\nAlém disso, de acordo com o tipo de Reação Lunar que acumulou mais Gravitação, se for Carga Lunar/Florescimento Lunar/Cristalização Lunar, aumenta o Dano da Reação Lunar causado por essa Interferência Kuuvahki. O valor de aumento é baseado em 12.5%/2.5%/12.5% da Vida Máxima de Columbina. Esse efeito pode ser desencadeado uma vez a cada 15s.\n\nO Dano de Reações Lunares de todos os membros próximos da equipe é **Elevado** em 1.5%."
+  },
+  "c5": {
+    "name": "Silêncio de uma Canção Solitária",
+    "descriptionRaw": "Aumenta o nível do Supremo \u003Ccolor=#FFD780FF\u003E{LINK#S11255}Melancolia Sob o Luar{/LINK}\u003C/color\u003E em 3.\nNível máximo é 15.\n\nO Dano de Reações Lunares de todos os membros próximos da equipe é {LINK#N11190007}\u003Ccolor=#FFD780FF\u003EElevado\u003C/color\u003E{/LINK} em 1.5%.",
+    "description": "Aumenta o nível do Supremo **Melancolia Sob o Luar** em 3.\nNível máximo é 15.\n\nO Dano de Reações Lunares de todos os membros próximos da equipe é **Elevado** em 1.5%."
+  },
+  "c6": {
+    "name": "Atravessando a Escuridão com o Luar",
+    "descriptionRaw": "Nos 8s após todos os personagens causarem uma Reação Lunar dentro de um {LINK#N11250002}\u003Ccolor=#FFD780FF\u003EDomínio Lunar\u003C/color\u003E{/LINK}, aumenta o Dano CRIT do Tipo Elemental correspondente de todos os membros da equipe de acordo com o Tipo Elemental participante em 80%. Aumentos de Dano CRIT de Tipos Elementais idênticos não acumularão.\n\nO Dano de Reações Lunares de todos os membros próximos da equipe é {LINK#N11190007}\u003Ccolor=#FFD780FF\u003EElevado\u003C/color\u003E{/LINK} em 7%.",
+    "description": "Nos 8s após todos os personagens causarem uma Reação Lunar dentro de um **Domínio Lunar**, aumenta o Dano CRIT do Tipo Elemental correspondente de todos os membros da equipe de acordo com o Tipo Elemental participante em 80%. Aumentos de Dano CRIT de Tipos Elementais idênticos não acumularão.\n\nO Dano de Reações Lunares de todos os membros próximos da equipe é **Elevado** em 7%."
+  },
+  "images": {
+    "filename_c1": "UI_Talent_S_Columbina_01",
+    "filename_c2": "UI_Talent_S_Columbina_02",
+    "filename_c3": "UI_Talent_U_Columbina_01",
+    "filename_c4": "UI_Talent_S_Columbina_03",
+    "filename_c5": "UI_Talent_U_Columbina_02",
+    "filename_c6": "UI_Talent_S_Columbina_04",
+    "filename_constellation": "Eff_UI_Talent_Columbina"
+  },
+  "version": "6.3"
+}

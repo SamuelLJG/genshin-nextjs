@@ -1,113 +1,45 @@
 export const characters = [
     {
-        name: 'nefer',
-        function: 'mainDps',
-        bestWeapon: 'Reliquary of Truth',
-        otherWeapons: ['Nightweavers Looking Glass','Dawning Frost','Blackmarrow Lantern'],
-        bestArtifacts: 'Night of the Skys Unveiling',
-        otherArtifacts: ['Gilded Dreams', 'Deepwood Memories'],
+        name: 'columbina',
+        function: 'support',
+        bestWeapon: 'Nocturnes Curtain Call',
+        otherWeapons: ['Sacrificial Jade','Reliquary of Truth','Prototype Amber'],
+        bestArtifacts: 'Silken Moons Serenade',
+        otherArtifacts: ['Aubade of Morningstar and Moon'],
+        twoPieces: ['Tenacity of the Millelith', 'Night of The Skys Unveiling'],
         teams: [[
-            {'nefer': 'mainDps'},
-            {'aino': 'subDps'},
+            {'neuvillette': 'mainDps'},
+            {'ineffa': 'subDps'},
             {'lauma': 'support'},
-            {'sangonomiya-kokomi': 'support'}
+            {'columbina': 'support'}
         ],
         [
-            {'nefer': 'mainDps'},
-            {'dahlia': 'support'},
-            {'lauma': 'support'},
-            {'sangonomiya-kokomi': 'support'}
-        ],
-        [
-            {'nefer': 'mainDps'},
-            {'aino': 'subDps'},
-            {'nahida': 'subDps'},
-            {'kuki-shinobu': 'support'}
+            {'flins': 'mainDps'},
+            {'ineffa': 'subDps'},
+            {'sucrose': 'support'},
+            {'columbina': 'support'}
         ],
         [
             {'nefer': 'mainDps'},
             {'nahida': 'subDps'},
             {'lauma': 'support'},
-            {'sangonomiya-kokomi': 'support'}
+            {'columbina': 'support'}
+        ],
+        [
+            {'alhaitham': 'mainDps'},
+            {'raiden-shogun': 'support'},
+            {'lauma': 'support'},
+            {'columbina': 'support'}
         ]
         ],
         talentPriority: ['elementalSkill','elementalBurst'],
-        elementType: 'dendro',
-        mainStatsArtifacts: ['elementalMastery','elementalMastery', 'critRateOrElementalMastery'],
-        subStatsArtifacts: ['critRateOrDamage', 'elementalMastery'],
+        elementType: 'hydro',
+        mainStatsArtifacts: ['hpPercentOrEnergyRecharge','hpPercent', 'hpPercentOrCritRateOrCritDamage'],
+        subStatsArtifacts: ['energyRecharge','critRateOrDamage', 'hpPercent','elementalMastery'],
         newCharacter : 'new',
         weapon: 'WEAPON_CATALYST',
         rarity: '5',
         rank:'s'
-    },
-    {
-        name: 'durin',
-        function: 'subDps',
-        bestWeapon: 'Black Erosion',
-        otherWeapons: ['Primordial Jade Cutter','Moonweavers Dawn','The Black Sword'],
-        bestArtifacts: 'Emblem of Severed Fate',
-        otherArtifacts: ['Noblesse Oblige', 'Crimson Witch of Flames'],
-        teams: [[
-            {'mualani': 'mainDps'},
-            {'durin': 'subDps'},
-            {'mona': 'support'},
-            {'xilonen': 'support'}
-        ],
-        [
-            {'varesa': 'mainDps'},
-            {'durin': 'subDps'},
-            {'chevreuse': 'support'},
-            {'iansan': 'support'}
-        ],
-        [
-            {'arlecchino': 'mainDps'},
-            {'durin': 'subDps'},
-            {'fischl': 'subDps'},
-            {'chevreuse': 'support'}
-        ],
-        [
-            {'kinich': 'mainDps'},
-            {'durin': 'subDps'},
-            {'emilie': 'subDps'},
-            {'iansan': 'support'}
-        ]
-        ],
-        talentPriority: ['elementalBurst','elementalSkill'],
-        elementType: 'pyro',
-        mainStatsArtifacts: ['atkPercent','pyroBonus', 'critRateOrDamage'],
-        subStatsArtifacts: ['critRateOrDamage', 'atkPercent', 'energyRecharge'],
-        soonCharacter : 'soon',
-        weapon: 'WEAPON_SWORD_ONE_HAND',
-        rarity: '5',
-        rank: 's',
-    },
-    {
-        name: 'jahoda',
-        function: 'support',
-        bestWeapon: 'The Dawn of Distant Hymn',
-        otherWeapons: ['Rainstering of the Rainbow Serpent','Favonius Warbow','Sacrificial Bow'],
-        bestArtifacts: 'Viridescent Venerer',
-        teams: [[
-            {'flins': 'mainDps'},
-            {'ineffa': 'subDps'},
-            {'yelan': 'subDps'},
-            {'jahoda': 'support'}
-        ],
-        [
-            {'flins': 'mainDps'},
-            {'ineffa': 'support'},
-            {'aino': 'support'},
-            {'jahoda': 'support'}
-        ]
-        ],
-        talentPriority: ['elementalBurst','elementalSkill'],
-        elementType: 'anemo',
-        mainStatsArtifacts: ['atkPercent','atkPercent', 'atkPercentOrHealingBonus'],
-        subStatsArtifacts: ['critRate', 'atkPercent', 'energyRecharge'],
-        soonCharacter : 'soon',
-        weapon: 'WEAPON_BOW',
-        rarity: '4',
-        rank: 'b',
     },
     {
         name: 'aino',
@@ -804,6 +736,46 @@ export const characters = [
         rank: 'c'
     },
     {
+        name: 'durin',
+        function: 'subDps',
+        bestWeapon: 'Black Erosion',
+        otherWeapons: ['Primordial Jade Cutter','Moonweavers Dawn','The Black Sword'],
+        bestArtifacts: 'Emblem of Severed Fate',
+        otherArtifacts: ['Noblesse Oblige', 'Crimson Witch of Flames'],
+        teams: [[
+            {'mualani': 'mainDps'},
+            {'durin': 'subDps'},
+            {'mona': 'support'},
+            {'xilonen': 'support'}
+        ],
+        [
+            {'varesa': 'mainDps'},
+            {'durin': 'subDps'},
+            {'chevreuse': 'support'},
+            {'iansan': 'support'}
+        ],
+        [
+            {'arlecchino': 'mainDps'},
+            {'durin': 'subDps'},
+            {'fischl': 'subDps'},
+            {'chevreuse': 'support'}
+        ],
+        [
+            {'kinich': 'mainDps'},
+            {'durin': 'subDps'},
+            {'emilie': 'subDps'},
+            {'iansan': 'support'}
+        ]
+        ],
+        talentPriority: ['elementalBurst','elementalSkill'],
+        elementType: 'pyro',
+        mainStatsArtifacts: ['atkPercent','pyroBonus', 'critRateOrDamage'],
+        subStatsArtifacts: ['critRateOrDamage', 'atkPercent', 'energyRecharge'],
+        weapon: 'WEAPON_SWORD_ONE_HAND',
+        rarity: '5',
+        rank: 's',
+    },
+    {
         name: 'emilie',
         function: 'subDps',
         bestWeapon: 'Lumidouce Elegy',
@@ -1239,6 +1211,33 @@ export const characters = [
         weapon: 'WEAPON_POLE',
         rarity: '5',
         rank:'a'
+    },
+    {
+        name: 'jahoda',
+        function: 'support',
+        bestWeapon: 'The Dawn of Distant Hymn',
+        otherWeapons: ['Rainstering of the Rainbow Serpent','Favonius Warbow','Sacrificial Bow'],
+        bestArtifacts: 'Viridescent Venerer',
+        teams: [[
+            {'flins': 'mainDps'},
+            {'ineffa': 'subDps'},
+            {'yelan': 'subDps'},
+            {'jahoda': 'support'}
+        ],
+        [
+            {'flins': 'mainDps'},
+            {'ineffa': 'support'},
+            {'aino': 'support'},
+            {'jahoda': 'support'}
+        ]
+        ],
+        talentPriority: ['elementalBurst','elementalSkill'],
+        elementType: 'anemo',
+        mainStatsArtifacts: ['atkPercent','atkPercent', 'atkPercentOrHealingBonus'],
+        subStatsArtifacts: ['critRate', 'atkPercent', 'energyRecharge'],
+        weapon: 'WEAPON_BOW',
+        rarity: '4',
+        rank: 'b',
     },
     {
         name: 'jean',
@@ -1946,6 +1945,46 @@ export const characters = [
         weapon: 'WEAPON_CLAYMORE',
         rarity: '5',
         rank: 'a'
+    },
+    {
+        name: 'nefer',
+        function: 'mainDps',
+        bestWeapon: 'Reliquary of Truth',
+        otherWeapons: ['Nightweavers Looking Glass','Dawning Frost','Blackmarrow Lantern'],
+        bestArtifacts: 'Night of the Skys Unveiling',
+        otherArtifacts: ['Gilded Dreams', 'Deepwood Memories'],
+        teams: [[
+            {'nefer': 'mainDps'},
+            {'aino': 'subDps'},
+            {'lauma': 'support'},
+            {'sangonomiya-kokomi': 'support'}
+        ],
+        [
+            {'nefer': 'mainDps'},
+            {'dahlia': 'support'},
+            {'lauma': 'support'},
+            {'sangonomiya-kokomi': 'support'}
+        ],
+        [
+            {'nefer': 'mainDps'},
+            {'aino': 'subDps'},
+            {'nahida': 'subDps'},
+            {'kuki-shinobu': 'support'}
+        ],
+        [
+            {'nefer': 'mainDps'},
+            {'nahida': 'subDps'},
+            {'lauma': 'support'},
+            {'sangonomiya-kokomi': 'support'}
+        ]
+        ],
+        talentPriority: ['elementalSkill','elementalBurst'],
+        elementType: 'dendro',
+        mainStatsArtifacts: ['elementalMastery','elementalMastery', 'critRateOrElementalMastery'],
+        subStatsArtifacts: ['critRateOrDamage', 'elementalMastery'],
+        weapon: 'WEAPON_CATALYST',
+        rarity: '5',
+        rank:'s'
     },
     {
         name: 'neuvillette',
