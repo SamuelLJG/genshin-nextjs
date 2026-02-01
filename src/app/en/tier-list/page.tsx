@@ -12,7 +12,7 @@ import Footer from '@/components/footer-en';
 import ptBr from "@/data/en-us.json"
 
 export const metadata: Metadata = {
-  title: "Genshin Impact Tier List 6.1 | Ranking Best Characters",
+  title: "Genshin Impact Tier List 6.3 | Ranking Best Characters",
   description: "Explore the latest Genshin Impact tier list and find out which characters dominate the 2025 meta!",
   alternates: {
     canonical: '/en/tier-list',
@@ -50,7 +50,7 @@ export default function Teams() {
               <body>
                 <Anchor/>
         <Nav/>
-    <h1 id="hdn">Tier List of the Best Characters in Genshin Impact 6.0</h1>
+    <h1 id="hdn">Tier List of the Best Characters in Genshin Impact 6.3</h1>
     <main id="main-index" className="iii"><Filter ptBr={ptBr}/>
     <AdComponent/>
      <ul id="tier-list-flex" className='joinads'>

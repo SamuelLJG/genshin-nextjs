@@ -13,7 +13,7 @@ import Filter from "@/components/tier-filter";
 
 
 export const metadata: Metadata = {
-  title: "Genshin Impact Tier List 6.1 | Ranking Melhores Personagens",
+  title: "Genshin Impact Tier List 6.3 | Ranking Melhores Personagens",
   description: "Confira a tier list atualizada de Genshin Impact com os melhores personagens. Veja quem está no topo do meta em 2025!",
   alternates: {
     canonical: '/tier-list',
@@ -92,7 +92,7 @@ function formatCharacterName(name: string) {
           <body>
             <Anchor/>
         <Nav/>
-        <h1 id="hdn">Tier List dos Melhores Personagens de Genshin Impact 6.1</h1>
+        <h1 id="hdn">Tier List dos Melhores Personagens de Genshin Impact 6.3</h1>
     <main id="main-index" className="iii"><Filter ptBr={ptBr}/><AdComponent/>
      <ul id="tier-list-flex" className='joinads'>
   {ranks.map((rank) => {
