@@ -42,6 +42,88 @@ export const characters = [
         rank:'s'
     },
     {
+        name: 'zibai',
+        function: 'mainDps',
+        bestWeapon: 'Lightbearing Moonshard',
+        otherWeapons: ['Uraku Misugiri','Light of Foliar Incision','Harbinger of Dawn'],
+        bestArtifacts: 'Night of the Skys Unveiling',
+        otherArtifacts: ['Husk of Opulent Dreams'],
+        twoPieces: ['Wanderers Troupe', 'Husk of Opulent Dreams'],
+        teams: [[
+            {'zibai': 'mainDps'},
+            {'ineffa': 'subDps'},
+            {'illuga': 'support'},
+            {'columbina': 'support'}
+        ],
+        [
+            {'zibai': 'mainDps'},
+            {'chiori': 'subDps'},
+            {'illuga': 'support'},
+            {'columbina': 'support'}
+        ],
+        [
+            {'zibai': 'mainDps'},
+            {'gorou': 'support'},
+            {'illuga': 'support'},
+            {'columbina': 'support'}
+        ],
+        [
+            {'zibai': 'mainDps'},
+            {'chiori': 'subDps'},
+            {'furina': 'subDps'},
+            {'columbina': 'support'}
+        ]
+        ],
+        talentPriority: ['elementalSkill','normalAttack','elementalBurst'],
+        elementType: 'geo',
+        mainStatsArtifacts: ['defPercent','defPercent', 'critRateOrDamage'],
+        subStatsArtifacts: ['energyRecharge','critRateOrDamage', 'defPercent','elementalMastery'],
+        soonCharacter : 'soon',
+        weapon: 'WEAPON_SWORD_ONE_HAND',
+        rarity: '5'
+    },
+    {
+        name: 'illuga',
+        function: 'support',
+        bestWeapon: 'Favonius Lance',
+        otherWeapons: ['Dragons Bane','Kitain Cross Spear','Moonpiercer'],
+        bestArtifacts: 'Silken Moons Serenade',
+        otherArtifacts: ['Instructor'],
+        twoPieces: ['Gilded Dreams', 'Wanderers Troupe'],
+        teams: [[
+            {'zibai': 'mainDps'},
+            {'ineffa': 'subDps'},
+            {'illuga': 'support'},
+            {'columbina': 'support'}
+        ],
+        [
+            {'zibai': 'mainDps'},
+            {'chiori': 'subDps'},
+            {'illuga': 'support'},
+            {'columbina': 'support'}
+        ],
+        [
+            {'zibai': 'mainDps'},
+            {'gorou': 'support'},
+            {'illuga': 'support'},
+            {'columbina': 'support'}
+        ],
+        [
+            {'zibai': 'mainDps'},
+            {'xilonen': 'support'},
+            {'illuga': 'support'},
+            {'columbina': 'support'}
+        ]
+        ],
+        talentPriority: ['elementalBurst', 'elementalSkill'],
+        elementType: 'geo',
+        mainStatsArtifacts: ['elementalMastery','elementalMasteryOrEnergyRecharge', 'elementalMasteryOrCritRate'],
+        subStatsArtifacts: ['energyRecharge','critRate','elementalMastery'],
+        soonCharacter : 'soon',
+        weapon: 'WEAPON_POLE',
+        rarity: '4'
+    },
+    {
         name: 'aino',
         function: 'support',
         bestWeapon: 'Flame-Forged Insight',

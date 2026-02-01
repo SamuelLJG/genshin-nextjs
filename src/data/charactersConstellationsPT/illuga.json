@@ -1,0 +1,44 @@
+{
+  "id": 12701,
+  "name": "Illuga",
+  "c1": {
+    "name": "Sentinela Vigilante",
+    "descriptionRaw": "Quando Illuga é o personagem ativo, regenera 12 de Energia Elemental ao ativar uma \u003Ccolor=#FFE699FF\u003Ereação relacionada ao Geo\u003C/color\u003E. Esse efeito pode ser ativado uma vez a cada 15s.",
+    "description": "Quando Illuga é o personagem ativo, regenera 12 de Energia Elemental ao ativar uma reação relacionada ao Geo. Esse efeito pode ser ativado uma vez a cada 15s."
+  },
+  "c2": {
+    "name": "Alce com Chifres Pontudos",
+    "descriptionRaw": "Na duração do efeito Pesadelo de Luscinia do Supremo {LINK#S11275}\u003Ccolor=#FFD780FF\u003EReflexo Vazio\u003C/color\u003E{/LINK}, cada 7 acúmulos de {LINK#N11270001}\u003Ccolor=#FFD780FF\u003ECanção de Luscinia\u003C/color\u003E{/LINK} consumidos farão Illuga invocar Aedon para causar uma instância de \u003Ccolor=#FFE699FF\u003EDano Geo\u003C/color\u003E contra um inimigo próximo. Esse Dano é equivalente a 400% da Proficiência Elemental e 200% da DEF de Illuga. Esse Dano é considerado Dano de Supremo.",
+    "description": "Na duração do efeito Pesadelo de Luscinia do Supremo **Reflexo Vazio**, cada 7 acúmulos de **Canção de Luscinia** consumidos farão Illuga invocar Aedon para causar uma instância de Dano Geo contra um inimigo próximo. Esse Dano é equivalente a 400% da Proficiência Elemental e 200% da DEF de Illuga. Esse Dano é considerado Dano de Supremo."
+  },
+  "c3": {
+    "name": "Mordida Estremecedora",
+    "descriptionRaw": "Aumenta o nível do Supremo \u003Ccolor=#FFD780FF\u003E{LINK#S11275}Reflexo Vazio{/LINK}\u003C/color\u003E em 3.\nO nível máximo de elevação é 15.",
+    "description": "Aumenta o nível do Supremo **Reflexo Vazio** em 3.\nO nível máximo de elevação é 15."
+  },
+  "c4": {
+    "name": "Lobo Caçador do Sol",
+    "descriptionRaw": "Na duração do efeito Pesadelo de Luscinia do Supremo \u003Ccolor=#FFD780FF\u003E{LINK#S11275}Reflexo Vazio{/LINK}\u003C/color\u003E, aumenta a DEF do personagem próximo ativo da equipe em 200.",
+    "description": "Na duração do efeito Pesadelo de Luscinia do Supremo **Reflexo Vazio**, aumenta a DEF do personagem próximo ativo da equipe em 200."
+  },
+  "c5": {
+    "name": "Alazão do Vento",
+    "descriptionRaw": "Aumenta o nível da Habilidade Elemental \u003Ccolor=#FFD780FF\u003E{LINK#S11272}Pássaro da Canção Matinal{/LINK}\u003C/color\u003E em 3.\nO nível máximo de elevação é 15.",
+    "description": "Aumenta o nível da Habilidade Elemental **Pássaro da Canção Matinal** em 3.\nO nível máximo de elevação é 15."
+  },
+  "c6": {
+    "name": "Pássaro da Noite Assombrada",
+    "descriptionRaw": "Fortalece o efeito Juramento da Lâmpada do Talento de Ascensão \u003Ccolor=#FFD780FF\u003E{LINK#P1272101}Juramento do Iluminador{/LINK}\u003C/color\u003E: aumenta a Taxa CRIT em 10% e o Dano CRIT em 30% de \u003Ccolor=#FFE699FF\u003EDano Geo\u003C/color\u003E causado contra inimigos.\n\n\u003Ccolor=#FFD780FF\u003EPresságio Lunar: Reluzir Cheio\u003C/color\u003E\nQuando o personagem está afetado por Juramento da Lâmpada, aumenta sua Proficiência Elemental em 80.\nÉ necessário ter desbloqueado o Talento de Ascensão \u003Ccolor=#FFD780FF\u003EJuramento do Iluminador\u003C/color\u003E.",
+    "description": "Fortalece o efeito Juramento da Lâmpada do Talento de Ascensão **Juramento do Iluminador**: aumenta a Taxa CRIT em 10% e o Dano CRIT em 30% de Dano Geo causado contra inimigos.\n\nPresságio Lunar: Reluzir Cheio\nQuando o personagem está afetado por Juramento da Lâmpada, aumenta sua Proficiência Elemental em 80.\nÉ necessário ter desbloqueado o Talento de Ascensão Juramento do Iluminador."
+  },
+  "images": {
+    "filename_c1": "UI_Talent_S_Illuga_01",
+    "filename_c2": "UI_Talent_S_Illuga_02",
+    "filename_c3": "UI_Talent_U_Illuga_01",
+    "filename_c4": "UI_Talent_S_Illuga_03",
+    "filename_c5": "UI_Talent_U_Illuga_02",
+    "filename_c6": "UI_Talent_S_Illuga_04",
+    "filename_constellation": "Eff_UI_Talent_Illuga"
+  },
+  "version": "6.3"
+}

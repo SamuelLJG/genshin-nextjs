@@ -101,17 +101,18 @@ const fetchWeaponData = (name: string) =>
       const bIsNew = newWeaponSlugs.includes(bSlug);
       
       // Prioridade: Soon > New > Resto
+      // Se ambas são soon ou nenhuma é soon, verifica new
+      // Se a é new e b não é, a vem primeiro
+      if (aIsNew && !bIsNew) return -1;
+      // Se b é new e a não é, b vem primeiro
+      if (!aIsNew && bIsNew) return 1;
       
       // Se a é soon e b não é, a vem primeiro
       if (aIsSoon && !bIsSoon) return -1;
       // Se b é soon e a não é, b vem primeiro
       if (!aIsSoon && bIsSoon) return 1;
       
-      // Se ambas são soon ou nenhuma é soon, verifica new
-      // Se a é new e b não é, a vem primeiro
-      if (aIsNew && !bIsNew) return -1;
-      // Se b é new e a não é, b vem primeiro
-      if (!aIsNew && bIsNew) return 1;
+      
       
       // Se ambas são new ou nenhuma é new, ordena alfabeticamente
       return a.name.localeCompare(b.name, 'pt');
@@ -149,16 +150,16 @@ const fetchWeaponData = (name: string) =>
             alt=""
           />
           <p>{post.name}</p>
-            
+            {/* Badge para new weapons */}
+          {isNewWeapon && (
+            <span className="new-weapon-badge"></span>
+          )}
           {/* Badge para soon weapons */}
           {isSoonWeapon && (
             <span className="soon-weapon-badge"></span>
           )}
           
-          {/* Badge para new weapons */}
-          {isNewWeapon && (
-            <span className="new-weapon-badge"></span>
-          )}
+          
           
           <div className="rara-dendro"></div>
         </Link>

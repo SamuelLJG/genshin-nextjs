@@ -1,0 +1,296 @@
+{
+  "id": 12601,
+  "name": "Zibai",
+  "combat1": {
+    "name": "Toque de Pétalas da Lâmina Dourada",
+    "descriptionRaw": "\u003Ccolor=#FFD780FF\u003EAtaque Normal\u003C/color\u003E\nRealiza até 4 golpes rápidos.\n\n\u003Ccolor=#FFD780FF\u003EAtaque Carregado\u003C/color\u003E\nConsome uma certa quantidade de Stamina para desferir 2 golpes rápidos com sua lâmina.\n\n\u003Ccolor=#FFD780FF\u003EAtaque Imersivo\u003C/color\u003E\nMergulha em pleno ar para golpear o chão, causando Dano aos inimigos ao longo do caminho e infligindo Dano em uma AdE durante o impacto.",
+    "description": "Ataque Normal\nRealiza até 4 golpes rápidos.\n\nAtaque Carregado\nConsome uma certa quantidade de Stamina para desferir 2 golpes rápidos com sua lâmina.\n\nAtaque Imersivo\nMergulha em pleno ar para golpear o chão, causando Dano aos inimigos ao longo do caminho e infligindo Dano em uma AdE durante o impacto.",
+    "attributes": {
+      "labels": [
+        "Dano do 1° Golpe|{param1:F1P}",
+        "Dano do 2° Golpe|{param2:F1P}",
+        "Dano do 3° Golpe|{param3:F1P}+{param4:F1P}",
+        "Dano do 4° Golpe|{param5:F1P}",
+        "Dano de Ataque Carregado|{param6:F1P}+{param7:F1P}",
+        "Consumo de Stamina de Ataque Carregado|{param8:F1}",
+        "Dano Durante a Queda|{param9:F1P}",
+        "Dano de Queda de Baixa/Alta Altitude|{param10:P}/{param11:P}"
+      ],
+      "parameters": {
+        "param1": [0.505542, 0.546691, 0.58784, 0.646624, 0.687773, 0.7348, 0.799462, 0.864125, 0.928787, 0.999328, 1.069869, 1.14041, 1.21095, 1.281491, 1.352032],
+        "param2": [0.465527, 0.503418, 0.54131, 0.595441, 0.633333, 0.676638, 0.736182, 0.795726, 0.85527, 0.920227, 0.985184, 1.050141, 1.115099, 1.180056, 1.245013],
+        "param3": [0.308882, 0.334023, 0.359165, 0.395082, 0.420223, 0.448956, 0.488464, 0.527973, 0.567481, 0.61058, 0.65368, 0.69678, 0.73988, 0.78298, 0.826079],
+        "param4": [0.308882, 0.334023, 0.359165, 0.395082, 0.420223, 0.448956, 0.488464, 0.527973, 0.567481, 0.61058, 0.65368, 0.69678, 0.73988, 0.78298, 0.826079],
+        "param5": [0.778954, 0.842357, 0.90576, 0.996336, 1.059739, 1.1322, 1.231834, 1.331467, 1.431101, 1.539792, 1.648483, 1.757174, 1.865866, 1.974557, 2.083248],
+        "param6": [0.73659, 0.796545, 0.8565, 0.94215, 1.002105, 1.070625, 1.16484, 1.259055, 1.35327, 1.45605, 1.55883, 1.66161, 1.76439, 1.86717, 1.96995],
+        "param7": [0.73659, 0.796545, 0.8565, 0.94215, 1.002105, 1.070625, 1.16484, 1.259055, 1.35327, 1.45605, 1.55883, 1.66161, 1.76439, 1.86717, 1.96995],
+        "param8": [20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20],
+        "param9": [0.639324, 0.691362, 0.7434, 0.81774, 0.869778, 0.92925, 1.011024, 1.092798, 1.174572, 1.26378, 1.352988, 1.442196, 1.531404, 1.620612, 1.70982],
+        "param10": [1.278377, 1.382431, 1.486485, 1.635134, 1.739187, 1.858106, 2.02162, 2.185133, 2.348646, 2.527025, 2.705403, 2.883781, 3.062159, 3.240537, 3.418915],
+        "param11": [1.596762, 1.726731, 1.8567, 2.04237, 2.172339, 2.320875, 2.525112, 2.729349, 2.933586, 3.15639, 3.379194, 3.601998, 3.824802, 4.047606, 4.27041]
+      }
+    }
+  },
+  "combat2": {
+    "name": "Céu e Terra Manifestados",
+    "descriptionRaw": "Invoca uma sombra de seus antigos poderes, trocando para o modo {LINK#N11260001}\u003Ccolor=#FFD780FF\u003EConversão de Fase Lunar\u003C/color\u003E{/LINK}.\nNesse modo, quando Zibai realizar um Ataque Normal ou Carregado, causará \u003Ccolor=#FFE699FF\u003EDano Geo\u003C/color\u003E que não pode ser substituído, e acumula a especial \u003Ccolor=#FFD780FF\u003ERadiância da Conversão\u003C/color\u003E de formas diferentes. Zibai pode consumir Radiância da Conversão para lançar a Habilidade Elemental especial \u003Ccolor=#FFD780FF\u003EPassos do Alazão Espiritual\u003C/color\u003E.\n\n\u003Ccolor=#FFD780FF\u003EPresságio Lunar: Reluzir Cheio\u003C/color\u003E\nQuando Zibai está no modo \u003Ccolor=#FFD780FF\u003EConversão de Fase Lunar\u003C/color\u003E e realiza um Ataque Normal, o ataque do 4º golpe causará uma instância adicional de \u003Ccolor=#FFE699FF\u003EDano Geo\u003C/color\u003E. Esse Dano é considerado Dano de Cristalização Lunar.",
+    "description": "Invoca uma sombra de seus antigos poderes, trocando para o modo **Conversão de Fase Lunar**.\nNesse modo, quando Zibai realizar um Ataque Normal ou Carregado, causará Dano Geo que não pode ser substituído, e acumula a especial Radiância da Conversão de formas diferentes. Zibai pode consumir Radiância da Conversão para lançar a Habilidade Elemental especial Passos do Alazão Espiritual.\n\nPresságio Lunar: Reluzir Cheio\nQuando Zibai está no modo Conversão de Fase Lunar e realiza um Ataque Normal, o ataque do 4º golpe causará uma instância adicional de Dano Geo. Esse Dano é considerado Dano de Cristalização Lunar.",
+    "attributes": {
+      "labels": [
+        "Dano do 1° Golpe de Conversão de Fase Lunar|{param6:F1P} da DEF",
+        "Dano do 2° Golpe da Conversão de Fase Lunar|{param7:F1P} da DEF",
+        "Dano do 3° Golpe de Conversão de Fase Lunar|{param8:F1P} + {param9:F1P} da DEF",
+        "Dano do 4° Golpe da Conversão de Fase Lunar|{param10:F1P} da DEF",
+        "Dano de Ataque Carregado da Conversão de Fase Lunar|{param11:F1P} + {param12:F1P} da DEF",
+        "Dano do 1° Golpe dos Passos do Alazão Espiritual|{param1:F1P} da DEF",
+        "Dano do 2° Golpe dos Passos do Alazão Espiritual|{param2:F1P} da DEF",
+        "Dano Adicional do 4º Golpe de Conversão de Fase Lunar|{param3:F1P} da DEF",
+        "Duração da Conversão de Fase Lunar|{param4:F1}s",
+        "Tempo de Recarga|{param5:F1}s"
+      ],
+      "parameters": {
+        "param1": [1.72528, 1.854676, 1.984072, 2.1566, 2.285996, 2.415392, 2.58792, 2.760448, 2.932976, 3.105504, 3.278032, 3.45056, 3.66622, 3.88188, 4.09754],
+        "param2": [1.40968, 1.515406, 1.621132, 1.7621, 1.867826, 1.973552, 2.11452, 2.255488, 2.396456, 2.537424, 2.678392, 2.81936, 2.99557, 3.17178, 3.34799],
+        "param3": [0.29456, 0.316652, 0.338744, 0.3682, 0.390292, 0.412384, 0.44184, 0.471296, 0.500752, 0.530208, 0.559664, 0.58912, 0.62594, 0.66276, 0.69958],
+        "param4": [15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15],
+        "param5": [18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18],
+        "param6": [0.565792, 0.608226, 0.650661, 0.70724, 0.749674, 0.792109, 0.848688, 0.905267, 0.961846, 1.018426, 1.075005, 1.131584, 1.202308, 1.273032, 1.343756],
+        "param7": [0.521007, 0.560083, 0.599158, 0.651259, 0.690335, 0.72941, 0.781511, 0.833612, 0.885712, 0.937813, 0.989914, 1.042014, 1.10714, 1.172266, 1.237392],
+        "param8": [0.345694, 0.371621, 0.397548, 0.432117, 0.458044, 0.483971, 0.51854, 0.55311, 0.587679, 0.622248, 0.656818, 0.691387, 0.734599, 0.777811, 0.821022],
+        "param9": [0.345694, 0.371621, 0.397548, 0.432117, 0.458044, 0.483971, 0.51854, 0.55311, 0.587679, 0.622248, 0.656818, 0.691387, 0.734599, 0.777811, 0.821022],
+        "param10": [0.871788, 0.937172, 1.002556, 1.089735, 1.155119, 1.220503, 1.307682, 1.394861, 1.48204, 1.569218, 1.656397, 1.743576, 1.852549, 1.961523, 2.070496],
+        "param11": [0.6595, 0.708962, 0.758425, 0.824375, 0.873838, 0.9233, 0.98925, 1.0552, 1.12115, 1.1871, 1.25305, 1.319, 1.401437, 1.483875, 1.566312],
+        "param12": [0.6595, 0.708962, 0.758425, 0.824375, 0.873838, 0.9233, 0.98925, 1.0552, 1.12115, 1.1871, 1.25305, 1.319, 1.401437, 1.483875, 1.566312]
+      }
+    }
+  },
+  "combat3": {
+    "name": "Eminência das Três Esferas",
+    "descriptionRaw": "Zibai opera o Dossel da Luz de Jade, causando duas instâncias de \u003Ccolor=#FFE699FF\u003EDano Geo\u003C/color\u003E, com o Dano do segundo golpe sendo considerado de Cristalização Lunar.\nAo ser usado, se Zibai estiver em {LINK#N11260001}\u003Ccolor=#FFD780FF\u003EConversão de Fase Lunar\u003C/color\u003E{/LINK}, a duração da Conversão de Fase Lunar atual será estendida em 1.7s adicionais.",
+    "description": "Zibai opera o Dossel da Luz de Jade, causando duas instâncias de Dano Geo, com o Dano do segundo golpe sendo considerado de Cristalização Lunar.\nAo ser usado, se Zibai estiver em **Conversão de Fase Lunar**, a duração da Conversão de Fase Lunar atual será estendida em 1.7s adicionais.",
+    "attributes": {
+      "labels": [
+        "Dano do 1° Golpe da Habilidade|{param1:F1P} da DEF",
+        "Dano do 2° Golpe da Habilidade|{param2:F1P} da DEF",
+        "Tempo de Recarga|{param3:F1}s",
+        "Energia Elemental|{param4:I}"
+      ],
+      "parameters": {
+        "param1": [1.2696, 1.36482, 1.46004, 1.587, 1.68222, 1.77744, 1.9044, 2.03136, 2.15832, 2.28528, 2.41224, 2.5392, 2.6979, 2.8566, 3.0153],
+        "param2": [1.77744, 1.910748, 2.044056, 2.2218, 2.355108, 2.488416, 2.66616, 2.843904, 3.021648, 3.199392, 3.377136, 3.55488, 3.77706, 3.99924, 4.22142],
+        "param3": [15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15],
+        "param4": [60, 60, 60, 60, 60, 60, 60, 60, 60, 60, 60, 60, 60, 60, 60]
+      }
+    }
+  },
+  "passive1": {
+    "name": "A Adeptus Lunar Desce",
+    "descriptionRaw": "Ao lançar a Habilidade Elemental \u003Ccolor=#FFD780FF\u003E{LINK#S11262}Céu e Terra Manifestados{/LINK}\u003C/color\u003E, ou quando aliados próximos da equipe desencadearem Sonata da Jaula Lunar, Zibai obtém o efeito {LINK#N11260001}Descida Lunar{/LINK} por 4s: aumenta o Dano do 2º ataque causado por {LINK#N11260001}\u003Ccolor=#FFD780FF\u003EPassos do Alazão Espiritual\u003C/color\u003E{/LINK} em 60% da DEF de Zibai.",
+    "description": "Ao lançar a Habilidade Elemental **Céu e Terra Manifestados**, ou quando aliados próximos da equipe desencadearem Sonata da Jaula Lunar, Zibai obtém o efeito **Descida Lunar** por 4s: aumenta o Dano do 2º ataque causado por **Passos do Alazão Espiritual** em 60% da DEF de Zibai."
+  },
+  "passive2": {
+    "name": "Picos Cobertos Penetram as Nuvens",
+    "descriptionRaw": "Outros membros \u003Ccolor=#FFE699FF\u003EGeo\u003C/color\u003E da equipe aumentam a DEF de Zibai em 15% cada. Outros membros \u003Ccolor=#80C0FFFF\u003EHydro\u003C/color\u003E da equipe aumentam sua Proficiência Elemental em 60 cada.",
+    "description": "Outros membros Geo da equipe aumentam a DEF de Zibai em 15% cada. Outros membros Hydro da equipe aumentam sua Proficiência Elemental em 60 cada."
+  },
+  "passive3": {
+    "name": "Bênção do Presságio Lunar: O Sol e a Lua Errantes",
+    "descriptionRaw": "Quando um membro da equipe desencadeia Cristalização Hydro, converte para Cristalização Lunar, e aumenta o Dano Básico de Cristalização Lunar com base na DEF de Zibai: aumenta o Dano Básico de Cristalização Lunar em 0.7% a cada 100 de DEF. É possível aumentar em até 14% dessa forma.\n\nAlém disso, quando Zibai está na equipe, aumenta o nível de \u003Ccolor=#FFD780FF\u003EPresságio Lunar\u003C/color\u003E em 1.",
+    "description": "Quando um membro da equipe desencadeia Cristalização Hydro, converte para Cristalização Lunar, e aumenta o Dano Básico de Cristalização Lunar com base na DEF de Zibai: aumenta o Dano Básico de Cristalização Lunar em 0.7% a cada 100 de DEF. É possível aumentar em até 14% dessa forma.\n\nAlém disso, quando Zibai está na equipe, aumenta o nível de Presságio Lunar em 1."
+  },
+  "passive4": {
+    "name": "Floresta das Flores do Luar",
+    "descriptionRaw": "Durante a noite (18:00 - 06:00), quando não estiver em combate, regenera 1 de Energia Elemental para Zibai a cada 2 segundos.\nEsse efeito não funciona em Domínios, Domínios Dizimados ou Abismo do Espiral.",
+    "description": "Durante a noite (18:00 - 06:00), quando não estiver em combate, regenera 1 de Energia Elemental para Zibai a cada 2 segundos.\nEsse efeito não funciona em Domínios, Domínios Dizimados ou Abismo do Espiral."
+  },
+  "costs": {
+    "lvl2": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 12500
+      },
+      {
+        "id": 104316,
+        "name": "Ensinamentos de Ouro",
+        "count": 3
+      },
+      {
+        "id": 112125,
+        "name": "Garantia Desgastada",
+        "count": 6
+      }
+    ],
+    "lvl3": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 17500
+      },
+      {
+        "id": 104317,
+        "name": "Guia de Ouro",
+        "count": 2
+      },
+      {
+        "id": 112126,
+        "name": "Garantia Imaculada",
+        "count": 3
+      }
+    ],
+    "lvl4": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 25000
+      },
+      {
+        "id": 104317,
+        "name": "Guia de Ouro",
+        "count": 4
+      },
+      {
+        "id": 112126,
+        "name": "Garantia Imaculada",
+        "count": 4
+      }
+    ],
+    "lvl5": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 30000
+      },
+      {
+        "id": 104317,
+        "name": "Guia de Ouro",
+        "count": 6
+      },
+      {
+        "id": 112126,
+        "name": "Garantia Imaculada",
+        "count": 6
+      }
+    ],
+    "lvl6": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 37500
+      },
+      {
+        "id": 104317,
+        "name": "Guia de Ouro",
+        "count": 9
+      },
+      {
+        "id": 112126,
+        "name": "Garantia Imaculada",
+        "count": 9
+      }
+    ],
+    "lvl7": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 120000
+      },
+      {
+        "id": 104318,
+        "name": "Filosofia de Ouro",
+        "count": 4
+      },
+      {
+        "id": 112127,
+        "name": "Garantia Gélida",
+        "count": 4
+      },
+      {
+        "id": 113075,
+        "name": "Amostra Ascendida: Rainha",
+        "count": 1
+      }
+    ],
+    "lvl8": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 260000
+      },
+      {
+        "id": 104318,
+        "name": "Filosofia de Ouro",
+        "count": 6
+      },
+      {
+        "id": 112127,
+        "name": "Garantia Gélida",
+        "count": 6
+      },
+      {
+        "id": 113075,
+        "name": "Amostra Ascendida: Rainha",
+        "count": 1
+      }
+    ],
+    "lvl9": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 450000
+      },
+      {
+        "id": 104318,
+        "name": "Filosofia de Ouro",
+        "count": 12
+      },
+      {
+        "id": 112127,
+        "name": "Garantia Gélida",
+        "count": 9
+      },
+      {
+        "id": 113075,
+        "name": "Amostra Ascendida: Rainha",
+        "count": 2
+      }
+    ],
+    "lvl10": [
+      {
+        "id": 202,
+        "name": "Mora",
+        "count": 700000
+      },
+      {
+        "id": 104318,
+        "name": "Filosofia de Ouro",
+        "count": 16
+      },
+      {
+        "id": 112127,
+        "name": "Garantia Gélida",
+        "count": 12
+      },
+      {
+        "id": 113075,
+        "name": "Amostra Ascendida: Rainha",
+        "count": 2
+      },
+      {
+        "id": 104319,
+        "name": "Coroa da Sabedoria",
+        "count": 1
+      }
+    ]
+  },
+  "images": {
+    "filename_combat1": "Skill_A_01",
+    "filename_combat2": "Skill_S_Zibai_01",
+    "filename_combat3": "Skill_E_Zibai_01_HD",
+    "filename_passive1": "UI_Talent_S_Zibai_05",
+    "filename_passive2": "UI_Talent_S_Zibai_06",
+    "filename_passive3": "UI_Talent_S_Zibai_07",
+    "filename_passive4": "UI_Talent_S_Zibai_08"
+  },
+  "version": "6.3"
+}
