@@ -1,6 +1,6 @@
 // src/app/armas/page.tsx
 
-import Link from "next/link";
+import Link from "@/components/Link";
 import Image from "next/image";
 import WeaponsFilter from "@/components/WeaponsFilter";
 import ptBr from "@/data/en-us.json"

@@ -1,7 +1,7 @@
 
 
 import { characters } from '@/data/characters';
-import ArtifactsSlider from "@/app/en/components/ArtifactsSlider";
+import ArtifactsSlider from "@/components/ArtifactsSlider";
 import ScriptsClient from "@/components/scripts-client";
 import { notFound } from "next/navigation";
 import ptBr from "@/data/en-us.json"

@@ -4,8 +4,8 @@ import Image from "next/image"
 import Stars from "./Stars"
 import { useState } from "react";
 import SliderHighlight from "./SliderHighlight";
-import Link from "next/link";
 import AdComponent from "@/components/Adsense";
+import Link from "@/components/Link";
 
 function formatEffect(effectTemplateRaw: string, refinementLevel: number, ptData: any) {
     const refinementKey = `r${refinementLevel}`;
@@ -87,8 +87,10 @@ export default function WeaponSlider ({ ptData, matchedCharacters,folderData, id
                             {ptData.mainStatText != null ? 
                             <>
                             <p>{ptData.mainStatText}</p>
-                            <span> {ptData.mainStatText != 'Proficiência Elemental' ? Math.round(folderData[level2].specialized*1000/10)+'%' :
-                            Math.round(folderData[level2].specialized)
+                            <span> {ptData.mainStatText !== 'Proficiência Elemental' &&
+ptData.mainStatText !== 'Elemental Mastery'
+  ? Math.round(folderData[level2].specialized * 1000 / 10) + '%'
+  : Math.round(folderData[level2].specialized)
                             } </span> 
                             </>
                             : ''}

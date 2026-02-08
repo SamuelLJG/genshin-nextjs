@@ -1,6 +1,6 @@
 // src/app/armas/page.tsx
 
-import Link from "next/link";
+import Link from "@/components/Link";
 import Image from "next/image";
 import ArtifactsFilter from "@/components/ArtifactsFilter";
 import ptBr from "@/data/en-us.json"
@@ -10,7 +10,7 @@ import AdTargetingRaw from "@/components/AdTargetingRaw";
 import Anchor from "@/components/anchor";
 import Nav from '@/components/nav-en';
 import Footer from '@/components/footer-en';
-import {weapons, newWeapons, soonWeapons} from '@/data/wa-list'
+import {newWeapons, soonWeapons} from '@/data/wa-list'
 import { artifacts } from '@/data/wa-list';
 
 

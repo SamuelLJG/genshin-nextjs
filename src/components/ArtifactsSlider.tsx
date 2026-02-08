@@ -2,7 +2,7 @@
 
 import Image from "next/image"
 import SliderHighlight from "./SliderHighlight";
-import Link from "next/link";
+import Link from "@/components/Link";
 import AdComponent from "./Adsense";
 
    // ou use um state p/ controlar o nível (de 1 a 5)

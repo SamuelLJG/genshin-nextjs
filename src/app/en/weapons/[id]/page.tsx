@@ -1,6 +1,6 @@
 import { characters } from '@/data/characters';
 import ptBr from "@/data/en-us.json"
-import WeaponSlider from "@/app/en/components/WeaponsSlider";
+import WeaponSlider from "@/components/WeaponsSlider";
 import ScriptsClient from "@/components/scripts-client";
 import { notFound } from "next/navigation";
 import Nav from '@/components/nav-en';

@@ -1,6 +1,6 @@
 // src/app/armas/page.tsx
 
-import Link from "next/link";
+import Link from "@/components/Link";
 import Image from "next/image";
 import ArtifactsFilter from "@/components/ArtifactsFilter";
 import ptBr from "@/data/pt-br.json"
@@ -11,7 +11,7 @@ import Anchor from "@/components/anchor";
 import Nav from '@/components/nav';
 import Footer from '@/components/footer';
 import { artifacts } from "@/data/wa-list";
-import {weapons, newWeapons, soonWeapons} from '@/data/wa-list'
+import {newWeapons, soonWeapons} from '@/data/wa-list'
 
 
 export const metadata: Metadata = {

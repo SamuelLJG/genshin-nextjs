@@ -16,7 +16,7 @@ import AdTargetingRaw from "@/components/AdTargetingRaw";
 import Anchor from "@/components/anchor";
 import Nav from '@/components/nav';
 import Footer from '@/components/footer';
-import Link from "next/link";
+import Link from "@/components/Link";
 
 
 type Props = {

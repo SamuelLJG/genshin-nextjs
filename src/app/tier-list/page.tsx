@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { characters } from "@/data/characters";
-import Link from "next/link";
+import Link from "@/components/Link";
 import React from "react";
 import { Metadata } from "next";
 import AdComponent from "@/components/Adsense";

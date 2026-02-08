@@ -1,6 +1,6 @@
 import Image from "next/image"
 import {characters} from "@/data/characters"
-import Link from "next/link";
+import Link from "@/components/Link";
 import TeamsFilter from "@/components/TeamSlider";
 import ptBr from "@/data/en-us.json"
 import { Metadata } from "next";

@@ -10,7 +10,7 @@ import Anchor from "@/components/anchor";
 import Nav from '@/components/nav';
 import Footer from '@/components/footer';
 import {weapons, newWeapons, soonWeapons} from '@/data/wa-list'
-import Link from "next/link";
+import Link from "@/components/Link";
 
 
 export const metadata: Metadata = {
