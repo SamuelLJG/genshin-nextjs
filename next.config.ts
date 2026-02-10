@@ -41,7 +41,7 @@ const nextConfig: NextConfig = {
       {
         source: '/ads.txt',
         destination: 'https://srv.adstxtmanager.com/19390/genshinbuild.com',
-        permanent: true, // 301
+        permanent: false, // 301
       }
     ];
   }
