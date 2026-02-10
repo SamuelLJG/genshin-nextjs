@@ -40,7 +40,7 @@ const nextConfig: NextConfig = {
       },
       {
         source: '/ads.txt',
-        destination: 'https://srv.adstxtmanager.com/83173/genshinbuild.com',
+        destination: 'https://srv.adstxtmanager.com/19390/genshinbuild.com',
         permanent: true, // 301
       }
     ];
