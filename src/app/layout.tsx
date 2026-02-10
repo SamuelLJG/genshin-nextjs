@@ -2,8 +2,6 @@ import { Anuphan, Plus_Jakarta_Sans, Inter, Oswald } from 'next/font/google'
 import "./globals.css";
 import { Metadata } from "next";
 import { GoogleAnalytics } from '@next/third-parties/google'
-import AdTargetingRaw from '@/components/AdTargetingRaw';
-import Script from 'next/script';
 export const metadata: Metadata = {
   metadataBase: new URL('https://genshinbuild.com'),
   icons: {
