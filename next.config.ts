@@ -37,6 +37,11 @@ const nextConfig: NextConfig = {
         source: '/times',
         destination: '/teams',
         permanent: false,
+      },
+      {
+        source: '/ads.txt',
+        destination: 'https://srv.adstxtmanager.com/83173/genshinbuild.com',
+        permanent: true, // 301
       }
     ];
   }
