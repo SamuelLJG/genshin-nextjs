@@ -41,7 +41,10 @@ const nextConfig: NextConfig = {
       {
         source: '/ads.txt',
         destination: 'https://srv.adstxtmanager.com/19390/genshinbuild.com',
-        permanent: false, // 301
+        permanent: false, // 302
+        headers: [
+        { key: 'Cache-Control', value: 'no-store, no-cache, must-revalidate, max-age=0' },
+      ]
       }
     ];
   }
