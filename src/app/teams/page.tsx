@@ -8,7 +8,6 @@ import AdTargetingRaw from "@/components/AdTargetingRaw";
 import Anchor from "@/components/anchor";
 import Nav from '@/components/nav';
 import Footer from '@/components/footer';
-import Link from "@/components/Link";
 
 
 export const metadata: Metadata = {
@@ -86,7 +85,6 @@ export default function Teams() {
       }
     return (
 <html lang="pt-br">
-          <head><AdTargetingRaw /></head>
           <body>
             <Anchor/>
             <Nav/>
@@ -117,14 +115,14 @@ export default function Teams() {
               const characterName = Object.keys(member)[0];
               return (
                 <td key={j} className="team-character">
-                  <Link href={`/${characterName}`}>
+                  <a href={`/${characterName}`}>
                     <Image
                       width={74}
                       height={74}
                       src={`https://genshinbuild.com/images/Team-Icons/${formatarNome(characterName)}.png`}
                       alt={formatarNomeComEspaco(formatarNome(characterName))}
                     />
-                  </Link>
+                  </a>
                   <p>{formatarNomeEspecial(formatarNomeComEspaco(formatarNome(characterName)))}</p>
                 </td>
               );

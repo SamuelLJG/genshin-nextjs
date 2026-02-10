@@ -1,6 +1,5 @@
 import Image from "next/image";
 import { characters } from "@/data/characters";
-import Link from "@/components/Link";
 import React from "react";
 import { Metadata } from "next";
 import AdComponent from "@/components/Adsense";
@@ -46,7 +45,6 @@ export default function Teams() {
 
   return (
     <html lang="en">
-              <head><AdTargetingRaw /></head>
               <body>
                 <Anchor/>
         <Nav/>
@@ -75,7 +73,7 @@ export default function Teams() {
                
                 }`}
             >
-              <Link href={p.name} className="char-tier-flexbox">
+              <a href={p.name} className="char-tier-flexbox">
                 <Image
                   width={100}
                   height={100}
@@ -83,7 +81,7 @@ export default function Teams() {
                   alt={formatarNomeComEspaco(formatarNome(p.name))}
                   className={`border-${p.elementType}`}
                 />
-              </Link>
+              </a>
             </li>
           ))}
         </ul>

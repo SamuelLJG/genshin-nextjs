@@ -1,6 +1,5 @@
 
 import Image from "next/image"
-import Link from "@/components/Link";
 
 
 export default async function Nav() {
@@ -11,46 +10,46 @@ export default async function Nav() {
                 <h2>Menu de Navegação Principal</h2>
                
                 <div id="nav-flex">
-                     <Link href="/" id="titlessss">
+                     <a href="/" id="titlessss">
                 <img src="https://genshinbuild.com/favicon.ico" width={30} height={30} alt="" />
-                </Link>
-                    <Link href="/tier-list" className="links">
+                </a>
+                    <a href="/tier-list" className="links">
                                 <div>
                                 <Image width={22} height={22} loading="eager" src="https://genshinbuild.com/images/header-icons/tierlist.svg" alt="Tier-List"/>
                                 </div>
                                 <span className="names">Tier-List</span>
-                            </Link>
-                            <Link href="/weapons" className="links">
+                            </a>
+                            <a href="/weapons" className="links">
                                 <div>
                                 <Image width={22} height={22} loading="eager" src="https://genshinbuild.com/images/header-icons/weapons.svg" alt="Armas"/>
                                 </div>
                     
                                 <span className="names">Armas</span>
-                            </Link>
-                            <Link href="/" className="links" id="home">
+                            </a>
+                            <a href="/" className="links" id="home">
                                 <div>
                                 <Image width={22} height={22} loading="eager" src="https://genshinbuild.com/images/header-icons/home.svg" alt="Personagens"/>
                                 </div>
                                 <span className="names">Personagens</span>
-                            </Link>
-                            <Link href="/artifacts" className="links">
+                            </a>
+                            <a href="/artifacts" className="links">
                                 <div>
                                 <Image width={22} height={22} loading="eager" src="https://genshinbuild.com/images/header-icons/artifacts.svg" alt="Artefatos"/>
                                 </div>
                                 <span className="names">Artefatos</span>
-                            </Link>
-                            <Link href="/teams" className="links">
+                            </a>
+                            <a href="/teams" className="links">
                                 <div>
                                 <Image width={22} height={22} loading="eager" src="https://genshinbuild.com/images/header-icons/teams.svg" alt="Times"/>
                                 </div>
                                 <span className="names">Times</span>
-                            </Link>
+                            </a>
                 </div>
                 <div id="disc-kofi">
-                    <Link href="https://discord.gg/aMdQZQeg3g" target="_blank" > <img src="https://images-eds-ssl.xboxlive.com/image?url=4rt9.lXDC4H_93laV1_eHHFT949fUipzkiFOBH3fAiZZUCdYojwUyX2aTonS1aIwMrx6NUIsHfUHSLzjGJFxxsG72wAo9EWJR4yQWyJJaDaK1XdUso6cUMpI9hAdPUU_FNs11cY1X284vsHrnWtRw7oqRpN1m9YAg21d_aNKnIo-&format=source&h=210" alt="Discord" /></Link>
-                      <Link href="https://ko-fi.com/smkljg" target="_blank">
+                    <a href="https://discord.gg/aMdQZQeg3g" target="_blank" > <img src="https://images-eds-ssl.xboxlive.com/image?url=4rt9.lXDC4H_93laV1_eHHFT949fUipzkiFOBH3fAiZZUCdYojwUyX2aTonS1aIwMrx6NUIsHfUHSLzjGJFxxsG72wAo9EWJR4yQWyJJaDaK1XdUso6cUMpI9hAdPUU_FNs11cY1X284vsHrnWtRw7oqRpN1m9YAg21d_aNKnIo-&format=source&h=210" alt="Discord" /></a>
+                      <a href="https://ko-fi.com/smkljg" target="_blank">
                     <img src="https://miro.medium.com/v2/resize:fit:1400/1*56It8Ep-ZVEdYLnYTZdrOg.png" alt="ko-fi" />
-                    </Link> 
+                    </a> 
                 </div>
                        </div> 
             </nav>

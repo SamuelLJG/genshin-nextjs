@@ -117,7 +117,6 @@ const fetchWeaponFolder = (name: string) =>
       
   return (
              <html lang="pt-br">
-          <head><AdTargetingRaw /></head>
           <body>
             <Anchor/>
               <Nav/>

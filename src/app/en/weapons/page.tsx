@@ -1,6 +1,5 @@
 // src/app/armas/page.tsx
 
-import Link from "@/components/Link";
 import Image from "next/image";
 import WeaponsFilter from "@/components/WeaponsFilter";
 import ptBr from "@/data/en-us.json"
@@ -75,7 +74,6 @@ const fetchWeaponData = (name: string) =>
   return (
         
     <html lang="en">
-              <head><AdTargetingRaw /></head>
               <body>
                 <Anchor/>
         <Nav/>
@@ -123,7 +121,7 @@ const fetchWeaponData = (name: string) =>
       
       return post.slug.replace(/'/g, '').toLowerCase().replace(/ /g, '-') !=
       'prized-isshin-blade' ? (
-        <Link
+        <a
           href={`weapons/${post.slug
             .replace(/'/g, '')
             .replace(/"/g, '')
@@ -163,7 +161,7 @@ const fetchWeaponData = (name: string) =>
           )}
           
           <div className="rara-dendro"></div>
-        </Link>
+        </a>
       ) : (
         ''
       )

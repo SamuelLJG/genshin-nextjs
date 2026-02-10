@@ -1,6 +1,5 @@
 import Image from "next/image"
 import {characters} from "@/data/characters"
-import Link from "@/components/Link";
 import Filter from "@/components/full-filter";
 import ptBr from "@/data/pt-br.json"
 import AdComponent from "@/components/Adsense";
@@ -109,7 +108,6 @@ export default function Home() {
       }
     return (
         <html lang="pt-br">
-          <head><AdTargetingRaw /></head>
           <body>
             <Anchor/>
             <script
@@ -123,14 +121,14 @@ export default function Home() {
            <AdComponent/>
             <div id="main-characters-flex">
             {characters.map((char:any,i:any)=> (
-                <Link href={`/${char.name}`} key={i} className={`character-card ${char.elementType} ${char.name.replace(/-/g, '').replace(/traveler/gi, "viajante")} ${char.weapon} rarity-${char.rarity}`}><Image width={100} height={100} src={`https://genshinbuild.com/images/Team-Icons/${formatarNome(char.name)}.png`} alt={formatarNomeComEspaco(formatarNome(char.name))} className={`rarity-${char.rarity} char-img`} loading="eager" priority/>
+                <a href={`/${char.name}`} key={i} className={`character-card ${char.elementType} ${char.name.replace(/-/g, '').replace(/traveler/gi, "viajante")} ${char.weapon} rarity-${char.rarity}`}><Image width={100} height={100} src={`https://genshinbuild.com/images/Team-Icons/${formatarNome(char.name)}.png`} alt={formatarNomeComEspaco(formatarNome(char.name))} className={`rarity-${char.rarity} char-img`} loading="eager" priority/>
                   <div className={`rara-${char.elementType}`}></div>
                    <div className="elel"><img src={`https://genshinbuild.com/images/${char.weapon}.webp`} alt="" /></div><div className="count"><img src={`https://genshinbuild.com/images/tier-${char.rank}.svg`} alt="" /> </div>
             
             <p>{formatCharacterName(formatarNomeComEspaco(formatarNome(char.name)))}</p>
             {char.newCharacter != null ? <span>{char.newCharacter}</span> : ''  }
             {char.soonCharacter != null ? <span style={{backgroundColor:'#02c2b2', left:'calc(-30px * var(--minimize))'}}>{char.soonCharacter}</span> : ''  }
-            </Link>
+            </a>
             
         ))}</div></main>
         <Footer/>

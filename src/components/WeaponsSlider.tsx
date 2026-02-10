@@ -5,7 +5,6 @@ import Stars from "./Stars"
 import { useState } from "react";
 import SliderHighlight from "./SliderHighlight";
 import AdComponent from "@/components/Adsense";
-import Link from "@/components/Link";
 
 function formatEffect(effectTemplateRaw: string, refinementLevel: number, ptData: any) {
     const refinementKey = `r${refinementLevel}`;
@@ -154,9 +153,9 @@ ptData.mainStatText !== 'Elemental Mastery'
                                  <h2 className="titles-h2">{ptBr.recommendedCharacters}</h2>
                                  <div id="character-weapons-flex">
                                  {matchedCharacters.map((c: any, i: any) => (
-                                         <Link key={i} href={`/${c.name}`}>
+                                         <a key={i} href={`/${c.name}`}>
                                              <Image width={100} height={100} src={`https://genshinbuild.com/images/Team-Icons/${formatarNome(c.name)}.png`} alt={formatarNomeComEspaco(formatarNome(c.name))} />
-                                         </Link>
+                                         </a>
                                      ))}
                                      </div>
                              </section>

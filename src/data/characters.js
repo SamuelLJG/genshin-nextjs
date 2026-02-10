@@ -1,47 +1,5 @@
 export const characters = [
     {
-        name: 'columbina',
-        function: 'support',
-        bestWeapon: 'Nocturnes Curtain Call',
-        otherWeapons: ['Sacrificial Jade','Reliquary of Truth','Prototype Amber'],
-        bestArtifacts: 'Silken Moons Serenade',
-        otherArtifacts: ['Aubade of Morningstar and Moon'],
-        twoPieces: ['Tenacity of the Millelith', 'Night of The Skys Unveiling'],
-        teams: [[
-            {'neuvillette': 'mainDps'},
-            {'ineffa': 'subDps'},
-            {'lauma': 'support'},
-            {'columbina': 'support'}
-        ],
-        [
-            {'flins': 'mainDps'},
-            {'ineffa': 'subDps'},
-            {'sucrose': 'support'},
-            {'columbina': 'support'}
-        ],
-        [
-            {'nefer': 'mainDps'},
-            {'nahida': 'subDps'},
-            {'lauma': 'support'},
-            {'columbina': 'support'}
-        ],
-        [
-            {'alhaitham': 'mainDps'},
-            {'raiden-shogun': 'support'},
-            {'lauma': 'support'},
-            {'columbina': 'support'}
-        ]
-        ],
-        talentPriority: ['elementalSkill','elementalBurst'],
-        elementType: 'hydro',
-        mainStatsArtifacts: ['hpPercentOrEnergyRecharge','hpPercent', 'hpPercentOrCritRateOrCritDamage'],
-        subStatsArtifacts: ['energyRecharge','critRateOrDamage', 'hpPercent','elementalMastery'],
-        newCharacter : 'new',
-        weapon: 'WEAPON_CATALYST',
-        rarity: '5',
-        rank:'s'
-    },
-    {
         name: 'zibai',
         function: 'mainDps',
         bestWeapon: 'Lightbearing Moonshard',
@@ -78,9 +36,10 @@ export const characters = [
         elementType: 'geo',
         mainStatsArtifacts: ['defPercent','defPercent', 'critRateOrDamage'],
         subStatsArtifacts: ['energyRecharge','critRateOrDamage', 'defPercent','elementalMastery'],
-        soonCharacter : 'soon',
+        newCharacter : 'new',
         weapon: 'WEAPON_SWORD_ONE_HAND',
-        rarity: '5'
+        rarity: '5',
+        rank: 's'
     },
     {
         name: 'illuga',
@@ -119,9 +78,10 @@ export const characters = [
         elementType: 'geo',
         mainStatsArtifacts: ['elementalMastery','elementalMasteryOrEnergyRecharge', 'elementalMasteryOrCritRate'],
         subStatsArtifacts: ['energyRecharge','critRate','elementalMastery'],
-        soonCharacter : 'soon',
+        newCharacter : 'new',
         weapon: 'WEAPON_POLE',
-        rarity: '4'
+        rarity: '4',
+        rank: 'b'
     },
     {
         name: 'aino',
@@ -647,6 +607,47 @@ export const characters = [
         weapon: 'WEAPON_BOW',
         rarity: '4',
         rank: 'b'
+    },
+    {
+        name: 'columbina',
+        function: 'support',
+        bestWeapon: 'Nocturnes Curtain Call',
+        otherWeapons: ['Sacrificial Jade','Reliquary of Truth','Prototype Amber'],
+        bestArtifacts: 'Silken Moons Serenade',
+        otherArtifacts: ['Aubade of Morningstar and Moon'],
+        twoPieces: ['Tenacity of the Millelith', 'Night of The Skys Unveiling'],
+        teams: [[
+            {'neuvillette': 'mainDps'},
+            {'ineffa': 'subDps'},
+            {'lauma': 'support'},
+            {'columbina': 'support'}
+        ],
+        [
+            {'flins': 'mainDps'},
+            {'ineffa': 'subDps'},
+            {'sucrose': 'support'},
+            {'columbina': 'support'}
+        ],
+        [
+            {'nefer': 'mainDps'},
+            {'nahida': 'subDps'},
+            {'lauma': 'support'},
+            {'columbina': 'support'}
+        ],
+        [
+            {'alhaitham': 'mainDps'},
+            {'raiden-shogun': 'support'},
+            {'lauma': 'support'},
+            {'columbina': 'support'}
+        ]
+        ],
+        talentPriority: ['elementalSkill','elementalBurst'],
+        elementType: 'hydro',
+        mainStatsArtifacts: ['hpPercentOrEnergyRecharge','hpPercent', 'hpPercentOrCritRateOrCritDamage'],
+        subStatsArtifacts: ['energyRecharge','critRateOrDamage', 'hpPercent','elementalMastery'],
+        weapon: 'WEAPON_CATALYST',
+        rarity: '5',
+        rank:'s'
     },
     {
         name: 'cyno',

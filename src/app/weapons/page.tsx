@@ -10,7 +10,6 @@ import Anchor from "@/components/anchor";
 import Nav from '@/components/nav';
 import Footer from '@/components/footer';
 import {weapons, newWeapons, soonWeapons} from '@/data/wa-list'
-import Link from "@/components/Link";
 
 
 export const metadata: Metadata = {
@@ -75,7 +74,6 @@ const fetchWeaponData = (name: string) =>
   return (
         
     <html lang="pt-br">
-          <head><AdTargetingRaw /></head>
           <body>
             <Anchor/>
         <Nav/>
@@ -124,7 +122,7 @@ const fetchWeaponData = (name: string) =>
       
       return post.slug.replace(/'/g, '').toLowerCase().replace(/ /g, '-') !=
       'prized-isshin-blade' ? (
-        <Link
+        <a
           href={`weapons/${post.slug
             .replace(/'/g, '')
             .replace(/"/g, '')
@@ -162,7 +160,7 @@ const fetchWeaponData = (name: string) =>
           
           
           <div className="rara-dendro"></div>
-        </Link>
+        </a>
       ) : (
         ''
       )

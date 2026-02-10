@@ -1,6 +1,5 @@
 import Image from "next/image"
 import {characters} from "@/data/characters"
-import Link from "@/components/Link";
 import TeamsFilter from "@/components/TeamSlider";
 import ptBr from "@/data/en-us.json"
 import { Metadata } from "next";
@@ -86,7 +85,6 @@ export default function Teams() {
       }
     return (
 <html lang="en">
-          <head><AdTargetingRaw /></head>
           <body>
             <Anchor/>
             <Nav/>
@@ -117,14 +115,14 @@ export default function Teams() {
               const characterName = Object.keys(member)[0];
               return (
                 <td key={j} className="team-character">
-                  <Link href={`/en/${characterName}`}>
+                  <a href={`/en/${characterName}`}>
                     <Image
                       width={74}
                       height={74}
                       src={`https://genshinbuild.com/images/Team-Icons/${formatarNome(characterName)}.png`}
                       alt={formatarNomeComEspaco(formatarNome(characterName))}
                     />
-                  </Link>
+                  </a>
                   <p>{formatarNomeEspecial(formatarNomeComEspaco(formatarNome(characterName)))}</p>
                 </td>
               );

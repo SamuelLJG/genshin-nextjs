@@ -1,6 +1,5 @@
 // src/app/armas/page.tsx
 
-import Link from "@/components/Link";
 import Image from "next/image";
 import ArtifactsFilter from "@/components/ArtifactsFilter";
 import ptBr from "@/data/en-us.json"
@@ -65,7 +64,6 @@ export default async function Page() {
     const newWeaponSlugs = newWeapons.map(weapon => generateSlug(weapon));
   return (
        <html lang="en">
-              <head><AdTargetingRaw /></head>
               <body>
                 <Anchor/>
         <Nav/>
@@ -113,7 +111,7 @@ export default async function Page() {
       
       return post.slug.replace(/'/g, '').toLowerCase().replace(/ /g, '-') !=
       'prized-isshin-blade' ? (
-        <Link
+        <a
               href={`artifacts/${post.slug
                 .replace(/'/g, '')
                 .toLowerCase()
@@ -153,7 +151,7 @@ export default async function Page() {
           )}
           
           <div className="rara-dendro"></div>
-        </Link>
+        </a>
       ) : (
         ''
       )

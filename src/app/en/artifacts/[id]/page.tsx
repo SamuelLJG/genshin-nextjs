@@ -102,7 +102,6 @@ const fetchArtifactDataEN = (name: string) =>
       );
       
   return <html lang="en">
-            <head><AdTargetingRaw /></head>
             <body>
               <Anchor/>
             <Nav/>

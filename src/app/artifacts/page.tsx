@@ -1,6 +1,5 @@
 // src/app/armas/page.tsx
 
-import Link from "@/components/Link";
 import Image from "next/image";
 import ArtifactsFilter from "@/components/ArtifactsFilter";
 import ptBr from "@/data/pt-br.json"
@@ -61,14 +60,13 @@ export default async function Page() {
    const soonWeaponSlugs = soonWeapons.map(weapon => generateSlug(weapon));
     const newWeaponSlugs = newWeapons.map(weapon => generateSlug(weapon));
   return (
-       <html lang="en">
-              <head><AdTargetingRaw /></head>
+       <html lang="pt-br">
               <body>
                 <Anchor/>
         <Nav/>
           <main id="main-index">
           <h1 id="hdn">
-            List of All Genshin Impact Weapons
+            Lista de Todos os Artefatos de Genshin Impact
           </h1>
             <ArtifactsFilter ptBr={ptBr}/>
             <AdComponent/>
@@ -110,7 +108,7 @@ export default async function Page() {
       
       return post.slug.replace(/'/g, '').toLowerCase().replace(/ /g, '-') !=
       'prized-isshin-blade' ? (
-        <Link
+        <a
               href={`artifacts/${post.slug
                 .replace(/'/g, '')
                 .toLowerCase()
@@ -150,7 +148,7 @@ export default async function Page() {
           )}
           
           <div className="rara-dendro"></div>
-        </Link>
+        </a>
       ) : (
         ''
       )

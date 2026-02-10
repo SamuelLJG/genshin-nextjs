@@ -2,7 +2,6 @@
 import { Metadata } from "next";
 import Nav from '@/components/nav-en';
 import Footer from '@/components/footer-en';
-import Link from "next/link";
 
 
 export const metadata: Metadata = {
@@ -61,13 +60,13 @@ export default function PoliticaPrivacidade() {
 </ul>
 <p>
   You can disable cookies in your browser settings. Learn more at:{" "}
-  <Link
+  <a
     href="https://policies.google.com/technologies/ads"
     target="_blank"
     rel="noopener noreferrer"
   >
     policies.google.com/technologies/ads
-  </Link>
+  </a>
 </p>
 <br />
 <h2>3. Information Sharing</h2>
@@ -85,7 +84,7 @@ export default function PoliticaPrivacidade() {
 <h2>5. Your Rights</h2>
 <br />
 <p>
-  You can request the deletion of your data or ask questions through the <Link href="https://mail.google.com/mail/?view=cm&to=genshinbuildsite@gmail.com">Contact</Link> page.
+  You can request the deletion of your data or ask questions through the <a href="https://mail.google.com/mail/?view=cm&to=genshinbuildsite@gmail.com">Contact</a> page.
 </p>
 <br />
 <h2>6. Changes to This Policy</h2>
