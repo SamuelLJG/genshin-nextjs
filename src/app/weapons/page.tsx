@@ -136,7 +136,7 @@ const fetchWeaponData = (name: string) =>
           <Image
             width={100}
             height={100}
-            src={`https://api.hakush.in/gi/UI/${post.images.filename_icon}.webp`}
+            src={`https://gi.yatta.moe/assets/UI/${post.images.filename_icon}.png`}
             alt={post.name}
             className={`star${post.rarity}`}
             loading="eager"

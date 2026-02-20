@@ -412,32 +412,32 @@ switch (travelerName) {
                     <h2 className="titles-h2">{travelerName}{" "}{ptBr.ascensionMaterials}</h2>
                     <ul id="ascension-materials-list">
                         <li className="ascension-materials-items">
-                            <Image width={60} height={60} src={`https://api.hakush.in/gi/UI/UI_ItemIcon_${characterData.costs.ascend1[1].id}.webp`}
+                            <Image width={60} height={60} src={`https://gi.yatta.moe/assets/UI/UI_ItemIcon_${characterData.costs.ascend1[1].id}.png`}
                             alt={characterData.costs.ascend1[1].name}/>
                             <p>{characterData.costs.ascend1[1].name}</p>
                         </li>
                         <li className="ascension-materials-items">
-                            <Image width={40} height={40} src={`https://api.hakush.in/gi/UI/UI_ItemIcon_${characterData.costs.ascend1[2].id}.webp`}
+                            <Image width={40} height={40} src={`https://gi.yatta.moe/assets/UI/UI_ItemIcon_${characterData.costs.ascend1[2].id}.png`}
                             alt={characterData.costs.ascend1[2].name}/>
                             <p>{characterData.costs.ascend1[2].name}</p>
                         </li>
                         <li className={id2=== 'aether' ? 'none' : 'ascension-materials-items'}>
-                            <Image width={40} height={40} src={`https://api.hakush.in/gi/UI/UI_ItemIcon_${characterData.costs.ascend5[2].id}.webp`}
+                            <Image width={40} height={40} src={`https://gi.yatta.moe/assets/UI/UI_ItemIcon_${characterData.costs.ascend5[2].id}.png`}
                             alt={characterData.costs.ascend5[2].name}/>
                             <p>{characterData.costs.ascend5[2].name}</p>
                         </li>
                         <li className="ascension-materials-items">
-                            <Image width={40} height={40} src={`https://api.hakush.in/gi/UI/UI_ItemIcon_${characterData.costs.ascend1[3].id}.webp`}
+                            <Image width={40} height={40} src={`https://gi.yatta.moe/assets/UI/UI_ItemIcon_${characterData.costs.ascend1[3].id}.png`}
                             alt={characterData.costs.ascend1[3].name}/>
                             <p>{characterData.costs.ascend1[3].name}</p>
                         </li>
                         <li className="ascension-materials-items">
-                            <Image width={40} height={40} src={`https://api.hakush.in/gi/UI/UI_ItemIcon_${characterTalents.costs.lvl2[1].id}.webp`}
+                            <Image width={40} height={40} src={`https://gi.yatta.moe/assets/UI/UI_ItemIcon_${characterTalents.costs.lvl2[1].id}.png`}
                             alt={characterTalents.costs.lvl2[1].name}/>
                             <p>{characterTalents.costs.lvl2[1].name}</p>
                         </li>
                         <li className="ascension-materials-items">
-                            <Image width={40} height={40} src={`https://api.hakush.in/gi/UI/UI_ItemIcon_${characterTalents.costs.lvl7[3].id}.webp`}
+                            <Image width={40} height={40} src={`https://gi.yatta.moe/assets/UI/UI_ItemIcon_${characterTalents.costs.lvl7[3].id}.png`}
                             alt={characterTalents.costs.lvl7[3].name}/>
                             <p>{characterTalents.costs.lvl7[3].name}</p>
                         </li>
@@ -451,7 +451,7 @@ switch (travelerName) {
                                   <a href={`/en/weapons/${characterBuild.bestWeapon.toLowerCase().trim().replace(/\s+/g, '-')}`}>
                                     <Image
                                         className={`star${armasPT[0].rarity}`}
-                                        src={`https://api.hakush.in/gi/UI/${armasPT[0].images.filename_icon}.webp`}
+                                        src={`https://gi.yatta.moe/assets/UI/${armasPT[0].images.filename_icon}.png`}
                                         width={160}
                                         height={160}
                                         alt={armasPT[0].name}
@@ -477,7 +477,7 @@ switch (travelerName) {
                                         <span className="other-weapons-rank">{i+2}{ptBr.degree}</span>
                                             <Image
                                                 className={`star${weapons.rarity}`}
-                                                src={`https://api.hakush.in/gi/UI/${weapons.images.filename_icon}.webp`}
+                                                src={`https://gi.yatta.moe/assets/UI/${weapons.images.filename_icon}.png`}
                                                 width={75}
                                                 height={75}
                                                 alt={weapons.name}
